@@ -1,7 +1,7 @@
 "PBR"
 {
 	$model           0
-	$basetexturetransform scale 4 4
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0 0"
 
 
 	"$basetexture" 	"concrete/dimpledmoonpanels_clean_color"
