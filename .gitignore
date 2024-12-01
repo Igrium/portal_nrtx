@@ -65,5 +65,11 @@ whitelist.cfg
 *.pkf
 *.autosave
 
+maps/ambientcache/*
+maps/graph/
+
+materialsrc/*
+blender/*
+
 # TODO: determine if we want to commit compiled maps from the maps folder
 *.bsp
