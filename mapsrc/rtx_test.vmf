@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10254"
-	"mapversion" "50"
+	"mapversion" "55"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "128"
+	"nGridSpacing" "64"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,14 +22,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(427.968 -601.403 97.5136)"
-			"angle" "[28.4 58.4003 0]"
+			"position" "(54.2981 -244.563 71.2965)"
+			"angle" "[12 -173.199 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(0 0 0)"
-			"zoom" "0.25"
+			"position" "(499.959 -380.845 65536)"
+			"zoom" "0.895795"
 		}
 		v2
 		{
@@ -40,7 +40,7 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(973.873 -65536 91.8157)"
+			"position" "(973.873 0 91.8157)"
 			"zoom" "0.895795"
 		}
 	}
@@ -48,14 +48,14 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "50"
+	"mapversion" "55"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
-	"maxpropscreenwidth" "-1"
-	"skyname" "sky_day01_01"
 	"maxblobcount" "250"
 	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 	solid
 	{
 		"id" "1855"
@@ -577,7 +577,7 @@ world
 		side
 		{
 			"id" "101"
-			"plane" "(-32 32 192) (-32 32 128) (0 32 128)"
+			"plane" "(-32 32 192) (-32 32 128) (-0 32 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -1073,7 +1073,7 @@ world
 		side
 		{
 			"id" "467"
-			"plane" "(0 -1056 128) (0 -1056 0) (-32 -1056 0)"
+			"plane" "(-0 -1056 128) (0 -1056 0) (-32 -1056 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1197,7 +1197,7 @@ world
 		side
 		{
 			"id" "473"
-			"plane" "(-32 -768 0) (-32 -896 0) (0 -896 0)"
+			"plane" "(-32 -768 0) (-32 -896 0) (-0 -896 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1235,7 +1235,7 @@ world
 		side
 		{
 			"id" "471"
-			"plane" "(-32 -896 128) (-32 -768 128) (0 -768 128)"
+			"plane" "(-32 -896 128) (-32 -768 128) (-0 -768 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -1254,7 +1254,7 @@ world
 		side
 		{
 			"id" "470"
-			"plane" "(0 -896 128) (0 -896 0) (-32 -896 0)"
+			"plane" "(-0 -896 128) (0 -896 0) (-32 -896 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1321,7 +1321,7 @@ world
 		side
 		{
 			"id" "479"
-			"plane" "(-32 -640 0) (-32 -768 0) (0 -768 0)"
+			"plane" "(-32 -640 0) (-32 -768 0) (-0 -768 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1359,7 +1359,7 @@ world
 		side
 		{
 			"id" "477"
-			"plane" "(-32 -768 128) (-32 -640 128) (0 -640 128)"
+			"plane" "(-32 -768 128) (-32 -640 128) (-0 -640 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -1378,7 +1378,7 @@ world
 		side
 		{
 			"id" "476"
-			"plane" "(0 -768 128) (0 -768 0) (-32 -768 0)"
+			"plane" "(-0 -768 128) (0 -768 0) (-32 -768 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1445,7 +1445,7 @@ world
 		side
 		{
 			"id" "485"
-			"plane" "(-32 -512 0) (-32 -640 0) (0 -640 0)"
+			"plane" "(-32 -512 0) (-32 -640 0) (-0 -640 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1483,7 +1483,7 @@ world
 		side
 		{
 			"id" "483"
-			"plane" "(-32 -640 128) (-32 -512 128) (0 -512 128)"
+			"plane" "(-32 -640 128) (-32 -512 128) (-0 -512 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -1502,7 +1502,7 @@ world
 		side
 		{
 			"id" "482"
-			"plane" "(0 -640 128) (0 -640 0) (-32 -640 0)"
+			"plane" "(-0 -640 128) (0 -640 0) (-32 -640 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1569,7 +1569,7 @@ world
 		side
 		{
 			"id" "491"
-			"plane" "(-32 -384 0) (-32 -512 0) (0 -512 0)"
+			"plane" "(-32 -384 0) (-32 -512 0) (-0 -512 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1607,7 +1607,7 @@ world
 		side
 		{
 			"id" "489"
-			"plane" "(-32 -512 128) (-32 -384 128) (0 -384 128)"
+			"plane" "(-32 -512 128) (-32 -384 128) (-0 -384 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -1626,7 +1626,7 @@ world
 		side
 		{
 			"id" "488"
-			"plane" "(0 -512 128) (0 -512 0) (-32 -512 0)"
+			"plane" "(-0 -512 128) (0 -512 0) (-32 -512 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1693,7 +1693,7 @@ world
 		side
 		{
 			"id" "497"
-			"plane" "(-32 -256 0) (-32 -384 0) (0 -384 0)"
+			"plane" "(-32 -256 0) (-32 -384 0) (-0 -384 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1731,7 +1731,7 @@ world
 		side
 		{
 			"id" "495"
-			"plane" "(-32 -384 128) (-32 -256 128) (0 -256 128)"
+			"plane" "(-32 -384 128) (-32 -256 128) (-0 -256 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -1750,7 +1750,7 @@ world
 		side
 		{
 			"id" "494"
-			"plane" "(0 -384 128) (0 -384 0) (-32 -384 0)"
+			"plane" "(-0 -384 128) (0 -384 0) (-32 -384 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1817,7 +1817,7 @@ world
 		side
 		{
 			"id" "503"
-			"plane" "(-32 -128 0) (-32 -256 0) (0 -256 0)"
+			"plane" "(-32 -128 0) (-32 -256 0) (-0 -256 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1855,7 +1855,7 @@ world
 		side
 		{
 			"id" "501"
-			"plane" "(-32 -256 128) (-32 -128 128) (0 -128 128)"
+			"plane" "(-32 -256 128) (-32 -128 128) (-0 -128 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -1874,7 +1874,7 @@ world
 		side
 		{
 			"id" "500"
-			"plane" "(0 -256 128) (0 -256 0) (-32 -256 0)"
+			"plane" "(-0 -256 128) (0 -256 0) (-32 -256 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -2017,7 +2017,7 @@ world
 		side
 		{
 			"id" "505"
-			"plane" "(0 -128 128) (0 -128 0) (-32 -128 0)"
+			"plane" "(-0 -128 128) (0 -128 0) (-32 -128 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -2103,7 +2103,7 @@ world
 		side
 		{
 			"id" "573"
-			"plane" "(384 32 128) (512 32 128) (512 0 128)"
+			"plane" "(512 0 128) (384 0 128) (384 32 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -2227,7 +2227,7 @@ world
 		side
 		{
 			"id" "579"
-			"plane" "(256 32 128) (384 32 128) (384 0 128)"
+			"plane" "(384 0 128) (256 0 128) (256 32 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -2351,7 +2351,7 @@ world
 		side
 		{
 			"id" "585"
-			"plane" "(128 32 128) (256 32 128) (256 0 128)"
+			"plane" "(256 0 128) (128 0 128) (128 32 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -2494,7 +2494,7 @@ world
 		side
 		{
 			"id" "590"
-			"plane" "(0 0 128) (0 32 128) (128 32 128)"
+			"plane" "(128 0 128) (0 0 128) (0 32 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -2542,7 +2542,7 @@ world
 		side
 		{
 			"id" "595"
-			"plane" "(1280 0 192) (1312 0 192) (1312 -1024 192)"
+			"plane" "(1280 -1024 192) (1280 0 192) (1312 0 192)"
 			point_data
 			{
 				"numpts" "4"
@@ -2561,7 +2561,7 @@ world
 		side
 		{
 			"id" "596"
-			"plane" "(1280 -1024 0) (1312 -1024 0) (1312 0 0)"
+			"plane" "(1280 0 0) (1280 -1024 0) (1312 -1024 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -2580,7 +2580,7 @@ world
 		side
 		{
 			"id" "597"
-			"plane" "(1280 0 192) (1280 -1024 192) (1280 -1024 0)"
+			"plane" "(1280 -1024 0) (1280 0 0) (1280 0 192)"
 			point_data
 			{
 				"numpts" "4"
@@ -2618,7 +2618,7 @@ world
 		side
 		{
 			"id" "599"
-			"plane" "(1312 0 192) (1280 0 192) (1280 0 0)"
+			"plane" "(1280 0 0) (1312 0 0) (1312 0 192)"
 			point_data
 			{
 				"numpts" "4"
@@ -2713,7 +2713,7 @@ world
 				"point" "2 512 0 128"
 				"point" "3 640 0 128"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001A"
+			"material" "METAL/METALWALL_BTS_006D_GRADIENT"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2723,7 +2723,7 @@ world
 		side
 		{
 			"id" "609"
-			"plane" "(512 32 128) (640 32 128) (640 0 128)"
+			"plane" "(640 0 128) (512 0 128) (512 32 128)"
 			point_data
 			{
 				"numpts" "4"
@@ -2793,6 +2793,81 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "2093"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "60"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "30"
+	"_light" "248 158 92 400"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"_zero_percent_distance" "0"
+	"angles" "-90 0 0"
+	"fadetickinterval" "0.1"
+	"pitch" "-90"
+	"style" "0"
+	"origin" "64 -320 160"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10500]"
+	}
+}
+entity
+{
+	"id" "2136"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"origin" "768 -512 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2147"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "199.648 -277.195 1"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2149"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "73 -1.93007 16.719"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 entity

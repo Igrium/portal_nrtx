@@ -1,0 +1,9 @@
+PBR
+{
+    $basetexture    "models/props/elevator_caps/elevator_caps_color"
+    $mraotexture    "models/props/elevator_caps/elevator_caps_mrao"
+    $bumpmap        "models/props/elevator_caps/elevator_caps_normal"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap env_cubemap
+}
