@@ -51,6 +51,8 @@ voice_ban.dt
 whitelist.cfg
 /.vs
 
+*.ain
+
 
 # Un-needed temporary and backup files
 *.log
