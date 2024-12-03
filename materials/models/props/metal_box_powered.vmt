@@ -1,0 +1,11 @@
+PBR
+{
+    $basetexture    "models/props/metal_box_color"
+    $mraotexture    "models/props/metal_box_mrao"
+    $bumpmap        "models/props/metal_box_normal"
+    $emissiontexture "models/props/metal_box_selfillum_orange"
+    $emissionscale  3
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}

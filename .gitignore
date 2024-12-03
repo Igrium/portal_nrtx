@@ -67,6 +67,9 @@ whitelist.cfg
 *.pkf
 *.autosave
 
+srctools_particle_data.dmx
+srctools_sndscript_data.dmx
+
 maps/ambientcache/*
 maps/graph/
 
