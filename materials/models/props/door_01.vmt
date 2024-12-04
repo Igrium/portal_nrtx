@@ -1,0 +1,12 @@
+"PBR"
+{
+    $model          1
+
+    $basetexture    "models/props/door_01_color"
+    $mraotexture    "models/props/door_01_mrao"
+    $bumpmap        "models/props/door_01_normal"
+    $emissiontexture "models/props/door_01_selfillum"
+    
+    $emissionscale  2
+    $envmap         env_cubemap
+}
