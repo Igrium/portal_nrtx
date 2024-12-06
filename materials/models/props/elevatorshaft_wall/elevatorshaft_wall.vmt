@@ -1,0 +1,12 @@
+PBR
+{
+    $model          1
+
+    $basetexture    "models/props/elevatorshaft_wall/elevatorshaft_wall_color"
+    $mraotexture    "models/props/elevatorshaft_wall/elevatorshaft_wall_mrao"
+    $bumpmap        "models/props/elevatorshaft_wall/elevatorshaft_wall_normal"
+    $emissiontexture "models/props/elevatorshaft_wall/elevatorshaft_wall_selfillum"
+
+    $emissionscale  2
+    $envmap         env_cubemap
+}
