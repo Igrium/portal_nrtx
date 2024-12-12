@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/round_elevator_interior_color"
+    $mraotexture    "models/props/round_elevator_interior_mrao"
+    $bumpmap        "models/props/round_elevator_interior_normal"
+
+    $envmap env_cubemap
+}
