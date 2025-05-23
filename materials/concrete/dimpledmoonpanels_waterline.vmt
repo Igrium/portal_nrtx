@@ -1,0 +1,15 @@
+"PBR"
+{
+	$model           0
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+
+
+	"$basetexture" 	"concrete/dimpledmoonpanels_waterline_color"
+	"$bumpmap" 		"concrete/dimpledmoonpanels_clean_normal"
+	"$mraotexture" 	"concrete/dimpledmoonpanels_waterline_mrao"
+
+	$envmap			"env_cubemap"
+	
+	"$surfaceprop" 	"concrete"
+	"%keywords"		"portal"
+}
