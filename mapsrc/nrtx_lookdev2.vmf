@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10432"
-	"mapversion" "1131"
+	"mapversion" "1134"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -44,7 +44,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "16"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "1"
 	"nInstanceVisibility" "2"
 	views
@@ -52,33 +52,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-492.925 123.096 60.9382)"
-			"angle" "[11.2 174.4 0]"
+			"position" "(215.992 178.798 143.287)"
+			"angle" "[11.6 22.8 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(7929.97 2711.38 0)"
-			"zoom" "0.0389433"
+			"position" "(169.656 650.943 65536)"
+			"zoom" "0.347222"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 214.409 133.281)"
+			"position" "(65536 315.638 114.464)"
 			"zoom" "2.67483"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-543.64 0 85.58)"
-			"zoom" "2.67483"
+			"position" "(248.101 -65536 262.932)"
+			"zoom" "1.07495"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "1131"
+	"mapversion" "1134"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1894,7 +1894,7 @@ world
 				"point" "2 -384 -128 0"
 				"point" "3 -384 64 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1999,7 +1999,7 @@ world
 				"point" "2 -384 64 -0"
 				"point" "3 -384 192 -0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2142,7 +2142,7 @@ world
 				"point" "2 -384 192 -128"
 				"point" "3 -384 192 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3010,7 +3010,7 @@ world
 				"point" "2 640 64 -128"
 				"point" "3 640 64 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3115,7 +3115,7 @@ world
 				"point" "2 640 192 0"
 				"point" "3 640 64 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3258,7 +3258,7 @@ world
 				"point" "2 512 384 0"
 				"point" "3 512 192 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -8200,7 +8200,7 @@ world
 				"point" "2 512 192 0"
 				"point" "3 640 192 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -8715,7 +8715,7 @@ world
 				"point" "2 640 -128 0"
 				"point" "3 512 -128 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -26339,7 +26339,7 @@ world
 				"point" "2 512 -128 0"
 				"point" "3 384 -128 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -26445,7 +26445,7 @@ world
 				"point" "2 384 -128 0"
 				"point" "3 128 -128 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -26570,7 +26570,7 @@ world
 				"point" "2 128 -128 0"
 				"point" "3 -128 -128 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -26714,7 +26714,7 @@ world
 				"point" "2 -128 -128 -128"
 				"point" "3 -128 -128 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -27358,7 +27358,7 @@ world
 				"point" "2 -384 384 0"
 				"point" "3 -128 384 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -27464,7 +27464,7 @@ world
 				"point" "2 -128 384 0"
 				"point" "3 128 384 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -27589,7 +27589,7 @@ world
 				"point" "2 128 384 0"
 				"point" "3 384 384 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -27733,7 +27733,7 @@ world
 				"point" "2 384 384 0"
 				"point" "3 512 384 0"
 			}
-			"material" "CONCRETE/CONCRETE_MODULAR_WALL001B"
+			"material" "CONCRETE/DIMPLEDMOONPANELS_WATERLINE"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -57932,6 +57932,42 @@ world
 }
 entity
 {
+	"id" "253127"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_lab/glass_observation_3.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "256 388 192"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "252151"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
@@ -59923,7 +59959,7 @@ entity
 	"_castentityshadow" "1"
 	"_cone" "35"
 	"_constant_attn" "200000"
-	"_distance" "0"
+	"_distance" "952"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_initialshadowsize" "3"
@@ -102608,8 +102644,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-492.925 123.096 60.9382]"
-		"look" "[-797.834 152.995 0.275093]"
+		"position" "[215.992 178.798 143.287]"
+		"look" "[498.027 297.354 80.4862]"
 	}
 }
 cordons
