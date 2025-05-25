@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10432"
-	"mapversion" "1134"
+	"mapversion" "1137"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -52,25 +52,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(215.992 178.798 143.287)"
-			"angle" "[11.6 22.8 0]"
+			"position" "(-3.80453 50.9331 5.41859)"
+			"angle" "[22.4 -58.3996 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(169.656 650.943 65536)"
-			"zoom" "0.347222"
+			"position" "(-97.5775 1408.5 65536)"
+			"zoom" "0.116284"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 315.638 114.464)"
+			"position" "(0 315.638 114.464)"
 			"zoom" "2.67483"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(248.101 -65536 262.932)"
+			"position" "(248.101 0 262.932)"
 			"zoom" "1.07495"
 		}
 	}
@@ -78,7 +78,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1134"
+	"mapversion" "1137"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -59959,13 +59959,13 @@ entity
 	"_castentityshadow" "1"
 	"_cone" "35"
 	"_constant_attn" "200000"
-	"_distance" "952"
+	"_distance" "1788"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_initialshadowsize" "3"
 	"_inner_cone" "10"
-	"_light" "183 204 218 1200"
-	"_lightHDR" "183 204 218 1200"
+	"_light" "183 204 218 2400"
+	"_lightHDR" "-1 -1 -1 1"
 	"_lightmode" "2"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -102644,8 +102644,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[215.992 178.798 143.287]"
-		"look" "[498.027 297.354 80.4862]"
+		"position" "[-3.80453 50.9331 5.41859]"
+		"look" "[147.5 -195.005 -113.597]"
 	}
 }
 cordons

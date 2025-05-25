@@ -1,0 +1,10 @@
+PBR
+{
+    $basetexture    "models/props/light_rail_endcap_color"
+    $mraotexture    "models/props/light_rail_endcap_mrao"
+    $bumpmap        "models/props/light_rail_endcap_normal"
+    $emissiontexture "models/props/light_rail_endcap_selfillum"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
