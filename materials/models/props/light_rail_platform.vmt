@@ -1,0 +1,9 @@
+PBR
+{
+    $basetexture    "models/props/light_rail_platform_color"
+    $mraotexture    "models/props/light_rail_platform_mrao"
+    $bumpmap        "models/props/light_rail_platform_normal"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
