@@ -1,0 +1,10 @@
+PBR
+{
+    $basetexture    "models/props/combine_ball_launcher/combine_ball_launcher_color"
+    $mraotexture    "models/props/combine_ball_launcher/combine_ball_launcher_mrao"
+    $bumpmap        "models/props/combine_ball_launcher/combine_ball_launcher_normal"
+    $emissiontexture "models/props/combine_ball_launcher/combine_ball_launcher_selfillum"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
