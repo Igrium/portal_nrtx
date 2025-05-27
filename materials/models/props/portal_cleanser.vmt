@@ -1,0 +1,10 @@
+PBR
+{
+    $basetexture    "models/props/portal_cleanser/portal_cleanser_color"
+    $mraotexture    "models/props/portal_cleanser/portal_cleanser_mrao"
+    $bumpmap        "models/props/portal_cleanser/portal_cleanser_normal"
+    $emissiontexture "models/props/portal_cleanser/portal_cleanser_selfillum"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
