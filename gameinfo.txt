@@ -8,6 +8,24 @@
 
 	mount
 	{
+		// Portal 1
+		400
+		{
+			"required" "1"
+			"portal"
+			{
+				"vpk"	"portal_pak"
+			}
+			"hl2"
+			{
+				"vpk" "hl2_misc"
+				"vpk" "hl2_pak"
+				"vpk" "hl2_sound_misc"
+				"vpk" "hl2_sound_vo_english"
+				"vpk" "hl2_textures"
+			}
+		}
+
 		// Portal 2
 		620
 		{
@@ -38,6 +56,7 @@
 				"vpk" "pak01"
 			}
 		}
+	
 	}
 
 	FileSystem
