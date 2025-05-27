@@ -3,9 +3,9 @@
     $model 0
     $basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0 0"
 
-    $basetexture    "metal/metalwall_bts_006a_color"
-    $bumpmap        "metal/metalwall_bts_006a_normal"
-    $mraotexture    "metal/metalwall_bts_006a_mrao"
+    $basetexture    "metal/metalfloor_bts_001b/metalfloor_bts_001b_color"
+    $bumpmap        "metal/metalfloor_bts_001b/metalfloor_bts_001b_normal"
+    $mraotexture    "metal/metalfloor_bts_001b/metalfloor_bts_001b_mrao"
 
     $envmap env_cubemap
 
