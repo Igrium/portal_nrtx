@@ -1,0 +1,18 @@
+PBR
+{
+    $model 0
+    $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+    $basetexture    "metal/metaldoor_white01/metaldoor_white01_color"
+    $mraotexture    "metal/metaldoor_white01/metaldoor_white01_mrao"
+    $bumpmap        "metal/metaldoor_white01/metaldoor_white01_normal"
+
+    $parallax       1
+    $parallaxdepth .01
+    // $parallaxcenter .5
+
+    $envmap env_cubemap
+
+    %noportal       1
+    %keywords       "portal"
+}
