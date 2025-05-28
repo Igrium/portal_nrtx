@@ -1,0 +1,19 @@
+"PBR"
+{
+    $model 0
+    $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+    $basetexture    "metal/metalbeam_bts_001a/metalbeam_bts_001a_color"
+    $bumpmap        "metal/metalbeam_bts_001a/metalbeam_bts_001a_normal"
+    $mraotexture    "metal/metalbeam_bts_001a/metalbeam_bts_001a_mrao"
+
+    $envmap env_cubemap
+
+    %noportal       1
+    $surfaceprop    "metal"
+    %keywords "portal"
+
+    $parallax 1
+    $parallaxdepth 0.3
+    $parallaxcenter .75
+}
