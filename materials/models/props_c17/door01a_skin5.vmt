@@ -1,0 +1,9 @@
+PBR
+{
+    $basetexture    "models/props_c17/door01a_skin5/door01a_skin5_color"
+    $mraotexture    "models/props_c17/door01a_skin5/door01a_skin5_mrao"
+    $bumpmap        "models/props_c17/door01a_skin5/door01a_skin5_normal"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
