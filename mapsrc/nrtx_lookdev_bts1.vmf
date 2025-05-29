@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10432"
-	"mapversion" "4278"
+	"mapversion" "4280"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -70,8 +70,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-712.891 1389.17 854.241)"
-			"angle" "[-40.3998 177.598 0]"
+			"position" "(-384.609 1362.66 745.54)"
+			"angle" "[64 30.3976 0]"
 		}
 		v1
 		{
@@ -96,7 +96,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4278"
+	"mapversion" "4280"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -166419,8 +166419,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-712.891 1389.17 854.241]"
-		"look" "[-738.102 1390.23 875.717]"
+		"position" "[-384.609 1362.66 745.54]"
+		"look" "[-372.08 1370.01 715.759]"
 	}
 }
 cordons
