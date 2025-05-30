@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10432"
-	"mapversion" "4281"
+	"mapversion" "4285"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,7 +62,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "64"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "1"
 	"nInstanceVisibility" "2"
 	views
@@ -70,14 +70,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-492.127 1281.46 743.552)"
-			"angle" "[5.99996 -72.0025 0]"
+			"position" "(-601.704 1394.44 650.893)"
+			"angle" "[7.2 69.597 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-509.22 1476.58 0)"
-			"zoom" "1.07495"
+			"position" "(-447.298 1291.84 65536)"
+			"zoom" "6.65581"
 		}
 		v2
 		{
@@ -96,7 +96,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4281"
+	"mapversion" "4285"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -155244,7 +155244,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_wasteland/interior_fence003d.mdl"
+	"model" "models/props_wasteland/interior_fence002b.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -156471,7 +156471,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_wasteland/interior_fence003d.mdl"
+	"model" "models/props_wasteland/interior_fence002b.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -156496,7 +156496,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_wasteland/interior_fence003d.mdl"
+	"model" "models/props_wasteland/interior_fence002b.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -166419,8 +166419,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-492.127 1281.46 743.552]"
-		"look" "[-481.946 1250.11 740.089]"
+		"position" "[-601.704 1394.44 650.893]"
+		"look" "[-590.24 1425.26 646.739]"
 	}
 }
 cordons
