@@ -1,0 +1,9 @@
+PBR
+{
+    $basetexture    "models/props_wasteland/fence_hardware/fence_hardware_color"
+    $mraotexture    "models/props_wasteland/fence_hardware/fence_hardware_mrao"
+    $bumpmap        "models/props_wasteland/fence_hardware/fence_hardware_normal"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
