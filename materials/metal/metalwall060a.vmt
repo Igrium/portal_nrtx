@@ -1,0 +1,18 @@
+"PBR"
+{
+    $model 0
+    $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+    $basetexture    "metal/metalwall060a/metalwall060a_color"
+    $bumpmap        "metal/metalwall060a/metalwall060a_normal"
+    $mraotexture    "metal/metalwall060a/metalwall060a_mrao"
+
+    $envmap env_cubemap
+
+    %noportal       1
+    $surfaceprop    "metal"
+
+    $parallax 1
+    $parallaxdepth .025
+    $parallaxcenter .0.5
+}
