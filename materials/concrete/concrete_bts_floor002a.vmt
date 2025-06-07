@@ -1,0 +1,15 @@
+"PBR"
+{
+	$model           0
+	$basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+
+	"$basetexture" 	"concrete/concrete_bts_floor002a/concrete_bts_floor002a_color"
+	"$bumpmap" 		"concrete/concrete_bts_floor002a/concrete_bts_floor002a_normal"
+	"$mraotexture" 	"concrete/concrete_bts_floor002a/concrete_bts_floor002a_mrao"
+
+	$envmap			"env_cubemap"
+	
+	"$surfaceprop" 	"concrete"
+	"%keywords"		"portal"
+}
