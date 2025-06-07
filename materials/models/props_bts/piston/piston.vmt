@@ -1,0 +1,9 @@
+PBR
+{
+    $basetexture    "models/props_bts/piston/piston_color"
+    $mraotexture    "models/props_bts/piston/piston_mrao"
+    $bumpmap        "models/props_bts/piston/piston_normal"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
