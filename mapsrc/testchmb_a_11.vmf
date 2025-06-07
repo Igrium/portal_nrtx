@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10432"
-	"mapversion" "1942"
+	"mapversion" "1950"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -70,14 +70,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-726.125 699.711 84.7431)"
-			"angle" "[-3.59987 12.7997 0]"
+			"position" "(-901.016 714.555 211.532)"
+			"angle" "[-22.7999 176.398 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-485.439 896.147 65536)"
-			"zoom" "0.5184"
+			"position" "(-1275.34 856.623 0)"
+			"zoom" "0.62208"
 		}
 		v2
 		{
@@ -88,15 +88,15 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(-215.423 -65536 144.55)"
-			"zoom" "1.54794"
+			"position" "(-371.283 0 204.085)"
+			"zoom" "1.28995"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "1942"
+	"mapversion" "1950"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -106,7 +106,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "366953"
+		"id" "368644"
 		side
 		{
 			"id" "1"
@@ -223,7 +223,7 @@ world
 		}
 		editor
 		{
-			"color" "0 189 242"
+			"color" "0 253 142"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -231,7 +231,7 @@ world
 	}
 	solid
 	{
-		"id" "366955"
+		"id" "368646"
 		side
 		{
 			"id" "7"
@@ -348,7 +348,7 @@ world
 		}
 		editor
 		{
-			"color" "0 189 242"
+			"color" "0 253 142"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -356,7 +356,7 @@ world
 	}
 	solid
 	{
-		"id" "366957"
+		"id" "368648"
 		side
 		{
 			"id" "13"
@@ -473,7 +473,7 @@ world
 		}
 		editor
 		{
-			"color" "0 189 242"
+			"color" "0 253 142"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -481,7 +481,7 @@ world
 	}
 	solid
 	{
-		"id" "366959"
+		"id" "368650"
 		side
 		{
 			"id" "19"
@@ -598,7 +598,7 @@ world
 		}
 		editor
 		{
-			"color" "0 189 242"
+			"color" "0 253 142"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -606,7 +606,7 @@ world
 	}
 	solid
 	{
-		"id" "366961"
+		"id" "368652"
 		side
 		{
 			"id" "25"
@@ -723,7 +723,7 @@ world
 		}
 		editor
 		{
-			"color" "0 189 242"
+			"color" "0 253 142"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -731,7 +731,7 @@ world
 	}
 	solid
 	{
-		"id" "366963"
+		"id" "368654"
 		side
 		{
 			"id" "31"
@@ -848,7 +848,7 @@ world
 		}
 		editor
 		{
-			"color" "0 189 242"
+			"color" "0 253 142"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -154907,6 +154907,20 @@ world
 }
 entity
 {
+	"id" "366519"
+	"classname" "info_lighting"
+	"targetname" "piston_lightorigin"
+	"origin" "-544 768 154.097"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "363987"
 	"classname" "prop_dynamic"
 	"angles" "0 180 0"
@@ -154976,6 +154990,7 @@ entity
 	"fadescale" "1"
 	"health" "0"
 	"holdanimation" "0"
+	"LightingOrigin" "piston_lightorigin"
 	"maxanimtime" "10"
 	"minanimtime" "5"
 	"minhealthdmg" "0"
@@ -248521,7 +248536,7 @@ entity
 	"_inner_cone" "30"
 	"_light" "236 135 74 800"
 	"_lightHDR" "236 135 74 2500"
-	"_lightmode" "1"
+	"_lightmode" "0"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
@@ -269543,8 +269558,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-726.125 699.711 84.7431]"
-		"look" "[-619.067 724.033 91.65]"
+		"position" "[-901.016 714.555 211.532]"
+		"look" "[-1002.22 720.927 254.16]"
 	}
 }
 cordons
