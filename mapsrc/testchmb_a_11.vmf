@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "10432"
-	"mapversion" "1952"
+	"editorbuild" "10290"
+	"mapversion" "1953"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -70,8 +70,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-708.464 1116.35 176.542)"
-			"angle" "[13.5999 68.3966 0]"
+			"position" "(-561.676 729.596 46.7503)"
+			"angle" "[14.4 179.997 0]"
 		}
 		v1
 		{
@@ -96,7 +96,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1952"
+	"mapversion" "1953"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -106,7 +106,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "368582"
+		"id" "368609"
 		side
 		{
 			"id" "1"
@@ -223,7 +223,7 @@ world
 		}
 		editor
 		{
-			"color" "0 234 163"
+			"color" "0 208 101"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -231,7 +231,7 @@ world
 	}
 	solid
 	{
-		"id" "368584"
+		"id" "368611"
 		side
 		{
 			"id" "7"
@@ -348,7 +348,7 @@ world
 		}
 		editor
 		{
-			"color" "0 234 163"
+			"color" "0 208 101"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -356,7 +356,7 @@ world
 	}
 	solid
 	{
-		"id" "368586"
+		"id" "368613"
 		side
 		{
 			"id" "13"
@@ -473,7 +473,7 @@ world
 		}
 		editor
 		{
-			"color" "0 234 163"
+			"color" "0 208 101"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -481,7 +481,7 @@ world
 	}
 	solid
 	{
-		"id" "368588"
+		"id" "368615"
 		side
 		{
 			"id" "19"
@@ -598,7 +598,7 @@ world
 		}
 		editor
 		{
-			"color" "0 234 163"
+			"color" "0 208 101"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -606,7 +606,7 @@ world
 	}
 	solid
 	{
-		"id" "368590"
+		"id" "368617"
 		side
 		{
 			"id" "25"
@@ -723,7 +723,7 @@ world
 		}
 		editor
 		{
-			"color" "0 234 163"
+			"color" "0 208 101"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -731,7 +731,7 @@ world
 	}
 	solid
 	{
-		"id" "368592"
+		"id" "368619"
 		side
 		{
 			"id" "31"
@@ -848,7 +848,7 @@ world
 		}
 		editor
 		{
-			"color" "0 234 163"
+			"color" "0 208 101"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -154923,6 +154923,7 @@ entity
 {
 	"id" "363987"
 	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
 	"angles" "0 180 0"
 	"animateeveryframe" "1"
 	"body" "0"
@@ -154974,6 +154975,7 @@ entity
 {
 	"id" "364074"
 	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
 	"angles" "0 180 0"
 	"animateeveryframe" "1"
 	"body" "0"
@@ -155945,6 +155947,7 @@ hidden
 		"_cone" "40"
 		"_exponent" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "30"
 		"_light" "147 226 240 300"
@@ -155980,6 +155983,7 @@ hidden
 		"_cone" "50"
 		"_exponent" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "40"
 		"_light" "147 226 240 500"
@@ -156189,6 +156193,7 @@ hidden
 	{
 		"id" "202888"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"animateeveryframe" "1"
 		"fademindist" "-1"
@@ -156221,6 +156226,7 @@ hidden
 	{
 		"id" "202890"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"animateeveryframe" "1"
 		"fademindist" "-1"
@@ -157009,6 +157015,7 @@ hidden
 	{
 		"id" "203230"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"animateeveryframe" "1"
 		"disableshadows" "0"
@@ -157079,6 +157086,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "251 159 57 30"
 		"_lightHDR" "251 159 57 20"
@@ -157367,6 +157375,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 120"
 		"_lightHDR" "183 204 218 80"
@@ -157402,6 +157411,7 @@ hidden
 		"_cone" "40"
 		"_exponent" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "10"
 		"_light" "183 204 218 2000"
@@ -157438,6 +157448,7 @@ hidden
 		"_distance" "0"
 		"_exponent" "1"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "15"
 		"_light" "183 204 218 1500"
@@ -157474,6 +157485,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 80"
 		"_lightHDR" "183 204 218 50"
@@ -157508,6 +157520,7 @@ hidden
 		"_cone" "35"
 		"_exponent" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "20"
 		"_light" "183 204 218 2500"
@@ -157538,6 +157551,7 @@ hidden
 	{
 		"id" "230905"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"animateeveryframe" "1"
 		"fademindist" "-1"
@@ -157569,6 +157583,7 @@ hidden
 	{
 		"id" "230907"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"animateeveryframe" "1"
 		"fademindist" "-1"
@@ -159048,6 +159063,7 @@ hidden
 		"_distance" "0"
 		"_exponent" "1"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "15"
 		"_light" "183 204 218 1500"
@@ -162052,6 +162068,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 150"
 		"_lightHDR" "183 204 218 150"
@@ -163672,6 +163689,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 150"
 		"_lightHDR" "183 204 218 150"
@@ -163702,6 +163720,7 @@ hidden
 	{
 		"id" "291168"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 180 0"
 		"animateeveryframe" "1"
 		"fademindist" "-1"
@@ -179694,6 +179713,7 @@ entity
 	"_cone" "45"
 	"_exponent" "1"
 	"_fifty_percent_distance" "408"
+	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_inner_cone" "30"
 	"_light" "250 240 205 1000"
@@ -179723,6 +179743,7 @@ entity
 {
 	"id" "306990"
 	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
 	"angles" "0 180 -180"
 	"animateeveryframe" "1"
 	"fademindist" "-1"
@@ -179807,6 +179828,7 @@ entity
 	"_dynamicshadowallocation" "0"
 	"_exponent" "5"
 	"_fifty_percent_distance" "423"
+	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_inner_cone" "12"
 	"_light" "250 240 205 100"
@@ -179892,6 +179914,7 @@ entity
 	"_dynamicshadowallocation" "1"
 	"_exponent" "1"
 	"_fifty_percent_distance" "183"
+	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_inner_cone" "15"
 	"_light" "250 240 205 400"
@@ -179977,6 +180000,7 @@ entity
 	"_dynamicshadowallocation" "1"
 	"_exponent" "2"
 	"_fifty_percent_distance" "171"
+	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_inner_cone" "15"
 	"_light" "250 240 205 400"
@@ -180008,6 +180032,7 @@ hidden
 	{
 		"id" "331000"
 		"classname" "npc_security_camera"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"disableshadows" "1"
 		"fadescale" "1"
@@ -180186,6 +180211,7 @@ hidden
 	{
 		"id" "331005"
 		"classname" "npc_security_camera"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"disableshadows" "1"
 		"fadescale" "1"
@@ -180364,6 +180390,7 @@ hidden
 	{
 		"id" "331010"
 		"classname" "npc_security_camera"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"disableshadows" "1"
 		"fadescale" "1"
@@ -180542,6 +180569,7 @@ hidden
 	{
 		"id" "331015"
 		"classname" "npc_security_camera"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"disableshadows" "1"
 		"fadescale" "1"
@@ -180720,6 +180748,7 @@ hidden
 	{
 		"id" "331020"
 		"classname" "npc_security_camera"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"disableshadows" "1"
 		"fadescale" "1"
@@ -181006,6 +181035,7 @@ hidden
 	{
 		"id" "345272"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"animateeveryframe" "1"
 		"fademindist" "-1"
@@ -181038,6 +181068,7 @@ hidden
 	{
 		"id" "345276"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"animateeveryframe" "1"
 		"fademindist" "-1"
@@ -181554,7 +181585,11 @@ hidden
 		"CanFirePortal2" "1"
 		"fademindist" "-1"
 		"fadescale" "1"
+		"model" "models/weapons/w_portalgun.mdl"
+		"Portal1Color" "64 160 255"
+		"Portal2Color" "255 160 32"
 		"targetname" "portalgun_spawn_a_lab3"
+		"viewmodel" "models/weapons/v_portalgun.mdl"
 		"origin" "144 -992 56"
 		editor
 		{
@@ -181598,6 +181633,7 @@ hidden
 		"id" "20223"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 180 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -181634,6 +181670,7 @@ hidden
 		"id" "20627"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -181667,6 +181704,7 @@ hidden
 		"id" "26307"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 135 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -181700,6 +181738,7 @@ hidden
 		"id" "26295"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -181736,6 +181775,7 @@ hidden
 		"_cone" "60"
 		"_exponent" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "30"
 		"_light" "236 251 253 100"
@@ -181770,6 +181810,7 @@ hidden
 		"_cone" "30"
 		"_exponent" "1"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "30"
 		"_light" "147 226 240 200"
@@ -181804,6 +181845,7 @@ hidden
 		"_cone" "30"
 		"_exponent" "1"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "30"
 		"_light" "147 226 240 200"
@@ -181886,6 +181928,7 @@ hidden
 		"id" "50235"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 330 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -181919,6 +181962,7 @@ hidden
 		"id" "50651"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 90 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -181952,6 +181996,7 @@ hidden
 		"id" "60337"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -181981,6 +182026,7 @@ hidden
 		"id" "61921"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 300 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -182010,6 +182056,7 @@ hidden
 		"id" "62153"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 240 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -182244,6 +182291,7 @@ hidden
 		"id" "61486"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -185531,6 +185579,7 @@ hidden
 		"id" "207147"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 180 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -185567,6 +185616,7 @@ hidden
 		"_cone" "35"
 		"_exponent" "1"
 		"_fifty_percent_distance" "489"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "4"
 		"_inner_cone" "15"
 		"_light" "183 204 218 1500"
@@ -185602,6 +185652,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 40"
 		"_lightHDR" "183 204 218 20"
@@ -185635,6 +185686,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 40"
 		"_lightHDR" "183 204 218 20"
@@ -185668,6 +185720,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 40"
 		"_lightHDR" "183 204 218 20"
@@ -190792,6 +190845,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 40"
 		"_lightHDR" "183 204 218 20"
@@ -192558,6 +192612,7 @@ hidden
 		"_cone" "30"
 		"_exponent" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_inner_cone" "10"
 		"_light" "250 240 205 170"
@@ -192589,6 +192644,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "149 180 200 30"
 		"_lightHDR" "149 180 200 20"
@@ -192618,6 +192674,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "149 180 200 30"
 		"_lightHDR" "149 180 200 20"
@@ -192647,6 +192704,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "149 180 200 30"
 		"_lightHDR" "149 180 200 20"
@@ -192676,6 +192734,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "149 180 200 30"
 		"_lightHDR" "149 180 200 20"
@@ -192707,6 +192766,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 80"
 		"_lightHDR" "183 204 218 50"
@@ -192741,6 +192801,7 @@ hidden
 		"_constant_attn" "200000"
 		"_distance" "0"
 		"_fifty_percent_distance" "0"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 80"
 		"_lightHDR" "183 204 218 50"
@@ -194246,6 +194307,7 @@ hidden
 		"StartU" "0"
 		"StartV" "1"
 		"targetname" "doorstate_a09"
+		"tint" "255 255 255 255"
 		"uv0" "-48 -4 0"
 		"uv1" "-48 4 0"
 		"uv2" "48 4 0"
@@ -194279,6 +194341,7 @@ hidden
 		"StartU" "2"
 		"StartV" "0"
 		"targetname" "doorstate_a09"
+		"tint" "255 255 255 255"
 		"uv0" "-32 -4 0"
 		"uv1" "-32 4 0"
 		"uv2" "32 4 0"
@@ -194455,6 +194518,7 @@ hidden
 		"sides" "238677"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-32 -32 0"
 		"uv1" "-32 32 0"
 		"uv2" "32 32 0"
@@ -194487,6 +194551,7 @@ hidden
 		"sides" "231813"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-32 -32 0"
 		"uv1" "-32 32 0"
 		"uv2" "32 32 0"
@@ -194519,6 +194584,7 @@ hidden
 		"sides" "231807"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-32 -32 0"
 		"uv1" "-32 32 0"
 		"uv2" "32 32 0"
@@ -194551,6 +194617,7 @@ hidden
 		"sides" "231408"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-32 -32 0"
 		"uv1" "-32 32 0"
 		"uv2" "32 32 0"
@@ -194751,6 +194818,7 @@ hidden
 		"sides" "235716"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-32 -32 0"
 		"uv1" "-32 32 0"
 		"uv2" "32 32 0"
@@ -198569,6 +198637,7 @@ hidden
 		"sides" "211971"
 		"StartU" "0"
 		"StartV" "1"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -198601,6 +198670,7 @@ hidden
 		"sides" "239219"
 		"StartU" "0"
 		"StartV" "1"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -198633,6 +198703,7 @@ hidden
 		"sides" "239219"
 		"StartU" "0"
 		"StartV" "1"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -198815,6 +198886,7 @@ hidden
 		"sides" "249277"
 		"StartU" "0"
 		"StartV" "1"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -199104,6 +199176,7 @@ hidden
 	{
 		"id" "247570"
 		"classname" "generic_actor"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"fadescale" "1"
 		"hull_name" "Human"
@@ -203436,6 +203509,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 60"
 		"_lightHDR" "183 204 218 40"
@@ -203468,6 +203542,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 60"
 		"_lightHDR" "183 204 218 40"
@@ -204301,6 +204376,7 @@ hidden
 	{
 		"id" "248473"
 		"classname" "prop_portal_stats_display"
+		"AllowSilentDissolve" "1"
 		"angles" "0 225 0"
 		"fadescale" "1"
 		"globalname" "a10_a11_elevator_body_model"
@@ -204325,6 +204401,7 @@ hidden
 	{
 		"id" "248475"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 225 0"
 		"animateeveryframe" "1"
 		"disableshadows" "1"
@@ -213928,6 +214005,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 60"
 		"_lightHDR" "183 204 218 40"
@@ -213960,6 +214038,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 60"
 		"_lightHDR" "183 204 218 40"
@@ -214792,6 +214871,7 @@ hidden
 	{
 		"id" "250053"
 		"classname" "prop_portal_stats_display"
+		"AllowSilentDissolve" "1"
 		"angles" "0 45 0"
 		"fadescale" "1"
 		"globalname" "a11_a13_elevator_body_model"
@@ -214816,6 +214896,7 @@ hidden
 	{
 		"id" "250055"
 		"classname" "prop_dynamic"
+		"AllowSilentDissolve" "1"
 		"angles" "0 45 0"
 		"animateeveryframe" "1"
 		"disableshadows" "1"
@@ -224839,6 +224920,7 @@ hidden
 		"id" "261593"
 		"classname" "npc_portal_turret_floor"
 		"_frustum_color" "255 0 0"
+		"AllowSilentDissolve" "1"
 		"angles" "0 270 0"
 		"DamageForce" "1"
 		"fadescale" "1"
@@ -248196,6 +248278,7 @@ hidden
 		"sides" "231348"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248228,6 +248311,7 @@ hidden
 		"sides" "233277"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248260,6 +248344,7 @@ hidden
 		"sides" "233289"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248292,6 +248377,7 @@ hidden
 		"sides" "233283"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248324,6 +248410,7 @@ hidden
 		"sides" "233313"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248356,6 +248443,7 @@ hidden
 		"sides" "233313"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248388,6 +248476,7 @@ hidden
 		"sides" "231408"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248418,6 +248507,7 @@ entity
 	"sides" "233325"
 	"StartU" "1"
 	"StartV" "0"
+	"tint" "255 255 255 255"
 	"uv0" "-16 -16 0"
 	"uv1" "-16 16 0"
 	"uv2" "16 16 0"
@@ -248449,6 +248539,7 @@ hidden
 		"sides" "267592"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248481,6 +248572,7 @@ hidden
 		"sides" "231312"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248513,6 +248605,7 @@ hidden
 		"sides" "240759"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-16 -16 0"
 		"uv1" "-16 16 0"
 		"uv2" "16 16 0"
@@ -248537,6 +248630,7 @@ entity
 	"_distance" "0"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
+	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_inner_cone" "30"
 	"_light" "236 135 74 800"
@@ -249870,6 +249964,7 @@ entity
 	"sides" "265736"
 	"StartU" "1"
 	"StartV" "0"
+	"tint" "255 255 255 255"
 	"uv0" "-64 -64 0"
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
@@ -249899,6 +249994,7 @@ entity
 	"sides" "235881"
 	"StartU" "0"
 	"StartV" "1"
+	"tint" "255 255 255 255"
 	"uv0" "-32 -16 0"
 	"uv1" "-32 16 0"
 	"uv2" "32 16 0"
@@ -249928,6 +250024,7 @@ entity
 	"sides" "236799 235881"
 	"StartU" "0"
 	"StartV" "1"
+	"tint" "255 255 255 255"
 	"uv0" "-32 -16 0"
 	"uv1" "-32 16 0"
 	"uv2" "32 16 0"
@@ -249957,6 +250054,7 @@ entity
 	"sides" "211911"
 	"StartU" "0"
 	"StartV" "1"
+	"tint" "255 255 255 255"
 	"uv0" "-32 -16 0"
 	"uv1" "-32 16 0"
 	"uv2" "32 16 0"
@@ -250218,6 +250316,7 @@ entity
 	"sides" "235822"
 	"StartU" "0"
 	"StartV" "1"
+	"tint" "255 255 255 255"
 	"uv0" "-8 -8 0"
 	"uv1" "-8 8 0"
 	"uv2" "8 8 0"
@@ -250249,6 +250348,7 @@ hidden
 		"sides" "210067"
 		"StartU" "1"
 		"StartV" "0"
+		"tint" "255 255 255 255"
 		"uv0" "-8 -8 0"
 		"uv1" "-8 8 0"
 		"uv2" "8 8 0"
@@ -250279,6 +250379,7 @@ entity
 	"sides" "235881"
 	"StartU" "0"
 	"StartV" "1"
+	"tint" "255 255 255 255"
 	"uv0" "-64 -64 0"
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
@@ -250721,6 +250822,7 @@ entity
 	"sides" "235917"
 	"StartU" "0"
 	"StartV" "1"
+	"tint" "255 255 255 255"
 	"uv0" "-64 -64 0"
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
@@ -250750,6 +250852,7 @@ entity
 	"sides" "235887"
 	"StartU" "0"
 	"StartV" "1"
+	"tint" "255 255 255 255"
 	"uv0" "-64 -64 0"
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
@@ -265867,6 +265970,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 60"
 		"_lightHDR" "183 204 218 40"
@@ -265898,6 +266002,7 @@ hidden
 		"classname" "light"
 		"_castentityshadow" "1"
 		"_fifty_percent_distance" "128"
+		"_hard_radius_threshold" "32"
 		"_initialshadowsize" "3"
 		"_light" "183 204 218 60"
 		"_lightHDR" "183 204 218 40"
@@ -269406,6 +269511,7 @@ hidden
 	{
 		"id" "358028"
 		"classname" "npc_bullseye"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"autoaimradius" "100"
 		"fadescale" "1"
@@ -269433,6 +269539,7 @@ hidden
 	{
 		"id" "358032"
 		"classname" "npc_bullseye"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"autoaimradius" "100"
 		"fadescale" "1"
@@ -269460,6 +269567,7 @@ hidden
 	{
 		"id" "358036"
 		"classname" "npc_bullseye"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"autoaimradius" "100"
 		"fadescale" "1"
@@ -269487,6 +269595,7 @@ hidden
 	{
 		"id" "358040"
 		"classname" "npc_bullseye"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"autoaimradius" "100"
 		"fadescale" "1"
@@ -269514,6 +269623,7 @@ hidden
 	{
 		"id" "358044"
 		"classname" "npc_bullseye"
+		"AllowSilentDissolve" "1"
 		"angles" "0 0 0"
 		"autoaimradius" "100"
 		"fadescale" "1"
@@ -269563,8 +269673,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-708.464 1116.35 176.542]"
-		"look" "[-669.099 1215.76 150.676]"
+		"position" "[-561.676 729.596 46.7503]"
+		"look" "[-668.225 729.602 19.3932]"
 	}
 }
 cordons
