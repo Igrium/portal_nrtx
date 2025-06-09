@@ -1,0 +1,15 @@
+"PBR"
+{
+    $model 0
+    $basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+
+    $basetexture    "metal/metalwall_bts_006b/metalwall_bts_006b_color"
+    $bumpmap        "metal/metalwall_bts_006b/metalwall_bts_006b_normal"
+    $mraotexture    "metal/metalwall_bts_006b/metalwall_bts_006b_mrao"
+
+    $envmap env_cubemap
+
+    %noportal       1
+    $surfaceprop    "metal"
+    $reflectivity   "[ .35 .30 .27 ]" //this is a artificial radiosity boost
+}
