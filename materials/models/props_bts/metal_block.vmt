@@ -1,0 +1,9 @@
+PBR
+{
+    $basetexture    "metal/metalwall048b_med_color"
+    $mraotexture    "metal/metalwall048b_med_mrao"
+    $bumpmap        "metal/metalwall048b_med_normal"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
