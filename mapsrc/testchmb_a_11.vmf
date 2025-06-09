@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10432"
-	"mapversion" "1950"
+	"mapversion" "1952"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -70,8 +70,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-901.016 714.555 211.532)"
-			"angle" "[-22.7999 176.398 0]"
+			"position" "(-708.464 1116.35 176.542)"
+			"angle" "[13.5999 68.3966 0]"
 		}
 		v1
 		{
@@ -96,7 +96,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1950"
+	"mapversion" "1952"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -106,7 +106,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "368644"
+		"id" "368582"
 		side
 		{
 			"id" "1"
@@ -223,7 +223,7 @@ world
 		}
 		editor
 		{
-			"color" "0 253 142"
+			"color" "0 234 163"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -231,7 +231,7 @@ world
 	}
 	solid
 	{
-		"id" "368646"
+		"id" "368584"
 		side
 		{
 			"id" "7"
@@ -348,7 +348,7 @@ world
 		}
 		editor
 		{
-			"color" "0 253 142"
+			"color" "0 234 163"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -356,7 +356,7 @@ world
 	}
 	solid
 	{
-		"id" "368648"
+		"id" "368586"
 		side
 		{
 			"id" "13"
@@ -473,7 +473,7 @@ world
 		}
 		editor
 		{
-			"color" "0 253 142"
+			"color" "0 234 163"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -481,7 +481,7 @@ world
 	}
 	solid
 	{
-		"id" "368650"
+		"id" "368588"
 		side
 		{
 			"id" "19"
@@ -598,7 +598,7 @@ world
 		}
 		editor
 		{
-			"color" "0 253 142"
+			"color" "0 234 163"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -606,7 +606,7 @@ world
 	}
 	solid
 	{
-		"id" "368652"
+		"id" "368590"
 		side
 		{
 			"id" "25"
@@ -723,7 +723,7 @@ world
 		}
 		editor
 		{
-			"color" "0 253 142"
+			"color" "0 234 163"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -731,7 +731,7 @@ world
 	}
 	solid
 	{
-		"id" "368654"
+		"id" "368592"
 		side
 		{
 			"id" "31"
@@ -848,7 +848,7 @@ world
 		}
 		editor
 		{
-			"color" "0 253 142"
+			"color" "0 234 163"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -155031,11 +155031,12 @@ entity
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
+	"enablelightbounce" "1"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightingorigin" "piston_lightorigin"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
@@ -155067,11 +155068,12 @@ entity
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
+	"enablelightbounce" "1"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightingorigin" "piston_lightorigin"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
@@ -155621,11 +155623,12 @@ entity
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
+	"enablelightbounce" "1"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightingorigin" "piston_lightorigin"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
@@ -155657,11 +155660,12 @@ entity
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
+	"enablelightbounce" "1"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightingorigin" "piston_lightorigin"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
@@ -155728,10 +155732,11 @@ entity
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
+	"enablelightbounce" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightingorigin" "piston_lightorigin"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
@@ -269558,8 +269563,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-901.016 714.555 211.532]"
-		"look" "[-1002.22 720.927 254.16]"
+		"position" "[-708.464 1116.35 176.542]"
+		"look" "[-669.099 1215.76 150.676]"
 	}
 }
 cordons

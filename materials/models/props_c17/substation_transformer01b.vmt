@@ -1,0 +1,11 @@
+PBR
+{
+    $basetexture    "models/props_c17/substation_transformer01b/substation_transformer01b_color"
+    $mraotexture    "models/props_c17/substation_transformer01b/substation_transformer01b_mrao"
+    $bumpmap        "models/props_c17/substation_transformer01b/substation_transformer01b_normal"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+
+    $alphatest 1
+}
