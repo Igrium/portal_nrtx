@@ -1,4 +1,4 @@
-"LightmappedGeneric"
+"PBR"
 {
 	$model 			0
 	$basetexturetransform "center 0 0 scale 4 4 rotate 0 translate 0 0"
@@ -7,6 +7,7 @@
 	$bumpmap 		"plastic/plasticwall003a/plasticwall003a_normal"
 	$mraotexture 	"plastic/plasticwall003a/plasticwall003a_mrao"
 	$emissiontexture "plastic/plasticwall003a/plasticwall003a_emissive"
+	$emissionscale 	.5
 
 	$envmap env_cubemap
 
