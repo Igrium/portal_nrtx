@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/water_bottle/water_bottle_color"
+    $mraotexture    "models/props/water_bottle/water_bottle_mrao"
+    $bumpmap        "models/props/water_bottle/water_bottle_normal"
+
+    $envmap env_cubemap
+}
