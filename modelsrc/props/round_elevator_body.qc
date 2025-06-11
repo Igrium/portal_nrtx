@@ -11,11 +11,12 @@ $body frame "round_elevator_frame.smd"
 $body exterior "round_elevator_exterior.smd"
 $body interior "round_elevator_interior.smd"
 
-$sequence "idle" "round_elevator_frame.smd"
+$sequence "idle" "round_elevator_exterior.smd"
 
-$collisionmodel "round_elevator_physics.smd"
-{
-    $mass 120
-    $concave
-    $maxconvexpieces 21
-}
+// $collisionmodel "round_elevator_physics.smd"
+// {
+//     $mass 120
+//     $concave
+//     $maxconvexpieces 21
+//     $rootbone " "
+// }
