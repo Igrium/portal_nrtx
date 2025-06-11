@@ -1,0 +1,16 @@
+PBR
+{
+    $model 0
+    $basetexturetransform "center 0 0 scale 4 4 rotate 0 translate 0 0"
+
+    $basetexture    "metal/metal_modular_floor001/metal_modular_floor001_color"
+    $mraotexture    "metal/metal_modular_floor001/metal_modular_floor001_mrao"
+    $bumpmap        "metal/metal_modular_floor001/metal_modular_floor001_normal"
+
+    $envmap env_cubemap
+
+    %noportal       1
+    $surfaceprop    "metal"
+    %keywords       "portal"
+    $reflectivity   "[ .35 .30 .27 ]" //this is a artificial radiosity boost
+}

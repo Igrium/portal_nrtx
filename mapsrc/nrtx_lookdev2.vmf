@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10290"
-	"mapversion" "1173"
+	"mapversion" "1174"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -52,13 +52,13 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1306.96 357.127 115.876)"
-			"angle" "[17.9996 70.8018 0]"
+			"position" "(654.194 149.671 34.8789)"
+			"angle" "[43.1999 18.4024 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-399.002 178.016 65536)"
+			"position" "(-399.002 178.016 0)"
 			"zoom" "4.45805"
 		}
 		v2
@@ -78,7 +78,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1173"
+	"mapversion" "1174"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -23540,7 +23540,7 @@ world
 				"point" "2 656 48 0"
 				"point" "3 656 48 64"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[-1 0 0 -41.8566] 0.28"
 			"vaxis" "[0 0 -1 45.1429] 0.28"
 			"rotation" "0"
@@ -23559,7 +23559,7 @@ world
 				"point" "2 768 64 0"
 				"point" "3 640 64 0"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[-1 0 0 -41.8566] 0.28"
 			"vaxis" "[0 1 0 -19.1429] 0.28"
 			"rotation" "0"
@@ -23578,7 +23578,7 @@ world
 				"point" "2 768 48 0"
 				"point" "3 768 48 64"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 -1 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -23616,7 +23616,7 @@ world
 				"point" "2 640 64 0"
 				"point" "3 640 64 64"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 -1 0 16] 0.25"
 			"vaxis" "[0 0 -1 24] 0.25"
 			"rotation" "0"
@@ -23635,7 +23635,7 @@ world
 				"point" "2 640 64 64"
 				"point" "3 768 64 64"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -102840,8 +102840,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1306.96 357.127 115.876]"
-		"look" "[-1209.29 637.64 19.3663]"
+		"position" "[654.194 149.671 34.8789]"
+		"look" "[870.221 221.543 -178.916]"
 	}
 }
 cordons
