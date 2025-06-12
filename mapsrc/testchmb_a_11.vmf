@@ -70,8 +70,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-561.676 729.596 46.7503)"
-			"angle" "[14.4 179.997 0]"
+			"position" "(-668.346 936.323 46.0346)"
+			"angle" "[20 82.7969 0]"
 		}
 		v1
 		{
@@ -106,7 +106,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "368609"
+		"id" "368586"
 		side
 		{
 			"id" "1"
@@ -223,7 +223,7 @@ world
 		}
 		editor
 		{
-			"color" "0 208 101"
+			"color" "0 240 121"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -231,7 +231,7 @@ world
 	}
 	solid
 	{
-		"id" "368611"
+		"id" "368588"
 		side
 		{
 			"id" "7"
@@ -348,7 +348,7 @@ world
 		}
 		editor
 		{
-			"color" "0 208 101"
+			"color" "0 240 121"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -356,7 +356,7 @@ world
 	}
 	solid
 	{
-		"id" "368613"
+		"id" "368590"
 		side
 		{
 			"id" "13"
@@ -473,7 +473,7 @@ world
 		}
 		editor
 		{
-			"color" "0 208 101"
+			"color" "0 240 121"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -481,7 +481,7 @@ world
 	}
 	solid
 	{
-		"id" "368615"
+		"id" "368592"
 		side
 		{
 			"id" "19"
@@ -598,7 +598,7 @@ world
 		}
 		editor
 		{
-			"color" "0 208 101"
+			"color" "0 240 121"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -606,7 +606,7 @@ world
 	}
 	solid
 	{
-		"id" "368617"
+		"id" "368594"
 		side
 		{
 			"id" "25"
@@ -723,7 +723,7 @@ world
 		}
 		editor
 		{
-			"color" "0 208 101"
+			"color" "0 240 121"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -731,7 +731,7 @@ world
 	}
 	solid
 	{
-		"id" "368619"
+		"id" "368596"
 		side
 		{
 			"id" "31"
@@ -848,7 +848,7 @@ world
 		}
 		editor
 		{
-			"color" "0 208 101"
+			"color" "0 240 121"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -269673,8 +269673,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-561.676 729.596 46.7503]"
-		"look" "[-668.225 729.602 19.3932]"
+		"position" "[-668.346 936.323 46.0346]"
+		"look" "[-655.384 1038.88 8.41064]"
 	}
 }
 cordons
