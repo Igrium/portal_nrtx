@@ -1,0 +1,13 @@
+PBR
+{
+    $model 0
+    $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+    $surfaceprop "tile"
+
+    $basetexture    "tile/observation_tilefloor001a/observation_tilefloor001a_color"
+    $mraotexture    "tile/observation_tilefloor001a/observation_tilefloor001a_mrao"
+    $bumpmap        "tile/observation_tilefloor001a/observation_tilefloor001a_normal"
+
+    $envmap env_cubemap
+    "%keywords" "portal"
+}
