@@ -6,7 +6,7 @@ PBR
 
     $basetexture    "tile/observation_tilefloor002a/observation_tilefloor002a_color"
     $mraotexture    "tile/observation_tilefloor002a/observation_tilefloor002a_mrao"
-    $bumpmap        "tile/observation_tilefloor002a/observation_tilefloor002a_normal"
+    $bumpmap        "tile/observation_tilefloor001a/observation_tilefloor001a_normal"
 
     $envmap env_cubemap
     "%keywords" "portal"
