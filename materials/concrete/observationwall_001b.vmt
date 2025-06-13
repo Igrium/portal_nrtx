@@ -1,0 +1,15 @@
+"PBR"
+{
+	$model           0
+	$basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+
+	"$basetexture" 	"concrete/observationwall_001b/observationwall_001b_color"
+    "$mraotexture" 	"concrete/observationwall_001b/observationwall_001b_mrao"
+	"$bumpmap" 		"concrete/observationwall_001b/observationwall_001b_normal"
+
+	$envmap			"env_cubemap"
+	
+	"$surfaceprop" 	"concrete"
+	"%keywords"		"portal"
+}
