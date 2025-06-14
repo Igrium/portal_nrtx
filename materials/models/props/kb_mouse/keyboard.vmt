@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/kb_mouse/keyboard_color"
+    $mraotexture    "models/props/kb_mouse/keyboard_mrao"
+    $bumpmap        "models/props/kb_mouse/keyboard_normal"
+
+    $envmap env_cubemap
+}
