@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/kb_mouse/mouse_color"
+    $mraotexture    "models/props/kb_mouse/mouse_mrao"
+    $bumpmap        "models/props/kb_mouse/mouse_normal"
+
+    $envmap env_cubemap
+}
