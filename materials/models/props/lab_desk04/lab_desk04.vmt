@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/lab_desk04/lab_desk04_color"
+    $mraotexture    "models/props/lab_desk04/lab_desk04_mrao"
+    $bumpmap        "models/props/lab_desk04/lab_desk04_normal"
+
+    $envmap env_cubemap
+}
