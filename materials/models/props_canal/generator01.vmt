@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_canal/generator01/generator01_color"
+    $mraotexture    "models/props_canal/generator01/generator01_mrao"
+    $bumpmap        "models/props_canal/generator01/generator01_normal"
+
+    $envmap env_cubemap
+}
