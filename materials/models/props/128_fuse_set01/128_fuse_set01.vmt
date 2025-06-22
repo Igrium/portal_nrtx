@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/128_fuse_set01/128_fuse_set01_color"
+    $mraotexture    "models/props/128_fuse_set01/128_fuse_set01_mrao"
+    $bumpmap        "models/props/128_fuse_set01/128_fuse_set01_normal"
+
+    $envmap env_cubemap
+}
