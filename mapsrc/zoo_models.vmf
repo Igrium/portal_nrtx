@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "10290"
-	"mapversion" "50"
+	"editorbuild" "10463"
+	"mapversion" "52"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,13 +22,13 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(289.839 -202.869 150.454)"
-			"angle" "[15.1999 106.001 0]"
+			"position" "(387.191 -120.008 129.378)"
+			"angle" "[11.6001 76.4012 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(309.564 76.1578 65536)"
+			"position" "(309.564 76.1578 0)"
 			"zoom" "2.22902"
 		}
 		v2
@@ -40,7 +40,7 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(354.166 -65536 25.3594)"
+			"position" "(354.166 0 25.3594)"
 			"zoom" "2.22904"
 		}
 	}
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "50"
+	"mapversion" "52"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -917,7 +917,7 @@ entity
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/props/128_fuse_set03/128_fuse_set03.mdl"
+	"model" "models/props/128_fuse_set10/128_fuse_set10.mdl"
 	"preventpropcombine" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
