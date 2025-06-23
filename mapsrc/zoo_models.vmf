@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10290"
-	"mapversion" "48"
+	"mapversion" "50"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,13 +23,13 @@ viewsettings
 		{
 			"3d" "1"
 			"position" "(289.839 -202.869 150.454)"
-			"angle" "[-8.80011 -31.1994 0]"
+			"angle" "[15.1999 106.001 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(435.756 149.609 0)"
-			"zoom" "1.07495"
+			"position" "(309.564 76.1578 65536)"
+			"zoom" "2.22902"
 		}
 		v2
 		{
@@ -40,15 +40,15 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(420.633 0 30.6575)"
-			"zoom" "1.07496"
+			"position" "(354.166 -65536 25.3594)"
+			"zoom" "2.22904"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "48"
+	"mapversion" "50"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -854,7 +854,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "320 -16.5601 64"
+	"origin" "192 -16.5601 64"
 	editor
 	{
 		"color" "255 255 0"
@@ -890,7 +890,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "192 -16.5601 64"
+	"origin" "320 -16.5601 64"
 	editor
 	{
 		"color" "255 255 0"
