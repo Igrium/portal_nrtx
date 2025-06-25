@@ -25,7 +25,12 @@ $keyvalues
     }
 }
 
-$lod 8
+$lod 2
 {
     replacemodel "lab_chair_reference.smd" "lab_chair_lod1.smd"
+}
+
+$lod 9
+{
+    replacemodel "lab_chair_reference.smd" "lab_chair_lod2.smd"
 }
