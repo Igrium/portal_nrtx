@@ -1,0 +1,15 @@
+PBR
+{
+    $model 0
+    // $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+    $translucent 1
+    $decal 1
+
+    $basetexture    "decals/debris_concrete001a/debris_concrete001a_color"
+    $mraotexture    "decals/debris_concrete001a/debris_concrete001a_mrao"
+    $bumpmap        "decals/debris_concrete001a/debris_concrete001a_normal"
+
+    $envmap env_cubemap
+    $keywords "debris"
+    $decalscale 0.25
+}
