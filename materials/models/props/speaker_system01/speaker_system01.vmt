@@ -1,0 +1,11 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/speaker_system01/speaker_system01_color"
+    $mraotexture    "models/props/speaker_system01/speaker_system01_mrao"
+    $bumpmap        "models/props/speaker_system01/speaker_system01_normal"
+    $emissiontexture "models/props/speaker_system01/speaker_system01_selfillum"
+    $emissionscale  1.5
+
+    $envmap env_cubemap
+}
