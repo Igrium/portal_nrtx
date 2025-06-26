@@ -1,0 +1,15 @@
+PBR
+{
+    $model 0
+    // $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+    $translucent 1
+    $decal 1
+
+    $basetexture    "overlays/overlay_scrawlings002a/overlay_scrawlings002a_color"
+    $mraotexture    "overlays/overlay_scrawlings002a/overlay_scrawlings002a_mrao"
+    $bumpmap        "overlays/overlay_scrawlings002a/overlay_scrawlings002a_normal"
+
+    $envmap env_cubemap
+    $keywords "portal"
+    $decalscale 0.25
+}

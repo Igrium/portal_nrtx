@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "1954"
+	"mapversion" "1955"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -70,8 +70,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-498.828 730.987 63.4472)"
-			"angle" "[59.5999 -104.004 0]"
+			"position" "(-443.915 816.482 153.808)"
+			"angle" "[15.2 -123.204 0]"
 		}
 		v1
 		{
@@ -96,7 +96,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1954"
+	"mapversion" "1955"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -106,7 +106,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "368597"
+		"id" "368591"
 		side
 		{
 			"id" "1"
@@ -223,7 +223,7 @@ world
 		}
 		editor
 		{
-			"color" "0 196 237"
+			"color" "0 177 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -231,7 +231,7 @@ world
 	}
 	solid
 	{
-		"id" "368599"
+		"id" "368593"
 		side
 		{
 			"id" "7"
@@ -348,7 +348,7 @@ world
 		}
 		editor
 		{
-			"color" "0 196 237"
+			"color" "0 177 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -356,7 +356,7 @@ world
 	}
 	solid
 	{
-		"id" "368601"
+		"id" "368595"
 		side
 		{
 			"id" "13"
@@ -473,7 +473,7 @@ world
 		}
 		editor
 		{
-			"color" "0 196 237"
+			"color" "0 177 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -481,7 +481,7 @@ world
 	}
 	solid
 	{
-		"id" "368603"
+		"id" "368597"
 		side
 		{
 			"id" "19"
@@ -598,7 +598,7 @@ world
 		}
 		editor
 		{
-			"color" "0 196 237"
+			"color" "0 177 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -606,7 +606,7 @@ world
 	}
 	solid
 	{
-		"id" "368605"
+		"id" "368599"
 		side
 		{
 			"id" "25"
@@ -723,7 +723,7 @@ world
 		}
 		editor
 		{
-			"color" "0 196 237"
+			"color" "0 177 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -731,7 +731,7 @@ world
 	}
 	solid
 	{
-		"id" "368607"
+		"id" "368601"
 		side
 		{
 			"id" "31"
@@ -848,7 +848,7 @@ world
 		}
 		editor
 		{
-			"color" "0 196 237"
+			"color" "0 177 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -269673,8 +269673,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-498.828 730.987 63.4472]"
-		"look" "[-512.299 676.974 -31.4355]"
+		"position" "[-443.915 816.482 153.808]"
+		"look" "[-502.051 727.656 124.966]"
 	}
 }
 cordons
