@@ -1,0 +1,15 @@
+"PBR"
+{
+	$model 			0
+	$basetexturetransform "center 0 0 scale 4 4 rotate 0 translate 0 0"
+
+	$basetexture 	"plastic/plastic_light002c/plastic_light002c_color"
+	$bumpmap 		"plastic/plastic_light002c/plastic_light002c_normal"
+	$mraotexture 	"plastic/plastic_light002c/plastic_light002c_mrao"
+	$emissiontexture "plastic/plastic_light002c/plastic_light002c_selfillum"
+	$emissionscale 3
+
+	$envmap env_cubemap
+
+    "%keywords" "portal"
+}
