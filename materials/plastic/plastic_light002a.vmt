@@ -1,0 +1,13 @@
+"PBR"
+{
+	$model 			0
+	$basetexturetransform "center 0 0 scale 4 4 rotate 0 translate 0 0"
+
+	$basetexture 	"plastic/plastic_light002a/plastic_light002a_color"
+	$bumpmap 		"plastic/plastic_light002a/plastic_light002a_normal"
+	$mraotexture 	"plastic/plastic_light002a/plastic_light002a_mrao"
+
+	$envmap env_cubemap
+
+    "%keywords" "portal"
+}
