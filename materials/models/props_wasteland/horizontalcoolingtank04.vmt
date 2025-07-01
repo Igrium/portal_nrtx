@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_wasteland/horizontalcoolingtank04/horizontalcoolingtank04_color"
+    $mraotexture    "models/props_wasteland/horizontalcoolingtank04/horizontalcoolingtank04_mrao"
+    $bumpmap        "models/props_wasteland/horizontalcoolingtank04/horizontalcoolingtank04_normal"
+
+    $envmap env_cubemap
+}   
