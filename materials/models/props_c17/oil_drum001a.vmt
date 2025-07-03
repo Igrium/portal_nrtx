@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_c17/oil_drum001a/oil_drum001a_color"
+    $mraotexture    "models/props_c17/oil_drum001a/oil_drum001a_mrao"
+    $bumpmap        "models/props_c17/oil_drum001a/oil_drum001a_normal"
+
+    $envmap env_cubemap
+}   
