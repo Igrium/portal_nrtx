@@ -1,0 +1,12 @@
+PBR
+{
+    $model 0
+    $basetexturetransform "center 0 0 scale 4 4 rotate 0 translate 0 0"
+
+    $basetexture    "metal/metalvent014a/metalvent014a_color"
+    $mraotexture    "metal/metalvent014a/metalvent014a_mrao"
+    $bumpmap        "metal/metalvent014a/metalvent014a_normal"
+    
+    $envmap env_cubemaps
+    $surfaceprop "metal"
+}
