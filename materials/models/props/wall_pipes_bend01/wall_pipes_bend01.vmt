@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/wall_pipes_bend01/wall_pipes_bend01_color"
+    $mraotexture    "models/props/wall_pipes_bend01/wall_pipes_bend01_mrao"
+    $bumpmap        "models/props/wall_pipes_bend01/wall_pipes_bend01_normal"
+
+    $envmap env_cubemap
+}   
