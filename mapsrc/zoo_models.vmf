@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "67"
+	"mapversion" "68"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,25 +22,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(238.246 -237.465 124.534)"
-			"angle" "[9.60008 10.0024 0]"
+			"position" "(208.237 -221.473 122.566)"
+			"angle" "[11.6001 -1.99746 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(353.222 -206.256 65536)"
+			"position" "(353.222 -206.256 0)"
 			"zoom" "1.85752"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 37.4433 47.9354)"
+			"position" "(0 37.4433 47.9354)"
 			"zoom" "1.28995"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(347.443 -65536 23.6787)"
+			"position" "(347.443 0 23.6787)"
 			"zoom" "1.85753"
 		}
 	}
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "67"
+	"mapversion" "68"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -845,7 +845,7 @@ entity
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/props/wall_pipes_bend01/wall_pipes_bend01.mdl"
+	"model" "models/props/wall_pipes_bend02/wall_pipes_bend02.mdl"
 	"preventpropcombine" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
