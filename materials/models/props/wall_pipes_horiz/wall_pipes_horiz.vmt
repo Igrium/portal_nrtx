@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/wall_pipes_horiz/wall_pipes_horiz_color"
+    $mraotexture    "models/props/wall_pipes_horiz/wall_pipes_horiz_mrao"
+    $bumpmap        "models/props/wall_pipes_horiz/wall_pipes_horiz_normal"
+
+    $envmap env_cubemap
+}   
