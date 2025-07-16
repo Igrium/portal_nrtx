@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "71"
+	"mapversion" "73"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,14 +22,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(508.853 -128.818 159.751)"
-			"angle" "[23.5998 -144.798 0]"
+			"position" "(263.569 -260.666 106.328)"
+			"angle" "[-3.60013 3.60252 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(469.522 -191.969 65536)"
-			"zoom" "0.746496"
+			"position" "(403.672 -216.591 65536)"
+			"zoom" "1.54793"
 		}
 		v2
 		{
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "71"
+	"mapversion" "73"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1017,7 +1017,7 @@ entity
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/props/wall_pipes_corner/wall_pipes_corner.mdl"
+	"model" "models/props/wall_pipes_tjunc01/wall_pipes_tjunc01.mdl"
 	"preventpropcombine" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -1026,7 +1026,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "384 -128 64"
+	"origin" "384 -192 64"
 	editor
 	{
 		"color" "255 255 0"
