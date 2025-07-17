@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/milk_carton/milk_carton_open_color"
+    $mraotexture    "models/props/milk_carton/milk_carton_open_mrao"
+    $bumpmap        "models/props/milk_carton/milk_carton_open_normal"
+
+    $envmap env_cubemap
+}
