@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_junk/metalbucket01a/metalbucket01a_color"
+    $mraotexture    "models/props_junk/metalbucket01a/metalbucket01a_mrao"
+    $bumpmap        "models/props_junk/metalbucket01a/metalbucket01a_normal"
+
+    $envmap env_cubemap
+}   
