@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/saucepan/saucepan_color"
+    $mraotexture    "models/props/saucepan/saucepan_mrao"
+    $bumpmap        "models/props/saucepan/saucepan_normal"
+
+    $envmap env_cubemap
+}   
