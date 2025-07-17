@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "81"
+	"mapversion" "85"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "2"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,14 +22,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(345.826 -78.4783 163.757)"
-			"angle" "[7.9998 -53.598 0]"
+			"position" "(430.653 -137.556 75.6003)"
+			"angle" "[43.2 -90.7981 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(444.092 -190.322 0)"
-			"zoom" "11.5013"
+			"position" "(437.265 -172.944 0)"
+			"zoom" "23.8491"
 		}
 		v2
 		{
@@ -40,15 +40,15 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(433.991 0 5.79578)"
-			"zoom" "6.65587"
+			"position" "(556.466 0 97.7767)"
+			"zoom" "2.22904"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "81"
+	"mapversion" "85"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -825,6 +825,110 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "2055"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 285 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/milk_carton/milk_carton_open.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "436.835 -167.631 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2070"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 240.5 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/milk_carton/milk_carton_open.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "448.953 -165.367 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
