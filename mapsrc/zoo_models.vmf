@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "75"
+	"mapversion" "77"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,8 +22,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(617.385 -229.387 91.8817)"
-			"angle" "[6.39988 -177.597 0]"
+			"position" "(285.101 -264.406 130.581)"
+			"angle" "[-0.800126 8.40377 0]"
 		}
 		v1
 		{
@@ -34,7 +34,7 @@ viewsettings
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 2.4433 47.9354)"
+			"position" "(0 2.4433 47.9354)"
 			"zoom" "1.28995"
 		}
 		v3
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "75"
+	"mapversion" "77"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -541,7 +541,7 @@ world
 				"point" "2 640 32 0"
 				"point" "3 640 32 256"
 			}
-			"material" "DEV/REFLECTIVITY_50"
+			"material" "CONCRETE/CONCRETE_BTS_CEILING002A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -666,7 +666,7 @@ world
 				"point" "2 0 0 256"
 				"point" "3 640 0 256"
 			}
-			"material" "DEV/REFLECTIVITY_50"
+			"material" "CONCRETE/CONCRETE_BTS_CEILING002A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
