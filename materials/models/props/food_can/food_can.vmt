@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/food_can/food_can_color"
+    $mraotexture    "models/props/food_can/food_can_mrao"
+    $bumpmap        "models/props/food_can/food_can_normal"
+
+    $envmap env_cubemap
+}   
