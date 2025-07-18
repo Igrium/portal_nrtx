@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "91"
+	"mapversion" "93"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "32"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,14 +22,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(452.918 -309.526 97.8823)"
-			"angle" "[-29.5999 52.8036 0]"
+			"position" "(284.598 -89.5542 76.5752)"
+			"angle" "[9.60014 83.6034 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(365.073 -227.26 65536)"
-			"zoom" "2.22903"
+			"position" "(367.502 -5.60389 65536)"
+			"zoom" "5.54654"
 		}
 		v2
 		{
@@ -40,15 +40,15 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(556.466 0 97.7767)"
-			"zoom" "2.22904"
+			"position" "(551.403 -65536 83.1444)"
+			"zoom" "1.85753"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "91"
+	"mapversion" "93"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1593,7 +1593,7 @@ entity
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/props/speaker_system01/speaker_system01.mdl"
+	"model" "models/props/128_fuse_set09/128_fuse_set09.mdl"
 	"preventpropcombine" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -1602,7 +1602,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "320 -8 64"
+	"origin" "320 -12 48"
 	editor
 	{
 		"color" "255 255 0"
@@ -1629,7 +1629,7 @@ entity
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/props/speaker_system01/speaker_system02.mdl"
+	"model" "models/props/speaker_system01/speaker_system01.mdl"
 	"preventpropcombine" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
