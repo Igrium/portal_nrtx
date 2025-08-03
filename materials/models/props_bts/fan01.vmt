@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_bts/fan01/fan01_color"
+    $mraotexture    "models/props_bts/fan01/fan01_mrao"
+    $bumpmap        "models/props_bts/fan01/fan01_normal"
+
+    $envmap env_cubemap
+}   
