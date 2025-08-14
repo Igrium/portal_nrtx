@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "2360"
+	"mapversion" "2362"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,25 +64,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-374.472 -821.496 347.474)"
-			"angle" "[-14.4003 -4.40713 0]"
+			"position" "(-533.719 -337.147 311.117)"
+			"angle" "[-42.8003 111.193 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-689.936 -785.228 65536)"
+			"position" "(-689.936 -785.228 0)"
 			"zoom" "0.3"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -289.625 231.152)"
+			"position" "(0 -289.625 231.152)"
 			"zoom" "1.28995"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-454.556 -65536 120.493)"
+			"position" "(-454.556 0 120.493)"
 			"zoom" "0.432"
 		}
 	}
@@ -90,7 +90,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2360"
+	"mapversion" "2362"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -100,7 +100,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "702814"
+		"id" "704485"
 		side
 		{
 			"id" "31"
@@ -217,7 +217,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -225,7 +225,7 @@ world
 	}
 	solid
 	{
-		"id" "702818"
+		"id" "704489"
 		side
 		{
 			"id" "61"
@@ -342,7 +342,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -350,7 +350,7 @@ world
 	}
 	solid
 	{
-		"id" "702820"
+		"id" "704491"
 		side
 		{
 			"id" "67"
@@ -467,7 +467,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -475,7 +475,7 @@ world
 	}
 	solid
 	{
-		"id" "702825"
+		"id" "704496"
 		side
 		{
 			"id" "1"
@@ -592,7 +592,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -600,7 +600,7 @@ world
 	}
 	solid
 	{
-		"id" "702829"
+		"id" "704500"
 		side
 		{
 			"id" "7"
@@ -717,7 +717,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -725,7 +725,7 @@ world
 	}
 	solid
 	{
-		"id" "702831"
+		"id" "704502"
 		side
 		{
 			"id" "13"
@@ -842,7 +842,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -850,7 +850,7 @@ world
 	}
 	solid
 	{
-		"id" "702833"
+		"id" "704504"
 		side
 		{
 			"id" "19"
@@ -967,7 +967,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -975,7 +975,7 @@ world
 	}
 	solid
 	{
-		"id" "702835"
+		"id" "704506"
 		side
 		{
 			"id" "25"
@@ -1092,7 +1092,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -1100,7 +1100,7 @@ world
 	}
 	solid
 	{
-		"id" "702841"
+		"id" "704512"
 		side
 		{
 			"id" "37"
@@ -1217,7 +1217,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -1225,7 +1225,7 @@ world
 	}
 	solid
 	{
-		"id" "702843"
+		"id" "704514"
 		side
 		{
 			"id" "43"
@@ -1342,7 +1342,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -1350,7 +1350,7 @@ world
 	}
 	solid
 	{
-		"id" "702847"
+		"id" "704518"
 		side
 		{
 			"id" "49"
@@ -1467,7 +1467,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -1475,7 +1475,7 @@ world
 	}
 	solid
 	{
-		"id" "702849"
+		"id" "704520"
 		side
 		{
 			"id" "55"
@@ -1592,7 +1592,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -1600,7 +1600,7 @@ world
 	}
 	solid
 	{
-		"id" "702856"
+		"id" "704527"
 		side
 		{
 			"id" "73"
@@ -1717,7 +1717,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -1725,7 +1725,7 @@ world
 	}
 	solid
 	{
-		"id" "702860"
+		"id" "704531"
 		side
 		{
 			"id" "79"
@@ -1842,7 +1842,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -1850,7 +1850,7 @@ world
 	}
 	solid
 	{
-		"id" "702864"
+		"id" "704535"
 		side
 		{
 			"id" "85"
@@ -1967,7 +1967,7 @@ world
 		}
 		editor
 		{
-			"color" "0 176 121"
+			"color" "0 253 210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -94560,6 +94560,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"shadowcastdist" "0"
+	"skin" "1"
 	"solid" "6"
 	"spawnflags" "514"
 	"targetname" "lamp_2_model"
@@ -162674,8 +162675,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-374.472 -821.496 347.474]"
-		"look" "[-12.9487 -849.359 440.575]"
+		"position" "[-533.719 -337.147 311.117]"
+		"look" "[-633.017 -81.0479 565.472]"
 	}
 }
 cordons
@@ -162714,7 +162715,7 @@ cordons
 }
 quickhide
 {
-	"count" "3"
+	"count" "1"
 	list
 	{
 		"id" "653441"

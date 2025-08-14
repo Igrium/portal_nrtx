@@ -1,0 +1,11 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_c17/lamp_standard01/lamp_standard01_color"
+    $mraotexture    "models/props_c17/lamp_standard01/lamp_standard01_mrao"
+    $bumpmap        "models/props_c17/lamp_standard01/lamp_standard01_normal"
+    $emissiontexture "models/props_c17/lamp_standard01/lamp_standard01_selfillum"
+    $emissionscale  2
+    
+    $envmap env_cubemap
+}
