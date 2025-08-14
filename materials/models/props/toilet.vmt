@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/toilet/toilet_color"
+    $mraotexture    "models/props/toilet/toilet_mrao"
+    $bumpmap        "models/props/toilet/toilet_normal"
+
+    $envmap env_cubemap
+}   
