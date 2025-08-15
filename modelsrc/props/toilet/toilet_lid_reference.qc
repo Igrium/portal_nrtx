@@ -1,4 +1,5 @@
 $modelname "props/toilet_lid_reference.mdl"
+$staticprop
 
 $body "body" "toilet_lid.dmx"
 $surfaceprop "metalpanel"
