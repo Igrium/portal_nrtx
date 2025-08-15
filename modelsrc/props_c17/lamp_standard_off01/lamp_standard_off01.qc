@@ -19,9 +19,6 @@ $sequence "idle" "lamp_standard_off01.dmx"
 $collisionmodel "lamp_standard_off01_physics.smd"
 {
     $mass 4.645161
-    $inertia 1
-    $damping 0
-    $rotdamping 0
     $concave
 }
 
