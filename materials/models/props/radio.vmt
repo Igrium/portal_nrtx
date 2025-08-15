@@ -1,0 +1,10 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/radio/radio_color"
+    $mraotexture    "models/props/radio/radio_mrao"
+    $bumpmap        "models/props/radio/radio_normal"
+    $emissiontexture "models/props/radio/radio_selfillum"
+
+    $envmap env_cubemap
+}   
