@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "10463"
-	"mapversion" "122"
+	"editorbuild" "10247"
+	"mapversion" "124"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -16,39 +16,11 @@ viewsettings
 	"bShowLogicalGrid" "1"
 	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
-	"nInstanceVisibility" "2"
-	views
-	{
-		v0
-		{
-			"3d" "1"
-			"position" "(322.911 -129.764 73.3932)"
-			"angle" "[25.2001 -2.7957 0]"
-		}
-		v1
-		{
-			"3d" "0"
-			"position" "(433.003 -147.763 65536)"
-			"zoom" "3.20981"
-		}
-		v2
-		{
-			"3d" "0"
-			"position" "(0 -181.038 46.4097)"
-			"zoom" "4.62213"
-		}
-		v3
-		{
-			"3d" "0"
-			"position" "(320.95 0 19.9716)"
-			"zoom" "1.54794"
-		}
-	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "122"
+	"mapversion" "124"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -63,14 +35,6 @@ world
 		{
 			"id" "294"
 			"plane" "(512 -128 -32) (512 32 -32) (512 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -128 -32"
-				"point" "1 512 32 -32"
-				"point" "2 512 32 0"
-				"point" "3 512 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -82,14 +46,6 @@ world
 		{
 			"id" "293"
 			"plane" "(512 -128 0) (512 32 0) (672 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -128 0"
-				"point" "1 512 32 0"
-				"point" "2 672 32 0"
-				"point" "3 672 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -101,14 +57,6 @@ world
 		{
 			"id" "292"
 			"plane" "(512 32 -32) (512 -128 -32) (672 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 32 -32"
-				"point" "1 512 -128 -32"
-				"point" "2 672 -128 -32"
-				"point" "3 672 32 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -120,14 +68,6 @@ world
 		{
 			"id" "291"
 			"plane" "(672 32 -32) (672 -128 -32) (672 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 32 -32"
-				"point" "1 672 -128 -32"
-				"point" "2 672 -128 0"
-				"point" "3 672 32 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -139,14 +79,6 @@ world
 		{
 			"id" "290"
 			"plane" "(512 32 0) (512 32 -32) (672 32 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 32 0"
-				"point" "1 512 32 -32"
-				"point" "2 672 32 -32"
-				"point" "3 672 32 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -158,14 +90,6 @@ world
 		{
 			"id" "289"
 			"plane" "(672 -128 -32) (512 -128 -32) (512 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -128 -32"
-				"point" "1 512 -128 -32"
-				"point" "2 512 -128 0"
-				"point" "3 672 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -188,14 +112,6 @@ world
 		{
 			"id" "300"
 			"plane" "(-32 -128 0) (-32 32 0) (128 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -128 0"
-				"point" "1 -32 32 0"
-				"point" "2 128 32 0"
-				"point" "3 128 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -207,14 +123,6 @@ world
 		{
 			"id" "299"
 			"plane" "(128 32 -32) (-32 32 -32) (-32 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 32 -32"
-				"point" "1 -32 32 -32"
-				"point" "2 -32 -128 -32"
-				"point" "3 128 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -226,14 +134,6 @@ world
 		{
 			"id" "298"
 			"plane" "(-32 -128 -32) (-32 32 -32) (-32 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -128 -32"
-				"point" "1 -32 32 -32"
-				"point" "2 -32 32 0"
-				"point" "3 -32 -128 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -245,14 +145,6 @@ world
 		{
 			"id" "297"
 			"plane" "(-32 32 -32) (128 32 -32) (128 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 32 -32"
-				"point" "1 128 32 -32"
-				"point" "2 128 32 0"
-				"point" "3 -32 32 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -264,14 +156,6 @@ world
 		{
 			"id" "296"
 			"plane" "(128 32 -32) (128 -128 -32) (128 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 32 -32"
-				"point" "1 128 -128 -32"
-				"point" "2 128 -128 0"
-				"point" "3 128 32 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -283,14 +167,6 @@ world
 		{
 			"id" "295"
 			"plane" "(128 -128 -32) (-32 -128 -32) (-32 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -128 -32"
-				"point" "1 -32 -128 -32"
-				"point" "2 -32 -128 0"
-				"point" "3 128 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -313,14 +189,6 @@ world
 		{
 			"id" "306"
 			"plane" "(256 32 -32) (256 -128 -32) (256 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 32 -32"
-				"point" "1 256 -128 -32"
-				"point" "2 256 -128 0"
-				"point" "3 256 32 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -332,14 +200,6 @@ world
 		{
 			"id" "305"
 			"plane" "(128 -128 0) (128 32 0) (256 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -128 0"
-				"point" "1 128 32 0"
-				"point" "2 256 32 0"
-				"point" "3 256 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -351,14 +211,6 @@ world
 		{
 			"id" "304"
 			"plane" "(256 -128 -32) (256 32 -32) (128 32 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -128 -32"
-				"point" "1 256 32 -32"
-				"point" "2 128 32 -32"
-				"point" "3 128 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -370,14 +222,6 @@ world
 		{
 			"id" "303"
 			"plane" "(128 32 -32) (256 32 -32) (256 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 32 -32"
-				"point" "1 256 32 -32"
-				"point" "2 256 32 0"
-				"point" "3 128 32 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -389,14 +233,6 @@ world
 		{
 			"id" "302"
 			"plane" "(128 -128 -32) (128 32 -32) (128 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -128 -32"
-				"point" "1 128 32 -32"
-				"point" "2 128 32 0"
-				"point" "3 128 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -408,14 +244,6 @@ world
 		{
 			"id" "301"
 			"plane" "(256 -128 0) (256 -128 -32) (128 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -128 0"
-				"point" "1 256 -128 -32"
-				"point" "2 128 -128 -32"
-				"point" "3 128 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -438,14 +266,6 @@ world
 		{
 			"id" "312"
 			"plane" "(256 -128 -32) (256 32 -32) (256 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -128 -32"
-				"point" "1 256 32 -32"
-				"point" "2 256 32 0"
-				"point" "3 256 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -457,14 +277,6 @@ world
 		{
 			"id" "311"
 			"plane" "(256 -128 0) (256 32 0) (384 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -128 0"
-				"point" "1 256 32 0"
-				"point" "2 384 32 0"
-				"point" "3 384 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -476,14 +288,6 @@ world
 		{
 			"id" "310"
 			"plane" "(384 32 -32) (256 32 -32) (256 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 32 -32"
-				"point" "1 256 32 -32"
-				"point" "2 256 -128 -32"
-				"point" "3 384 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -495,14 +299,6 @@ world
 		{
 			"id" "309"
 			"plane" "(256 32 0) (256 32 -32) (384 32 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 32 0"
-				"point" "1 256 32 -32"
-				"point" "2 384 32 -32"
-				"point" "3 384 32 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -514,14 +310,6 @@ world
 		{
 			"id" "308"
 			"plane" "(384 32 -32) (384 -128 -32) (384 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 32 -32"
-				"point" "1 384 -128 -32"
-				"point" "2 384 -128 0"
-				"point" "3 384 32 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -533,14 +321,6 @@ world
 		{
 			"id" "307"
 			"plane" "(384 -128 -32) (256 -128 -32) (256 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -128 -32"
-				"point" "1 256 -128 -32"
-				"point" "2 256 -128 0"
-				"point" "3 384 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -563,14 +343,6 @@ world
 		{
 			"id" "318"
 			"plane" "(512 32 -32) (512 -128 -32) (512 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 32 -32"
-				"point" "1 512 -128 -32"
-				"point" "2 512 -128 0"
-				"point" "3 512 32 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -582,14 +354,6 @@ world
 		{
 			"id" "317"
 			"plane" "(384 -128 0) (384 32 0) (512 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -128 0"
-				"point" "1 384 32 0"
-				"point" "2 512 32 0"
-				"point" "3 512 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -601,14 +365,6 @@ world
 		{
 			"id" "316"
 			"plane" "(512 -128 -32) (512 32 -32) (384 32 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -128 -32"
-				"point" "1 512 32 -32"
-				"point" "2 384 32 -32"
-				"point" "3 384 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -620,14 +376,6 @@ world
 		{
 			"id" "315"
 			"plane" "(384 32 -32) (512 32 -32) (512 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 32 -32"
-				"point" "1 512 32 -32"
-				"point" "2 512 32 0"
-				"point" "3 384 32 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -639,14 +387,6 @@ world
 		{
 			"id" "314"
 			"plane" "(384 -128 -32) (384 32 -32) (384 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -128 -32"
-				"point" "1 384 32 -32"
-				"point" "2 384 32 0"
-				"point" "3 384 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -658,14 +398,6 @@ world
 		{
 			"id" "313"
 			"plane" "(512 -128 0) (512 -128 -32) (384 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -128 0"
-				"point" "1 512 -128 -32"
-				"point" "2 384 -128 -32"
-				"point" "3 384 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -688,14 +420,6 @@ world
 		{
 			"id" "324"
 			"plane" "(512 -256 0) (512 -256 -32) (672 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 0"
-				"point" "1 512 -256 -32"
-				"point" "2 672 -256 -32"
-				"point" "3 672 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -707,14 +431,6 @@ world
 		{
 			"id" "323"
 			"plane" "(512 -384 -32) (512 -256 -32) (512 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -384 -32"
-				"point" "1 512 -256 -32"
-				"point" "2 512 -256 0"
-				"point" "3 512 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -726,14 +442,6 @@ world
 		{
 			"id" "322"
 			"plane" "(512 -384 0) (512 -256 0) (672 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -384 0"
-				"point" "1 512 -256 0"
-				"point" "2 672 -256 0"
-				"point" "3 672 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -745,14 +453,6 @@ world
 		{
 			"id" "321"
 			"plane" "(672 -256 -32) (512 -256 -32) (512 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -256 -32"
-				"point" "1 512 -256 -32"
-				"point" "2 512 -384 -32"
-				"point" "3 672 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -764,14 +464,6 @@ world
 		{
 			"id" "320"
 			"plane" "(672 -256 0) (672 -256 -32) (672 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -256 0"
-				"point" "1 672 -256 -32"
-				"point" "2 672 -384 -32"
-				"point" "3 672 -384 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -783,14 +475,6 @@ world
 		{
 			"id" "319"
 			"plane" "(672 -384 -32) (512 -384 -32) (512 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -384 -32"
-				"point" "1 512 -384 -32"
-				"point" "2 512 -384 0"
-				"point" "3 672 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -813,14 +497,6 @@ world
 		{
 			"id" "330"
 			"plane" "(512 -544 -32) (512 -384 -32) (512 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -544 -32"
-				"point" "1 512 -384 -32"
-				"point" "2 512 -384 0"
-				"point" "3 512 -544 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -832,14 +508,6 @@ world
 		{
 			"id" "329"
 			"plane" "(512 -544 0) (512 -384 0) (672 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -544 0"
-				"point" "1 512 -384 0"
-				"point" "2 672 -384 0"
-				"point" "3 672 -544 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -851,14 +519,6 @@ world
 		{
 			"id" "328"
 			"plane" "(512 -384 -32) (512 -544 -32) (672 -544 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -384 -32"
-				"point" "1 512 -544 -32"
-				"point" "2 672 -544 -32"
-				"point" "3 672 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -870,14 +530,6 @@ world
 		{
 			"id" "327"
 			"plane" "(672 -384 -32) (672 -544 -32) (672 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -384 -32"
-				"point" "1 672 -544 -32"
-				"point" "2 672 -544 0"
-				"point" "3 672 -384 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -889,14 +541,6 @@ world
 		{
 			"id" "326"
 			"plane" "(672 -544 -32) (512 -544 -32) (512 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -544 -32"
-				"point" "1 512 -544 -32"
-				"point" "2 512 -544 0"
-				"point" "3 672 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -908,14 +552,6 @@ world
 		{
 			"id" "325"
 			"plane" "(512 -384 0) (512 -384 -32) (672 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -384 0"
-				"point" "1 512 -384 -32"
-				"point" "2 672 -384 -32"
-				"point" "3 672 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -938,14 +574,6 @@ world
 		{
 			"id" "336"
 			"plane" "(-32 -256 -32) (128 -256 -32) (128 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -256 -32"
-				"point" "1 128 -256 -32"
-				"point" "2 128 -256 0"
-				"point" "3 -32 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -957,14 +585,6 @@ world
 		{
 			"id" "335"
 			"plane" "(-32 -384 0) (-32 -256 0) (128 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -384 0"
-				"point" "1 -32 -256 0"
-				"point" "2 128 -256 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -976,14 +596,6 @@ world
 		{
 			"id" "334"
 			"plane" "(128 -256 -32) (-32 -256 -32) (-32 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -256 -32"
-				"point" "1 -32 -256 -32"
-				"point" "2 -32 -384 -32"
-				"point" "3 128 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -995,14 +607,6 @@ world
 		{
 			"id" "333"
 			"plane" "(-32 -384 -32) (-32 -256 -32) (-32 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -384 -32"
-				"point" "1 -32 -256 -32"
-				"point" "2 -32 -256 0"
-				"point" "3 -32 -384 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1014,14 +618,6 @@ world
 		{
 			"id" "332"
 			"plane" "(128 -256 0) (128 -256 -32) (128 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -256 0"
-				"point" "1 128 -256 -32"
-				"point" "2 128 -384 -32"
-				"point" "3 128 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1033,14 +629,6 @@ world
 		{
 			"id" "331"
 			"plane" "(128 -384 -32) (-32 -384 -32) (-32 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -384 -32"
-				"point" "1 -32 -384 -32"
-				"point" "2 -32 -384 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1063,14 +651,6 @@ world
 		{
 			"id" "342"
 			"plane" "(128 -544 0) (-32 -544 0) (-32 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -544 0"
-				"point" "1 -32 -544 0"
-				"point" "2 -32 -384 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1082,14 +662,6 @@ world
 		{
 			"id" "341"
 			"plane" "(-32 -384 -32) (-32 -544 -32) (128 -544 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -384 -32"
-				"point" "1 -32 -544 -32"
-				"point" "2 128 -544 -32"
-				"point" "3 128 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1101,14 +673,6 @@ world
 		{
 			"id" "340"
 			"plane" "(-32 -544 -32) (-32 -384 -32) (-32 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -544 -32"
-				"point" "1 -32 -384 -32"
-				"point" "2 -32 -384 0"
-				"point" "3 -32 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1120,14 +684,6 @@ world
 		{
 			"id" "339"
 			"plane" "(128 -544 -32) (-32 -544 -32) (-32 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -544 -32"
-				"point" "1 -32 -544 -32"
-				"point" "2 -32 -544 0"
-				"point" "3 128 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1139,14 +695,6 @@ world
 		{
 			"id" "338"
 			"plane" "(128 -384 -32) (128 -544 -32) (128 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -384 -32"
-				"point" "1 128 -544 -32"
-				"point" "2 128 -544 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1158,14 +706,6 @@ world
 		{
 			"id" "337"
 			"plane" "(-32 -384 -32) (128 -384 -32) (128 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -384 -32"
-				"point" "1 128 -384 -32"
-				"point" "2 128 -384 0"
-				"point" "3 -32 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1188,14 +728,6 @@ world
 		{
 			"id" "348"
 			"plane" "(128 -256 -32) (256 -256 -32) (256 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -256 -32"
-				"point" "1 256 -256 -32"
-				"point" "2 256 -256 0"
-				"point" "3 128 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1207,14 +739,6 @@ world
 		{
 			"id" "347"
 			"plane" "(256 -256 0) (256 -256 -32) (256 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -256 0"
-				"point" "1 256 -256 -32"
-				"point" "2 256 -384 -32"
-				"point" "3 256 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1226,14 +750,6 @@ world
 		{
 			"id" "346"
 			"plane" "(128 -256 0) (256 -256 0) (256 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -256 0"
-				"point" "1 256 -256 0"
-				"point" "2 256 -384 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1245,14 +761,6 @@ world
 		{
 			"id" "345"
 			"plane" "(256 -256 -32) (128 -256 -32) (128 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -256 -32"
-				"point" "1 128 -256 -32"
-				"point" "2 128 -384 -32"
-				"point" "3 256 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1264,14 +772,6 @@ world
 		{
 			"id" "344"
 			"plane" "(128 -384 -32) (128 -256 -32) (128 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -384 -32"
-				"point" "1 128 -256 -32"
-				"point" "2 128 -256 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1283,14 +783,6 @@ world
 		{
 			"id" "343"
 			"plane" "(256 -384 0) (256 -384 -32) (128 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -384 0"
-				"point" "1 256 -384 -32"
-				"point" "2 128 -384 -32"
-				"point" "3 128 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1313,14 +805,6 @@ world
 		{
 			"id" "354"
 			"plane" "(256 -384 -32) (256 -544 -32) (256 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -384 -32"
-				"point" "1 256 -544 -32"
-				"point" "2 256 -544 0"
-				"point" "3 256 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1332,14 +816,6 @@ world
 		{
 			"id" "353"
 			"plane" "(256 -384 0) (256 -544 0) (128 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -384 0"
-				"point" "1 256 -544 0"
-				"point" "2 128 -544 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1351,14 +827,6 @@ world
 		{
 			"id" "352"
 			"plane" "(128 -384 -32) (128 -544 -32) (256 -544 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -384 -32"
-				"point" "1 128 -544 -32"
-				"point" "2 256 -544 -32"
-				"point" "3 256 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1370,14 +838,6 @@ world
 		{
 			"id" "351"
 			"plane" "(256 -544 0) (256 -544 -32) (128 -544 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -544 0"
-				"point" "1 256 -544 -32"
-				"point" "2 128 -544 -32"
-				"point" "3 128 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1389,14 +849,6 @@ world
 		{
 			"id" "350"
 			"plane" "(128 -544 -32) (128 -384 -32) (128 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -544 -32"
-				"point" "1 128 -384 -32"
-				"point" "2 128 -384 0"
-				"point" "3 128 -544 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1408,14 +860,6 @@ world
 		{
 			"id" "349"
 			"plane" "(128 -384 -32) (256 -384 -32) (256 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -384 -32"
-				"point" "1 256 -384 -32"
-				"point" "2 256 -384 0"
-				"point" "3 128 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1438,14 +882,6 @@ world
 		{
 			"id" "360"
 			"plane" "(256 -256 0) (256 -256 -32) (384 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -256 0"
-				"point" "1 256 -256 -32"
-				"point" "2 384 -256 -32"
-				"point" "3 384 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1457,14 +893,6 @@ world
 		{
 			"id" "359"
 			"plane" "(256 -384 -32) (256 -256 -32) (256 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -384 -32"
-				"point" "1 256 -256 -32"
-				"point" "2 256 -256 0"
-				"point" "3 256 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1476,14 +904,6 @@ world
 		{
 			"id" "358"
 			"plane" "(256 -384 0) (256 -256 0) (384 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -384 0"
-				"point" "1 256 -256 0"
-				"point" "2 384 -256 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1495,14 +915,6 @@ world
 		{
 			"id" "357"
 			"plane" "(384 -256 -32) (256 -256 -32) (256 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -256 -32"
-				"point" "1 256 -256 -32"
-				"point" "2 256 -384 -32"
-				"point" "3 384 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1514,14 +926,6 @@ world
 		{
 			"id" "356"
 			"plane" "(384 -256 0) (384 -256 -32) (384 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -256 0"
-				"point" "1 384 -256 -32"
-				"point" "2 384 -384 -32"
-				"point" "3 384 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1533,14 +937,6 @@ world
 		{
 			"id" "355"
 			"plane" "(384 -384 -32) (256 -384 -32) (256 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -384 -32"
-				"point" "1 256 -384 -32"
-				"point" "2 256 -384 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1563,14 +959,6 @@ world
 		{
 			"id" "366"
 			"plane" "(256 -544 -32) (256 -384 -32) (256 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -544 -32"
-				"point" "1 256 -384 -32"
-				"point" "2 256 -384 0"
-				"point" "3 256 -544 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1582,14 +970,6 @@ world
 		{
 			"id" "365"
 			"plane" "(384 -544 0) (256 -544 0) (256 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -544 0"
-				"point" "1 256 -544 0"
-				"point" "2 256 -384 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1601,14 +981,6 @@ world
 		{
 			"id" "364"
 			"plane" "(256 -384 -32) (256 -544 -32) (384 -544 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -384 -32"
-				"point" "1 256 -544 -32"
-				"point" "2 384 -544 -32"
-				"point" "3 384 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1620,14 +992,6 @@ world
 		{
 			"id" "363"
 			"plane" "(384 -544 -32) (256 -544 -32) (256 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -544 -32"
-				"point" "1 256 -544 -32"
-				"point" "2 256 -544 0"
-				"point" "3 384 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1639,14 +1003,6 @@ world
 		{
 			"id" "362"
 			"plane" "(384 -384 -32) (384 -544 -32) (384 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -384 -32"
-				"point" "1 384 -544 -32"
-				"point" "2 384 -544 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1658,14 +1014,6 @@ world
 		{
 			"id" "361"
 			"plane" "(256 -384 0) (256 -384 -32) (384 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -384 0"
-				"point" "1 256 -384 -32"
-				"point" "2 384 -384 -32"
-				"point" "3 384 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1688,14 +1036,6 @@ world
 		{
 			"id" "372"
 			"plane" "(384 -256 -32) (512 -256 -32) (512 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -256 -32"
-				"point" "1 512 -256 -32"
-				"point" "2 512 -256 0"
-				"point" "3 384 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1707,14 +1047,6 @@ world
 		{
 			"id" "371"
 			"plane" "(512 -256 0) (512 -256 -32) (512 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 0"
-				"point" "1 512 -256 -32"
-				"point" "2 512 -384 -32"
-				"point" "3 512 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1726,14 +1058,6 @@ world
 		{
 			"id" "370"
 			"plane" "(384 -256 0) (512 -256 0) (512 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -256 0"
-				"point" "1 512 -256 0"
-				"point" "2 512 -384 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1745,14 +1069,6 @@ world
 		{
 			"id" "369"
 			"plane" "(512 -256 -32) (384 -256 -32) (384 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 -32"
-				"point" "1 384 -256 -32"
-				"point" "2 384 -384 -32"
-				"point" "3 512 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1764,14 +1080,6 @@ world
 		{
 			"id" "368"
 			"plane" "(384 -384 -32) (384 -256 -32) (384 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -384 -32"
-				"point" "1 384 -256 -32"
-				"point" "2 384 -256 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1783,14 +1091,6 @@ world
 		{
 			"id" "367"
 			"plane" "(512 -384 0) (512 -384 -32) (384 -384 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -384 0"
-				"point" "1 512 -384 -32"
-				"point" "2 384 -384 -32"
-				"point" "3 384 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1813,14 +1113,6 @@ world
 		{
 			"id" "378"
 			"plane" "(512 -384 -32) (512 -544 -32) (512 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -384 -32"
-				"point" "1 512 -544 -32"
-				"point" "2 512 -544 0"
-				"point" "3 512 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1832,14 +1124,6 @@ world
 		{
 			"id" "377"
 			"plane" "(512 -384 0) (512 -544 0) (384 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -384 0"
-				"point" "1 512 -544 0"
-				"point" "2 384 -544 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1851,14 +1135,6 @@ world
 		{
 			"id" "376"
 			"plane" "(384 -384 -32) (384 -544 -32) (512 -544 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -384 -32"
-				"point" "1 384 -544 -32"
-				"point" "2 512 -544 -32"
-				"point" "3 512 -384 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1870,14 +1146,6 @@ world
 		{
 			"id" "375"
 			"plane" "(512 -544 0) (512 -544 -32) (384 -544 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -544 0"
-				"point" "1 512 -544 -32"
-				"point" "2 384 -544 -32"
-				"point" "3 384 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1889,14 +1157,6 @@ world
 		{
 			"id" "374"
 			"plane" "(384 -544 -32) (384 -384 -32) (384 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -544 -32"
-				"point" "1 384 -384 -32"
-				"point" "2 384 -384 0"
-				"point" "3 384 -544 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1908,14 +1168,6 @@ world
 		{
 			"id" "373"
 			"plane" "(384 -384 -32) (512 -384 -32) (512 -384 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -384 -32"
-				"point" "1 512 -384 -32"
-				"point" "2 512 -384 0"
-				"point" "3 384 -384 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1938,14 +1190,6 @@ world
 		{
 			"id" "384"
 			"plane" "(672 -256 -32) (512 -256 -32) (512 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -256 -32"
-				"point" "1 512 -256 -32"
-				"point" "2 512 -256 0"
-				"point" "3 672 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1957,14 +1201,6 @@ world
 		{
 			"id" "383"
 			"plane" "(512 -256 0) (512 -256 -32) (512 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 0"
-				"point" "1 512 -256 -32"
-				"point" "2 512 -128 -32"
-				"point" "3 512 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1976,14 +1212,6 @@ world
 		{
 			"id" "382"
 			"plane" "(672 -256 0) (512 -256 0) (512 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -256 0"
-				"point" "1 512 -256 0"
-				"point" "2 512 -128 0"
-				"point" "3 672 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1995,14 +1223,6 @@ world
 		{
 			"id" "381"
 			"plane" "(512 -128 -32) (512 -256 -32) (672 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -128 -32"
-				"point" "1 512 -256 -32"
-				"point" "2 672 -256 -32"
-				"point" "3 672 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2014,14 +1234,6 @@ world
 		{
 			"id" "380"
 			"plane" "(672 -128 -32) (672 -256 -32) (672 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -128 -32"
-				"point" "1 672 -256 -32"
-				"point" "2 672 -256 0"
-				"point" "3 672 -128 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2033,14 +1245,6 @@ world
 		{
 			"id" "379"
 			"plane" "(512 -128 0) (512 -128 -32) (672 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -128 0"
-				"point" "1 512 -128 -32"
-				"point" "2 672 -128 -32"
-				"point" "3 672 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2063,14 +1267,6 @@ world
 		{
 			"id" "390"
 			"plane" "(128 -256 -32) (-32 -256 -32) (-32 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -256 -32"
-				"point" "1 -32 -256 -32"
-				"point" "2 -32 -256 0"
-				"point" "3 128 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2082,14 +1278,6 @@ world
 		{
 			"id" "389"
 			"plane" "(128 -256 0) (-32 -256 0) (-32 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -256 0"
-				"point" "1 -32 -256 0"
-				"point" "2 -32 -128 0"
-				"point" "3 128 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2101,14 +1289,6 @@ world
 		{
 			"id" "388"
 			"plane" "(-32 -128 -32) (-32 -256 -32) (128 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -128 -32"
-				"point" "1 -32 -256 -32"
-				"point" "2 128 -256 -32"
-				"point" "3 128 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2120,14 +1300,6 @@ world
 		{
 			"id" "387"
 			"plane" "(-32 -256 0) (-32 -256 -32) (-32 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -256 0"
-				"point" "1 -32 -256 -32"
-				"point" "2 -32 -128 -32"
-				"point" "3 -32 -128 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2139,14 +1311,6 @@ world
 		{
 			"id" "386"
 			"plane" "(128 -128 -32) (128 -256 -32) (128 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -128 -32"
-				"point" "1 128 -256 -32"
-				"point" "2 128 -256 0"
-				"point" "3 128 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2158,14 +1322,6 @@ world
 		{
 			"id" "385"
 			"plane" "(-32 -128 -32) (128 -128 -32) (128 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -128 -32"
-				"point" "1 128 -128 -32"
-				"point" "2 128 -128 0"
-				"point" "3 -32 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2188,14 +1344,6 @@ world
 		{
 			"id" "396"
 			"plane" "(256 -256 0) (256 -256 -32) (128 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -256 0"
-				"point" "1 256 -256 -32"
-				"point" "2 128 -256 -32"
-				"point" "3 128 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2207,14 +1355,6 @@ world
 		{
 			"id" "395"
 			"plane" "(256 -128 -32) (256 -256 -32) (256 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -128 -32"
-				"point" "1 256 -256 -32"
-				"point" "2 256 -256 0"
-				"point" "3 256 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2226,14 +1366,6 @@ world
 		{
 			"id" "394"
 			"plane" "(256 -256 0) (128 -256 0) (128 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -256 0"
-				"point" "1 128 -256 0"
-				"point" "2 128 -128 0"
-				"point" "3 256 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2245,14 +1377,6 @@ world
 		{
 			"id" "393"
 			"plane" "(128 -128 -32) (128 -256 -32) (256 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -128 -32"
-				"point" "1 128 -256 -32"
-				"point" "2 256 -256 -32"
-				"point" "3 256 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2264,14 +1388,6 @@ world
 		{
 			"id" "392"
 			"plane" "(128 -256 0) (128 -256 -32) (128 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -256 0"
-				"point" "1 128 -256 -32"
-				"point" "2 128 -128 -32"
-				"point" "3 128 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2283,14 +1399,6 @@ world
 		{
 			"id" "391"
 			"plane" "(128 -128 -32) (256 -128 -32) (256 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 128 -128 -32"
-				"point" "1 256 -128 -32"
-				"point" "2 256 -128 0"
-				"point" "3 128 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2313,14 +1421,6 @@ world
 		{
 			"id" "402"
 			"plane" "(384 -256 -32) (256 -256 -32) (256 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -256 -32"
-				"point" "1 256 -256 -32"
-				"point" "2 256 -256 0"
-				"point" "3 384 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2332,14 +1432,6 @@ world
 		{
 			"id" "401"
 			"plane" "(256 -256 0) (256 -256 -32) (256 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -256 0"
-				"point" "1 256 -256 -32"
-				"point" "2 256 -128 -32"
-				"point" "3 256 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2351,14 +1443,6 @@ world
 		{
 			"id" "400"
 			"plane" "(384 -256 0) (256 -256 0) (256 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -256 0"
-				"point" "1 256 -256 0"
-				"point" "2 256 -128 0"
-				"point" "3 384 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2370,14 +1454,6 @@ world
 		{
 			"id" "399"
 			"plane" "(256 -128 -32) (256 -256 -32) (384 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -128 -32"
-				"point" "1 256 -256 -32"
-				"point" "2 384 -256 -32"
-				"point" "3 384 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2389,14 +1465,6 @@ world
 		{
 			"id" "398"
 			"plane" "(384 -128 -32) (384 -256 -32) (384 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -128 -32"
-				"point" "1 384 -256 -32"
-				"point" "2 384 -256 0"
-				"point" "3 384 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2408,14 +1476,6 @@ world
 		{
 			"id" "397"
 			"plane" "(256 -128 0) (256 -128 -32) (384 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 256 -128 0"
-				"point" "1 256 -128 -32"
-				"point" "2 384 -128 -32"
-				"point" "3 384 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2438,14 +1498,6 @@ world
 		{
 			"id" "408"
 			"plane" "(512 -256 0) (512 -256 -32) (384 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 0"
-				"point" "1 512 -256 -32"
-				"point" "2 384 -256 -32"
-				"point" "3 384 -256 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2457,14 +1509,6 @@ world
 		{
 			"id" "407"
 			"plane" "(512 -128 -32) (512 -256 -32) (512 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -128 -32"
-				"point" "1 512 -256 -32"
-				"point" "2 512 -256 0"
-				"point" "3 512 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2476,14 +1520,6 @@ world
 		{
 			"id" "406"
 			"plane" "(512 -256 0) (384 -256 0) (384 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 0"
-				"point" "1 384 -256 0"
-				"point" "2 384 -128 0"
-				"point" "3 512 -128 0"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_FLOOR001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2495,14 +1531,6 @@ world
 		{
 			"id" "405"
 			"plane" "(384 -128 -32) (384 -256 -32) (512 -256 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -128 -32"
-				"point" "1 384 -256 -32"
-				"point" "2 512 -256 -32"
-				"point" "3 512 -128 -32"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2514,14 +1542,6 @@ world
 		{
 			"id" "404"
 			"plane" "(384 -256 0) (384 -256 -32) (384 -128 -32)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -256 0"
-				"point" "1 384 -256 -32"
-				"point" "2 384 -128 -32"
-				"point" "3 384 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2533,14 +1553,6 @@ world
 		{
 			"id" "403"
 			"plane" "(384 -128 -32) (512 -128 -32) (512 -128 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 384 -128 -32"
-				"point" "1 512 -128 -32"
-				"point" "2 512 -128 0"
-				"point" "3 384 -128 0"
-			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2563,14 +1575,6 @@ world
 		{
 			"id" "12"
 			"plane" "(672 -544 288) (672 -544 256) (-32 -544 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -544 288"
-				"point" "1 672 -544 256"
-				"point" "2 -32 -544 256"
-				"point" "3 -32 -544 288"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2582,14 +1586,6 @@ world
 		{
 			"id" "11"
 			"plane" "(-32 32 288) (-32 32 256) (672 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 32 288"
-				"point" "1 -32 32 256"
-				"point" "2 672 32 256"
-				"point" "3 672 32 288"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2601,14 +1597,6 @@ world
 		{
 			"id" "10"
 			"plane" "(672 32 288) (672 32 256) (672 -544 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 32 288"
-				"point" "1 672 32 256"
-				"point" "2 672 -544 256"
-				"point" "3 672 -544 288"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2620,14 +1608,6 @@ world
 		{
 			"id" "9"
 			"plane" "(-32 -544 288) (-32 -544 256) (-32 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -544 288"
-				"point" "1 -32 -544 256"
-				"point" "2 -32 32 256"
-				"point" "3 -32 32 288"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2639,14 +1619,6 @@ world
 		{
 			"id" "8"
 			"plane" "(672 -544 288) (-32 -544 288) (-32 32 288)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -544 288"
-				"point" "1 -32 -544 288"
-				"point" "2 -32 32 288"
-				"point" "3 672 32 288"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2658,14 +1630,6 @@ world
 		{
 			"id" "7"
 			"plane" "(672 32 256) (-32 32 256) (-32 -544 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 32 256"
-				"point" "1 -32 32 256"
-				"point" "2 -32 -544 256"
-				"point" "3 672 -544 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2688,14 +1652,6 @@ world
 		{
 			"id" "24"
 			"plane" "(0 -544 0) (-32 -544 0) (-32 -544 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 -544 0"
-				"point" "1 -32 -544 0"
-				"point" "2 -32 -544 256"
-				"point" "3 0 -544 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2707,14 +1663,6 @@ world
 		{
 			"id" "23"
 			"plane" "(-32 32 256) (-32 32 0) (0 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 32 256"
-				"point" "1 -32 32 0"
-				"point" "2 0 32 0"
-				"point" "3 0 32 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2726,14 +1674,6 @@ world
 		{
 			"id" "22"
 			"plane" "(-32 -544 256) (-32 -544 0) (-32 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 -32 -544 256"
-				"point" "1 -32 -544 0"
-				"point" "2 -32 32 0"
-				"point" "3 -32 32 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2745,14 +1685,6 @@ world
 		{
 			"id" "21"
 			"plane" "(0 -544 256) (-32 -544 256) (-32 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 -544 256"
-				"point" "1 -32 -544 256"
-				"point" "2 -32 32 256"
-				"point" "3 0 32 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2764,14 +1696,6 @@ world
 		{
 			"id" "20"
 			"plane" "(0 32 0) (-32 32 0) (-32 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 32 0"
-				"point" "1 -32 32 0"
-				"point" "2 -32 -544 0"
-				"point" "3 0 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2783,14 +1707,6 @@ world
 		{
 			"id" "19"
 			"plane" "(0 32 256) (0 32 0) (0 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 32 256"
-				"point" "1 0 32 0"
-				"point" "2 0 -544 0"
-				"point" "3 0 -544 256"
-			}
 			"material" "DEV/DEV_MEASUREWALL01A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2813,14 +1729,6 @@ world
 		{
 			"id" "30"
 			"plane" "(672 -544 256) (672 -544 0) (640 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -544 256"
-				"point" "1 672 -544 0"
-				"point" "2 640 -544 0"
-				"point" "3 640 -544 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2832,14 +1740,6 @@ world
 		{
 			"id" "29"
 			"plane" "(640 32 0) (672 32 0) (672 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 32 0"
-				"point" "1 672 32 0"
-				"point" "2 672 32 256"
-				"point" "3 640 32 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2851,14 +1751,6 @@ world
 		{
 			"id" "28"
 			"plane" "(672 32 256) (672 32 0) (672 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 32 256"
-				"point" "1 672 32 0"
-				"point" "2 672 -544 0"
-				"point" "3 672 -544 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2870,14 +1762,6 @@ world
 		{
 			"id" "27"
 			"plane" "(672 -544 256) (640 -544 256) (640 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 -544 256"
-				"point" "1 640 -544 256"
-				"point" "2 640 32 256"
-				"point" "3 672 32 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2889,14 +1773,6 @@ world
 		{
 			"id" "26"
 			"plane" "(672 32 0) (640 32 0) (640 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 672 32 0"
-				"point" "1 640 32 0"
-				"point" "2 640 -544 0"
-				"point" "3 672 -544 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2908,14 +1784,6 @@ world
 		{
 			"id" "25"
 			"plane" "(640 -544 256) (640 -544 0) (640 32 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 -544 256"
-				"point" "1 640 -544 0"
-				"point" "2 640 32 0"
-				"point" "3 640 32 256"
-			}
 			"material" "CONCRETE/CONCRETE_BTS_CEILING002A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2938,14 +1806,6 @@ world
 		{
 			"id" "36"
 			"plane" "(0 32 0) (640 32 0) (640 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 32 0"
-				"point" "1 640 32 0"
-				"point" "2 640 32 256"
-				"point" "3 0 32 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2957,14 +1817,6 @@ world
 		{
 			"id" "35"
 			"plane" "(0 0 256) (0 32 256) (640 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 0 256"
-				"point" "1 0 32 256"
-				"point" "2 640 32 256"
-				"point" "3 640 0 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2976,14 +1828,6 @@ world
 		{
 			"id" "34"
 			"plane" "(640 32 0) (0 32 0) (0 0 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 32 0"
-				"point" "1 0 32 0"
-				"point" "2 0 0 0"
-				"point" "3 640 0 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2995,14 +1839,6 @@ world
 		{
 			"id" "33"
 			"plane" "(0 0 0) (0 32 0) (0 32 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 0 0"
-				"point" "1 0 32 0"
-				"point" "2 0 32 256"
-				"point" "3 0 0 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3014,14 +1850,6 @@ world
 		{
 			"id" "32"
 			"plane" "(640 32 256) (640 32 0) (640 0 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 32 256"
-				"point" "1 640 32 0"
-				"point" "2 640 0 0"
-				"point" "3 640 0 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3033,14 +1861,6 @@ world
 		{
 			"id" "31"
 			"plane" "(640 0 0) (0 0 0) (0 0 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 0 0"
-				"point" "1 0 0 0"
-				"point" "2 0 0 256"
-				"point" "3 640 0 256"
-			}
 			"material" "CONCRETE/CONCRETE_MODULAR_WALL001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3063,14 +1883,6 @@ world
 		{
 			"id" "42"
 			"plane" "(640 -544 0) (0 -544 0) (0 -544 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 -544 0"
-				"point" "1 0 -544 0"
-				"point" "2 0 -544 256"
-				"point" "3 640 -544 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3082,14 +1894,6 @@ world
 		{
 			"id" "41"
 			"plane" "(640 -544 256) (0 -544 256) (0 -512 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 -544 256"
-				"point" "1 0 -544 256"
-				"point" "2 0 -512 256"
-				"point" "3 640 -512 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3101,14 +1905,6 @@ world
 		{
 			"id" "40"
 			"plane" "(0 -512 0) (0 -544 0) (640 -544 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 -512 0"
-				"point" "1 0 -544 0"
-				"point" "2 640 -544 0"
-				"point" "3 640 -512 0"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3120,14 +1916,6 @@ world
 		{
 			"id" "39"
 			"plane" "(0 -544 256) (0 -544 0) (0 -512 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 -544 256"
-				"point" "1 0 -544 0"
-				"point" "2 0 -512 0"
-				"point" "3 0 -512 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3139,14 +1927,6 @@ world
 		{
 			"id" "38"
 			"plane" "(640 -512 0) (640 -544 0) (640 -544 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 -512 0"
-				"point" "1 640 -544 0"
-				"point" "2 640 -544 256"
-				"point" "3 640 -512 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3158,14 +1938,6 @@ world
 		{
 			"id" "37"
 			"plane" "(0 -512 0) (640 -512 0) (640 -512 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 -512 0"
-				"point" "1 640 -512 0"
-				"point" "2 640 -512 256"
-				"point" "3 0 -512 256"
-			}
 			"material" "DEV/REFLECTIVITY_50"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3200,1141 +1972,6 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-}
-entity
-{
-	"id" "3748"
-	"classname" "prop_static"
-	"angles" "0 315 0"
-	"disableselfshadowing" "0"
-	"disablevertexlighting" "0"
-	"enablelightbounce" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/table_reference.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "432 -112 0.247482"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -12268]"
-	}
-}
-entity
-{
-	"id" "3611"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 90 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"disableshadowdepth" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/props/bed_body_reference.mdl"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "304 -272 1"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "3447"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 270 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"disableshadowdepth" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/props/toilet_body_reference.mdl"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "400 -272 0.244034"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "3472"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 270 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"disableshadowdepth" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/props/toilet_lid_reference.mdl"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "400 -272 0.244034"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "3291"
-	"classname" "prop_dynamic_override"
-	"AllowSilentDissolve" "1"
-	"angles" "0 0 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"disableshadowdepth" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/props_c17/lamp_standard_off01.mdl"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "448 -208 80"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2610"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/128_fuse_set08/128_fuse_set08.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "320 -17 64"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2485"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/128_fuse_set09/128_fuse_set09.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "628 -256 48"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2232"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/bts_bed/bts_bed.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "416 -320 3.17597"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2055"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 285 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/milk_carton/milk_carton_open.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "436.835 -167.631 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "2070"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 240.5 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/milk_carton/milk_carton_open.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "448.953 -165.367 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1932"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/saucepan/saucepan.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "433.064 -224.347 40.3606"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1723"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/lab_desk05/lab_desk05.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "448 -192 37.9526"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1757"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/food_can/food_can.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "451.076 -200.441 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1765"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/food_can/food_can.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "443.528 -191.132 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1769"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/food_can/food_can.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "451.629 -185.698 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1773"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 315 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/food_can/food_can.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "454.9 -192.692 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1777"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/food_can/food_can_open.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "440.006 -202.705 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1792"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 285 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/food_can/food_can_open.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "450.573 -208.844 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1800"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 285 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props/food_can/food_can_open.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "440.313 -180.673 43.0652"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "1420"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props_c17/oildrum001.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "520.041 -54.6276 0.28125"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1424"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props_c17/oildrum001.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "504 -96 0.28125"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1428"
-	"classname" "prop_physics"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"body" "0"
-	"damagetoenablemotion" "0"
-	"damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"exploitablebyplayer" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forcetoenablemotion" "0"
-	"health" "0"
-	"inertiascale" "1.0"
-	"massscale" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"minhealthdmg" "0"
-	"model" "models/props_c17/oildrum001.mdl"
-	"nodamageforces" "0"
-	"performancemode" "0"
-	"physdamagescale" "0.1"
-	"pressuredelay" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "256"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "472 -64 0.28125"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1319"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/speaker_system01/speaker_system01.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "448 -8 64"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1031"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_canal/generator01.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "176 -392 73.3347"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -4585,6 +2222,1376 @@ entity
 }
 entity
 {
+	"id" "3918"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_lab/tpplugholder_single.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "288 -0.281235 80"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3930"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_lab/tpplugholder_single.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 -0.281235 80"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3934"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_lab/tpplugholder_single.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 -0.281235 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3938"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_lab/tpplugholder_single.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "288 -0.281235 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3942"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_lab/tpplugholder_single.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 -0.281235 16"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3946"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_lab/tpplugholder_single.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "288 -0.281235 16"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3748"
+	"classname" "prop_static"
+	"angles" "0 315 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/table_reference.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "432 -112 0.247482"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12268]"
+	}
+}
+entity
+{
+	"id" "3611"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 90 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props/bed_body_reference.mdl"
+	"modelscale" "1.0"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "304 -272 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3447"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props/toilet_body_reference.mdl"
+	"modelscale" "1.0"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "400 -272 0.244034"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3472"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props/toilet_lid_reference.mdl"
+	"modelscale" "1.0"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "400 -272 0.244034"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3291"
+	"classname" "prop_dynamic_override"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_c17/lamp_standard_off01.mdl"
+	"modelscale" "1.0"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "448 -208 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2610"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/128_fuse_set08/128_fuse_set08.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "192 -17 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2485"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/128_fuse_set09/128_fuse_set09.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "628 -256 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2232"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/bts_bed/bts_bed.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "416 -320 3.17597"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2055"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 285 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/milk_carton/milk_carton_open.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "436.835 -167.631 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2070"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 240.5 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/milk_carton/milk_carton_open.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "448.953 -165.367 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1932"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/saucepan/saucepan.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "433.064 -224.347 40.3606"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1723"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/lab_desk05/lab_desk05.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "448 -192 37.9526"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1757"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/food_can/food_can.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "451.076 -200.441 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1765"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/food_can/food_can.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "443.528 -191.132 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1769"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/food_can/food_can.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "451.629 -185.698 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1773"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 315 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/food_can/food_can.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "454.9 -192.692 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1777"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/food_can/food_can_open.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "440.006 -202.705 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1792"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 285 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/food_can/food_can_open.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "450.573 -208.844 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1800"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 285 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/food_can/food_can_open.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "440.313 -180.673 43.0652"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1420"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_c17/oildrum001.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "520.041 -54.6276 0.28125"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1424"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_c17/oildrum001.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "504 -96 0.28125"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1428"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props_c17/oildrum001.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "472 -64 0.28125"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1319"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/speaker_system01/speaker_system01.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "448 -8 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1031"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_canal/generator01.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "176 -392 73.3347"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "746"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
@@ -4618,7 +3625,7 @@ entity
 	"origin" "608 -448 227.624"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -4636,14 +3643,6 @@ entity
 		{
 			"id" "54"
 			"plane" "(0 0 256) (640 0 256) (640 -512 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 0 256"
-				"point" "1 640 0 256"
-				"point" "2 640 -512 256"
-				"point" "3 0 -512 256"
-			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4655,14 +3654,6 @@ entity
 		{
 			"id" "53"
 			"plane" "(0 -512 0) (640 -512 0) (640 0 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 -512 0"
-				"point" "1 640 -512 0"
-				"point" "2 640 0 0"
-				"point" "3 0 0 0"
-			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4674,14 +3665,6 @@ entity
 		{
 			"id" "52"
 			"plane" "(0 0 256) (0 -512 256) (0 -512 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 0 0 256"
-				"point" "1 0 -512 256"
-				"point" "2 0 -512 0"
-				"point" "3 0 0 0"
-			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4693,14 +3676,6 @@ entity
 		{
 			"id" "51"
 			"plane" "(640 0 0) (640 -512 0) (640 -512 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 0 0"
-				"point" "1 640 -512 0"
-				"point" "2 640 -512 256"
-				"point" "3 640 0 256"
-			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4712,14 +3687,6 @@ entity
 		{
 			"id" "50"
 			"plane" "(640 0 256) (0 0 256) (0 0 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 0 256"
-				"point" "1 0 0 256"
-				"point" "2 0 0 0"
-				"point" "3 640 0 0"
-			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4731,14 +3698,6 @@ entity
 		{
 			"id" "49"
 			"plane" "(640 -512 0) (0 -512 0) (0 -512 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 640 -512 0"
-				"point" "1 0 -512 0"
-				"point" "2 0 -512 256"
-				"point" "3 640 -512 256"
-			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4880,7 +3839,7 @@ entity
 	"origin" "576 -64 224"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
@@ -4890,7 +3849,9 @@ cameras
 {
 	"activecamera" "-1"
 }
-cordons
+cordon
 {
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
 	"active" "0"
 }

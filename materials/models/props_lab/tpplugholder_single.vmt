@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_lab/tpplugholder_single/tpplugholder_color"
+    $mraotexture    "models/props_lab/tpplugholder_single/tpplugholder_mrao"
+    $bumpmap        "models/props_lab/tpplugholder_single/tpplugholder_normal"
+
+    $envmap env_cubemap
+}
