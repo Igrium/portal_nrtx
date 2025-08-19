@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "127"
+	"mapversion" "136"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "32"
+	"nGridSpacing" "64"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,25 +22,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(411.92 -310.935 166.518)"
-			"angle" "[19.6001 85.9999 0]"
+			"position" "(274.239 -202.889 172.286)"
+			"angle" "[66.7999 3.19918 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(406.844 -9.36328 65536)"
-			"zoom" "3.2098"
+			"position" "(338.519 -187.798 65536)"
+			"zoom" "2.22903"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -225.602 22.7037)"
+			"position" "(0 -225.602 22.7037)"
 			"zoom" "0.62208"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(477.903 -65536 100.558)"
+			"position" "(477.903 0 100.558)"
 			"zoom" "1.85752"
 		}
 	}
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "127"
+	"mapversion" "136"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1225,7 +1225,7 @@ world
 		side
 		{
 			"id" "346"
-			"plane" "(128 -256 0) (256 -256 0) (256 -384 0)"
+			"plane" "(128 -384 0) (128 -256 0) (256 -256 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -1725,7 +1725,7 @@ world
 		side
 		{
 			"id" "370"
-			"plane" "(384 -256 0) (512 -256 0) (512 -384 0)"
+			"plane" "(384 -384 0) (384 -256 0) (512 -256 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -3183,6 +3183,16 @@ world
 	}
 	group
 	{
+		"id" "4397"
+		editor
+		{
+			"color" "135 232 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "918"
 		editor
 		{
@@ -3200,6 +3210,98 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "4304"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/button_base_reference.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 -192 1"
+	editor
+	{
+		"color" "135 232 0"
+		"groupid" "4397"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4342"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props/button_top_reference.mdl"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "320 -192 1"
+	editor
+	{
+		"color" "135 232 0"
+		"groupid" "4397"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -3779,7 +3881,7 @@ entity
 	"suppressanimsounds" "0"
 	"texframeindex" "0"
 	"viewhideflags" "0"
-	"origin" "304 -272 1"
+	"origin" "320 -352 1"
 	editor
 	{
 		"color" "220 30 220"
@@ -4825,7 +4927,7 @@ entity
 	"_castentityshadow" "1"
 	"_cone" "60"
 	"_constant_attn" "0"
-	"_distance" "976"
+	"_distance" "1472"
 	"_dynamicshadowallocation" "0"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
@@ -4870,7 +4972,7 @@ entity
 		side
 		{
 			"id" "54"
-			"plane" "(0 0 256) (640 0 256) (640 -512 256)"
+			"plane" "(0 -512 256) (0 0 256) (640 0 256)"
 			point_data
 			{
 				"numpts" "4"
@@ -4889,7 +4991,7 @@ entity
 		side
 		{
 			"id" "53"
-			"plane" "(0 -512 0) (640 -512 0) (640 0 0)"
+			"plane" "(0 0 0) (0 -512 0) (640 -512 0)"
 			point_data
 			{
 				"numpts" "4"
@@ -4908,7 +5010,7 @@ entity
 		side
 		{
 			"id" "52"
-			"plane" "(0 0 256) (0 -512 256) (0 -512 0)"
+			"plane" "(0 -512 0) (0 0 0) (0 0 256)"
 			point_data
 			{
 				"numpts" "4"
@@ -4946,7 +5048,7 @@ entity
 		side
 		{
 			"id" "50"
-			"plane" "(640 0 256) (0 0 256) (0 0 0)"
+			"plane" "(0 0 0) (640 0 0) (640 0 256)"
 			point_data
 			{
 				"numpts" "4"
@@ -5001,7 +5103,7 @@ entity
 	"id" "20"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
-	"origin" "304 -192 1"
+	"origin" "224 -224 1"
 	editor
 	{
 		"color" "0 255 0"
@@ -5061,7 +5163,7 @@ entity
 	"uselaserfilter" "0"
 	"uselasermodifier" "0"
 	"viewhideflags" "0"
-	"origin" "256 -160 20.25"
+	"origin" "192 -192 20.25"
 	editor
 	{
 		"color" "220 30 220"
