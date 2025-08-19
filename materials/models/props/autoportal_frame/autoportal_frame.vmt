@@ -1,0 +1,10 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/autoportal_frame/autoportal_frame_color"
+    $mraotexture    "models/props/autoportal_frame/autoportal_frame_mrao"
+    $bumpmap        "models/props/autoportal_frame/autoportal_frame_normal"
+    $emissiontexture "models/props/autoportal_frame/autoportal_frame_selfillum"
+
+    $envmap env_cubemap
+}
