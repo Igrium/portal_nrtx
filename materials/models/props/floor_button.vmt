@@ -1,0 +1,11 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/floor_button/floor_button_color"
+    $mraotexture    "models/props/floor_button/floor_button_mrao"
+    $bumpmap        "models/props/floor_button/floor_button_normal"
+    $emissiontexture "models/props/floor_button/floor_button_selfillum"
+    $emissionscale 1
+
+    $envmap env_cubemap
+}
