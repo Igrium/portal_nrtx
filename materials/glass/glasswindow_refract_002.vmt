@@ -1,0 +1,10 @@
+Refract
+{
+    $normalmap "glass/glasswindow_refract_002_normal"
+    $refractamount .1
+    
+    $bumptransform "center 0 0 scale 2 2 rotate 0 translate 0 0"
+
+    $refracttinttexture "glass/glasswindow_refract_002_color"
+
+}   
