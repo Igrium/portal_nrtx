@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "1862"
+	"mapversion" "1864"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -46,33 +46,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-568.112 351.866 677.719)"
-			"angle" "[-0.399965 -144.002 0]"
+			"position" "(-1886.92 889.96 685.377)"
+			"angle" "[-38 166.797 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-565.754 190.707 65536)"
-			"zoom" "3.2098"
+			"position" "(-1741.87 902.258 65536)"
+			"zoom" "1.54794"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 853.103 653.358)"
-			"zoom" "3.85175"
+			"position" "(65536 878.201 710.983)"
+			"zoom" "7.98699"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-570.939 0 322.816)"
-			"zoom" "3.85175"
+			"position" "(-555.597 -65536 406.258)"
+			"zoom" "0.895794"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "1862"
+	"mapversion" "1864"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -120067,6 +120067,48 @@ world
 }
 entity
 {
+	"id" "629620"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_dynamicshadowallocation" "1"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_inner_cone" "30"
+	"_light" "255 255 255 1000"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_zero_percent_distance" "0"
+	"angles" "-90 0 0"
+	"fadetickinterval" "0.1"
+	"parentname" "a01-a02_elevator_body_model"
+	"pitch" "-90"
+	"spawnflags" "2"
+	"style" "0"
+	"origin" "-1920 896 720"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "627640"
 	"classname" "prop_static"
 	"angles" "89.9999 0 0"
@@ -230860,8 +230902,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-568.112 351.866 677.719]"
-		"look" "[-1189.71 -99.7268 683.083]"
+		"position" "[-1886.92 889.96 685.377]"
+		"look" "[-2476.37 1028.24 1158.42]"
 	}
 }
 cordons
