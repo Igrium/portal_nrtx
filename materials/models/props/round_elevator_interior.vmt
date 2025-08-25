@@ -6,7 +6,7 @@ PBR
     $bumpmap        "models/props/round_elevator/round_elevator_interior_normal"
 
     $emissiontexture "models/props/round_elevator/round_elevator_interior_indirect"
-    $emissionscale   .5
+    $emissionscale   .6
 
     $envmap "cubemaps/cubemap_elevator"
 }   

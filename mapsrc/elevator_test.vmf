@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "1890"
+	"mapversion" "1907"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -46,8 +46,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1592.35 888.226 637.201)"
-			"angle" "[3.99986 173.994 0]"
+			"position" "(-1869.3 883.613 680.461)"
+			"angle" "[-12.8001 166.798 0]"
 		}
 		v1
 		{
@@ -72,7 +72,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1890"
+	"mapversion" "1907"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -18344,7 +18344,7 @@ entity
 	"_cone" "80"
 	"_constant_attn" "0"
 	"_distance" "0"
-	"_dynamicshadowallocation" "1"
+	"_dynamicshadowallocation" "0"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_override" "0"
@@ -18427,11 +18427,11 @@ entity
 	"id" "629620"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "80"
+	"_cone" "70"
 	"_constant_attn" "0"
 	"_distance" "0"
 	"_dynamicshadowallocation" "1"
-	"_exponent" "1"
+	"_exponent" "2"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_override" "0"
 	"_hard_radius_threshold" "32"
@@ -18447,7 +18447,7 @@ entity
 	"_quadratic_attn" "1"
 	"_removeaftercompile" "0"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.2"
+	"_shadowscale" "1.5"
 	"_zero_percent_distance" "0"
 	"angles" "-90 0 0"
 	"fadetickinterval" "0.1"
@@ -33702,7 +33702,7 @@ entity
 	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
+	"_lightHDR" "183 204 218 60"
 	"_lightmode" "3"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
@@ -33715,35 +33715,6 @@ entity
 	"spawnflags" "0"
 	"style" "0"
 	"origin" "-1920 896 688"
-	editor
-	{
-		"color" "172 125 0"
-		"groupid" "601404"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "601410"
-	"classname" "light"
-	"_castentityshadow" "1"
-	"_hard_radius_threshold" "32"
-	"_initialshadowsize" "3"
-	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
-	"_lightmode" "3"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"spawnflags" "1"
-	"style" "0"
-	"origin" "-1928 896.12 904"
 	editor
 	{
 		"color" "172 125 0"
@@ -35955,6 +35926,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"globalname" "a01-a02_elevator_body_model"
+	"LightingOrigin" "a01-a02_track_elevator_p1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/round_elevator_body.mdl"
@@ -35964,6 +35936,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
 	"targetname" "a01-a02_elevator_body_model"
 	"origin" "-1920 896 593"
 	editor
@@ -35984,6 +35957,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"globalname" "a01-a02_elevator_door_model"
+	"LightingOrigin" "a01-a02_track_elevator_p1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/round_elevator_doors.mdl"
@@ -41615,8 +41589,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1592.35 888.226 637.201]"
-		"look" "[-2354.62 968.424 583.606]"
+		"position" "[-1869.3 883.613 680.461]"
+		"look" "[-2598.75 1054.73 850.688]"
 	}
 }
 cordons

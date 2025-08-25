@@ -1,0 +1,138 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "10463"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-275.013 0.914686 41.0503)"
+			"angle" "[8.4 -5.96046e-08 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 21.2561 -40.7405)"
+			"zoom" "3.85176"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(63.8272 4.79199 65536)"
+			"zoom" "2.22903"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "2"
+	"classname" "light"
+	"_castentityshadow" "1"
+	"_hard_radius_threshold" "32"
+	"_initialshadowsize" "3"
+	"_light" "183 204 218 60"
+	"_lightHDR" "183 204 218 60"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"parentname" "a01-a02_elevator_body_model"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "0 0 -32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "70"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_dynamicshadowallocation" "1"
+	"_exponent" "2"
+	"_fifty_percent_distance" "0"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_inner_cone" "30"
+	"_light" "255 255 255 400"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.5"
+	"_zero_percent_distance" "0"
+	"angles" "-90 0 0"
+	"fadetickinterval" "0.1"
+	"parentname" "a01-a02_elevator_body_model"
+	"pitch" "-90"
+	"spawnflags" "2"
+	"style" "0"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
