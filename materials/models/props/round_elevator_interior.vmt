@@ -1,9 +1,12 @@
 PBR
 {
     $model          1
-    $basetexture    "models/props/round_elevator_interior_color"
-    $mraotexture    "models/props/round_elevator_interior_mrao"
-    $bumpmap        "models/props/round_elevator_interior_normal"
+    $basetexture    "models/props/round_elevator/round_elevator_interior_color"
+    $mraotexture    "models/props/round_elevator/round_elevator_interior_mrao"
+    $bumpmap        "models/props/round_elevator/round_elevator_interior_normal"
 
-    $envmap env_cubemap
-}
+    $emissiontexture "models/props/round_elevator/round_elevator_interior_indirect"
+    $emissionscale   .5
+
+    $envmap "cubemaps/cubemap_elevator"
+}   
