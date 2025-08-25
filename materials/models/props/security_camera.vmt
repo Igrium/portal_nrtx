@@ -1,0 +1,10 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/security_camera/security_camera_color"
+    $mraotexture    "models/props/security_camera/security_camera_mrao"
+    $bumpmap        "models/props/security_camera/security_camera_normal"
+    $emissiontexture "models/props/security_camera/security_camera_selfillum"
+
+    $envmap env_cubemap
+}
