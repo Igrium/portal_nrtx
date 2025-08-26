@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10463"
-	"mapversion" "2"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "64"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,40 +22,54 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-275.013 0.914686 41.0503)"
-			"angle" "[8.4 -5.96046e-08 0]"
+			"position" "(39.9761 -62.3755 -36.8721)"
+			"angle" "[7.20012 127.198 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(0 0 0)"
-			"zoom" "0.25"
+			"position" "(171.772 -41.2906 64816)"
+			"zoom" "1.85752"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 21.2561 -40.7405)"
+			"position" "(67456 -43.5577 15.5202)"
 			"zoom" "3.85176"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(63.8272 4.79199 65536)"
-			"zoom" "2.22903"
+			"position" "(609.141 -548.844 64816)"
+			"zoom" "0.432"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "5"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "25"
+	"classname" "func_instance_parms"
+	"parm1" "$parent target_name_or_class"
+	"origin" "0 0 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -74,7 +88,7 @@ entity
 	"_shadowscale" "1.0"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
-	"parentname" "a01-a02_elevator_body_model"
+	"parentname" "$parent"
 	"spawnflags" "0"
 	"style" "0"
 	"origin" "0 0 -32"
@@ -115,7 +129,7 @@ entity
 	"_zero_percent_distance" "0"
 	"angles" "-90 0 0"
 	"fadetickinterval" "0.1"
-	"parentname" "a01-a02_elevator_body_model"
+	"parentname" "$parent"
 	"pitch" "-90"
 	"spawnflags" "2"
 	"style" "0"
