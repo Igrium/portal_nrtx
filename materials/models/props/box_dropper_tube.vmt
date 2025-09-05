@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/box_dropper/box_dropper_tube_color"
+    $mraotexture    "models/props/box_dropper/box_dropper_tube_mrao"
+
+    $translucent 1
+    $envmap env_cubemap
+}
