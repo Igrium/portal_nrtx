@@ -1,0 +1,10 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/portal_button/portal_button_color_blue"
+    $mraotexture    "models/props/portal_button/portal_button_mrao"
+    $bumpmap        "models/props/portal_button/portal_button_normal"
+    $emissiontexture "models/props/portal_button/portal_button_emission_blue"
+
+    $envmap env_cubemap
+}   
