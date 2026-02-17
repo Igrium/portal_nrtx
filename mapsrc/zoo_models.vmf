@@ -1,8 +1,9 @@
 versioninfo
 {
+	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10463"
-	"mapversion" "140"
+	"editorbuild" "10624"
+	"mapversion" "141"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "32"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(449.833 -132.283 122.674)"
-			"angle" "[-1.59999 -17.2 0]"
+			"position" "(242.696 -150.819 57.5892)"
+			"angle" "[26.4 24.8 0]"
 		}
 		v1
 		{
@@ -34,8 +35,8 @@ viewsettings
 		v2
 		{
 			"3d" "0"
-			"position" "(0 0 0)"
-			"zoom" "0.25"
+			"position" "(0 -80.7712 10.0519)"
+			"zoom" "6.65583"
 		}
 		v3
 		{
@@ -48,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "140"
+	"mapversion" "141"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3964,6 +3965,41 @@ world
 }
 entity
 {
+	"id" "5008"
+	"classname" "prop_floor_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"fadescale" "1"
+	"model" "models/props/portal_button.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"solid" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "334.668 -76 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "4836"
 	"classname" "npc_security_camera"
 	"additionalequipment" "0"
@@ -4965,6 +5001,7 @@ entity
 	"id" "2055"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 285 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5018,6 +5055,7 @@ entity
 	"id" "2070"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 240.5 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5071,6 +5109,7 @@ entity
 	"id" "1932"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5160,6 +5199,7 @@ entity
 	"id" "1757"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5213,6 +5253,7 @@ entity
 	"id" "1765"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5266,6 +5307,7 @@ entity
 	"id" "1769"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5319,6 +5361,7 @@ entity
 	"id" "1773"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 315 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5372,6 +5415,7 @@ entity
 	"id" "1777"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5425,6 +5469,7 @@ entity
 	"id" "1792"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 285 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5478,6 +5523,7 @@ entity
 	"id" "1800"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 285 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5531,6 +5577,7 @@ entity
 	"id" "1420"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5584,6 +5631,7 @@ entity
 	"id" "1424"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5637,6 +5685,7 @@ entity
 	"id" "1428"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"damagetoenablemotion" "0"
@@ -5918,6 +5967,7 @@ entity
 	"id" "129"
 	"classname" "prop_weighted_cube"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
 	"comp_custom_model_type" "0"

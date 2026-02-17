@@ -1,8 +1,9 @@
 versioninfo
 {
+	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10463"
-	"mapversion" "2438"
+	"editorbuild" "10624"
+	"mapversion" "2440"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,8 +65,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-577.277 -237.711 328.843)"
-			"angle" "[18.0001 -45.2058 0]"
+			"position" "(-1306.89 -526.133 657.566)"
+			"angle" "[41.2001 -161.606 0]"
 		}
 		v1
 		{
@@ -76,8 +77,8 @@ viewsettings
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -586.123 577.857)"
-			"zoom" "6.65586"
+			"position" "(65536 -1890.3 3.92462)"
+			"zoom" "0.300001"
 		}
 		v3
 		{
@@ -90,7 +91,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2438"
+	"mapversion" "2440"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -100,7 +101,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "708023"
+		"id" "708095"
 		side
 		{
 			"id" "1"
@@ -217,7 +218,7 @@ world
 		}
 		editor
 		{
-			"color" "0 122 247"
+			"color" "0 190 179"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -225,7 +226,7 @@ world
 	}
 	solid
 	{
-		"id" "708025"
+		"id" "708097"
 		side
 		{
 			"id" "7"
@@ -342,7 +343,7 @@ world
 		}
 		editor
 		{
-			"color" "0 122 247"
+			"color" "0 190 179"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -350,7 +351,7 @@ world
 	}
 	solid
 	{
-		"id" "708027"
+		"id" "708099"
 		side
 		{
 			"id" "13"
@@ -467,7 +468,7 @@ world
 		}
 		editor
 		{
-			"color" "0 122 247"
+			"color" "0 190 179"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -475,7 +476,7 @@ world
 	}
 	solid
 	{
-		"id" "708029"
+		"id" "708101"
 		side
 		{
 			"id" "19"
@@ -592,7 +593,7 @@ world
 		}
 		editor
 		{
-			"color" "0 122 247"
+			"color" "0 190 179"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -600,7 +601,7 @@ world
 	}
 	solid
 	{
-		"id" "708031"
+		"id" "708103"
 		side
 		{
 			"id" "25"
@@ -717,7 +718,7 @@ world
 		}
 		editor
 		{
-			"color" "0 122 247"
+			"color" "0 190 179"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -725,7 +726,7 @@ world
 	}
 	solid
 	{
-		"id" "708033"
+		"id" "708105"
 		side
 		{
 			"id" "31"
@@ -842,7 +843,7 @@ world
 		}
 		editor
 		{
-			"color" "0 122 247"
+			"color" "0 190 179"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -91720,6 +91721,7 @@ entity
 	"StartDisabled" "1"
 	"target" "destination_knockout_1"
 	"targetname" "trigger_knockout_teleport"
+	"uselandmarkangles" "1"
 	connections
 	{
 		"OnStartTouch" "trigger_knockout_teleportDisable0.1-1"
@@ -92029,6 +92031,7 @@ entity
 	"id" "368658"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "-1.6152 44.9779 1.60542"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -94205,7 +94208,7 @@ entity
 	"classname" "prop_static"
 	"angles" "0 270 0"
 	"disableselfshadowing" "0"
-	"disablevertexlighting" "0"
+	"disablevertexlighting" "1"
 	"enablelightbounce" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -94924,7 +94927,7 @@ entity
 	"classname" "prop_static"
 	"angles" "0 270 0"
 	"disableselfshadowing" "0"
-	"disablevertexlighting" "0"
+	"disablevertexlighting" "1"
 	"enablelightbounce" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -97200,6 +97203,7 @@ entity
 	"id" "347154"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "-0.336265 0.488076 -0.912995"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -109847,6 +109851,7 @@ entity
 	"id" "33734"
 	"classname" "prop_physics_override"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "-0.587345 304.118 -0.0193877"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -113796,6 +113801,7 @@ entity
 	"id" "304101"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "1.01146 285.104 -0.786664"
 	"fademaxdist" "-1"
 	"fademindist" "-1"
@@ -139307,6 +139313,7 @@ entity
 	"id" "648010"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 60 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -139346,6 +139353,7 @@ entity
 	"id" "650029"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -139411,6 +139419,7 @@ entity
 	"id" "650093"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 315 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -140006,6 +140015,7 @@ entity
 	"id" "658549"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 315 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -140045,6 +140055,7 @@ entity
 	"id" "658553"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 210 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -140084,6 +140095,7 @@ entity
 	"id" "658567"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 315 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -140123,6 +140135,7 @@ entity
 	"id" "658571"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 315 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -140162,6 +140175,7 @@ entity
 	"id" "658575"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "0 240 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
@@ -151833,6 +151847,7 @@ entity
 	"id" "674526"
 	"classname" "prop_physics"
 	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
 	"angles" "-0.587345 4.11797 -0.0193877"
 	"disablereceiveshadows" "0"
 	"fademindist" "-1"
@@ -158684,8 +158699,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-577.277 -237.711 328.843]"
-		"look" "[-326.423 -490.373 213.157]"
+		"position" "[-1306.89 -526.133 657.566]"
+		"look" "[-1574.17 -615.017 410.975]"
 	}
 }
 cordons
