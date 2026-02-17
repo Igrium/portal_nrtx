@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10624"
-	"mapversion" "2440"
+	"mapversion" "2441"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -65,33 +65,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1306.89 -526.133 657.566)"
-			"angle" "[41.2001 -161.606 0]"
+			"position" "(-618.102 -786.486 317.154)"
+			"angle" "[4.40001 -146.806 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-272.359 -810.326 0)"
-			"zoom" "5.54653"
+			"position" "(-521.192 -929.344 65536)"
+			"zoom" "13.8015"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -1890.3 3.92462)"
-			"zoom" "0.300001"
+			"position" "(65536 -882.518 163.662)"
+			"zoom" "11.5013"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-1412.09 0 815.613)"
-			"zoom" "1.54793"
+			"position" "(-1503.41 -65536 813.24)"
+			"zoom" "13.8015"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2440"
+	"mapversion" "2441"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -101,7 +101,7 @@ world
 	"skyname" "sky_wasteland02"
 	solid
 	{
-		"id" "708095"
+		"id" "708090"
 		side
 		{
 			"id" "1"
@@ -218,7 +218,7 @@ world
 		}
 		editor
 		{
-			"color" "0 190 179"
+			"color" "0 144 157"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -226,7 +226,7 @@ world
 	}
 	solid
 	{
-		"id" "708097"
+		"id" "708092"
 		side
 		{
 			"id" "7"
@@ -343,7 +343,7 @@ world
 		}
 		editor
 		{
-			"color" "0 190 179"
+			"color" "0 144 157"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -351,7 +351,7 @@ world
 	}
 	solid
 	{
-		"id" "708099"
+		"id" "708094"
 		side
 		{
 			"id" "13"
@@ -468,7 +468,7 @@ world
 		}
 		editor
 		{
-			"color" "0 190 179"
+			"color" "0 144 157"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -476,7 +476,7 @@ world
 	}
 	solid
 	{
-		"id" "708101"
+		"id" "708096"
 		side
 		{
 			"id" "19"
@@ -593,7 +593,7 @@ world
 		}
 		editor
 		{
-			"color" "0 190 179"
+			"color" "0 144 157"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -601,7 +601,7 @@ world
 	}
 	solid
 	{
-		"id" "708103"
+		"id" "708098"
 		side
 		{
 			"id" "25"
@@ -718,7 +718,7 @@ world
 		}
 		editor
 		{
-			"color" "0 190 179"
+			"color" "0 144 157"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -726,7 +726,7 @@ world
 	}
 	solid
 	{
-		"id" "708105"
+		"id" "708100"
 		side
 		{
 			"id" "31"
@@ -843,7 +843,7 @@ world
 		}
 		editor
 		{
-			"color" "0 190 179"
+			"color" "0 144 157"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -94208,7 +94208,7 @@ entity
 	"classname" "prop_static"
 	"angles" "0 270 0"
 	"disableselfshadowing" "0"
-	"disablevertexlighting" "1"
+	"disablevertexlighting" "0"
 	"enablelightbounce" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -94927,7 +94927,7 @@ entity
 	"classname" "prop_static"
 	"angles" "0 270 0"
 	"disableselfshadowing" "0"
-	"disablevertexlighting" "1"
+	"disablevertexlighting" "0"
 	"enablelightbounce" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -158699,8 +158699,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1306.89 -526.133 657.566]"
-		"look" "[-1574.17 -615.017 410.975]"
+		"position" "[-618.102 -786.486 317.154]"
+		"look" "[-930.453 -990.835 288.433]"
 	}
 }
 cordons
