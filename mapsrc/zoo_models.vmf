@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10624"
-	"mapversion" "141"
+	"mapversion" "144"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "4"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -23,14 +23,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(242.696 -150.819 57.5892)"
-			"angle" "[26.4 24.8 0]"
+			"position" "(151.726 -86.0966 124.216)"
+			"angle" "[33.2 -59.2 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(579.496 -125.732 0)"
-			"zoom" "2.22903"
+			"position" "(504.685 -94.8953 65536)"
+			"zoom" "1.07496"
 		}
 		v2
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "141"
+	"mapversion" "144"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3989,7 +3989,7 @@ entity
 	"suppressanimsounds" "0"
 	"texframeindex" "0"
 	"viewhideflags" "0"
-	"origin" "334.668 -76 8"
+	"origin" "64 -192 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -4112,7 +4112,7 @@ entity
 	"minanimtime" "5"
 	"minhealthdmg" "0"
 	"model" "models/props/button_top_reference.mdl"
-	"modelscale" "1.0"
+	"modelscale" "1"
 	"performancemode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"

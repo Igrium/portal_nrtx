@@ -73,6 +73,8 @@ srctools_sndscript_data.dmx
 maps/ambientcache/*
 maps/graphs
 
+SAVE/
+
 materialsrc/*
 blender/*
 
