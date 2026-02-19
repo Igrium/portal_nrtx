@@ -1,0 +1,10 @@
+PBR
+{
+    $basetexture    "models/props/switch001/switch001_color"
+    $mraotexture    "models/props/switch001/switch001_mrao"
+    $bumpmap        "models/props/switch001/switch001_normal"
+    $emissiontexture "models/props/switch001/switch001_emission"
+    $model          1
+    $surfaceprop    "metal"
+    $envmap         env_cubemap
+}
