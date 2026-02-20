@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/lift_platform/lift_platform_color"
+    $mraotexture    "models/props/lift_platform/lift_platform_mrao"
+    $bumpmap        "models/props/lift_platform/lift_platform_normal"
+
+    $envmap env_cubemap
+}   
