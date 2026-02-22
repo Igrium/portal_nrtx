@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10624"
-	"mapversion" "2109"
+	"mapversion" "2146"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -29,33 +29,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(1327.15 339.879 -119.853)"
-			"angle" "[26.4 -94.7999 0]"
+			"position" "(1359.8 -195.324 -281.766)"
+			"angle" "[66.8 176.4 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1381.13 147.631 65536)"
-			"zoom" "2.67482"
+			"position" "(1488 -230 65536)"
+			"zoom" "1.28994"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 200.646 -243.166)"
-			"zoom" "2.22902"
+			"position" "(65536 -230 -49.421)"
+			"zoom" "9.58438"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1150 -65536 -186.521)"
-			"zoom" "2.67483"
+			"position" "(1488 -65536 -49.421)"
+			"zoom" "0.5184"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2109"
+	"mapversion" "2146"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -166125,6 +166125,99 @@ world
 }
 entity
 {
+	"id" "564827"
+	"classname" "light"
+	"_castentityshadow" "1"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_fifty_percent_distance" "0"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "2"
+	"_light" "255 192 74 150"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_zero_percent_distance" "0"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-224 256 -192"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "561930"
+	"classname" "info_player_start"
+	"angles" "0 180 0"
+	"origin" "1556.66 -195.923 -63"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "562006"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "448"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_inner_cone" "30"
+	"_light" "254 129 16 600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_zero_percent_distance" "896"
+	"angles" "90 180 0"
+	"fadetickinterval" "0.1"
+	"pitch" "90"
+	"spawnflags" "3"
+	"style" "0"
+	"targetname" "light_furnace"
+	"origin" "1344 -192 -320"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
 	"id" "559394"
 	"classname" "env_cubemap"
 	"cubemapsize" "0"
@@ -167403,32 +167496,6 @@ entity
 }
 entity
 {
-	"id" "318512"
-	"classname" "light"
-	"_castentityshadow" "1"
-	"_hard_radius_threshold" "32"
-	"_initialshadowsize" "3"
-	"_light" "251 159 57 30"
-	"_lightHDR" "251 159 57 20"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"origin" "1571 277.021 7.63772"
-	editor
-	{
-		"color" "213 150 0"
-		"groupid" "318498"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "304582"
 	"classname" "func_door"
 	"angles" "0 0 0"
@@ -168133,32 +168200,6 @@ entity
 }
 entity
 {
-	"id" "319116"
-	"classname" "light"
-	"_castentityshadow" "1"
-	"_hard_radius_threshold" "32"
-	"_initialshadowsize" "3"
-	"_light" "251 159 57 30"
-	"_lightHDR" "251 159 57 20"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"origin" "450.997 253.021 -248"
-	editor
-	{
-		"color" "213 150 0"
-		"groupid" "319108"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "319122"
 	"classname" "func_door"
 	"angles" "0 0 0"
@@ -168859,32 +168900,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1500 13000]"
-	}
-}
-entity
-{
-	"id" "319233"
-	"classname" "light"
-	"_castentityshadow" "1"
-	"_hard_radius_threshold" "32"
-	"_initialshadowsize" "3"
-	"_light" "251 159 57 30"
-	"_lightHDR" "251 159 57 20"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"origin" "-127.003 70.98 -184"
-	editor
-	{
-		"color" "213 150 0"
-		"groupid" "319225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -169896,16 +169911,17 @@ entity
 	"id" "361785"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "40"
+	"_cone" "50"
 	"_constant_attn" "200000"
 	"_distance" "0"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
-	"_initialshadowsize" "3"
+	"_initialshadowsize" "4"
 	"_inner_cone" "15"
 	"_light" "183 204 218 2000"
 	"_lightHDR" "183 204 218 2000"
+	"_lightmode" "2"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
@@ -169916,6 +169932,7 @@ entity
 	"angles" "-40.909 95.924 -15.9297"
 	"fadetickinterval" "0.1"
 	"pitch" "-40.909"
+	"spawnflags" "2"
 	"style" "0"
 	"origin" "1040 -80 249"
 	editor
@@ -174985,6 +175002,7 @@ entity
 	"_cone" "40"
 	"_constant_attn" "200000"
 	"_distance" "0"
+	"_dynamicshadowallocation" "0"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
@@ -174992,16 +175010,18 @@ entity
 	"_inner_cone" "5"
 	"_light" "183 204 218 1500"
 	"_lightHDR" "183 204 218 1500"
+	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_shadowscale" ".6"
 	"_zero_percent_distance" "0"
 	"angles" "-40.909 245.924 -15.9297"
 	"fadetickinterval" "0.1"
 	"pitch" "-40.909"
+	"spawnflags" "2"
 	"style" "0"
 	"origin" "304 688 -7"
 	editor
@@ -175089,6 +175109,7 @@ entity
 	"_inner_cone" "15"
 	"_light" "183 204 218 1700"
 	"_lightHDR" "183 204 218 1700"
+	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
@@ -175177,13 +175198,15 @@ entity
 	"_cone" "40"
 	"_constant_attn" "200000"
 	"_distance" "0"
+	"_dynamicshadowallocation" "1"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
-	"_initialshadowsize" "3"
+	"_initialshadowsize" "2"
 	"_inner_cone" "15"
 	"_light" "183 204 218 1300"
 	"_lightHDR" "183 204 218 1000"
+	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
@@ -175194,6 +175217,7 @@ entity
 	"angles" "-26.7335 107.59 -9.98922"
 	"fadetickinterval" "0.1"
 	"pitch" "-26.7335"
+	"spawnflags" "0"
 	"style" "0"
 	"origin" "1872 88 233"
 	editor
@@ -198337,6 +198361,7 @@ entity
 	"_zero_percent_distance" "0"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
+	"spawnflags" "0"
 	"style" "0"
 	"origin" "1024 -48 193.001"
 	editor
@@ -215559,6 +215584,7 @@ entity
 		"OnTrigger" "fire_particlesStart0-1"
 		"OnTrigger" "incinerator_door_1Open0-1"
 		"OnTrigger" "model_incinerator_doorSetAnimationopen0-1"
+		"OnTrigger" "light_furnaceTurnOn0-1"
 	}
 	"origin" "1488 -262 -49.421"
 	editor
@@ -215583,6 +215609,7 @@ entity
 		"OnTrigger" "timer_ticktockDisable0-1"
 		"OnTrigger" "fire_particlesStop0-1"
 		"OnTrigger" "incinerator_door_1Close0-1"
+		"OnTrigger" "light_furnaceTurnOff1-1"
 	}
 	"origin" "1488 -230 -49.421"
 	editor
@@ -218405,7 +218432,7 @@ entity
 				"point" "2 1685 368 124"
 				"point" "3 1685 144 124"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -218424,7 +218451,7 @@ entity
 				"point" "2 1685 144 4"
 				"point" "3 1685 368 4"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -218443,7 +218470,7 @@ entity
 				"point" "2 1685 144 124"
 				"point" "3 1685 368 124"
 			}
-			"material" "GLASS/GLASSWINDOW_FROSTED_002"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -218462,7 +218489,7 @@ entity
 				"point" "2 1684 368 124"
 				"point" "3 1684 144 124"
 			}
-			"material" "GLASS/GLASSWINDOW_FROSTED_002"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -218481,7 +218508,7 @@ entity
 				"point" "2 1684 144 124"
 				"point" "3 1685 144 124"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -218500,7 +218527,7 @@ entity
 				"point" "2 1685 368 124"
 				"point" "3 1684 368 124"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -220566,7 +220593,7 @@ entity
 				"point" "2 1429 368 124"
 				"point" "3 1429 144 124"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -220585,7 +220612,7 @@ entity
 				"point" "2 1429 144 4"
 				"point" "3 1429 368 4"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -220604,7 +220631,7 @@ entity
 				"point" "2 1429 144 124"
 				"point" "3 1429 368 124"
 			}
-			"material" "GLASS/GLASSWINDOW_FROSTED_002"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -220623,7 +220650,7 @@ entity
 				"point" "2 1428 368 124"
 				"point" "3 1428 144 124"
 			}
-			"material" "GLASS/GLASSWINDOW_FROSTED_002"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -220642,7 +220669,7 @@ entity
 				"point" "2 1428 144 124"
 				"point" "3 1429 144 124"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -220661,7 +220688,7 @@ entity
 				"point" "2 1429 368 124"
 				"point" "3 1428 368 124"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -224920,6 +224947,7 @@ entity
 	"_inner_cone" "10"
 	"_light" "250 240 205 100"
 	"_lightHDR" "250 240 205 150"
+	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
@@ -250853,20 +250881,25 @@ entity
 	"classname" "light_spot"
 	"_castentityshadow" "1"
 	"_cone" "30"
+	"_dynamicshadowallocation" "1"
 	"_exponent" "1"
+	"_fifty_percent_distance" "48"
 	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_inner_cone" "15"
 	"_light" "250 240 205 150"
 	"_lightHDR" "250 240 205 150"
+	"_lightmode" "2"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
 	"_shadowscale" "1.0"
+	"_zero_percent_distance" "208"
 	"angles" "-45 150 -180"
 	"fadetickinterval" "0.1"
 	"pitch" "-45"
+	"spawnflags" "2"
 	"origin" "1552 848 -15.183"
 	editor
 	{
@@ -258296,6 +258329,7 @@ entity
 	"_initialshadowsize" "3"
 	"_light" "183 204 218 100"
 	"_lightHDR" "183 204 218 100"
+	"_lightmode" "0"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
@@ -259553,28 +259587,31 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
-entity
+hidden
 {
-	"id" "436658"
-	"classname" "ambient_generic"
-	"angles" "0 0 0"
-	"haddons_enabled" "-1"
-	"haddons_infrange" "-1"
-	"haddons_mode" "-1"
-	"health" "10"
-	"message" "AlyxEMP.Charge"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "1250"
-	"spawnflags" "48"
-	"targetname" "sound_catcher2"
-	"origin" "-224 256 -192"
-	editor
+	entity
 	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
+		"id" "436658"
+		"classname" "ambient_generic"
+		"angles" "0 0 0"
+		"haddons_enabled" "-1"
+		"haddons_infrange" "-1"
+		"haddons_mode" "-1"
+		"health" "10"
+		"message" "AlyxEMP.Charge"
+		"pitch" "100"
+		"pitchstart" "100"
+		"radius" "1250"
+		"spawnflags" "48"
+		"targetname" "sound_catcher2"
+		"origin" "-224 256 -192"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 7500]"
+		}
 	}
 }
 entity
@@ -272567,6 +272604,7 @@ entity
 	"_inner_cone" "15"
 	"_light" "250 240 205 150"
 	"_lightHDR" "250 240 205 150"
+	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
@@ -272636,16 +272674,19 @@ entity
 	"_castentityshadow" "1"
 	"_cone" "40"
 	"_exponent" "1"
+	"_fifty_percent_distance" "154"
 	"_hard_radius_threshold" "32"
 	"_initialshadowsize" "3"
 	"_inner_cone" "15"
 	"_light" "250 240 205 150"
 	"_lightHDR" "250 240 205 150"
+	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
 	"_shadowscale" "1.0"
+	"_zero_percent_distance" "346"
 	"angles" "-62.1144 229.107 -67.7924"
 	"fadetickinterval" "0.1"
 	"pitch" "-62.1144"
@@ -273000,7 +273041,7 @@ entity
 				"point" "2 1328 -335 60"
 				"point" "3 1456 -335 60"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 -20] 0.25"
 			"vaxis" "[1 0 0 -48] 0.25"
 			"rotation" "0"
@@ -273019,7 +273060,7 @@ entity
 				"point" "2 1328 -336 -60"
 				"point" "3 1456 -336 -60"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 -20] 0.25"
 			"vaxis" "[1 0 0 -48] 0.25"
 			"rotation" "0"
@@ -273038,7 +273079,7 @@ entity
 				"point" "2 1328 -336 60"
 				"point" "3 1456 -336 60"
 			}
-			"material" "GLASS/GLASSWINDOW_FROSTED_002"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[1 0 0 -112] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -273057,7 +273098,7 @@ entity
 				"point" "2 1456 -335 60"
 				"point" "3 1328 -335 60"
 			}
-			"material" "GLASS/GLASSWINDOW_FROSTED_002"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[1 0 0 -112] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -273076,7 +273117,7 @@ entity
 				"point" "2 1328 -335 60"
 				"point" "3 1328 -336 60"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 -20] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -273095,7 +273136,7 @@ entity
 				"point" "2 1456 -336 60"
 				"point" "3 1456 -335 60"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_REFRACT_002"
 			"uaxis" "[0 1 0 -20] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -278544,6 +278585,7 @@ entity
 	"_cone" "30"
 	"_constant_attn" "500000"
 	"_distance" "0"
+	"_dynamicshadowallocation" "1"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
@@ -278558,12 +278600,12 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_shadowscale" ".8"
 	"_zero_percent_distance" "0"
 	"angles" "-40 240 90"
 	"fadetickinterval" "0.1"
 	"pitch" "-40"
-	"spawnflags" "0"
+	"spawnflags" "2"
 	"style" "0"
 	"origin" "1342.55 494.04 -35.103"
 	editor
@@ -280151,6 +280193,7 @@ entity
 	"_initialshadowsize" "3"
 	"_light" "183 204 218 100"
 	"_lightHDR" "183 204 218 100"
+	"_lightmode" "0"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
@@ -282382,8 +282425,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1327.15 339.879 -119.853]"
-		"look" "[1293.71 -58.2943 -318.203]"
+		"position" "[1359.8 -195.324 -281.766]"
+		"look" "[1184.41 -184.288 -691.787]"
 	}
 }
 cordons
@@ -282402,11 +282445,29 @@ cordons
 	cordon
 	{
 		"name" "ratman"
-		"active" "1"
+		"active" "0"
 		box
 		{
 			"mins" "(1168 32 -294)"
 			"maxs" "(1568 544 0)"
 		}
+	}
+	cordon
+	{
+		"name" "furnace"
+		"active" "1"
+		box
+		{
+			"mins" "(1216 -512 -384)"
+			"maxs" "(1792 448 224)"
+		}
+	}
+}
+quickhide
+{
+	"count" "4"
+	list
+	{
+		"id" "436658"
 	}
 }
