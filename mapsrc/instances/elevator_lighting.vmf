@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10624"
-	"mapversion" "9"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "32"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-60.0679 34.5275 -28.8945)"
-			"angle" "[-2.8 -26.806 0]"
+			"position" "(39.0204 1.00919 -20.7074)"
+			"angle" "[-9.99999 -175.203 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(2.28003 -0.752991 -272)"
-			"zoom" "9.58438"
+			"position" "(213.929 104.793 65536)"
+			"zoom" "1.54794"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(1472 -28.073 -32.271)"
-			"zoom" "4.62211"
+			"position" "(65792 11.2328 -38.051)"
+			"zoom" "6.65584"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-7.32996 864 -44.035)"
-			"zoom" "2.67482"
+			"position" "(1151.42 384 -569.985)"
+			"zoom" "3.20979"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -84,7 +84,7 @@ entity
 	"pitch" "-90"
 	"spawnflags" "2"
 	"style" "0"
-	"origin" "0 0 -8"
+	"origin" "0 0 -16"
 	editor
 	{
 		"color" "255 255 0"
@@ -106,7 +106,7 @@ entity
 	"spawnflags" "3"
 	"spotlightlength" "32"
 	"spotlightwidth" "178"
-	"origin" "0 0 0"
+	"origin" "0 0 -8"
 	editor
 	{
 		"color" "220 30 220"
@@ -120,7 +120,7 @@ entity
 	"id" "50"
 	"classname" "func_instance_parms"
 	"parm1" "$parent target_source"
-	"origin" "0 0 -32"
+	"origin" "0 0 -40"
 	editor
 	{
 		"color" "220 30 220"
