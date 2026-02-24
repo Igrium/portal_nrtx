@@ -65,25 +65,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-453.819 -239.135 701.673)"
-			"angle" "[37.6 5.19406 0]"
+			"position" "(-595.124 -373.189 298.181)"
+			"angle" "[-5.2 50.3941 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-402.937 -264.999 65536)"
+			"position" "(-402.937 -264.999 0)"
 			"zoom" "11.5013"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -278.48 701.967)"
+			"position" "(0 -278.48 701.967)"
 			"zoom" "3.85176"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-384 -65536 662)"
+			"position" "(-384 0 662)"
 			"zoom" "2.67482"
 		}
 	}
@@ -91560,43 +91560,40 @@ entity
 		"logicalpos" "[2000 1500]"
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "368666"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "54"
+	"_distance" "258"
+	"_exponent" "0"
+	"_fifty_percent_distance" "0"
+	"_hard_radius_threshold" "32"
+	"_initialshadowsize" "3"
+	"_inner_cone" "0"
+	"_light" "238 232 221 300"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"angles" "-75 273 0"
+	"fadetickinterval" "0.1"
+	"parentname" "lamp_2_model"
+	"pitch" "-75"
+	"spawnflags" "2"
+	"origin" "-545.541 -319.448 325.926"
+	editor
 	{
-		"id" "368666"
-		"classname" "light_spot"
-		"_castentityshadow" "1"
-		"_cone" "54"
-		"_distance" "258"
-		"_exponent" "0"
-		"_fifty_percent_distance" "0"
-		"_hard_radius_threshold" "32"
-		"_initialshadowsize" "3"
-		"_inner_cone" "0"
-		"_light" "238 232 221 300"
-		"_lightHDR" "-1 -1 -1 1"
-		"_lightmode" "3"
-		"_lightscaleHDR" "1"
-		"_nocubemapsprite" "1"
-		"_quadratic_attn" "1"
-		"_shadoworiginoffset" "0 0 0"
-		"_shadowscale" "1.0"
-		"angles" "-75 273 0"
-		"fadetickinterval" "0.1"
-		"parentname" "lamp_2_model"
-		"pitch" "-75"
-		"spawnflags" "2"
-		"origin" "-545.541 -319.448 325.926"
-		editor
-		{
-			"color" "178 199 0"
-			"groupid" "368653"
-			"visgroupid" "24"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-			"logicalpos" "[2000 2000]"
-		}
+		"color" "178 199 0"
+		"groupid" "368653"
+		"visgroupid" "24"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 2000]"
 	}
 }
 entity
@@ -157957,8 +157954,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-453.819 -239.135 701.673]"
-		"look" "[-158.432 -212.284 473.257]"
+		"position" "[-595.124 -373.189 298.181]"
+		"look" "[-357.448 -85.9483 332.111]"
 	}
 }
 cordons
@@ -158003,13 +158000,5 @@ cordons
 			"mins" "(-1664 -1152 528)"
 			"maxs" "(-256 -42.6667 1024)"
 		}
-	}
-}
-quickhide
-{
-	"count" "1"
-	list
-	{
-		"id" "368666"
 	}
 }
