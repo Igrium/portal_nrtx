@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10624"
-	"mapversion" "12"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(39.0204 1.00919 -20.7074)"
-			"angle" "[-9.99999 -175.203 0]"
+			"position" "(161.429 33.3823 -76.0576)"
+			"angle" "[-28.8 -163.603 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(213.929 104.793 65536)"
-			"zoom" "1.54794"
+			"position" "(70.08 -2.28998 -736)"
+			"zoom" "5.54655"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65792 11.2328 -38.051)"
-			"zoom" "6.65584"
+			"position" "(1920 -13.266 -33.965)"
+			"zoom" "3.20979"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1151.42 384 -569.985)"
-			"zoom" "3.20979"
+			"position" "(1527.07 -896 -664.1)"
+			"zoom" "5.54652"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -57,6 +57,37 @@ world
 	"maxprojectedtextures" "8"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "62"
+	"classname" "light"
+	"_castentityshadow" "1"
+	"_fifty_percent_distance" "64"
+	"_hard_radius_threshold" "32"
+	"_initialshadowsize" "3"
+	"_light" "183 204 218 300"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_zero_percent_distance" "112"
+	"angles" "-90 0 0"
+	"fadetickinterval" "0.1"
+	"parentname" "$parent"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "0 0 -64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
 }
 entity
 {
