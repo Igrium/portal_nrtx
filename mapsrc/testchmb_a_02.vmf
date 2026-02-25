@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10624"
-	"mapversion" "1499"
+	"mapversion" "1502"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -41,25 +41,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-478.734 852.403 780.931)"
-			"angle" "[11.2 -2.80496 0]"
+			"position" "(710.081 715.264 648.686)"
+			"angle" "[2.8 -3.20523 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-704 832 65536)"
+			"position" "(-704 832 0)"
 			"zoom" "5.54653"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 832 864)"
+			"position" "(0 832 864)"
 			"zoom" "4.6221"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-704 -65536 864)"
+			"position" "(-704 0 864)"
 			"zoom" "2.22902"
 		}
 	}
@@ -67,7 +67,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1499"
+	"mapversion" "1502"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66861,7 +66861,7 @@ world
 				"point" "3 1088 960 832"
 			}
 			"material" "CONCRETE/CONCRETE_MODULAR_WALL001F"
-			"uaxis" "[0 1 0 256] 0.25"
+			"uaxis" "[0 1 0 4] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
@@ -68967,7 +68967,7 @@ world
 				"point" "3 1088 832 704"
 			}
 			"material" "CONCRETE/CONCRETE_MODULAR_WALL001D"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 4] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
@@ -69092,7 +69092,7 @@ world
 				"point" "3 1088 832 704"
 			}
 			"material" "CONCRETE/CONCRETE_MODULAR_WALL001A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 4] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
@@ -190924,7 +190924,7 @@ entity
 	"EndV" "0.99"
 	"fademindist" "-1"
 	"material" "decals/overlay_light_gradient"
-	"sides" "225325"
+	"sides" "247802 225325"
 	"StartU" "1"
 	"StartV" "0"
 	"tint" "255 255 255 255"
@@ -190954,7 +190954,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/overlay_light_gradient"
-	"sides" "225333"
+	"sides" "225333 247810"
 	"StartU" "0"
 	"StartV" "0.99"
 	"tint" "255 255 255 255"
@@ -209291,8 +209291,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-478.734 852.403 780.931]"
-		"look" "[-254.798 841.432 736.537]"
+		"position" "[710.081 715.264 648.686]"
+		"look" "[938.009 702.5 637.521]"
 	}
 }
 cordons

@@ -69,6 +69,8 @@ whitelist.cfg
 
 srctools_particle_data.dmx
 srctools_sndscript_data.dmx
+cfg/InGameDialogConfig.vdf
+
 
 maps/ambientcache/*
 maps/graphs
@@ -80,3 +82,6 @@ blender/*
 
 # TODO: determine if we want to commit compiled maps from the maps folder
 *.bsp
+
+
+
