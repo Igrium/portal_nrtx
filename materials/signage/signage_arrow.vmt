@@ -1,0 +1,11 @@
+PBR
+{
+	$basetexture "signage/signage_arrow"
+	$mraotexture "signage/signage_arrow_mrao"
+	$emissiontexture "signage/signage_arrow_emission"
+	$emissionscale 2
+	$bumpmap "signage/signage_normal"
+	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
+	$surfaceprop glass
+	$mraoscale "[1 1 1]"
+}

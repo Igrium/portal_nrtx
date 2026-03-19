@@ -1,0 +1,13 @@
+PBR
+{
+	$basetexture "signage/overlay_button_accent"
+	$mraotexture "signage/overlay_button_accent_mrao"
+	$bumpmap "signage/overlay_button_accent_normal"
+	$decal 1
+	//$basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
+	//$alphatest 1
+	$translucent 1
+	$alphatestreference .5
+	$mraoscale "[1 1 1]"
+	$surfaceprop glass
+}
