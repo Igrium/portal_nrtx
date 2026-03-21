@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10624"
-	"mapversion" "18"
+	"editorbuild" "10737"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(161.429 33.3823 -76.0576)"
-			"angle" "[-28.8 -163.603 0]"
+			"position" "(41.5103 -4.18341 -35.7693)"
+			"angle" "[-13.1999 171.594 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(70.08 -2.28998 -736)"
-			"zoom" "5.54655"
+			"position" "(1069.06 599.001 -272)"
+			"zoom" "11.5013"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(1920 -13.266 -33.965)"
-			"zoom" "3.20979"
+			"position" "(1472 585.52 429.967)"
+			"zoom" "3.85176"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1527.07 -896 -664.1)"
-			"zoom" "5.54652"
+			"position" "(1088 864 390)"
+			"zoom" "2.67482"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -63,8 +63,10 @@ entity
 	"id" "62"
 	"classname" "light"
 	"_castentityshadow" "1"
+	"_directmode" "1"
 	"_fifty_percent_distance" "64"
 	"_hard_radius_threshold" "32"
+	"_indirectmode" "1"
 	"_initialshadowsize" "3"
 	"_light" "183 204 218 300"
 	"_lightHDR" "-1 -1 -1 1"
@@ -77,6 +79,7 @@ entity
 	"_zero_percent_distance" "112"
 	"angles" "-90 0 0"
 	"fadetickinterval" "0.1"
+	"nearz" "4.0"
 	"parentname" "$parent"
 	"spawnflags" "0"
 	"style" "0"
@@ -95,9 +98,11 @@ entity
 	"classname" "light_spot"
 	"_castentityshadow" "1"
 	"_cone" "70"
+	"_directmode" "2"
 	"_exponent" "1"
 	"_fifty_percent_distance" "96"
 	"_hard_radius_threshold" "32"
+	"_indirectmode" "1"
 	"_initialshadowsize" "3"
 	"_inner_cone" "30"
 	"_light" "183 204 218 2000"
@@ -108,9 +113,11 @@ entity
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
 	"_shadowscale" "1.0"
+	"_specularmode" "2"
 	"_zero_percent_distance" "256"
 	"angles" "-90 0 0"
 	"fadetickinterval" "0.1"
+	"nearz" "4.0"
 	"parentname" "$parent"
 	"pitch" "-90"
 	"spawnflags" "2"

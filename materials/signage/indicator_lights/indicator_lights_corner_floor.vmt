@@ -6,7 +6,7 @@ PBR
 	$emissionscale 1
 	$decal 1
 	$bumpmap "signage/indicator_lights/indicator_lights_corner_normal"
-	$basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
+	// $basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
 	$surfaceprop glass
 	$mraoscale "[1 1 1]"
 	Proxies
