@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10737"
-	"mapversion" "19"
+	"mapversion" "20"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(41.5103 -4.18341 -35.7693)"
-			"angle" "[-13.1999 171.594 0]"
+			"position" "(11.4767 4.60645 -8.43979)"
+			"angle" "[38.8 -155.203 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1069.06 599.001 -272)"
-			"zoom" "11.5013"
+			"position" "(38.2225 19.7884 65952)"
+			"zoom" "3.85176"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(1472 585.52 429.967)"
-			"zoom" "3.85176"
+			"position" "(-128 1827.98 522.045)"
+			"zoom" "2.22903"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1088 864 390)"
-			"zoom" "2.67482"
+			"position" "(34.8489 -64544 32.2588)"
+			"zoom" "2.67484"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "20"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -102,7 +102,7 @@ entity
 	"_exponent" "1"
 	"_fifty_percent_distance" "96"
 	"_hard_radius_threshold" "32"
-	"_indirectmode" "1"
+	"_indirectmode" "0"
 	"_initialshadowsize" "3"
 	"_inner_cone" "30"
 	"_light" "183 204 218 2000"
