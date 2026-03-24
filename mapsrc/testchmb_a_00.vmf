@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10737"
-	"mapversion" "2485"
+	"editorbuild" "10741"
+	"mapversion" "2486"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -65,25 +65,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1430.49 -868.183 236.231)"
-			"angle" "[-13.1999 171.594 0]"
+			"position" "(-2033.57 -20 648)"
+			"angle" "[-0 90 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-402.937 -264.999 0)"
+			"position" "(-2033.57 80 65536)"
 			"zoom" "11.5013"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -278.48 701.967)"
+			"position" "(65536 80 648)"
 			"zoom" "3.85176"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-384 0 662)"
+			"position" "(-2033.57 -65536 648)"
 			"zoom" "2.67482"
 		}
 	}
@@ -91,7 +91,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2485"
+	"mapversion" "2486"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -88813,7 +88813,7 @@ entity
 entity
 {
 	"id" "706235"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_directmode" "1"
 	"_hard_radius_threshold" "32"
@@ -88821,16 +88821,20 @@ entity
 	"_initialshadowsize" "3"
 	"_light" "221 250 255 21"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
+	"slopescale" "1.0"
 	"spawnflags" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-1056 -800 768"
 	editor
 	{
@@ -91566,7 +91570,7 @@ entity
 entity
 {
 	"id" "368666"
-	"classname" "light_spot"
+	"classname" "light_rt_spot"
 	"_castentityshadow" "1"
 	"_cone" "54"
 	"_directmode" "2"
@@ -91579,18 +91583,22 @@ entity
 	"_inner_cone" "0"
 	"_light" "238 232 221 300"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "3"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "-75 273 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"parentname" "lamp_2_model"
 	"pitch" "-75"
+	"slopescale" "1.0"
 	"spawnflags" "2"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-545.541 -319.448 325.926"
 	editor
 	{
@@ -93074,7 +93082,7 @@ entity
 entity
 {
 	"id" "395164"
-	"classname" "light_spot"
+	"classname" "light_rt_spot"
 	"_castentityshadow" "1"
 	"_cone" "40"
 	"_constant_attn" "200000"
@@ -93088,20 +93096,24 @@ entity
 	"_inner_cone" "15"
 	"_light" "183 204 218 1200"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "2"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "0"
 	"angles" "-26.7335 197.59 -9.98922"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"pitch" "-26.7335"
+	"slopescale" "1.0"
 	"spawnflags" "2"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-326 -813 361"
 	editor
 	{
@@ -99431,7 +99443,7 @@ entity
 entity
 {
 	"id" "440790"
-	"classname" "light_spot"
+	"classname" "light_rt_spot"
 	"_castentityshadow" "1"
 	"_cone" "45"
 	"_constant_attn" "0"
@@ -99445,20 +99457,24 @@ entity
 	"_inner_cone" "2"
 	"_light" "183 204 218 1000"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "2"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "9999"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "0"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "0"
 	"angles" "-41.2596 356.5 1.1068"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"pitch" "-41.2596"
+	"slopescale" "1.0"
 	"spawnflags" "2"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-1400 -216 822.544"
 	editor
 	{
@@ -99472,7 +99488,7 @@ entity
 entity
 {
 	"id" "440795"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_constant_attn" "0"
 	"_directmode" "1"
@@ -99488,13 +99504,18 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "0"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "0"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
+	"slopescale" "1.0"
 	"spawnflags" "0"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-1472 -192 830.993"
 	editor
 	{
@@ -103684,7 +103705,7 @@ entity
 entity
 {
 	"id" "480786"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_directmode" "1"
 	"_hard_radius_threshold" "32"
@@ -103696,13 +103717,18 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
-	"spawnflags" "1"
+	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "9"
 	"targetname" "elevator_lights"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-1560 -864 400"
 	editor
 	{
@@ -103716,7 +103742,7 @@ entity
 entity
 {
 	"id" "480791"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_directmode" "1"
 	"_hard_radius_threshold" "32"
@@ -103728,13 +103754,18 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
-	"spawnflags" "1"
+	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "9"
 	"targetname" "elevator_lights"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-1560 -863.88 616"
 	editor
 	{
@@ -107924,7 +107955,7 @@ entity
 entity
 {
 	"id" "515909"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_directmode" "1"
 	"_hard_radius_threshold" "32"
@@ -107936,13 +107967,18 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
-	"spawnflags" "1"
+	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "9"
 	"targetname" "a00-a01_elevator_lights"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-296 -256 848"
 	editor
 	{
@@ -107956,7 +107992,7 @@ entity
 entity
 {
 	"id" "515914"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_directmode" "1"
 	"_hard_radius_threshold" "32"
@@ -107968,13 +108004,18 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
-	"spawnflags" "1"
+	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "9"
 	"targetname" "a00-a01_elevator_lights"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-296 -256.12 1064"
 	editor
 	{
@@ -116387,7 +116428,7 @@ hidden
 entity
 {
 	"id" "409833"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_constant_attn" "0"
 	"_directmode" "1"
@@ -116403,12 +116444,18 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "0"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
+	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-256 -832 448"
 	editor
 	{
@@ -138098,7 +138145,7 @@ entity
 entity
 {
 	"id" "394246"
-	"classname" "light_spot"
+	"classname" "light_rt_spot"
 	"_castentityshadow" "1"
 	"_cone" "30"
 	"_constant_attn" "200000"
@@ -138112,21 +138159,24 @@ entity
 	"_inner_cone" "15"
 	"_light" "183 204 218 750"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "2"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
 	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "0"
 	"angles" "-23.0635 240.43 -2.54607"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"pitch" "-23.0635"
+	"slopescale" "1.0"
 	"spawnflags" "2"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-180 -204 362"
 	editor
 	{
@@ -138164,7 +138214,7 @@ entity
 entity
 {
 	"id" "638783"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_directmode" "1"
 	"_hard_radius_threshold" "32"
@@ -138172,16 +138222,20 @@ entity
 	"_initialshadowsize" "3"
 	"_light" "221 250 255 21"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "1"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
+	"slopescale" "1.0"
 	"spawnflags" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-1056 -800 896"
 	editor
 	{
@@ -138314,7 +138368,7 @@ entity
 entity
 {
 	"id" "639242"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_directmode" "1"
 	"_hard_radius_threshold" "32"
@@ -138326,10 +138380,16 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
+	"slopescale" "1.0"
+	"spawnflags" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-800 -488 691.587"
 	editor
 	{
@@ -138342,7 +138402,7 @@ entity
 entity
 {
 	"id" "639372"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_constant_attn" "200000"
 	"_directmode" "1"
@@ -138359,12 +138419,17 @@ entity
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
 	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "0"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
+	"slopescale" "1.0"
 	"spawnflags" "0"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "-208 -288 376"
 	editor
 	{
