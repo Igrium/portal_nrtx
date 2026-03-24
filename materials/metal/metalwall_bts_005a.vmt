@@ -1,0 +1,15 @@
+// This is risky because we're overriding a global material for one use-case, but it hopefully works
+"PBR"
+{
+    $model 0
+    $basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+
+    $basetexture    "metal/metalwall_bts_005a/metalwall_bts_005a_color"
+    $bumpmap        "metal/metalwall_bts_005a/metalwall_bts_005a_normal"
+    $mraotexture    "metal/metalwall_bts_005a/metalwall_bts_005a_mrao"
+
+    $envmap env_cubemap
+
+    %noportal       1
+    $surfaceprop    "metal"
+}
