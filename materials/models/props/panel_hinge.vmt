@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props/panel_hinge/panel_hinge_color"
+    $mraotexture    "models/props/panel_hinge/panel_hinge_mrao"
+    $bumpmap        "models/props/panel_hinge/panel_hinge_normal"
+
+    $envmap env_cubemap
+}   
