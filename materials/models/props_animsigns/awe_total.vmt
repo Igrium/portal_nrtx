@@ -1,0 +1,12 @@
+PBR
+{
+	$basetexture	"Models/props_animsigns/awe_total"
+	$mraotexture "lights/white"
+	$mraoscale "[0 0.1 1]"
+	$surfaceprop "metal"
+	$translucent 1
+	$alpha 1
+	$nowritez 1
+	$model 1
+
+}

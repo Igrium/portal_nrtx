@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/rtx/props/vactubes/box_dropper"
+	$mraotexture "models/rtx/props/vactubes/box_dropper_mrao"
+	$bumpmap "models/rtx/props/vactubes/box_dropper_normal"
+	$model 1
+}

@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture	"Models/props_animsigns/newsignage_back"
+	$mraotexture	"Models/props_animsigns/newsignage_back_mrao"
+	$bumpmap	"Models/props_animsigns/newsignage_back_normal"
+	$emissiontexture "Models/props_animsigns/newsignage_back_emission"
+	$emissionscale 1
+	$surfaceprop "metal"
+	$model 1
+}

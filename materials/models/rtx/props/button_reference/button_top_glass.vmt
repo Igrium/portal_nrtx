@@ -1,0 +1,12 @@
+Refract
+{
+	$refracttinttexture "models/rtx/props/button_reference/button_top_raw"
+	$refractamount 1
+	$envmap "env_cubemap"
+	$envmaptint .25
+	$normalmap "models/rtx/props/button_reference/button_top_raw_normal"
+	$bluramount 2
+	//$nocull 1
+	$nowritez 1
+	$model 1
+}

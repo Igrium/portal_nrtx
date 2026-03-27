@@ -1,0 +1,37 @@
+FOV: 70
+Chapter 1:
+	testchmb_a_00
+	setpos_exact -280.382568 -123.799019 305.489685;setang_exact 28.498535 -136.796265;fov 70
+Chapter 2:
+	testchmb_a_02
+	setpos_exact 290.364746 609.269836 704.012817;setang_exact 25.697021 24.895020;fov 70
+Chapter 3:
+	testchmb_a_04
+	setpos_exact 482.287567 315.838867 146.453751;setang_exact 26.666264 -149.417160;fov 70
+Chapter 4:
+	testchmb_a_06
+	setpos_exact 535.971191 316.798370 315.761017;setang_exact 45.510742 -70.733772;fov 70
+Chapter 5:
+	testchmb_a_08
+	setpos_exact -228.365433 199.551910 265.044037;setang_exact 27.169189 -31.898804;fov 70
+Chapter 6:
+	testchmb_a_09
+	setpos_exact 947.182312 1872.811401 250.480133;setang_exact 26.608887 -163.410645;fov 70
+Chapter 7:
+	testchmb_a_10
+	setpos_exact 219.307693 530.900330 35.308205;setang_exact 21.994629 121.755981;fov 70
+Chapter 8:
+	testchmb_a_11
+	setpos_exact 829.068176 -5.637104 135.075317;setang_exact 25.801392 -109.220581;fov 70
+Chapter 9:
+	testchmb_a_13
+	setpos_exact 1150.046143 4.221328 -122.184715;setang_exact 20.994873 116.499023;fov 70
+Chapter 10:
+	testchmb_a_14
+	setpos_exact 1288.175903 467.886780 1456.477295;setang_exact 18.995361 37.996216;fov 70
+Chapter 11:
+	testchmb_a_15
+	setpos_exact -676.599548 324.713837 97.673431;setang_exact 21.994629 139.998779;fov 70
+Chapter 12:
+	background2
+	setpos_exact 1882.540039 95.731499 0.031250;setang_exact 11.821683 -27.382736 0.000000

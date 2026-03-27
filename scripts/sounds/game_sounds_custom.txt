@@ -1,0 +1,17 @@
+"Portal1.button_down"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"90"
+	"wave"			"buttons/button3.wav"
+}
+
+"Portal1.button_up"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.9"
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"80"
+	"wave"			"buttons/button10.wav"
+}

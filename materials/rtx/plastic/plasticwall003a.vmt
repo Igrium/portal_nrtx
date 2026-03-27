@@ -1,0 +1,17 @@
+PBR
+{
+	//$basetexture "lights/white"
+	//$color "[0.8745098 0.8235294 0.74509805]"
+	
+
+
+
+
+	$basetexture "rtx/plastic/plasticwall003a"
+	$mraotexture "rtx/plastic/plasticwall003a_mrao"
+	$bumpmap "rtx/plastic/plasticwall003a_normal"
+	$emissiontexture "rtx/plastic/plasticwall003a_emission"
+	$emissionscale "2"
+	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
+	$mraoscale "[1 1 1]"
+}

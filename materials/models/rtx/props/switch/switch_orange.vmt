@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/rtx/props/switch/switch"
+	$mraotexture "models/rtx/props/switch/switch_mrao"
+	$emissiontexture "models/rtx/props/switch/switch_emission"
+	$bumpmap "models/rtx/props/switch/switch_normal"
+	$emissionscale "[.66 .49 0]"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

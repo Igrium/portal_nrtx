@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/rtx/props/vactubes/box_dropper_cover"
+	$mraotexture "models/rtx/props/vactubes/box_dropper_cover_mrao"
+	$emissiontexture "models/rtx/props/vactubes/box_dropper_cover_emission"
+	$bumpmap "models/rtx/props/vactubes/box_dropper_cover_normal"
+	$emissionscale "[1 0 0]"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/rtx/props_junk/mug"
+	$mraotexture "models/rtx/props_junk/mug_mrao"
+	$bumpmap "models/rtx/props_junk/mug_normal"
+	$model 1
+}

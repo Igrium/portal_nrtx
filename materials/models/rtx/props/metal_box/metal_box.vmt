@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/rtx/props/metal_box/metal_box"
+	$emissiontexture "models/rtx/props/metal_box/metal_box_emission"
+	$emissionscale "[.27 .85 1]"
+	//$emissionscale "[.54 .1.7 2]"
+	$mraotexture "models/rtx/props/metal_box/metal_box_mrao"
+	$bumpmap "models/rtx/props/metal_box/metal_box_normal"
+	$model 1
+}

@@ -1,0 +1,32 @@
+PBR
+{
+	$basetexture "rtx/signage/signage_doorstate"
+	$mraotexture "rtx/signage/signage_doorstate_mrao"
+	$emissiontexture "rtx/signage/signage_doorstate_emission"
+	$emissionscale 1
+	$bumpmap "rtx/signage/signage_doorstate_normal"
+	$basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
+	$surfaceprop glass
+	$mraoscale "[1 1 1]"
+	Proxies
+	{
+		ToggleTexture
+		{
+			toggleTextureVar $basetexture
+			toggleTextureFrameNumVar $frame
+			toggleTextureShouldWrap 0
+		}
+		ToggleTexture
+		{
+			toggleTextureVar $emissiontexture
+			toggleTextureFrameNumVar $emissionframe
+			toggleTextureShouldWrap 0
+		}
+		ToggleTexture
+		{
+			toggleTextureVar $mraotexture
+			toggleTextureFrameNumVar $mraoframe
+			toggleTextureShouldWrap 0
+		}
+	}
+}

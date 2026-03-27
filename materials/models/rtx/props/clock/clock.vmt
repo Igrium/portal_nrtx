@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "models/rtx/props/clock/clock"
+	$emissiontexture "models/rtx/props/clock/clock_emission"
+	$emissionscale "{69 216 255}"
+	$mraotexture "models/rtx/props/clock/clock_mrao"
+	$bumpmap "models/rtx/props/clock/clock_normal"
+	$model 1
+}

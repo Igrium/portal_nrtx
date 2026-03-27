@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "rtx/plastic/plasticwall002a"
+	$mraotexture "rtx/plastic/plasticwall002a_mrao"
+	$bumpmap "rtx/plastic/plasticwall002a_normal"
+	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
+	$surfaceprop "concrete"
+}

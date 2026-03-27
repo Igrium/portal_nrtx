@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/rtx/props/round_elevator/round_elevator_sheet01"
+	$mraotexture "models/rtx/props/round_elevator/round_elevator_sheet01_mrao"
+	$emissiontexture "models/rtx/props/round_elevator/round_elevator_sheet01_emission"
+	$bumpmap "models/rtx/props/round_elevator/round_elevator_sheet01_normal"
+	//$emissionscale 2
+	$mraoscale "[1 1 1]"
+	$model 1
+}

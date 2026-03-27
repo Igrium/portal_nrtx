@@ -1,0 +1,162 @@
+{
+	"campaigns" = {
+
+		"portal1_sp_rtx" = {
+			title = "Portal NRTX"
+
+			meta = {
+				//author = "#MainMenu_Campaigns_Valve_Author"
+				author = "TwoKrazy"
+				desc = "#MainMenu_Campaigns_portal_Description"
+				box_art = "boxart.png"
+				selector_logo_background = "true"
+				selector_cover = "campaign_cover.png"
+				square_logo = "logo.svg"
+				selector_button_background = "campaign_btn_bg.png"
+				full_logo = "full_logo.svg"
+			}
+
+			chapters = [
+				{
+					title = "#Portal_Chapter1_Title"
+					meta = {
+						thumbnail = "chapters/chapter1.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_00_rtx"},
+						{name="testchmb_a_01_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter2_Title"
+					meta = {
+						thumbnail = "chapters/chapter2.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_02_rtx"},
+						{name="testchmb_a_03_rtx"}
+					]
+				},
+				{
+					title = "#Portal_Chapter3_Title"
+					meta = {
+						thumbnail = "chapters/chapter3.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_04_rtx"},
+						{name="testchmb_a_05_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter4_Title"
+					meta = {
+						thumbnail = "chapters/chapter4.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_06_rtx"},
+						{name="testchmb_a_07_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter5_Title"
+					meta = {
+						thumbnail = "chapters/chapter5.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_08_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter6_Title"
+					meta = {
+						thumbnail = "chapters/chapter6.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_09_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter7_Title"
+					meta = {
+						thumbnail = "chapters/chapter7.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_10_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter8_Title"
+					meta = {
+						thumbnail = "chapters/chapter8.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_11_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter9_Title"
+					meta = {
+						thumbnail = "chapters/chapter9.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_13_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter10_Title"
+					meta = {
+						thumbnail = "chapters/chapter10.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_14_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter11_Title"
+					meta = {
+						thumbnail = "chapters/chapter11.png"
+						background_map = "background1_rtx"
+						background_image = "backgrounds/01.png"
+					}
+					maps = [
+						{name="testchmb_a_15_rtx"},
+						{name="escape_00_rtx"},
+						{name="escape_01_rtx"},
+						{name="escape_02_rtx"},
+					]
+				},
+				{
+					title = "#Portal_Chapter12_Title"
+					meta = {
+						thumbnail = "chapters/chapter12.png"
+						background_map = "background2_rtx"
+						background_image = "backgrounds/02.png"
+					}
+					maps = [
+						{name="background2_rtx"},
+					]
+				},
+			]
+		}
+	}
+}

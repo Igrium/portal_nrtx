@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "rtx/plastic/plasticwall004a"
+	$mraotexture "rtx/plastic/plasticwall004a_mrao"
+	$bumpmap "rtx/plastic/plasticwall004a_normal"
+	$basetexturetransform "center .5 .5 scale 16 128 rotate 0 translate 0 0"
+	$mraoscale "[1 1 1]"
+	$surfaceprop metal
+}

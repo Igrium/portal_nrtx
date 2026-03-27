@@ -1,0 +1,11 @@
+PBR
+{
+	$basetexture "rtx/metal/metalwall_bts_001a"
+	$mraotexture "rtx/metal/metalwall_bts_001a_mrao"
+	$bumpmap "rtx/metal/metalwall_bts_001a_normal"
+	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
+	$mraoscale "[1 1 1]"
+	%noportal 1
+
+	$surfaceprop metal
+}

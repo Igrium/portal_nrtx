@@ -1,0 +1,12 @@
+PBR
+{
+	$basetexture "models/rtx/props/portal_cleanser/portal_cleanser"
+	$mraotexture "models/rtx/props/portal_cleanser/portal_cleanser_mrao"
+	$emissiontexture "models/rtx/props/portal_cleanser/portal_cleanser_emission"
+	$bumpmap "models/rtx/props/portal_cleanser/portal_cleanser_normal"
+	$blendtintbymraoalpha 1
+	//$emissionscale "{106 179 241}"
+	$emissionscale "{255 0 0}"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

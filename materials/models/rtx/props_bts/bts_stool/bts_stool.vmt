@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/rtx/props_bts/bts_stool/bts_stool"
+	$mraotexture "models/rtx/props_bts/bts_stool/bts_stool_mrao"
+	$bumpmap "models/rtx/props_bts/bts_stool/bts_stool_normal"
+	$model 1
+}

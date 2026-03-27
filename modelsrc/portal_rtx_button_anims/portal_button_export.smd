@@ -1,0 +1,12 @@
+version 1
+nodes
+0 "blender_implicit" -1
+1 "portal_button_root" -1
+2 "portal_button_top" 1
+end
+skeleton
+time 0
+0  0 0 0  0 0 0
+1  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+2  0.000000 15 0.000000  0.000000 0.000000 0.000000
+end

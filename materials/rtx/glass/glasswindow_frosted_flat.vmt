@@ -1,0 +1,19 @@
+Refract
+{
+	$refracttint "[.78 .788 .808]"
+	$refracttinttexture "lights/white"
+	$normalmap "rtx/glass/flat_normal"
+	$normalmap2 "rtx/glass/glasswindow_frosted_detail"
+	$refractamount .025
+	$fresnelreflection .5
+	%tooltexture "rtx/glass/flat_normal"
+	%noportal 1
+	$bumptransform "center .5 .5 scale 4 4 rotate 0 translate 0 -.5"
+	$bumptransform2 "center .5 .5 scale .5 .5 rotate 0 translate 0 -.5"
+	$surfaceprop glass
+	$bluramount 0
+	$envmap "env_cubemap"
+	$nowritez 1
+	$envmaptint "[.20 .30 .35]"
+	$mirroraboutviewportedges 1
+}

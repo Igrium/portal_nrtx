@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "models/rtx/props/round_elevator/round_elevator_sheet04"
+	$mraotexture "models/rtx/props/round_elevator/round_elevator_sheet04_mrao"
+	$bumpmap "models/rtx/props/round_elevator/round_elevator_sheet04_normal"
+	$translucent 1
+	$mraoscale "[1 1 1]"
+	$model 1
+}

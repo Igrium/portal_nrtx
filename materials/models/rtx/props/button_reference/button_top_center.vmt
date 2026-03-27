@@ -1,0 +1,4 @@
+patch
+{
+include materials/models/rtx/props/button_reference/button_top.vmt
+}

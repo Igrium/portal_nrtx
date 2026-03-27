@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/rtx/props/bed_body_reference/bed01"
+	$emissiontexture "models/rtx/props/bed_body_reference/bed01_emission"
+	$mraotexture "models/rtx/props/bed_body_reference/bed01_mrao"
+	$bumpmap "models/rtx/props/bed_body_reference/bed01_normal"
+	$model 1
+}

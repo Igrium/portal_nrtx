@@ -1,0 +1,24 @@
+//PBR
+//{
+//	$basetexture "models/rtx/props/security_camera/security_camera"
+//	$mraotexture "models/rtx/props/security_camera/security_camera_mrao"
+//	$translucent 1
+//	//$emissiontexture "models/rtx/props/switch/switch_emission"
+//	$bumpmap "models/rtx/props/security_camera/security_camera_normal"
+//	//$emissionscale "[0 .49 .66]"
+//	$mraoscale "[1 1 1]"
+//	$model 1
+//}
+Refract
+{
+	$refractamount .05
+	$normalmap "models/rtx/props/security_camera/security_camera_normal"
+	$envmap "env_cubemap"
+	$fresnelreflection 0.25
+	$envmapmask "models/rtx/props/security_camera/security_camera_refracttint"
+	$model 1
+	$nowritez 1
+	$envmaptint "[1 1 .9]"
+	$refracttinttexture "models/rtx/props/security_camera/security_camera"
+	//$bluramount 0
+}

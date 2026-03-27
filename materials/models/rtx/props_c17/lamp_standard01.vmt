@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/rtx/props_c17/lamp_standard01"
+	$emissiontexture "models/rtx/props_c17/lamp_standard01_emission"
+	$mraotexture "models/rtx/props_c17/lamp_standard01_mrao"
+	$bumpmap "models/rtx/props_c17/lamp_standard01_normal"
+	$model 1
+}

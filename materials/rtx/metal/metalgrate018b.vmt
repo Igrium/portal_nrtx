@@ -1,0 +1,11 @@
+PBR
+{
+	$basetexture "rtx/metal/metalgrate018b"
+	$mraotexture "rtx/metal/metalgrate018b_mrao"
+	$bumpmap "rtx/metal/metalgrate018b_normal"
+	%compilepassbullets 1
+
+	$basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
+	$surfaceprop "metalgrate"
+	$translucent 1
+}

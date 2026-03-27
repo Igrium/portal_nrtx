@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "rtx/tile/observation_tilefloor001a"
+	$mraotexture "rtx/tile/observation_tilefloor001a_mrao"
+	$bumpmap "rtx/tile/observation_tilefloor001a_normal"
+	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
+	$surfaceprop tile
+	$mraoscale "[1 1 1]"
+}
