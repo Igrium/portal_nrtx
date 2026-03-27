@@ -1,0 +1,4 @@
+Patch
+{
+	include "materials/metal/metalwall060a.vmt"
+}

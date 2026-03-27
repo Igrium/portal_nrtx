@@ -1,10 +1,4 @@
 Patch
 {
-	include "materials/rtx/metal/metalwall_001a.vmt"
-	insert
-	{
-	$basetexture "rtx/metal/metalwall_001b"
-	$mraotexture "rtx/metal/metalwall_001b_mrao"
-	$bumpmap "rtx/metal/metalwall_001b_normal"
-	}
+	include "materials/metal/metalwall048a_med.vmt"
 }

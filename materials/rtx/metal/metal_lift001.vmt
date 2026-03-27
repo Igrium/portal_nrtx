@@ -1,10 +1,15 @@
-PBR
+"PBR"
 {
-	$basetexture "rtx/metal/metal_lift001"
-	$mraotexture "rtx/metal/metal_lift001_mrao"
-	//$basetexturetransform "center .5 .5 scale .03125 .03125 rotate 0 translate 0 0"
-	$mraoscale "[1 2 1]"
-	%noportal 1
+    $model 0
+    $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
 
-	$surfaceprop metal
+    $basetexture    "rtx/metal/metal_lift001/metal_lift001_color"
+    $bumpmap        "rtx/metal/metal_lift001/metal_lift001_normal"
+    $mraotexture    "rtx/metal/metal_lift001/metal_lift001_mrao"
+
+    $envmap env_cubemap
+
+    "$surfaceprop" "metal"
+    "%keywords" "portal"
+    "%noportal" 1
 }

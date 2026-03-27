@@ -1,11 +1,4 @@
-PBR
+Patch
 {
-	$basetexture "rtx/metal/metalwall061f"
-	$mraotexture "rtx/metal/metalwall061f_mrao"
-	$bumpmap "rtx/metal/metalwall061f_normal"
-	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
-	$mraoscale "[1 1 1]"
-	%noportal 1
-
-	$surfaceprop metal
+	include "materials/metal/metalwall061f.vmt"
 }
