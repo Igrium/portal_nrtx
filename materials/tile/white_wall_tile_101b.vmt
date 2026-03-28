@@ -1,0 +1,10 @@
+Patch
+{
+	include "materials/tile/white_wall_tile_101a.vmt"
+	insert
+	{
+	$basetexture "tile/white_tile/white_wall_tile_101b"
+	$mraotexture "tile/white_tile/white_wall_tile_101b_mrao"
+	$bumpmap "tile/white_tile/white_wall_tile_101b_normal"
+	}
+}

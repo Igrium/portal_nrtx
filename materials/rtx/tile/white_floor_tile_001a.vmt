@@ -1,12 +1,4 @@
-PBR
+Patch
 {
-	$basetexture "rtx/tile/white_floor_tile_001a"
-	$mraotexture "rtx/tile/white_floor_tile_mrao"
-	$bumpmap "rtx/tile/white_floor_tile_normal"
-	//$reflectivity "[0.687 0.720 0.715]"
-	$reflectivity "[.51 .53 .52]"
-	$basetexturetransform "center .5 .5 scale 8 8 rotate 90 translate 0 0"
-	//rotated for parity with 001b
-	$mraoscale "[1 1 1]"
-	$surfaceprop metal
+	include "materials/tile/white_floor_tile_101a.vmt"
 }

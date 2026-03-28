@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10741"
-	"mapversion" "2684"
+	"mapversion" "2685"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -71,8 +71,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-378.586 -301.298 147.314)"
-			"angle" "[5.20012 -120.556 0]"
+			"position" "(-1085.66 -371.491 640.291)"
+			"angle" "[5.20014 152.244 0]"
 		}
 		v1
 		{
@@ -97,7 +97,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2684"
+	"mapversion" "2685"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -38027,7 +38027,7 @@ world
 				"point" "2 -704 -384 576"
 				"point" "3 -704 -384 704"
 			}
-			"material" "RTX/TILE/WHITE_WALL_TILE_001A"
+			"material" "RTX/TILE/WHITE_WALL_TILE_001B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -38542,7 +38542,7 @@ world
 				"point" "2 -1472 -512 576"
 				"point" "3 -1472 -512 704"
 			}
-			"material" "RTX/TILE/WHITE_WALL_TILE_001A"
+			"material" "RTX/TILE/WHITE_WALL_TILE_001B"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -41309,7 +41309,7 @@ world
 				"point" "2 -1152 -128 704"
 				"point" "3 -1024 -128 704"
 			}
-			"material" "RTX/TILE/WHITE_WALL_TILE_001A"
+			"material" "RTX/TILE/WHITE_WALL_TILE_001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -45945,7 +45945,7 @@ world
 				"point" "2 -1344 -384 576"
 				"point" "3 -1344 -384 704"
 			}
-			"material" "RTX/TILE/WHITE_WALL_TILE_001A"
+			"material" "RTX/TILE/WHITE_WALL_TILE_001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -46317,7 +46317,7 @@ world
 				"point" "2 -896 -384 704"
 				"point" "3 -832 -384 704"
 			}
-			"material" "RTX/TILE/WHITE_WALL_TILE_001A"
+			"material" "RTX/TILE/WHITE_WALL_TILE_001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -61966,7 +61966,7 @@ world
 				"point" "2 -832 -384 576"
 				"point" "3 -832 -384 704"
 			}
-			"material" "RTX/TILE/WHITE_WALL_TILE_001A"
+			"material" "RTX/TILE/WHITE_WALL_TILE_001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -215482,8 +215482,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-378.586 -301.298 147.314]"
-		"look" "[-568.106 -622.317 113.387]"
+		"position" "[-1085.66 -371.491 640.291]"
+		"look" "[-1415.56 -197.88 606.364]"
 	}
 }
 cordons

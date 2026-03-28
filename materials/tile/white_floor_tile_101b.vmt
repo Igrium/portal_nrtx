@@ -1,0 +1,12 @@
+PBR
+{
+	$basetexture "tile/white_tile/white_floor_tile_101b"
+	$mraotexture "tile/white_tile/white_floor_tile_mrao"
+	$bumpmap "tile/white_tile/white_floor_tile_normal"
+	//$reflectivity "[0.566 0.590 0.590]"
+	$reflectivity "[.44 .46 .46]"
+	$basetexturetransform "center .5 .5 scale 8 8 rotate 90 translate 0 0"
+	//rotated to align color values with vanilla P1 (the dark and light tiles are swapped in the RTX textures)
+	$mraoscale "[1 1 1]"
+	$surfaceprop metal
+}
