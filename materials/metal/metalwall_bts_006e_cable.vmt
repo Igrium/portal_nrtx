@@ -1,0 +1,10 @@
+Patch
+{
+	include "materials/metal/metalwall060a.vmt"
+	insert
+	{
+	$basetexture "metal/metalwall_bts_006e/metalwall_bts_006e_cable"
+	$mraotexture "metal/metalwall_bts_006e/metalwall_bts_006e_cable_mrao"
+	$bumpmap "metal/metalwall_bts_006e/metalwall_bts_006e_cable_normal"
+	}
+}
