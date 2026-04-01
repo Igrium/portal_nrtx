@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props_junk/garbage_coffeemug001a_chunk02.mdl"
+$ModelName "props_junk/garbage_coffeemug001a_chunk02.mdl"
 
 $StaticProp
 

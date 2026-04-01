@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/radio_reference.mdl"
+$ModelName "props/radio_reference.mdl"
 
 $BodyGroup "Body"
 {

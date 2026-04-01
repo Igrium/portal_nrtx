@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/round_elevator_doors.mdl"
+$ModelName "props/round_elevator_doors.mdl"
 
 $BodyGroup "Body"
 {

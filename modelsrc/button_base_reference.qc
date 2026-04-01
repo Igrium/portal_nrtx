@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/button_base_reference.mdl"
+$ModelName "props/button_base_reference.mdl"
 
 $StaticProp
 

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/portal_cleanser_1.mdl"
+$ModelName "props/portal_cleanser_1.mdl"
 
 $StaticProp
 

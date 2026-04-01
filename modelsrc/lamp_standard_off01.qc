@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props_c17/lamp_standard_off01.mdl"
+$ModelName "props_c17/lamp_standard_off01.mdl"
 
 $StaticProp
 

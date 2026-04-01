@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/Clock.mdl"
+$ModelName "props/Clock.mdl"
 
 $BodyGroup "Body"
 {

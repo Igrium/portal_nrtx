@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props_bts/bts_stool_static.mdl"
+$ModelName "props_bts/bts_stool_static.mdl"
 
 $StaticProp
 

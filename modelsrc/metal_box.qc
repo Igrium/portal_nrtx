@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/metal_box.mdl"
+$ModelName "props/metal_box.mdl"
 
 $BodyGroup "Body"
 {

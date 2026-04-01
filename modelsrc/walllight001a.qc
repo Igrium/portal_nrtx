@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props_lab/walllight001a.mdl"
+$ModelName "props_lab/walllight001a.mdl"
 
 $StaticProp
 

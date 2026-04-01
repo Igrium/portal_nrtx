@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/Door_01_Frame_wide_reference.mdl"
+$ModelName "props/Door_01_Frame_wide_reference.mdl"
 
 $StaticProp
 

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props\portaldoor.mdl"
+$ModelName "props\portaldoor.mdl"
 
 $BodyGroup "Body"
 {

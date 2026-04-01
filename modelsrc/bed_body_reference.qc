@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/bed_body_reference.mdl"
+$ModelName "props/bed_body_reference.mdl"
 
 $BodyGroup "Body"
 {

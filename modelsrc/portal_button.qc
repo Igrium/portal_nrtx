@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/portal_button.mdl"
+$ModelName "props/portal_button.mdl"
 
 $BodyGroup "base"
 {

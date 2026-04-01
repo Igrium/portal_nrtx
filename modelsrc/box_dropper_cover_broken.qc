@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/Box_dropper_cover_broken.mdl"
+$ModelName "props/Box_dropper_cover_broken.mdl"
 
 $BodyGroup "Body"
 {

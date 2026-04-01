@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props\sign_frame02\sign_frame02.mdl"
+$ModelName "props\sign_frame02\sign_frame02.mdl"
 
 $StaticProp
 

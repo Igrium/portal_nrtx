@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/button_top_reference.mdl"
+$ModelName "props/button_top_reference.mdl"
 
 $BodyGroup "Body"
 {
@@ -29,7 +29,7 @@ $CBox 0 0 0 0 0 0
 
 $BBox -34.356 -34.331 0 34.296 34.321 13.896
 
-$DefineBone "button_whole_reference_02.polymsh" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
+$DefineBone "portal_button_top" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $Sequence "idle" {

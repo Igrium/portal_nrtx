@@ -1,17 +1,10 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/table_reference.mdl"
+$ModelName "props/table_reference.mdl"
 
-$BodyGroup "Body"
-{
-	studio "table_rtx_ref.smd"
-}
-$BodyGroup "RTX"
-{
-	blank
-	studio "4090_table_ref.smd"
-}
+$body "body" "table_rtx_ref.smd"
 
+$staticprop
 
 $SurfaceProp "metalpanel"
 
@@ -19,14 +12,13 @@ $Contents "solid"
 
 $IllumPosition 0 -0.175 11.3
 
-$CDMaterials "models\rtx/props\rtx_card\"
 $CDMaterials "models\rtx/props\table_reference\"
 
 $CBox 0 0 0 0 0 0
 
 $BBox -17.021 -11.997 -0.247 17.45 11.877 22.734
 
-$DefineBone "polymsh1" "" 0 0 0 0 0 90 0 0 0 0 0 0
+//$DefineBone "polymsh1" "" 0 0 0 0 0 90 0 0 0 0 0 0
 
 
 $Sequence "idle" {

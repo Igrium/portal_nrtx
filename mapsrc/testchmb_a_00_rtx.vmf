@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10741"
-	"mapversion" "2685"
+	"mapversion" "2716"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -71,33 +71,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1085.66 -371.491 640.291)"
-			"angle" "[5.20014 152.244 0]"
+			"position" "(-519.643 -288.13 224.014)"
+			"angle" "[42.7999 109.046 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-387.184 -363.781 0)"
-			"zoom" "0.746483"
+			"position" "(-521.747 -306.045 65536)"
+			"zoom" "19.8738"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -865.875 510.437)"
+			"position" "(0 -867.819 166.777)"
 			"zoom" "19.8742"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-655.312 0 68.57)"
-			"zoom" "1.85751"
+			"position" "(-729.319 0 130.897)"
+			"zoom" "11.5012"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2685"
+	"mapversion" "2716"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -26596,7 +26596,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 -13] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -26721,7 +26721,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -26846,7 +26846,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -26971,7 +26971,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -3] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -27096,7 +27096,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -27221,7 +27221,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -29810,7 +29810,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 3] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -29935,7 +29935,7 @@ world
 			"uaxis" "[0.707107 0.707107 0 0] 0.25"
 			"vaxis" "[0.707107 -0.707107 0 3] 0.25"
 			"rotation" "135"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30041,7 +30041,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -3] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30185,7 +30185,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 -3] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30291,7 +30291,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 3] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31542,7 +31542,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -32944,7 +32944,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 3] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -33069,7 +33069,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 3] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -33213,7 +33213,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 3] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -33694,7 +33694,7 @@ world
 			"uaxis" "[0.707107 0.707107 0 0] 0.25"
 			"vaxis" "[0.707107 -0.707107 0 3] 0.25"
 			"rotation" "135"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -33800,7 +33800,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -51405,7 +51405,7 @@ world
 			"uaxis" "[0 1 0 -16] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -55249,7 +55249,7 @@ world
 			"uaxis" "[1 0 0 80] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -60357,7 +60357,7 @@ world
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -60481,7 +60481,7 @@ world
 			"uaxis" "[-1 0 0 208] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -66718,7 +66718,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 3] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -66844,7 +66844,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 3] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -66951,7 +66951,7 @@ world
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 3] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -67096,7 +67096,7 @@ world
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 3] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -75683,7 +75683,7 @@ world
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -76308,7 +76308,7 @@ world
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -76433,7 +76433,7 @@ world
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -76808,7 +76808,7 @@ world
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -77183,7 +77183,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -77808,7 +77808,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -77933,7 +77933,7 @@ world
 			"uaxis" "[-1 0 0 16] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -78433,7 +78433,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -78683,7 +78683,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -79058,7 +79058,7 @@ world
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -79433,7 +79433,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -79933,7 +79933,7 @@ world
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -80183,7 +80183,7 @@ world
 			"uaxis" "[1 0 0 -240] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -80558,7 +80558,7 @@ world
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -82418,7 +82418,7 @@ world
 			"uaxis" "[1 0 0 0] 40"
 			"vaxis" "[0 -1 0 -6] 40"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -98476,7 +98476,7 @@ world
 			"uaxis" "[-1 0 0 80] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "90"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -99854,7 +99854,7 @@ world
 			"uaxis" "[0 1 0 -1.16] 50"
 			"vaxis" "[1 0 0 -11.12] 50"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -101229,7 +101229,7 @@ world
 			"uaxis" "[0 1 0 9.08] 50"
 			"vaxis" "[1 0 0 -9.52] 50"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -102354,7 +102354,7 @@ world
 			"uaxis" "[0 1 0 -3.72] 50"
 			"vaxis" "[1 0 0 14.8] 50"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -102748,7 +102748,7 @@ world
 			"uaxis" "[0.965926 -0.258819 0 -41.6656] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -102873,7 +102873,7 @@ world
 			"uaxis" "[-0.707107 -0.707107 0 -31.0934] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -102998,7 +102998,7 @@ world
 			"uaxis" "[0.707107 -0.707107 0 -16.9225] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103123,7 +103123,7 @@ world
 			"uaxis" "[-0.866026 -0.5 0 -8.23622] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103267,7 +103267,7 @@ world
 			"uaxis" "[1 0 0 14] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103392,7 +103392,7 @@ world
 			"uaxis" "[1 0 0 46] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103517,7 +103517,7 @@ world
 			"uaxis" "[1 0 0 14] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103642,7 +103642,7 @@ world
 			"uaxis" "[-1 0 0 -50] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103767,7 +103767,7 @@ world
 			"uaxis" "[-1 0 0 46] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103892,7 +103892,7 @@ world
 			"uaxis" "[-1 0 0 14] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -103998,7 +103998,7 @@ world
 			"uaxis" "[-0.707107 0.707107 0 18.158] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104123,7 +104123,7 @@ world
 			"uaxis" "[-0.866025 0.5 0 -23.2339] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104248,7 +104248,7 @@ world
 			"uaxis" "[-0.258819 0.965926 0 -15.4555] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104373,7 +104373,7 @@ world
 			"uaxis" "[0.5 0.866025 0 22.3731] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104498,7 +104498,7 @@ world
 			"uaxis" "[0.707107 0.707107 0 21.9876] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104623,7 +104623,7 @@ world
 			"uaxis" "[0.965926 0.258819 0 0.235199] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104748,7 +104748,7 @@ world
 			"uaxis" "[0.965926 -0.258819 0 -41.6656] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104873,7 +104873,7 @@ world
 			"uaxis" "[-0.707107 -0.707107 0 -31.0934] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -104998,7 +104998,7 @@ world
 			"uaxis" "[0.707107 -0.707107 0 -16.9225] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105123,7 +105123,7 @@ world
 			"uaxis" "[-0.866026 -0.5 0 -8.23622] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105267,7 +105267,7 @@ world
 			"uaxis" "[1 0 0 14] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105392,7 +105392,7 @@ world
 			"uaxis" "[1 0 0 46] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105517,7 +105517,7 @@ world
 			"uaxis" "[1 0 0 14] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105642,7 +105642,7 @@ world
 			"uaxis" "[-1 0 0 -50] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105767,7 +105767,7 @@ world
 			"uaxis" "[-1 0 0 46] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105892,7 +105892,7 @@ world
 			"uaxis" "[-1 0 0 14] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -105998,7 +105998,7 @@ world
 			"uaxis" "[-0.707107 0.707107 0 18.158] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106123,7 +106123,7 @@ world
 			"uaxis" "[-0.866025 0.5 0 -23.2339] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106267,7 +106267,7 @@ world
 			"uaxis" "[-0.258819 0.965926 0 -15.4555] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106373,7 +106373,7 @@ world
 			"uaxis" "[0.5 0.866025 0 22.3731] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106498,7 +106498,7 @@ world
 			"uaxis" "[0.707107 0.707107 0 21.9876] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106623,7 +106623,7 @@ world
 			"uaxis" "[0.965926 0.258819 0 0.235199] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106767,7 +106767,7 @@ world
 			"uaxis" "[-0.707107 0.707107 0 30.2976] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106892,7 +106892,7 @@ world
 			"uaxis" "[-0.965926 0.258819 0 24.7497] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -106998,7 +106998,7 @@ world
 			"uaxis" "[0.707107 0.707107 0 -46.6073] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -107123,7 +107123,7 @@ world
 			"uaxis" "[0.866026 0.5 0 -25.7763] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -107267,7 +107267,7 @@ world
 			"uaxis" "[-1 0 0 14.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -107392,7 +107392,7 @@ world
 			"uaxis" "[-1 0 0 46.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -107517,7 +107517,7 @@ world
 			"uaxis" "[-1 0 0 14.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -107642,7 +107642,7 @@ world
 			"uaxis" "[-0.5 -0.866025 0 2.66338] 0.5"
 			"vaxis" "[0 0 -1 0.04333] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -107767,7 +107767,7 @@ world
 			"uaxis" "[1 0 0 -50.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -107892,7 +107892,7 @@ world
 			"uaxis" "[1 0 0 -18.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108017,7 +108017,7 @@ world
 			"uaxis" "[1 0 0 -50.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108123,7 +108123,7 @@ world
 			"uaxis" "[0.866025 -0.5 0 -40.6836] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108248,7 +108248,7 @@ world
 			"uaxis" "[0.707107 -0.707107 0 -29.0621] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108373,7 +108373,7 @@ world
 			"uaxis" "[0.258819 -0.965926 0 -2.3569] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108498,7 +108498,7 @@ world
 			"uaxis" "[-0.707107 -0.707107 0 37.5015] 0.5"
 			"vaxis" "[0 0 -1 0.04333] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108623,7 +108623,7 @@ world
 			"uaxis" "[-0.965926 -0.258819 0 59.19] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108767,7 +108767,7 @@ world
 			"uaxis" "[-0.707107 0.707107 0 30.2976] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108892,7 +108892,7 @@ world
 			"uaxis" "[-0.965926 0.258819 0 24.7497] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -108998,7 +108998,7 @@ world
 			"uaxis" "[0.707107 0.707107 0 -46.6073] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109123,7 +109123,7 @@ world
 			"uaxis" "[0.866026 0.5 0 -25.7763] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109267,7 +109267,7 @@ world
 			"uaxis" "[-1 0 0 14.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109392,7 +109392,7 @@ world
 			"uaxis" "[-1 0 0 46.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109517,7 +109517,7 @@ world
 			"uaxis" "[-1 0 0 14.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109642,7 +109642,7 @@ world
 			"uaxis" "[-0.5 -0.866025 0 2.66338] 0.5"
 			"vaxis" "[0 0 -1 0.04333] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109767,7 +109767,7 @@ world
 			"uaxis" "[1 0 0 -50.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -109892,7 +109892,7 @@ world
 			"uaxis" "[1 0 0 -18.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -110017,7 +110017,7 @@ world
 			"uaxis" "[1 0 0 -50.2096] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -110123,7 +110123,7 @@ world
 			"uaxis" "[0.866025 -0.5 0 -40.6836] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -110248,7 +110248,7 @@ world
 			"uaxis" "[0.707107 -0.707107 0 -29.0621] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -110373,7 +110373,7 @@ world
 			"uaxis" "[0.258819 -0.965926 0 -2.3569] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -110498,7 +110498,7 @@ world
 			"uaxis" "[-0.707107 -0.707107 0 37.5015] 0.5"
 			"vaxis" "[0 0 -1 0.04333] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -110623,7 +110623,7 @@ world
 			"uaxis" "[-0.965926 -0.258819 0 59.19] 0.5"
 			"vaxis" "[0 0 -1 -63.9567] 0.5"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -113284,6 +113284,93 @@ world
 }
 entity
 {
+	"id" "820524"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "75 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/4090.mdl"
+	"modelscale" "1"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "1281"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "-530 -254.5 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "820842"
+	"classname" "point_servercommand"
+	"angles" "0 0 0"
+	"targetname" "server_command"
+	"origin" "-492 -320 235"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupid" "20"
+		"visgroupid" "24"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "817375"
+	"classname" "env_cubemap"
+	"cubemapsize" "7"
+	"parallaxobb" "00_parallax1"
+	"sides" ""
+	"origin" "-912 -864 172"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
 	"id" "808346"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
@@ -113701,24 +113788,6 @@ entity
 }
 entity
 {
-	"id" "801769"
-	"classname" "point_message"
-	"angles" "0 0 0"
-	"developeronly" "0"
-	"message" "You thought I'd forget this one, huh?"
-	"radius" "128"
-	"spawnflags" "0"
-	"origin" "-3915.33 1213.87 57"
-	editor
-	{
-		"color" "200 200 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
 	"id" "798559"
 	"classname" "obb_volumefog"
 	"angles" "-0 0 0"
@@ -113756,7 +113825,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiaScale" "1.0"
-	"model" "models/rtx/props/metal_box.mdl"
+	"model" "models/props/metal_box.mdl"
 	"newskins" "2"
 	"paintpower" "4"
 	"physdamagescale" "0.1"
@@ -125023,7 +125092,7 @@ hidden
 		"angles" "0 0 0"
 		"fademindist" "-1"
 		"fadescale" "1"
-		"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+		"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 		"renderamt" "255"
 		"rendercolor" "255 255 255"
 		"scale" "1 1 1"
@@ -125050,7 +125119,7 @@ hidden
 		"angles" "0 90 0"
 		"fademindist" "-1"
 		"fadescale" "1"
-		"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+		"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 		"renderamt" "255"
 		"rendercolor" "255 255 255"
 		"scale" "1 1 1"
@@ -132174,7 +132243,7 @@ hidden
 		"lightingorigin" "clock_light4"
 		"MaxAnimTime" "10"
 		"MinAnimTime" "5"
-		"model" "models/rtx/props/clock.mdl"
+		"model" "models/props/clock.mdl"
 		"modelscale" "1"
 		"PerformanceMode" "0"
 		"physdamagescale" "1.0"
@@ -132458,7 +132527,7 @@ hidden
 		"fadescale" "1"
 		"MaxAnimTime" "10"
 		"MinAnimTime" "5"
-		"model" "models/rtx/props/bed_body_reference.mdl"
+		"model" "models/props/bed_body_reference.mdl"
 		"modelscale" "1"
 		"PerformanceMode" "0"
 		"physdamagescale" "1.0"
@@ -134637,7 +134706,7 @@ hidden
 		"mincpulevel" "0"
 		"mingpulevel" "0"
 		"minhealthdmg" "0"
-		"model" "models/rtx/props_c17/lamp_standard_off01.mdl"
+		"model" "models/props_c17/lamp_standard_off01.mdl"
 		"nodamageforces" "0"
 		"PerformanceMode" "0"
 		"physdamagescale" "0.1"
@@ -134837,7 +134906,7 @@ hidden
 		"spawnflags" "2"
 		"targetname" "room_unlit-lamp_2_light"
 		"textureframe" "0"
-		"texturename" "models/rtx/props_c17/lamp_standard01_cookie"
+		"texturename" "models/props_c17/lamp_standard01_cookie"
 		"volumetric_density" ".1"
 		"volumetric_lightscale" "1.0"
 		"origin" "479 -317 329.926"
@@ -135033,7 +135102,7 @@ hidden
 		"maxdxlevel" "0"
 		"MinAnimTime" "5"
 		"mindxlevel" "0"
-		"model" "models/rtx/props/button_top_reference.mdl"
+		"model" "models/props/button_top_reference.mdl"
 		"modelscale" "1"
 		"parentname" "floor_button_door_a00"
 		"PerformanceMode" "0"
@@ -135082,7 +135151,7 @@ hidden
 		"maxanimtime" "10"
 		"minanimtime" "5"
 		"minhealthdmg" "0"
-		"model" "models/rtx/props/button_base_reference.mdl"
+		"model" "models/props/button_base_reference.mdl"
 		"modelscale" "1"
 		"performancemode" "0"
 		"physdamagescale" "1.0"
@@ -135163,7 +135232,7 @@ hidden
 		"angles" "0 180 0"
 		"disableshadows" "1"
 		"fadescale" "1"
-		"model" "models/rtx/props/security_camera.mdl"
+		"model" "models/props/security_camera.mdl"
 		"physdamagescale" "1.0"
 		"renderamt" "255"
 		"rendercolor" "255 255 255"
@@ -135345,7 +135414,7 @@ hidden
 		"angles" "0 90 0"
 		"disableshadows" "1"
 		"fadescale" "1"
-		"model" "models/rtx/props/security_camera.mdl"
+		"model" "models/props/security_camera.mdl"
 		"physdamagescale" "1.0"
 		"renderamt" "255"
 		"rendercolor" "255 255 255"
@@ -135688,7 +135757,7 @@ hidden
 		"maxdxlevel" "0"
 		"MinAnimTime" "5"
 		"mindxlevel" "0"
-		"model" "models/rtx/props/door_01_lftdoor_reference.mdl"
+		"model" "models/props/door_01_lftdoor_reference.mdl"
 		"modelscale" "1"
 		"parentname" "door_right_a00"
 		"PerformanceMode" "0"
@@ -135727,7 +135796,7 @@ hidden
 		"fadescale" "1"
 		"MaxAnimTime" "10"
 		"MinAnimTime" "5"
-		"model" "models/rtx/props/door_01_rtdoor_reference.mdl"
+		"model" "models/props/door_01_rtdoor_reference.mdl"
 		"modelscale" "1"
 		"parentname" "door_left_a00"
 		"physdamagescale" "1.0"
@@ -135763,7 +135832,7 @@ hidden
 		"fadescale" "1"
 		"maxdxlevel" "0"
 		"mindxlevel" "0"
-		"model" "models/rtx/props/door_01_frame_wide_reference.mdl"
+		"model" "models/props/door_01_frame_wide_reference.mdl"
 		"renderamt" "255"
 		"rendercolor" "255 255 255"
 		"scale" "1 1 1"
@@ -136655,7 +136724,7 @@ hidden
 		"lightingorigin" "clock_light3"
 		"MaxAnimTime" "10"
 		"MinAnimTime" "5"
-		"model" "models/rtx/props/clock.mdl"
+		"model" "models/props/clock.mdl"
 		"modelscale" "1"
 		"PerformanceMode" "0"
 		"physdamagescale" "1.0"
@@ -140245,7 +140314,7 @@ hidden
 		"holdanimation" "0"
 		"maxanimtime" "10"
 		"minanimtime" "5"
-		"model" "models/rtx/props/radio_reference.mdl"
+		"model" "models/props/radio_reference.mdl"
 		"modelscale" "1"
 		"physdamagescale" "0.1"
 		"randomanimation" "0"
@@ -143229,7 +143298,7 @@ hidden
 		"fademindist" "-1"
 		"fadescale" "1"
 		"inertiaScale" "1.0"
-		"model" "models/rtx/props_junk/garbage_coffeemug001a_forevergibs.mdl"
+		"model" "models/props_junk/garbage_coffeemug001a_forevergibs.mdl"
 		"physdamagescale" "0.1"
 		"renderamt" "255"
 		"rendercolor" "255 255 255"
@@ -143260,7 +143329,7 @@ hidden
 		"fadescale" "1"
 		"MaxAnimTime" "10"
 		"MinAnimTime" "5"
-		"model" "models/rtx/props/table_reference.mdl"
+		"model" "models/props/table_reference.mdl"
 		"modelscale" "1"
 		"physdamagescale" "1.0"
 		"RandomAnimation" "0"
@@ -148352,7 +148421,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/bed_body_reference.mdl"
+	"model" "models/props/bed_body_reference.mdl"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"
@@ -150695,7 +150764,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props_c17/lamp_standard_off01.mdl"
+	"model" "models/props_c17/lamp_standard_off01.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -152276,7 +152345,7 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/rtx/props/button_top_reference.mdl"
+	"model" "models/props/button_top_reference.mdl"
 	"modelscale" "1"
 	"parentname" "floor_button_door_a00a"
 	"PerformanceMode" "0"
@@ -152322,7 +152391,7 @@ entity
 	"maxanimtime" "10"
 	"minanimtime" "5"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/button_base_reference.mdl"
+	"model" "models/props/button_base_reference.mdl"
 	"modelscale" "1"
 	"performancemode" "0"
 	"physdamagescale" "1.0"
@@ -153054,7 +153123,7 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/rtx/props/button_top_reference.mdl"
+	"model" "models/props/button_top_reference.mdl"
 	"modelscale" "1"
 	"parentname" "floor_button_door_a00"
 	"PerformanceMode" "0"
@@ -153100,7 +153169,7 @@ entity
 	"maxanimtime" "10"
 	"minanimtime" "5"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/button_base_reference.mdl"
+	"model" "models/props/button_base_reference.mdl"
 	"modelscale" "1"
 	"performancemode" "0"
 	"physdamagescale" "1.0"
@@ -153427,7 +153496,7 @@ entity
 	"angles" "0 180 0"
 	"disableshadows" "1"
 	"fadescale" "1"
-	"model" "models/rtx/props/security_camera.mdl"
+	"model" "models/props/security_camera.mdl"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -153601,7 +153670,7 @@ entity
 	"angles" "0 90 0"
 	"disableshadows" "1"
 	"fadescale" "1"
-	"model" "models/rtx/props/security_camera.mdl"
+	"model" "models/props/security_camera.mdl"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -153775,7 +153844,7 @@ entity
 	"angles" "0 0 0"
 	"disableshadows" "1"
 	"fadescale" "1"
-	"model" "models/rtx/props/security_camera.mdl"
+	"model" "models/props/security_camera.mdl"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -153949,7 +154018,7 @@ entity
 	"angles" "0 90 0"
 	"disableshadows" "1"
 	"fadescale" "1"
-	"model" "models/rtx/props/security_camera.mdl"
+	"model" "models/props/security_camera.mdl"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -154130,7 +154199,7 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/rtx/props/door_01_lftdoor_reference.mdl"
+	"model" "models/props/door_01_lftdoor_reference.mdl"
 	"parentname" "door_right_a00"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
@@ -154166,7 +154235,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/door_01_rtdoor_reference.mdl"
+	"model" "models/props/door_01_rtdoor_reference.mdl"
 	"parentname" "door_left_a00"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -154198,7 +154267,7 @@ entity
 	"fadescale" "1"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/rtx/props/door_01_frame_wide_reference.mdl"
+	"model" "models/props/door_01_frame_wide_reference.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -154561,7 +154630,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/door_01_lftdoor_reference.mdl"
+	"model" "models/props/door_01_lftdoor_reference.mdl"
 	"parentname" "exit_door_right_a00"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -154591,7 +154660,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/door_01_rtdoor_reference.mdl"
+	"model" "models/props/door_01_rtdoor_reference.mdl"
 	"parentname" "exit_door_left_a00"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -154617,7 +154686,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/door_01_frame_wide_reference.mdl"
+	"model" "models/props/door_01_frame_wide_reference.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -155019,7 +155088,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/door_01_frame_wide_reference.mdl"
+	"model" "models/props/door_01_frame_wide_reference.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -155047,7 +155116,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/door_01_rtdoor_reference.mdl"
+	"model" "models/props/door_01_rtdoor_reference.mdl"
 	"parentname" "door_left_00"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -155076,7 +155145,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/door_01_lftdoor_reference.mdl"
+	"model" "models/props/door_01_lftdoor_reference.mdl"
 	"parentname" "door_right_00"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -156478,7 +156547,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/box_dropper_cover.mdl"
+	"model" "models/props/box_dropper_cover.mdl"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -156508,7 +156577,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/box_dropper.mdl"
+	"model" "models/props/box_dropper.mdl"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -167550,7 +167619,7 @@ entity
 	"lightingorigin" "clock_light1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/clock.mdl"
+	"model" "models/props/clock.mdl"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"
@@ -167585,7 +167654,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/toilet_body_reference.mdl"
+	"model" "models/props/toilet_body_reference.mdl"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"
@@ -167659,7 +167728,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/portal_cleanser_1.mdl"
+	"model" "models/props/portal_cleanser_1.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -167828,7 +167897,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
+	"model" "models/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -167852,7 +167921,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
+	"model" "models/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -167876,7 +167945,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
+	"model" "models/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -167900,7 +167969,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
+	"model" "models/props/elevatorshaft_wall/elevatorshaft_wall.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -167968,7 +168037,7 @@ entity
 	"fadescale" "1"
 	"health" "0"
 	"inertiaScale" "1.0"
-	"model" "models/rtx/props/radio_reference.mdl"
+	"model" "models/props/radio_reference.mdl"
 	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -171920,7 +171989,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiaScale" "1.0"
-	"model" "models/rtx/props_junk/garbage_coffeemug001a_forevergibs.mdl"
+	"model" "models/props_junk/garbage_coffeemug001a_forevergibs.mdl"
 	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -171940,29 +172009,31 @@ entity
 entity
 {
 	"id" "400936"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
+	"classname" "prop_static"
 	"angles" "0 30 0"
-	"animateeveryframe" "1"
-	"body" "0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/rtx/props/table_reference.mdl"
-	"physdamagescale" "1.0"
-	"RandomAnimation" "0"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/table_reference.mdl"
+	"preventpropcombine" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
+	"uniformscale" "1"
 	"origin" "-604 -260 160"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupid" "24"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -175144,7 +175215,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/portal_cleanser_1.mdl"
+	"model" "models/props/portal_cleanser_1.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -175882,7 +175953,7 @@ entity
 {
 	"id" "444013"
 	"classname" "env_cubemap"
-	"cubemapsize" "6"
+	"cubemapsize" "5"
 	"parallaxobb" "00_exit_parallax1"
 	"sides" "127688 181326 181314 127714 123301 177372 116418 177384 177377 177391 177396 177364"
 	"origin" "-1056 -864 192"
@@ -176061,7 +176132,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/portal_cleanser_1.mdl"
+	"model" "models/props/portal_cleanser_1.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -178866,7 +178937,7 @@ entity
 	"angles" "0 0 0"
 	"fadescale" "1"
 	"hull_name" "Human"
-	"model" "models/rtx/props/metal_box.mdl"
+	"model" "models/props/metal_box.mdl"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -179448,7 +179519,7 @@ entity
 	"globalname" "elevator_body_model"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/round_elevator_body.mdl"
+	"model" "models/props/round_elevator_body.mdl"
 	"parentname" "elevator_body_middle"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -179477,7 +179548,7 @@ entity
 	"globalname" "elevator_door_model_middle"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/round_elevator_doors.mdl"
+	"model" "models/props/round_elevator_doors.mdl"
 	"parentname" "elevator_body_middle"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -184681,7 +184752,7 @@ entity
 	"globalname" "a00-a01_elevator_body_model"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/round_elevator_body.mdl"
+	"model" "models/props/round_elevator_body.mdl"
 	"parentname" "body"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -184716,7 +184787,7 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/rtx/props/round_elevator_doors.mdl"
+	"model" "models/props/round_elevator_doors.mdl"
 	"parentname" "body"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
@@ -188271,7 +188342,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/portal_cleanser_1.mdl"
+	"model" "models/props/portal_cleanser_1.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -194606,7 +194677,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props_lab/walllight001a.mdl"
+	"model" "models/props_lab/walllight001a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -194630,7 +194701,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props_lab/walllight001a.mdl"
+	"model" "models/props_lab/walllight001a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -195536,7 +195607,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props_lab/walllight001a.mdl"
+	"model" "models/props_lab/walllight001a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -195568,7 +195639,7 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
+	"_specularmode" "0"
 	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
@@ -195722,7 +195793,7 @@ entity
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
+	"_specularmode" "0"
 	"_volumetricmode" "2"
 	"angles" "0 0 0"
 	"fadetickinterval" "0.1"
@@ -196073,7 +196144,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -196113,7 +196184,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -196144,7 +196215,7 @@ entity
 	"disablevertexlighting" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props_bts/bts_stool_static.mdl"
+	"model" "models/props_bts/bts_stool_static.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -196179,7 +196250,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -196781,7 +196852,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -196821,7 +196892,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -196861,7 +196932,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -196901,7 +196972,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -196941,7 +197012,7 @@ entity
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
-	"model" "models/rtx/props/lab_chair/lab_chair.mdl"
+	"model" "models/props/lab_chair/lab_chair.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -198276,7 +198347,7 @@ entity
 	"lightingorigin" "clock_light2"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/clock.mdl"
+	"model" "models/props/clock.mdl"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"
@@ -208788,7 +208859,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevator_caps/elevator_caps.mdl"
+	"model" "models/props/elevator_caps/elevator_caps.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208811,7 +208882,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+	"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208857,7 +208928,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevator_caps/elevator_caps.mdl"
+	"model" "models/props/elevator_caps/elevator_caps.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208880,7 +208951,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevator_caps/elevator_caps.mdl"
+	"model" "models/props/elevator_caps/elevator_caps.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208903,7 +208974,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/elevator_caps/elevator_caps.mdl"
+	"model" "models/props/elevator_caps/elevator_caps.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208926,7 +208997,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+	"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208949,7 +209020,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+	"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208972,7 +209043,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+	"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -208995,7 +209066,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+	"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -209018,7 +209089,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/autoportal_frame/autoportal_frame.mdl"
+	"model" "models/props/autoportal_frame/autoportal_frame.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -209082,7 +209153,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/sign_frame02/sign_frame02.mdl"
+	"model" "models/props/sign_frame02/sign_frame02.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -209229,7 +209300,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/rtx/props/sign_frame02/sign_frame02.mdl"
+	"model" "models/props/sign_frame02/sign_frame02.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
@@ -215309,7 +215380,7 @@ entity
 	"fadescale" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/rtx/props/toilet_lid_reference.mdl"
+	"model" "models/props/toilet_lid_reference.mdl"
 	"parentname" "toilet_lid_brush"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -215482,8 +215553,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1085.66 -371.491 640.291]"
-		"look" "[-1415.56 -197.88 606.364]"
+		"position" "[-519.643 -288.13 224.014]"
+		"look" "[-609.27 -28.5065 -30.3214]"
 	}
 }
 cordons

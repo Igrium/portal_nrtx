@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/toilet_body_reference.mdl"
+$ModelName "props/toilet_body_reference.mdl"
 
 $BodyGroup "Body"
 {

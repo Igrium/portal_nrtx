@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx\props\autoportal_frame\autoportal_frame.mdl"
+$ModelName "props\autoportal_frame\autoportal_frame.mdl"
 
 $StaticProp
 
@@ -16,7 +16,7 @@ $Contents "solid"
 
 $IllumPosition 0 6.074 0
 
-$CDMaterials "rtx\models\props\autoportal_frame\"
+$CDMaterials "models\rtx\props\autoportal_frame\"
 
 $CBox 0 0 0 0 0 0
 
