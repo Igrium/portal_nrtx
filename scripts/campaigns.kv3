@@ -6,7 +6,7 @@
 
 			meta = {
 				//author = "#MainMenu_Campaigns_Valve_Author"
-				author = "TwoKrazy"
+				author = "TwoKrazy & Igrium"
 				desc = "#MainMenu_Campaigns_portal_Description"
 				box_art = "boxart.png"
 				selector_logo_background = "true"
