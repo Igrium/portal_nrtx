@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10591"
-	"mapversion" "2731"
+	"mapversion" "2736"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -57,6 +57,12 @@ visgroups
 		"visgroupid" "94"
 		"color" "228 133 202"
 	}
+	visgroup
+	{
+		"name" "_artpass_rtx"
+		"visgroupid" "162"
+		"color" "228 133 218"
+	}
 }
 viewsettings
 {
@@ -71,14 +77,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1491.58 -879.163 583.203)"
-			"angle" "[5.59998 167.452 0]"
+			"position" "(-668.583 606.263 755.436)"
+			"angle" "[10.8 -125.348 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-1384.03 -976.198 0)"
-			"zoom" "19.8738"
+			"position" "(-592.522 -384.148 65536)"
+			"zoom" "0.359993"
 		}
 		v2
 		{
@@ -97,7 +103,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2731"
+	"mapversion" "2736"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -113284,12 +113290,12 @@ world
 }
 entity
 {
-	"id" "833030"
+	"id" "836139"
 	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "instances/elevator_shaft_lights"
+	"angles" "0 180 0"
+	"file" "instances/elevator_landing_lights"
 	"fixup_style" "0"
-	"origin" "-1472 -864 444"
+	"origin" "-575.895 -255.953 672.022"
 	editor
 	{
 		"color" "220 30 220"
@@ -113300,44 +113306,12 @@ entity
 }
 entity
 {
-	"id" "833072"
+	"id" "836158"
 	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "instances/elevator_shaft_lights"
+	"angles" "-0 -180 0"
+	"file" "instances/elevator_landing_lights"
 	"fixup_style" "0"
-	"origin" "-1472 -864 514"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "833126"
-	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "instances/elevator_shaft_lights"
-	"fixup_style" "0"
-	"origin" "-1472 -864 578"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "833222"
-	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "instances/elevator_shaft_lights"
-	"fixup_style" "0"
-	"origin" "-1472 -864 642"
+	"origin" "-575.895 -255.953 1248.02"
 	editor
 	{
 		"color" "220 30 220"
@@ -115484,156 +115458,172 @@ hidden
 		}
 	}
 }
-entity
+hidden
 {
-	"id" "770491"
-	"classname" "light_rt"
-	"_castentityshadow" "1"
-	"_directmode" "0"
-	"_hard_radius_threshold" "32"
-	"_indirectmode" "0"
-	"_initialshadowsize" "3"
-	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"pattern" "aaaaagntzzzzzzzz"
-	"slopescale" "1.0"
-	"spawnflags" "1"
-	"style" "9"
-	"targetname" "a00-a01_elevator_lights"
-	"textureframe" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "-472 -256 848"
-	editor
+	entity
 	{
-		"color" "162 247 0"
-		"groupid" "770490"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
+		"id" "770491"
+		"classname" "light_rt"
+		"_castentityshadow" "1"
+		"_directmode" "0"
+		"_hard_radius_threshold" "32"
+		"_indirectmode" "0"
+		"_initialshadowsize" "3"
+		"_light" "183 204 218 60"
+		"_lightHDR" "183 204 218 40"
+		"_lightscaleHDR" "1"
+		"_nocubemapsprite" "1"
+		"_quadratic_attn" "1"
+		"_shadoworiginoffset" "0 0 0"
+		"_specularmode" "2"
+		"_volumetricmode" "2"
+		"angles" "0 0 0"
+		"fadetickinterval" "0.1"
+		"nearz" "4.0"
+		"pattern" "aaaaagntzzzzzzzz"
+		"slopescale" "1.0"
+		"spawnflags" "1"
+		"style" "9"
+		"targetname" "a00-a01_elevator_lights"
+		"textureframe" "0"
+		"volumetric_density" "0.0"
+		"volumetric_lightscale" "1.0"
+		"origin" "-472 -256 848"
+		editor
+		{
+			"color" "162 247 0"
+			"groupid" "770490"
+			"visgroupid" "162"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "770499"
-	"classname" "light_rt"
-	"_castentityshadow" "1"
-	"_directmode" "0"
-	"_hard_radius_threshold" "32"
-	"_indirectmode" "0"
-	"_initialshadowsize" "3"
-	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"pattern" "aaaaagntzzzzzzzz"
-	"slopescale" "1.0"
-	"spawnflags" "1"
-	"style" "9"
-	"targetname" "a00-a01_elevator_lights"
-	"textureframe" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "-296 -256 848"
-	editor
+	entity
 	{
-		"color" "162 247 0"
-		"groupid" "770490"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
+		"id" "770499"
+		"classname" "light_rt"
+		"_castentityshadow" "1"
+		"_directmode" "0"
+		"_hard_radius_threshold" "32"
+		"_indirectmode" "0"
+		"_initialshadowsize" "3"
+		"_light" "183 204 218 60"
+		"_lightHDR" "183 204 218 40"
+		"_lightscaleHDR" "1"
+		"_nocubemapsprite" "1"
+		"_quadratic_attn" "1"
+		"_shadoworiginoffset" "0 0 0"
+		"_specularmode" "2"
+		"_volumetricmode" "2"
+		"angles" "0 0 0"
+		"fadetickinterval" "0.1"
+		"nearz" "4.0"
+		"pattern" "aaaaagntzzzzzzzz"
+		"slopescale" "1.0"
+		"spawnflags" "1"
+		"style" "9"
+		"targetname" "a00-a01_elevator_lights"
+		"textureframe" "0"
+		"volumetric_density" "0.0"
+		"volumetric_lightscale" "1.0"
+		"origin" "-296 -256 848"
+		editor
+		{
+			"color" "162 247 0"
+			"groupid" "770490"
+			"visgroupid" "162"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "770507"
-	"classname" "light_rt"
-	"_castentityshadow" "1"
-	"_directmode" "0"
-	"_hard_radius_threshold" "32"
-	"_indirectmode" "0"
-	"_initialshadowsize" "3"
-	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"pattern" "aaaaagntzzzzzzzz"
-	"slopescale" "1.0"
-	"spawnflags" "1"
-	"style" "9"
-	"targetname" "a00-a01_elevator_lights"
-	"textureframe" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "-296 -255.88 1064"
-	editor
+	entity
 	{
-		"color" "162 247 0"
-		"groupid" "770490"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
+		"id" "770507"
+		"classname" "light_rt"
+		"_castentityshadow" "1"
+		"_directmode" "0"
+		"_hard_radius_threshold" "32"
+		"_indirectmode" "0"
+		"_initialshadowsize" "3"
+		"_light" "183 204 218 60"
+		"_lightHDR" "183 204 218 40"
+		"_lightscaleHDR" "1"
+		"_nocubemapsprite" "1"
+		"_quadratic_attn" "1"
+		"_shadoworiginoffset" "0 0 0"
+		"_specularmode" "2"
+		"_volumetricmode" "2"
+		"angles" "0 0 0"
+		"fadetickinterval" "0.1"
+		"nearz" "4.0"
+		"pattern" "aaaaagntzzzzzzzz"
+		"slopescale" "1.0"
+		"spawnflags" "1"
+		"style" "9"
+		"targetname" "a00-a01_elevator_lights"
+		"textureframe" "0"
+		"volumetric_density" "0.0"
+		"volumetric_lightscale" "1.0"
+		"origin" "-296 -255.88 1064"
+		editor
+		{
+			"color" "162 247 0"
+			"groupid" "770490"
+			"visgroupid" "162"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "770515"
-	"classname" "light_rt"
-	"_castentityshadow" "1"
-	"_directmode" "0"
-	"_hard_radius_threshold" "32"
-	"_indirectmode" "0"
-	"_initialshadowsize" "3"
-	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"pattern" "aaaaagntzzzzzzzz"
-	"slopescale" "1.0"
-	"spawnflags" "1"
-	"style" "9"
-	"targetname" "a00-a01_elevator_lights"
-	"textureframe" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "-472 -256 1064"
-	editor
+	entity
 	{
-		"color" "162 247 0"
-		"groupid" "770490"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
+		"id" "770515"
+		"classname" "light_rt"
+		"_castentityshadow" "1"
+		"_directmode" "0"
+		"_hard_radius_threshold" "32"
+		"_indirectmode" "0"
+		"_initialshadowsize" "3"
+		"_light" "183 204 218 60"
+		"_lightHDR" "183 204 218 40"
+		"_lightscaleHDR" "1"
+		"_nocubemapsprite" "1"
+		"_quadratic_attn" "1"
+		"_shadoworiginoffset" "0 0 0"
+		"_specularmode" "2"
+		"_volumetricmode" "2"
+		"angles" "0 0 0"
+		"fadetickinterval" "0.1"
+		"nearz" "4.0"
+		"pattern" "aaaaagntzzzzzzzz"
+		"slopescale" "1.0"
+		"spawnflags" "1"
+		"style" "9"
+		"targetname" "a00-a01_elevator_lights"
+		"textureframe" "0"
+		"volumetric_density" "0.0"
+		"volumetric_lightscale" "1.0"
+		"origin" "-472 -256 1064"
+		editor
+		{
+			"color" "162 247 0"
+			"groupid" "770490"
+			"visgroupid" "162"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 2000]"
+		}
 	}
 }
 entity
@@ -116782,7 +116772,8 @@ hidden
 		{
 			"color" "162 247 0"
 			"groupid" "770361"
-			"visgroupshown" "1"
+			"visgroupid" "162"
+			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[0 2000]"
 		}
@@ -116823,7 +116814,8 @@ hidden
 		{
 			"color" "162 247 0"
 			"groupid" "770361"
-			"visgroupshown" "1"
+			"visgroupid" "162"
+			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[0 2000]"
 		}
@@ -116864,7 +116856,8 @@ hidden
 		{
 			"color" "162 247 0"
 			"groupid" "770361"
-			"visgroupshown" "1"
+			"visgroupid" "162"
+			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[0 2000]"
 		}
@@ -116905,7 +116898,8 @@ hidden
 		{
 			"color" "162 247 0"
 			"groupid" "770361"
-			"visgroupshown" "1"
+			"visgroupid" "162"
+			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[0 2000]"
 		}
@@ -167923,7 +167917,7 @@ entity
 	"Activated" "0"
 	"angles" "0 270 0"
 	"PortalTwo" "0"
-	"skin" "1"
+	"skin" "0"
 	"targetname" "portal_blue_1"
 	"origin" "-1376 -384 628"
 	editor
@@ -175559,7 +175553,7 @@ entity
 	"Activated" "0"
 	"angles" "0 270 0"
 	"PortalTwo" "0"
-	"skin" "1"
+	"skin" "0"
 	"targetname" "portal_blue_3"
 	"origin" "-800 -384 628"
 	editor
@@ -176126,9 +176120,9 @@ entity
 {
 	"id" "443929"
 	"classname" "env_cubemap"
-	"cubemapsize" "7"
+	"cubemapsize" "6"
 	"parallaxobb" "wakeup_parallax4"
-	"sides" "6476"
+	"sides" "6476 158219 158231"
 	"origin" "-512 -512 256"
 	editor
 	{
@@ -209218,9 +209212,9 @@ entity
 	"id" "683373"
 	"classname" "prop_portal"
 	"Activated" "0"
-	"angles" "0 270 0"
+	"angles" "0 0 0"
 	"PortalTwo" "0"
-	"skin" "1"
+	"skin" "0"
 	"targetname" "portal_blue_2"
 	"origin" "-1344 -224 631.86"
 	editor
@@ -215638,8 +215632,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1491.58 -879.163 583.203]"
-		"look" "[-1855.23 -798.225 546.675]"
+		"position" "[-668.583 606.263 755.436]"
+		"look" "[-881.314 306.344 685.293]"
 	}
 }
 cordons
@@ -215654,17 +215648,5 @@ cordons
 			"mins" "(-15870 -16384 -16384)"
 			"maxs" "(16384 15874 16384)"
 		}
-	}
-}
-quickhide
-{
-	"count" "33"
-	list
-	{
-		"id" "770361"
-		"id" "765496"
-		"id" "765504"
-		"id" "765592"
-		"id" "766451"
 	}
 }

@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10591"
-	"mapversion" "4"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,25 +23,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-71.9524 5.01181 13.0831)"
-			"angle" "[48.4 179.452 0]"
+			"position" "(616.364 88.3033 -48.0234)"
+			"angle" "[-12.8 -142.548 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-23.392 -91.64 65536)"
-			"zoom" "0.518389"
+			"position" "(128.593 17.5744 0)"
+			"zoom" "0.359993"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(1472 -11.768 -409.469)"
+			"position" "(0 -11.768 -275.469)"
 			"zoom" "13.8015"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(229.18 864 167.628)"
+			"position" "(229.18 0 301.628)"
 			"zoom" "0.622076"
 		}
 	}
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -655,6 +655,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -702,6 +703,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -749,6 +751,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -796,6 +799,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -843,6 +847,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -890,6 +895,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -937,6 +943,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -984,6 +991,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -1031,6 +1039,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -1078,6 +1087,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -1125,6 +1135,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -2252,6 +2263,7 @@ entity
 	"nearz" "8"
 	"pitch" "0"
 	"slopescale" "1.0"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -2276,27 +2288,19 @@ cordons
 }
 quickhide
 {
-	"count" "19"
+	"count" "11"
 	list
 	{
-		"id" "1191"
-		"id" "73"
-		"id" "74"
-		"id" "72"
-		"id" "76"
-		"id" "77"
-		"id" "75"
-		"id" "79"
-		"id" "80"
-		"id" "78"
-		"id" "82"
-		"id" "83"
-		"id" "81"
-		"id" "71"
 		"id" "85"
 		"id" "86"
 		"id" "87"
 		"id" "88"
+		"id" "1191"
+		"id" "71"
 		"id" "84"
+		"id" "72"
+		"id" "75"
+		"id" "78"
+		"id" "81"
 	}
 }
