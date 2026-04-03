@@ -1,9 +1,0 @@
-Refract
-{
-	$refractamount .05
-	$normalmap "models/rtx/props/portal_cleanser/portal_cleanser_normal"
-	$envmap "env_cubemap"
-	$model 1
-	$refracttinttexture "models/rtx/props/portal_cleanser/portal_cleanser_refracttint"
-	$bluramount 2
-}

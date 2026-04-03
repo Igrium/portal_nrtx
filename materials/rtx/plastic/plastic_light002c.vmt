@@ -1,8 +1,0 @@
-PBR
-{
-	$basetexture "rtx/plastic/plastic_light002c"
-	$mraotexture "rtx/plastic/plastic_light002c_mrao"
-	$bumpmap "rtx/plastic/plastic_light002c_normal"
-	$basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
-	$surfaceprop "concrete"
-}

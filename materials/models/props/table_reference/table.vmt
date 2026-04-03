@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/props/table_reference/table"
+	$mraotexture "models/props/table_reference/table_mrao"
+	$bumpmap "models/props/table_reference/table_normal"
+	$model 1
+}

@@ -14,7 +14,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 15.422
 
-$CDMaterials "models\rtx/props\radio_reference\"
+$CDMaterials "models\props\radio_reference\"
 
 $CBox 0 0 0 0 0 0
 

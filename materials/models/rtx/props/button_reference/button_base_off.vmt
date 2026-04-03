@@ -1,9 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props/button_reference/button_base"
-	$mraotexture "models/rtx/props/button_reference/button_base_mrao"
-	$emissiontexture "models/rtx/props/button_reference/button_base_emission_off"
-	$bumpmap "models/rtx/props/button_reference/button_base_normal"
-	$mraoscale "[1 1 1]"
-	$model 1
-}

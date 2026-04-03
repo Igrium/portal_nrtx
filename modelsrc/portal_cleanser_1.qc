@@ -27,7 +27,7 @@ $Contents "solid"
 
 $IllumPosition 0.287 0 0.006
 
-$CDMaterials "models\rtx\props\portal_cleanser"
+$CDMaterials "models\props\portal_cleanser"
 
 $texturegroup skinfamilies
 {

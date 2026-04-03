@@ -1,8 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props_lab/walllight001a/walllight001a"
-	$emissiontexture "models/rtx/props_lab/walllight001a/walllight001a_emission"
-	$mraotexture "models/rtx/props_lab/walllight001a/walllight001a_mrao"
-	$bumpmap "models/rtx/props_lab/walllight001a/walllight001a_normal"
-	$model 1
-}

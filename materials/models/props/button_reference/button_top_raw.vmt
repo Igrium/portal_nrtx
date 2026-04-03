@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "models/props/button_reference/button_top_raw"
+	$mraotexture "models/props/button_reference/button_top_mrao"
+	$bumpmap "models/props/button_reference/button_top_raw_normal"
+	$mraoscale "[1 1 1]"
+	$nocull 1
+	$model 1
+}

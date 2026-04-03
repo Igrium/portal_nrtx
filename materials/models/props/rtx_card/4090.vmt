@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/props/rtx_card/4090"
+	$mraotexture "models/props/rtx_card/4090_mrao"
+	$bumpmap "models/props/rtx_card/4090_normal"
+	$model 1
+}

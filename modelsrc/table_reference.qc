@@ -12,7 +12,7 @@ $Contents "solid"
 
 $IllumPosition 0 -0.175 11.3
 
-$CDMaterials "models\rtx/props\table_reference\"
+$CDMaterials "models\props\table_reference\"
 
 $CBox 0 0 0 0 0 0
 

@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/props/toilet_reference/toilet"
+	$mraotexture "models/props/toilet_reference/toilet_mrao"
+	$bumpmap "models/props/toilet_reference/toilet_normal"
+	$model 1
+}

@@ -14,7 +14,7 @@ $Contents "solid"
 
 $IllumPosition 0 -3.163 22.353
 
-$CDMaterials "models\rtx\props\toilet_reference\"
+$CDMaterials "models\props\toilet_reference\"
 
 $CBox 0 0 0 0 0 0
 

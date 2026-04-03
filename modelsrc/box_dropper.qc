@@ -23,7 +23,7 @@ $Contents "solid"
 
 $IllumPosition 0.041 0 50.045
 
-$CDMaterials "models\rtx\props\vactubes"
+$CDMaterials "models\props\vactubes"
 
 $CBox 0 0 0 0 0 0
 

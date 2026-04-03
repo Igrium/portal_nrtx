@@ -14,7 +14,7 @@ $Contents "solid"
 
 $IllumPosition 31.899 31.898 52.023
 
-$CDMaterials "models\rtx\props\round_elevator\"
+$CDMaterials "models\props\round_elevator\"
 
 $CBox 0 0 0 0 0 0
 

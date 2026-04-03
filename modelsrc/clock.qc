@@ -14,7 +14,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 3.114
 
-$CDMaterials "models\rtx/props\clock\"
+$CDMaterials "models\props\clock\"
 
 $CBox 0 0 0 0 0 0
 

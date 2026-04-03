@@ -8,6 +8,8 @@ PBR
     $mraotexture    "signage/hazard_orange_03b/hazard_orange_03b_mrao"
     $bumpmap        "signage/hazard_orange_03b/hazard_orange_03b_normal"
     $emissiontexture "signage/hazard_orange_03b/hazard_orange_03b_selfillum"
+	
+	$emissionscale "3"
 
     $envmap env_cubemap
     "%keywords" "portal "

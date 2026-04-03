@@ -1,9 +1,0 @@
-PBR
-{
-	$basetexture "rtx/concrete/observationwall_001b"
-	$mraotexture "rtx/concrete/observationwall_001b_mrao"
-	$bumpmap "rtx/concrete/observationwall_001b_normal"
-	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
-	$mraoscale "[1 1 1]"
-	$surfaceprop concrete
-}

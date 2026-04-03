@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "models/props/button_reference/button_base"
+	$mraotexture "models/props/button_reference/button_base_mrao"
+	$emissiontexture "models/props/button_reference/button_base_emission_red"
+	$bumpmap "models/props/button_reference/button_base_normal"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

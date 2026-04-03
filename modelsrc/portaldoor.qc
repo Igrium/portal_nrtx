@@ -14,7 +14,7 @@ $Contents "solid"
 
 $IllumPosition 0 -8.461 54.118
 
-$CDMaterials "models\rtx/props\door_01\"
+$CDMaterials "models\props\door_01\"
 //$CDMaterials ""
 
 //$TextureGroup "skinfamilies"

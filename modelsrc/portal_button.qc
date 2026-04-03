@@ -33,7 +33,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 3.141
 
-$CDMaterials "models\rtx\props\button_reference\"
+$CDMaterials "models\props\button_reference\"
 
 $TextureGroup "skinfamilies"
 {

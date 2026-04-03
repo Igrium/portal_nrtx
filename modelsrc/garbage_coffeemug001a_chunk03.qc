@@ -16,7 +16,7 @@ $Contents "solid"
 
 $IllumPosition -1.023 1.172 -0.115
 
-$CDMaterials "models\rtx/props_junk\"
+$CDMaterials "models\props_junk\"
 
 $CBox 0 0 0 0 0 0
 

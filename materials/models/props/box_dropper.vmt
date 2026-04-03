@@ -1,9 +1,0 @@
-PBR
-{
-    $model          1
-    $basetexture    "models/props/box_dropper/box_dropper_color"
-    $mraotexture    "models/props/box_dropper/box_dropper_mrao"
-    $bumpmap        "models/props/box_dropper/box_dropper_normal"
-
-    $envmap env_cubemap
-}

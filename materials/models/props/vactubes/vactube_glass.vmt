@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/props/vactubes/vactube_glass"
+	$mraotexture "models/props/vactubes/vactube_glass_mrao"
+	$translucent 1
+	$nocull 1
+	$model 1
+}

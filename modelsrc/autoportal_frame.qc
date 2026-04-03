@@ -16,7 +16,7 @@ $Contents "solid"
 
 $IllumPosition 0 6.074 0
 
-$CDMaterials "models\rtx\props\autoportal_frame\"
+$CDMaterials "models\props\autoportal_frame\"
 
 $CBox 0 0 0 0 0 0
 

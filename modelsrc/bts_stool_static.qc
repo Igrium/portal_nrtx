@@ -32,7 +32,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 17.974
 
-$CDMaterials "models\rtx\props_bts\bts_stool"
+$CDMaterials "models\props_bts\bts_stool"
 
 $CBox 0 0 0 0 0 0
 

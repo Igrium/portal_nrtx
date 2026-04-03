@@ -26,7 +26,7 @@ $Contents "solid"
 
 $IllumPosition 0 -0.008 54.117
 
-$CDMaterials "models\rtx/props\door_01\"
+$CDMaterials "models\props\door_01\"
 
 $CBox 0 0 0 0 0 0
 

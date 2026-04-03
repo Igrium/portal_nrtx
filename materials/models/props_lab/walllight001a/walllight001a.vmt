@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/props_lab/walllight001a/walllight001a"
+	$emissiontexture "models/props_lab/walllight001a/walllight001a_emission"
+	$mraotexture "models/props_lab/walllight001a/walllight001a_mrao"
+	$bumpmap "models/props_lab/walllight001a/walllight001a_normal"
+	$model 1
+}

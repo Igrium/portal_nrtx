@@ -14,7 +14,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 15.422
 
-$CDMaterials "models\rtx/props\rtx_card\"
+$CDMaterials "models\props\rtx_card\"
 
 $CBox 0 0 0 0 0 0
 

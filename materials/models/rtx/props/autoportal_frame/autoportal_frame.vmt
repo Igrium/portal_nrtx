@@ -1,9 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props/autoportal_frame/autoportal_frame"
-	$emissiontexture "models/rtx/props/autoportal_frame/autoportal_frame_emission"
-	$emissionscale "{0 190 255}"
-	$mraotexture "models/rtx/props/autoportal_frame/autoportal_frame_mrao"
-	$bumpmap "models/rtx/props/autoportal_frame/autoportal_frame_normal"
-	$model 1
-}

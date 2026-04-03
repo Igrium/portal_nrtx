@@ -14,7 +14,7 @@ $Contents "solid"
 
 $IllumPosition 2.945 0 31
 
-$CDMaterials "models\rtx/props\bed_body_reference"
+$CDMaterials "models\props\bed_body_reference"
 
 $CBox 0 0 0 0 0 0
 

@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/props/sign_frame02"
+	$mraotexture "models/props/sign_frame02_mrao"
+	$bumpmap "models/props/sign_frame02_normal"
+	$model 1
+}

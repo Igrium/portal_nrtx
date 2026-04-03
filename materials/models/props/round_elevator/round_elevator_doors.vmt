@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/props/round_elevator/round_elevator_doors"
+	$mraotexture "models/props/round_elevator/round_elevator_doors_mrao"
+	$bumpmap "models/props/round_elevator/round_elevator_doors_normal"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

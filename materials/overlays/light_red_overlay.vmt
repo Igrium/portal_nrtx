@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture "overlays/light_red_overlay"
+	$decal 1
+	$additive 1
+}

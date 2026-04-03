@@ -1,7 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props/elevator_caps/elevator_caps"
-	$mraotexture "models/rtx/props/elevator_caps/elevator_caps_mrao"
-	$bumpmap "models/rtx/props/elevator_caps/elevator_caps_normal"
-	$model 1
-}

@@ -21,7 +21,7 @@ $Contents "solid"
 
 $IllumPosition 0.741 -18.795 -3.385
 
-$CDMaterials "models\rtx/props\security_camera\"
+$CDMaterials "models\props\security_camera\"
 
 $Attachment "light" "UD_Rot1" -14.25 -5 16.3 rotate 0 -180 90
 //$Attachment "light" "UD_Rot1" -4.25 5 15.5 rotate 0 -180 90

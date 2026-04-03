@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/props/switch/switch_dirty"
+	$mraotexture "models/props/switch/switch_dirty_mrao"
+	$emissiontexture "models/props/switch/switch_dirty_emission"
+	$bumpmap "models/props/switch/switch_dirty_normal"
+	$emissionscale "[0 .49 .66]"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

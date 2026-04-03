@@ -35,7 +35,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 6.283
 
-$CDMaterials "models\rtx/props_c17\"
+$CDMaterials "models\props_c17\"
 
 $CBox 0 0 0 0 0 0
 

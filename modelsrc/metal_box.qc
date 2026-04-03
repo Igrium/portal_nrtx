@@ -34,7 +34,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 -0.001
 
-$CDMaterials "models\rtx\props\metal_box\"
+$CDMaterials "models\props\metal_box\"
 
 //$TextureGroup "skinfamilies"
 //{

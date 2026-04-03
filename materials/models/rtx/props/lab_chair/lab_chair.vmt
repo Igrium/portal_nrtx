@@ -1,7 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props/lab_chair/lab_chair"
-	$mraotexture "models/rtx/props/lab_chair/lab_chair_mrao"
-	$bumpmap "models/rtx/props/lab_chair/lab_chair_normal"
-	$model 1
-}

@@ -1,7 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props/rtx_card/4090"
-	$mraotexture "models/rtx/props/rtx_card/4090_mrao"
-	$bumpmap "models/rtx/props/rtx_card/4090_normal"
-	$model 1
-}

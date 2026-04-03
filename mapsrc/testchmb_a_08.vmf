@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10741"
-	"mapversion" "2599"
+	"editorbuild" "10591"
+	"mapversion" "2600"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -53,25 +53,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-27.5391 -279.061 201.338)"
-			"angle" "[52.8003 153.601 0]"
+			"position" "(-33.5307 276.873 254.754)"
+			"angle" "[50.0003 81.6017 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(84.8652 70.6194 65536)"
+			"position" "(84.8652 70.6194 0)"
 			"zoom" "3.85174"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 178.992 157.169)"
+			"position" "(0 178.992 157.169)"
 			"zoom" "7.987"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(69.156 -65536 372.141)"
+			"position" "(69.156 0 372.141)"
 			"zoom" "7.987"
 		}
 	}
@@ -79,7 +79,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2599"
+	"mapversion" "2600"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -122476,7 +122476,7 @@ hidden
 				{
 					"color" "0 255 255"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -122620,7 +122620,7 @@ hidden
 				{
 					"color" "0 255 255"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -137392,8 +137392,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-27.5391 -279.061 201.338]"
-		"look" "[-28.0819 -278.791 200.539]"
+		"position" "[-33.5307 276.873 254.754]"
+		"look" "[-33.4365 277.511 253.986]"
 	}
 }
 cordons

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$ModelName "rtx/props/Box_dropper_cover.mdl"
+$ModelName "props/Box_dropper_cover.mdl"
 
 $BodyGroup "Arms"
 {
@@ -23,7 +23,7 @@ $Contents "solid"
 
 $IllumPosition 0 0 27.314
 
-$CDMaterials "models\rtx\props\vactubes"
+$CDMaterials "models\props\vactubes"
 
 $TextureGroup "skinfamilies"
 {

@@ -1,8 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props/round_elevator/round_elevator_sheet01"
-	$mraotexture "models/rtx/props/round_elevator/round_elevator_sheet01_mrao"
-	$bumpmap "models/rtx/props/round_elevator/round_elevator_sheet01_normal"
-	$mraoscale "[1 1 1]"
-	$model 1
-}

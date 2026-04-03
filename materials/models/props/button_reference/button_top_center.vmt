@@ -1,0 +1,4 @@
+patch
+{
+include materials/models/props/button_reference/button_top.vmt
+}

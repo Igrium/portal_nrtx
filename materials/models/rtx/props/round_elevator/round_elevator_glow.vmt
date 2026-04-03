@@ -1,9 +1,0 @@
-PBR
-{
-	$basetexture "lights/white"
-	$mraotexture "lights/white"
-	$emissiontexture "lights/white"
-	$emissionscale 20
-	$mraoscale "[0 1 1]"
-	$model 1
-}

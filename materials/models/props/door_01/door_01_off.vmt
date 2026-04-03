@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/props/door_01/door_01"
+	$mraotexture "models/props/door_01/door_01_mrao"
+	//$emissiontexture "models/props/door_01/door_01_emission"
+	$bumpmap "models/props/door_01/door_01_normal"
+	//$emissionscale "[0 1 1]"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

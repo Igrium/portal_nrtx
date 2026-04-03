@@ -1,9 +1,0 @@
-PBR
-{
-	$basetexture "models/rtx/props/radio_reference/radio"
-	$emissiontexture "models/rtx/props/radio_reference/radio_emission"
-	$emissionscale 4
-	$mraotexture "models/rtx/props/radio_reference/radio_mrao"
-	$bumpmap "models/rtx/props/radio_reference/radio_normal"
-	$model 1
-}

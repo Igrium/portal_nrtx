@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/props/vactubes/box_dropper_cover"
+	$mraotexture "models/props/vactubes/box_dropper_cover_mrao"
+	$bumpmap "models/props/vactubes/box_dropper_cover_normal"
+	$mraoscale "[1 1 1]"
+	$model 1
+}

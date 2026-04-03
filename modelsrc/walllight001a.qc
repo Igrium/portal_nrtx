@@ -28,7 +28,7 @@ $IllumPosition 0 5 0
 
 $NoForcedFade
 
-$CDMaterials "models\rtx\props_lab\walllight001a\"
+$CDMaterials "models\props_lab\walllight001a\"
 
 $CBox 0 0 0 0 0 0
 
