@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10593"
-	"mapversion" "1911"
+	"mapversion" "1912"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -53,8 +53,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-543.591 213.553 379.747)"
-			"angle" "[-1.99996 -131.598 0]"
+			"position" "(-1777.29 905.932 665.854)"
+			"angle" "[15.2 -139.598 0]"
 		}
 		v1
 		{
@@ -79,7 +79,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1911"
+	"mapversion" "1912"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -124058,7 +124058,7 @@ entity
 	"angles" "0 0 0"
 	"file" "instances/elevator_lighting"
 	"fixup_style" "0"
-	"replace01" "$parent @elevator2_lightroot"
+	"replace01" "$parent @02-03_elevator"
 	"origin" "-256 -384 160"
 	editor
 	{
@@ -124075,7 +124075,7 @@ entity
 	"angles" "0 0 0"
 	"parentname" "a01-middleelevator_body_model"
 	"spawnflags" "0"
-	"targetname" "@elevator2_lightroot"
+	"targetname" "@02-03_elevator"
 	"origin" "-256 -384 160"
 	editor
 	{
@@ -124093,7 +124093,7 @@ entity
 	"angles" "0 0 0"
 	"file" "instances/elevator_lighting"
 	"fixup_style" "0"
-	"replace01" "$parent @elevator3_lightroot"
+	"replace01" "$parent @03-04_elevator"
 	"origin" "-1920 896 736"
 	editor
 	{
@@ -124110,7 +124110,7 @@ entity
 	"angles" "0 0 0"
 	"parentname" "a01-a02_elevator_body_model"
 	"spawnflags" "0"
-	"targetname" "@elevator3_lightroot"
+	"targetname" "@03-04_elevator"
 	"origin" "-1920 896 736"
 	editor
 	{
@@ -235204,8 +235204,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-543.591 213.553 379.747]"
-		"look" "[-1053.38 -360.67 406.561]"
+		"position" "[-1777.29 905.932 665.854]"
+		"look" "[-2341.92 425.359 464.406]"
 	}
 }
 cordons
