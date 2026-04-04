@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10741"
-	"mapversion" "18"
+	"editorbuild" "10593"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(34.3109 -22.2825 -34.417)"
-			"angle" "[12.4 110.644 0]"
+			"position" "(-31.6589 11.8513 -37.9924)"
+			"angle" "[2.39998 111.452 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(412.816 212.219 65344)"
-			"zoom" "0.746483"
+			"position" "(207.478 191.852 -192)"
+			"zoom" "0.359993"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(800 -289.875 318.437)"
-			"zoom" "19.8742"
+			"position" "(800 -299.768 -23.469)"
+			"zoom" "13.8015"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(144.688 576 -123.43)"
-			"zoom" "1.85751"
+			"position" "(-442.82 576 553.628)"
+			"zoom" "0.622076"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -804,6 +804,31 @@ world
 }
 entity
 {
+	"id" "462"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "scene_stopper"
+	connections
+	{
+		"OnTrigger" "@glados_camera_line1StopWaitingForActor1-1"
+		"OnTrigger" "@glados_camera_line2StopWaitingForActor1-1"
+		"OnTrigger" "@glados_camera_line3StopWaitingForActor1-1"
+		"OnTrigger" "@glados_camera_line4StopWaitingForActor1-1"
+		"OnTrigger" "@glados_camera_line5StopWaitingForActor1-1"
+	}
+	"origin" "-24 56 -56"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
 	"id" "34"
 	"classname" "env_global"
 	"angles" "0 0 0"
@@ -837,6 +862,7 @@ entity
 	{
 		"OnTrigger" "@camera_counterAddToCounter10-1"
 		"OnTrigger" "@camera_counterGetCounter0-1"
+		"OnTrigger" "scene_stopperTrigger0-1"
 	}
 	"origin" "-40 56 -56"
 	editor
@@ -958,7 +984,7 @@ entity
 		"OnCase04" "@glados_camera_line5Start0-1"
 		"OnCase04" "@camera_counterRemove0-1"
 	}
-	"origin" "-24 56 -56"
+	"origin" "-8 56 -56"
 	editor
 	{
 		"color" "0 100 250"

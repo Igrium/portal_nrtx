@@ -13,4 +13,5 @@ PBR
 	$parallaxcenter 0.25
 
 	$surfaceprop metal
+	$envmap "env_cubemap"
 }

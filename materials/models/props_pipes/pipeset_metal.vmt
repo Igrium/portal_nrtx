@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/props_pipes/pipeset_metal"
+	$mraotexture "models/props_pipes/pipeset_metal_mrao"
+	$bumpmap "models/props_pipes/pipeset_metal_normal"
+	$model 1
+}

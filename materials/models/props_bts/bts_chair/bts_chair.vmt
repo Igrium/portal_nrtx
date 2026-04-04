@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/props_bts/bts_chair/bts_chair"
+	$mraotexture "models/props_bts/bts_chair/bts_chair_mrao"
+	$bumpmap "models/props_bts/bts_chair/bts_chair_normal"
+	$model 1
+}
