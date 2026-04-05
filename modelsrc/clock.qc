@@ -7,6 +7,7 @@ $BodyGroup "Body"
 	studio "Clock_rtx.smd"
 }
 
+$staticprop
 
 $SurfaceProp "metal"
 
@@ -20,7 +21,7 @@ $CBox 0 0 0 0 0 0
 
 $BBox -15.159 -43.433 -0.25 15.159 43.433 6.477
 
-$DefineBone "polymsh" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
+//$DefineBone "static_prop" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 
 
 $Sequence "idle" {

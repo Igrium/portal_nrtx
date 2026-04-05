@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10593"
-	"mapversion" "1550"
+	"mapversion" "1552"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -47,25 +47,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(122.882 997.201 887.392)"
-			"angle" "[-7.19998 -55.5941 0]"
+			"position" "(560.165 916.302 621.876)"
+			"angle" "[23.1998 35.2066 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(192.934 992.953 65536)"
+			"position" "(192.934 992.953 0)"
 			"zoom" "3.20979"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 210.416 41.8618)"
+			"position" "(0 210.416 41.8618)"
 			"zoom" "2.67482"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(679.141 -65536 51.3112)"
+			"position" "(679.141 0 51.3112)"
 			"zoom" "4.62208"
 		}
 	}
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1550"
+	"mapversion" "1552"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -125897,7 +125897,7 @@ entity
 {
 	"id" "435184"
 	"classname" "prop_static"
-	"angles" "90 0 0"
+	"angles" "89.9999 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_bts/piston/piston2.mdl"
@@ -125907,7 +125907,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "704 1088 616"
+	"origin" "704 1088 584"
 	editor
 	{
 		"color" "203 188 0"
@@ -136779,6 +136779,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
+	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
 	"origin" "704.36 1049.61 491.162"
@@ -213133,8 +213134,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[122.882 997.201 887.392]"
-		"look" "[251.012 810.113 916.039]"
+		"position" "[560.165 916.302 621.876]"
+		"look" "[731.815 1037.42 531.837]"
 	}
 }
 cordons

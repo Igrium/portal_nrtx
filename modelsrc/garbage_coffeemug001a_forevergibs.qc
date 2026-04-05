@@ -47,19 +47,19 @@ $CollisionText
 {
 	break 
 	{
-		"model" "rtx/props_junk/garbage_coffeemug001a_chunk01"
+		"model" "props_junk/garbage_coffeemug001a_chunk01"
 		"health" "10"
 		"fadetime" "0"
 	}
 	break 
 	{
-		"model" "rtx/props_junk/garbage_coffeemug001a_chunk02"
+		"model" "props_junk/garbage_coffeemug001a_chunk02"
 		"health" "10"
 		"fadetime" "0"
 	}
 	break 
 	{
-		"model" "rtx/props_junk/garbage_coffeemug001a_chunk03"
+		"model" "props_junk/garbage_coffeemug001a_chunk03"
 		"health" "10"
 		"fadetime" "0"
 	}

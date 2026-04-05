@@ -7,6 +7,7 @@ $BodyGroup "Body"
 	studio "toilet_lid.smd"
 }
 
+$staticprop
 
 $SurfaceProp "metalpanel"
 
@@ -20,7 +21,7 @@ $CBox 0 0 0 0 0 0
 
 $BBox 0 -10.717 0 9.361 10.717 52.868
 
-$DefineBone "polymsh3" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
+//$DefineBone "static_prop" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 
 
 $Sequence "idle" {

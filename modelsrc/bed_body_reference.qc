@@ -7,6 +7,7 @@ $BodyGroup "Body"
 	studio "bed_body_reference_rtx.smd"
 }
 
+$staticprop
 
 $SurfaceProp "metalpanel"
 
@@ -20,7 +21,7 @@ $CBox 0 0 0 0 0 0
 
 $BBox -27.389 -58.846 -0.245 27.389 64.736 62.251
 
-$DefineBone "root" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
+//$DefineBone "static_prop" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 
 
 $Sequence "idle" {
