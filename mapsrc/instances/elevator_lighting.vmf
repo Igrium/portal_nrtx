@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10591"
-	"mapversion" "21"
+	"editorbuild" "10593"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(40.1817 -25.781 -13.2959)"
-			"angle" "[-3.2 145.051 0]"
+			"position" "(57.0351 -12.0971 -99.7831)"
+			"angle" "[-28.8001 169.204 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(87.9725 -112.198 65248)"
-			"zoom" "19.8738"
+			"position" "(540.624 689.967 65952)"
+			"zoom" "1.07495"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(67008 -11.7679 -119.469)"
-			"zoom" "13.8015"
+			"position" "(66752 18.4162 457.862)"
+			"zoom" "2.67482"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(29.8756 -64672 -42.9571)"
-			"zoom" "1.85751"
+			"position" "(1726.38 -65728 1102.25)"
+			"zoom" "1.07495"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "21"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -61,28 +61,32 @@ world
 entity
 {
 	"id" "62"
-	"classname" "light"
+	"classname" "light_rt"
 	"_castentityshadow" "1"
-	"_directmode" "1"
+	"_directmode" "2"
 	"_fifty_percent_distance" "64"
 	"_hard_radius_threshold" "32"
 	"_indirectmode" "1"
 	"_initialshadowsize" "3"
 	"_light" "183 204 218 300"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "3"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "112"
 	"angles" "-90 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"parentname" "$parent"
+	"slopescale" "1.0"
 	"spawnflags" "0"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "0 0 -64"
 	editor
 	{
@@ -95,7 +99,7 @@ entity
 entity
 {
 	"id" "2"
-	"classname" "light_spot"
+	"classname" "light_rt_spot"
 	"_castentityshadow" "1"
 	"_cone" "70"
 	"_directmode" "2"
@@ -107,21 +111,24 @@ entity
 	"_inner_cone" "30"
 	"_light" "183 204 218 2000"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "3"
 	"_lightscaleHDR" "1"
 	"_nocubemapsprite" "1"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
 	"_specularmode" "2"
+	"_volumetricmode" "2"
 	"_zero_percent_distance" "256"
 	"angles" "-90 0 0"
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"parentname" "$parent"
 	"pitch" "-90"
+	"slopescale" "1.0"
 	"spawnflags" "2"
 	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
 	"origin" "0 0 -16"
 	editor
 	{

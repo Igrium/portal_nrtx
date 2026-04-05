@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10593"
-	"mapversion" "1912"
+	"mapversion" "1913"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -53,8 +53,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1777.29 905.932 665.854)"
-			"angle" "[15.2 -139.598 0]"
+			"position" "(-274.513 -80.4617 46.6194)"
+			"angle" "[6.39998 -100.398 0]"
 		}
 		v1
 		{
@@ -79,7 +79,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1912"
+	"mapversion" "1913"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -152336,7 +152336,7 @@ entity
 	"StartDisabled" "0"
 	"targetname" "a01-a02_trigger_fryer_rm2"
 	"usescanline" "1"
-	"visible" "1"
+	"visible" "0"
 	solid
 	{
 		"id" "510245"
@@ -152352,7 +152352,7 @@ entity
 				"point" "2 -1717.49 960 700.95"
 				"point" "3 -1715.49 960 700.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 3.56934] 0.25"
 			"vaxis" "[1 0 0 13.9648] 0.25"
 			"rotation" "0"
@@ -152371,7 +152371,7 @@ entity
 				"point" "2 -1717.49 832 576"
 				"point" "3 -1715.49 832 576"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 3.56934] 0.25"
 			"vaxis" "[1 0 0 13.9648] 0.25"
 			"rotation" "0"
@@ -152390,7 +152390,7 @@ entity
 				"point" "2 -1717.49 832 700.95"
 				"point" "3 -1715.49 832 700.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -13.9648] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -152409,7 +152409,7 @@ entity
 				"point" "2 -1715.49 960 700.95"
 				"point" "3 -1717.49 960 700.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -13.9648] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -152428,7 +152428,7 @@ entity
 				"point" "2 -1717.49 960 700.95"
 				"point" "3 -1717.49 832 700.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 19.5693] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -152447,7 +152447,7 @@ entity
 				"point" "2 -1715.49 832 700.95"
 				"point" "3 -1715.49 960 700.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -19.5693] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -156763,7 +156763,7 @@ entity
 	"StartDisabled" "0"
 	"targetname" "a01-middletrigger_fryer_rm2"
 	"usescanline" "1"
-	"visible" "1"
+	"visible" "0"
 	solid
 	{
 		"id" "485241"
@@ -156779,7 +156779,7 @@ entity
 				"point" "2 -192 -179.493 128"
 				"point" "3 -192 -181.493 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 3.56927] 0.25"
 			"vaxis" "[0 1 0 13.9648] 0.25"
 			"rotation" "0"
@@ -156798,7 +156798,7 @@ entity
 				"point" "2 -192 -181.493 -1"
 				"point" "3 -192 -179.493 -1"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 3.56927] 0.25"
 			"vaxis" "[0 1 0 13.9648] 0.25"
 			"rotation" "0"
@@ -156817,7 +156817,7 @@ entity
 				"point" "2 -192 -181.493 128"
 				"point" "3 -192 -179.493 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -13.9648] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -156836,7 +156836,7 @@ entity
 				"point" "2 -320 -179.493 128"
 				"point" "3 -320 -181.493 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -13.9648] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -156855,7 +156855,7 @@ entity
 				"point" "2 -320 -181.493 128"
 				"point" "3 -192 -181.493 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 19.5698] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -156874,7 +156874,7 @@ entity
 				"point" "2 -192 -179.493 128"
 				"point" "3 -320 -179.493 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -19.5698] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -235204,8 +235204,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1777.29 905.932 665.854]"
-		"look" "[-2341.92 425.359 464.406]"
+		"position" "[-274.513 -80.4617 46.6194]"
+		"look" "[-412.322 -831.469 -39.0258]"
 	}
 }
 cordons
