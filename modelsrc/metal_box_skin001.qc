@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 //companion cube model, materials not made yet
 
-$ModelName "props/metal_box.mdl"
+$ModelName "props/metal_box_skin001.mdl"
 
 $BodyGroup "Body"
 {

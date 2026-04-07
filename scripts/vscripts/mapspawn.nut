@@ -11,6 +11,9 @@ const FLOOR_BUTTON_MDL = "models/rtx/props/portal_button.mdl"
 const FLOOR_BUTTON_TRIGGER_WIDTH = 48
 const FLOOR_BUTTON_TRIGGER_HEIGHT = 15
 
+const BALL_LAUNCHER_MDL = "models/props/combine_ball_launcher"
+const BALL_CATCHER_MDL = "models/props/combine_ball_catcher"
+
 function ScriptInit() {
     local canStartTimer = CreateEntityByName("logic_timer", {   // check every tick if entities have actually spawned in yet
         targetname = "newbutton_canstarttimer"
@@ -24,6 +27,7 @@ function ScriptInit_CheckForStart() {   // if player exists, doors (probably) al
         EntFire("newbutton_canstarttimer", "Kill")
         InitButtonSkins();
         InitFloorButtons();
+        //InitBalls();
         //InitPortalCams();
     }
 }
@@ -57,5 +61,20 @@ function InitFloorButtons() {
     printl("Successfully resized prop_floor_button")
     }
 }
+/*function InitBalls() {
+    for(local launcher = null; launcher = Entities.FindByModel(launcher, FLOOR_BUTTON_MDL);) {
+
+        local ball = Entities.FindByClassnameWithin(null, "point_energy_ball_launcher", launcher.GetOrigin(), 96);
+        if (ball == null)
+        {
+           printl("ERROR! Failed to find ball launcher!");
+            return
+        }
+        ball.__KeyValueFromString("OnPostSpawnBall",launcher.getName(),Skin,1)
+        ball.__KeyValueFromString("OnPostSpawnBall",launcher.getName(),Skin,0,1.00)
+        
+    printl("Successfully added ball launcher skins")
+    }
+}*/
 ScriptInit()
 return
