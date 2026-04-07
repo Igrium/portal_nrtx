@@ -3,6 +3,7 @@
 import argparse
 import os
 from os import path
+import re
 import subprocess
 import sys
 
@@ -44,7 +45,12 @@ def parse_material(vmt_path: str) -> tuple[str, dict]:
     return (shader, data[shader])
 
 
-def get_tex_name(vtf_path: str) -> str:
+def save_material(vmt_path: str, shader: str, params: dict):
+    with open(vmt_path, 'w') as f:
+        vdf.dump({shader: params}, f, pretty=True)
+
+
+def tex_name(vtf_path: str) -> str:
     """Return the texture name as it appears in a VMT (relative, forward-slashed, no extension)."""
     return path.splitext(path.relpath(vtf_path, folder))[0].replace('\\', '/')
 
@@ -69,15 +75,39 @@ def get_dimensions(tex_info: dict) -> ImageDimensions:
     dims = tex_info['image']['dimensions']
     return (int(dims['width']), int(dims['height']))
 
+
+def modify_transform(transform: str, factor: float) -> str:
+    """Modify a $basetexturetransform string, adjusting its scale by a given amount."""
+    return re.sub(
+        r'(?<=scale )([\d.]+) ([\d.]+)',
+        lambda m: f"{float(m.group(1)) * factor} {float(m.group(2)) * factor}",
+        transform
+    )
+
 # ---------------------------------------------------------------------------
 # Core processing
 # ---------------------------------------------------------------------------
 
-def process_texture(vtf_path: str, old_res: ImageDimensions) -> None:
+def build_dependency_map() -> DepMap:
+    """Figure out which materials depend on which textures. $basetexture only."""
+    print(f"Walking {folder}")
+    deps: DepMap = {}
+
+    for root, _dirs, files in os.walk(folder):
+        for file in files:
+            if path.splitext(file)[1] == '.vmt':
+                params = parse_material(path.join(root, file))[1]
+                base_texture = params.get('$basetexture')
+                if base_texture is not None:
+                    deps.setdefault(base_texture, []).append(path.join(root, file))
+
+    return deps
+
+
+def resize_texture(vtf_path: str, old_res: ImageDimensions) -> None:
     """Resize a VTF to old_res scaled by the global factor."""
     new_res = (int(old_res[0] * factor), int(old_res[1] * factor))
-    tex_name = get_tex_name(vtf_path)
-    print(f"Resizing {tex_name} from {old_res} to {new_res}")
+    print(f"Resizing {tex_name(vtf_path)} from {old_res} to {new_res}")
 
     result = subprocess.run(
         [
@@ -94,14 +124,29 @@ def process_texture(vtf_path: str, old_res: ImageDimensions) -> None:
         print(f"Warning: maretf failed for {vtf_path}: {result.stderr.strip()}", file=sys.stderr)
 
 
-def process_if_hit_threshold(vtf_path: str) -> None:
+def process_texture(vtf_path: str, dep_map: DepMap | None) -> bool:
     """Fetch texture info and process it if it meets the resize threshold."""
     tex_info = get_texture_info(vtf_path)
     if tex_info is None:
-        return
+        return False
 
     res = get_dimensions(tex_info)
-    process_texture(vtf_path, res)
+
+    if res[0] >= threshold or res[1] >= threshold:
+        resize_texture(vtf_path, res)
+
+        if not dep_map:
+            return True
+
+        dependants = dep_map.get(tex_name(vtf_path))
+        if dependants:
+            for vmt_path in dependants:
+                process_material(vmt_path)
+        else:
+            print("No dependant materials")
+
+        return True
+    return False
 
 
 def get_first_tex() -> str | None:
@@ -114,51 +159,28 @@ def get_first_tex() -> str | None:
     return None
 
 
-def process_material(vmt_path: str, updated_textures: list[str]) -> bool:
-    """Check if a material uses an updated texture as its basetexture and adjust UV mapping as needed.
-
-    Args:
-        vmt_path: Path to the VMT file.
-        updated_textures: All textures that have been resized.
-
-    Returns:
-        bool: Whether the material was updated.
-    """
+def process_material(vmt_path: str):
     shader, params = parse_material(vmt_path)
-    basetexture = params.get('$basetexture')
-    needs_process = basetexture is not None and basetexture in updated_textures
+    transform = params.get('$basetexturetransform')
+    if not transform:
+        print(f"Material {path.basename(vmt_path)} does not have a basetexturetransform. Skipping...")
+        return
 
-    if not needs_process:
-        return False
-
-    print(f"Material {vmt_path} needs processing!")
-    return True
-
-
-def process_materials(updated_textures: list[str]) -> None:
-    """Walk the folder and process any VMT that references an updated texture."""
-    print(f"Checking for materials with textures: {updated_textures}")
-    for root, _dirs, files in os.walk(folder):
-        for file in files:
-            if path.splitext(file)[1] == '.vmt':
-                process_material(path.join(root, file), updated_textures)
+    params['$basetexturetransform'] = modify_transform(transform, factor)
+    save_material(vmt_path, shader, params)
+    print(f"Modified $basetexturetransform for {path.basename(vmt_path)}.")
 
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    tex = get_first_tex()
-    print(tex)
-    if tex:
-        process_if_hit_threshold(tex)
-        process_materials([get_tex_name(tex)])
+    deps = build_dependency_map()
 
-    # Walk all textures
-    # for root, dirs, files in os.walk(folder):
-    #     for file in files:
-    #         if path.splitext(file)[1] == '.vtf':
-    #             print(get_tex_name(path.join(root, file)))
+    for root, _dirs, files in os.walk(folder):
+        for file in files:
+            if path.splitext(file)[1] == '.vtf':
+                process_texture(path.join(root, file), deps)
 
 
 if __name__ == '__main__':
