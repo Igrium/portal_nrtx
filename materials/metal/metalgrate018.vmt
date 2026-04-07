@@ -1,11 +1,10 @@
-PBR
+"PBR"
 {
-	$basetexture "metal/metalgrate018/metalgrate018"
-	$mraotexture "metal/metalgrate018/metalgrate018_mrao"
-	$bumpmap "metal/metalgrate018/metalgrate018_normal"
-	%compilepassbullets 1
-
-	$basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
-	$surfaceprop "metalgrate"
-	$translucent 1
+	"$basetexture" "metal/metalgrate018/metalgrate018"
+	"$mraotexture" "metal/metalgrate018/metalgrate018_mrao"
+	"$bumpmap" "metal/metalgrate018/metalgrate018_normal"
+	"%compilepassbullets" "1"
+	"$basetexturetransform" "center .5 .5 scale 8.0 8.0 rotate 0 translate 0 0"
+	"$surfaceprop" "metalgrate"
+	"$translucent" "1"
 }

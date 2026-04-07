@@ -1,17 +1,15 @@
-PBR
+"PBR"
 {
-	$basetexture "metal/metalwall048/metalwall048b"
-	$mraotexture "metal/metalwall048/metalwall048b_mrao"
-	$bumpmap "metal/metalwall048/metalwall048b_normal"
-	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
-	$mraoscale "[1 1 1]"
-	%noportal 1
-
-	$parallax 1
-	$parallaxdepth 0.025
-	$parallaxdither 1
-	$parallaxcenter 0.25
-
-	$surfaceprop metal
-	$envmap "env_cubemap"
+	"$basetexture" "metal/metalwall048/metalwall048b"
+	"$mraotexture" "metal/metalwall048/metalwall048b_mrao"
+	"$bumpmap" "metal/metalwall048/metalwall048b_normal"
+	"$basetexturetransform" "center .5 .5 scale 4.0 4.0 rotate 0 translate 0 0"
+	"$mraoscale" "[1 1 1]"
+	"%noportal" "1"
+	"$parallax" "1"
+	"$parallaxdepth" "0.025"
+	"$parallaxdither" "1"
+	"$parallaxcenter" "0.25"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
 }

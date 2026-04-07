@@ -1,10 +1,10 @@
-PBR
+"PBR"
 {
-	$basetexture "tile/white_tile/white_wall_tile_101a"
-	$mraotexture "tile/white_tile/white_wall_tile_101a_mrao"
-	$bumpmap "tile/white_tile/white_wall_tile_101a_normal"
-	$reflectivity "[.6 .61 .6]"
-	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
-	$mraoscale "[1 1 1]"
-	$surfaceprop metal
+	"$basetexture" "tile/white_tile/white_wall_tile_101a"
+	"$mraotexture" "tile/white_tile/white_wall_tile_101a_mrao"
+	"$bumpmap" "tile/white_tile/white_wall_tile_101a_normal"
+	"$reflectivity" "[.6 .61 .6]"
+	"$basetexturetransform" "center .5 .5 scale 4.0 4.0 rotate 0 translate 0 0"
+	"$mraoscale" "[1 1 1]"
+	"$surfaceprop" "metal"
 }
