@@ -16,7 +16,7 @@ $Contents "solid"
 
 $IllumPosition 0 1.674 0
 
-$CDMaterials "models\rtx/props\sign_frame02\"
+$CDMaterials "models/props"
 
 $CBox 0 0 0 0 0 0
 
