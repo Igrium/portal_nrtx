@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10597"
-	"mapversion" "2092"
+	"mapversion" "2093"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -47,25 +47,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-108.414 294.545 198.557)"
-			"angle" "[25.2 14.0043 0]"
+			"position" "(-73.8005 23.632 1315.94)"
+			"angle" "[-11.2 133.204 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(163.851 -16.382 65536)"
-			"zoom" "2.67482"
+			"position" "(245.172 -1.27668 65536)"
+			"zoom" "1.54793"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 144.808 2129.52)"
+			"position" "(0 144.808 2129.52)"
 			"zoom" "2.22902"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(233.98 -65536 -16.4696)"
+			"position" "(233.98 0 -16.4696)"
 			"zoom" "1.07495"
 		}
 	}
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2092"
+	"mapversion" "2093"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -128988,17 +128988,6 @@ world
 	}
 	group
 	{
-		"id" "647014"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "647013"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "638693"
 		editor
 		{
@@ -130702,6 +130691,22 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "649775"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/global_ents_nrtx"
+	"fixup_style" "0"
+	"origin" "-512 208 -28.8007"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -404466,8 +404471,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-108.414 294.545 198.557]"
-		"look" "[81.479 341.906 106.463]"
+		"position" "[-73.8005 23.632 1315.94]"
+		"look" "[-219.057 178.291 1357.95]"
 	}
 }
 cordons
