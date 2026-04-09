@@ -1,9 +1,0 @@
-// Created by Crowbar 0.74
-version 1
-nodes
-  0 "portal_button_top" -1
-end
-skeleton
-  time 0
-    0 0.000000 0.000000 14 1.570674 0 -1.570674
-end
