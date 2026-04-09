@@ -4,24 +4,24 @@ $ModelName "props/combine_ball_catcher.mdl"
 
 $BodyGroup "Body"
 {
-	studio "combine_ball_catcher_reference.smd"
+	studio "ball_catcher.smd"
 }
 
-$LOD 20
-{
-	replacemodel "combine_ball_catcher_reference.smd" "combine_ball_catcher_reference_lod1.smd"
-	NoFacial
-}
-$LOD 35
-{
-	replacemodel "combine_ball_catcher_reference.smd" "combine_ball_catcher_reference_lod2.smd"
-	NoFacial
-}
-$LOD 50
-{
-	replacemodel "combine_ball_catcher_reference.smd" "combine_ball_catcher_reference_lod3.smd"
-	NoFacial
-}
+//$LOD 20
+//{
+//	replacemodel "combine_ball_catcher_reference.smd" "combine_ball_catcher_reference_lod1.smd"
+//	NoFacial
+//}
+//$LOD 35
+//{
+//	replacemodel "combine_ball_catcher_reference.smd" "combine_ball_catcher_reference_lod2.smd"
+//	NoFacial
+//}
+//$LOD 50
+//{
+//	replacemodel "combine_ball_catcher_reference.smd" "combine_ball_catcher_reference_lod3.smd"
+//	NoFacial
+//}
 
 $SurfaceProp "combine_metal"
 
@@ -29,7 +29,15 @@ $Contents "solid"
 
 $IllumPosition -0.095 -13.686 8.227
 
-$CDMaterials "models\props\"
+$CDMaterials "models\props\combine_ball"
+
+$texturegroup skinfamilies
+{
+	{ "catcher" }
+	{ "catcher_orange" }
+	{ "catcher_red" }
+	{ "catcher_off" }
+}
 
 $Attachment "ball_attachment" "base" 0 8 0 rotate 0 90 0
 
