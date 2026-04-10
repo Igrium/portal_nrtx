@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture "models/weapons/weapon_portalgun/weapon_portalgun_orange"
+	$mraotexture "models/weapons/weapon_portalgun/w_portalgun_mrao"
+	$bumpmap "models/weapons/weapon_portalgun/weapon_portalgun_normal"
+	$model 1
+}
