@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10599"
-	"mapversion" "1555"
+	"editorbuild" "10597"
+	"mapversion" "1556"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -41,19 +41,19 @@ viewsettings
 	"bShowLogicalGrid" "1"
 	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
-	"nInstanceVisibility" "2"
+	"nInstanceVisibility" "1"
 	views
 	{
 		v0
 		{
 			"3d" "1"
-			"position" "(-644.782 888.361 1166.75)"
-			"angle" "[47.2 -133.593 0]"
+			"position" "(-537.167 251.643 495.941)"
+			"angle" "[18.8 -34.3929 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-540.637 819.783 65536)"
+			"position" "(-540.637 819.783 0)"
 			"zoom" "1.85752"
 		}
 		v2
@@ -65,7 +65,7 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(-596.619 -65536 1083.4)"
+			"position" "(-596.619 0 1083.4)"
 			"zoom" "1.85751"
 		}
 	}
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1555"
+	"mapversion" "1556"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -130553,7 +130553,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam1_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
 	}
 	solid
 	{
@@ -130724,7 +130724,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam2_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
 	}
 	solid
 	{
@@ -138495,7 +138495,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam3_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
 	}
 	solid
 	{
@@ -138666,7 +138666,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam4_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
 	}
 	solid
 	{
@@ -138837,7 +138837,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam5_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
 	}
 	solid
 	{
@@ -213667,8 +213667,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-644.782 888.361 1166.75]"
-		"look" "[-751.865 775.887 999.04]"
+		"position" "[-537.167 251.643 495.941]"
+		"look" "[-358.618 129.421 422.281]"
 	}
 }
 cordons
@@ -213707,10 +213707,9 @@ cordons
 }
 quickhide
 {
-	"count" "2"
+	"count" "1"
 	list
 	{
 		"id" "459855"
-		"id" "459856"
 	}
 }

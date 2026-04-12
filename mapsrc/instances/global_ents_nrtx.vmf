@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10593"
-	"mapversion" "21"
+	"editorbuild" "10597"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,25 +23,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-31.6589 11.8513 -37.9924)"
-			"angle" "[2.39998 111.452 0]"
+			"position" "(-32.8131 9.07411 -37.9924)"
+			"angle" "[12 89.4522 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(207.478 191.852 -192)"
+			"position" "(207.478 191.852 0)"
 			"zoom" "0.359993"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(800 -299.768 -23.469)"
+			"position" "(0 -299.768 -23.469)"
 			"zoom" "13.8015"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-442.82 576 553.628)"
+			"position" "(-442.82 0 553.628)"
 			"zoom" "0.622076"
 		}
 	}
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "21"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -804,6 +804,81 @@ world
 }
 entity
 {
+	"id" "528"
+	"classname" "env_global"
+	"angles" "0 0 0"
+	"counter" "0"
+	"globalstate" "camera_lines"
+	"initialstate" "1"
+	"spawnflags" "1"
+	"targetname" "@camera_lines"
+	connections
+	{
+		"Counter" "@vo_caseInValue0-1"
+	}
+	"origin" "-56 56 -24"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "552"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"case01" "0"
+	"case02" "1"
+	"case03" "2"
+	"case04" "32"
+	"MultipleCasesAllowed" "0"
+	"spawnflags" "0"
+	"targetname" "@vo_case"
+	connections
+	{
+		"OnCase01" "@glados_camera_line1Start0-1"
+		"OnCase02" "@glados_camera_line2Start0-1"
+		"OnCase03" "@glados_camera_line3Start0-1"
+		"OnDefault" "@glados_camera_line4Start0-1"
+		"OnCase04" "@glados_camera_line5Start0-1"
+		"OnCase04" "@camera_counterRemove0-1"
+	}
+	"origin" "-8 56 -24"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "572"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "@camera_vo_relay"
+	connections
+	{
+		"OnTrigger" "scene_stopperTrigger0-1"
+		"OnTrigger" "@camera_counterGetCounter0-1"
+	}
+	"origin" "-40 56 -24"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
 	"id" "462"
 	"classname" "logic_relay"
 	"angles" "0 0 0"
@@ -818,7 +893,7 @@ entity
 		"OnTrigger" "@glados_camera_line4StopWaitingForActor1-1"
 		"OnTrigger" "@glados_camera_line5StopWaitingForActor1-1"
 	}
-	"origin" "-24 56 -56"
+	"origin" "-24 56 -24"
 	editor
 	{
 		"color" "0 100 250"
@@ -862,7 +937,7 @@ entity
 	{
 		"OnTrigger" "@camera_counterAddToCounter10-1"
 		"OnTrigger" "@camera_counterGetCounter0-1"
-		"OnTrigger" "scene_stopperTrigger0-1"
+		"OnTrigger" "@camera_vo_relayTrigger0-1"
 	}
 	"origin" "-40 56 -56"
 	editor
@@ -882,6 +957,10 @@ entity
 	"onplayerdeath" "0"
 	"scenefile" "scenes/general/generic_security_camera_destroyed-2.vcd"
 	"targetname" "@glados_camera_line1"
+	connections
+	{
+		"OnStart" "@camera_linesAddToCounter10-1"
+	}
 	"origin" "-56 56 -40"
 	editor
 	{
@@ -900,6 +979,10 @@ entity
 	"onplayerdeath" "0"
 	"scenefile" "scenes/general/generic_security_camera_destroyed-3.vcd"
 	"targetname" "@glados_camera_line2"
+	connections
+	{
+		"OnStart" "@camera_linesAddToCounter10-1"
+	}
 	"origin" "-40 56 -40"
 	editor
 	{
@@ -918,6 +1001,10 @@ entity
 	"onplayerdeath" "0"
 	"scenefile" "scenes/general/generic_security_camera_destroyed-4.vcd"
 	"targetname" "@glados_camera_line3"
+	connections
+	{
+		"OnStart" "@camera_linesAddToCounter10-1"
+	}
 	"origin" "-24 56 -40"
 	editor
 	{
@@ -936,6 +1023,10 @@ entity
 	"onplayerdeath" "0"
 	"scenefile" "scenes/general/generic_security_camera_destroyed-5.vcd"
 	"targetname" "@glados_camera_line4"
+	connections
+	{
+		"OnStart" "@camera_linesAddToCounter10-1"
+	}
 	"origin" "-8 56 -40"
 	editor
 	{
@@ -954,6 +1045,10 @@ entity
 	"onplayerdeath" "0"
 	"scenefile" "scenes/general/generic_security_camera_destroyed-1.vcd"
 	"targetname" "@glados_camera_line5"
+	connections
+	{
+		"OnStart" "@camera_linesAddToCounter10-1"
+	}
 	"origin" "8 56 -40"
 	editor
 	{
@@ -977,11 +1072,6 @@ entity
 	"targetname" "@cam_case"
 	connections
 	{
-		"OnCase01" "@glados_camera_line1Start0-1"
-		"OnCase02" "@glados_camera_line2Start0-1"
-		"OnCase03" "@glados_camera_line3Start0-1"
-		"OnDefault" "@glados_camera_line4Start0-1"
-		"OnCase04" "@glados_camera_line5Start0-1"
 		"OnCase04" "@camera_counterRemove0-1"
 	}
 	"origin" "-8 56 -56"

@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10597"
-	"mapversion" "1926"
+	"mapversion" "1928"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -53,13 +53,13 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(618.003 57.4605 57.5195)"
-			"angle" "[-40 26.4016 0]"
+			"position" "(-683.715 -29.0983 769.006)"
+			"angle" "[5.59996 -168.398 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-341.529 535.058 65536)"
+			"position" "(-341.529 535.058 0)"
 			"zoom" "2.22903"
 		}
 		v2
@@ -79,7 +79,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1926"
+	"mapversion" "1928"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -235450,8 +235450,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[618.003 57.4605 57.5195]"
-		"look" "[1145.19 319.177 551.393]"
+		"position" "[-683.715 -29.0983 769.006]"
+		"look" "[-1432.75 -182.882 694.031]"
 	}
 }
 cordons
@@ -235470,10 +235470,9 @@ cordons
 }
 quickhide
 {
-	"count" "5"
+	"count" "1"
 	list
 	{
 		"id" "510356"
-		"id" "510357"
 	}
 }
