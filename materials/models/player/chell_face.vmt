@@ -1,0 +1,11 @@
+"PBR"
+{
+    $model          1
+
+    $basetexture    "models/player/chell_face"
+    $mraotexture    "models/player/chell_face_mrao"
+    $bumpmap        "models/player/chell_face_normal"
+    
+    $emissionscale  3
+    $envmap         env_cubemap
+}
