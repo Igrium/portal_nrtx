@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10741"
-	"mapversion" "2082"
+	"editorbuild" "10762"
+	"mapversion" "2083"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -47,25 +47,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1426.38 316.072 195.542)"
-			"angle" "[-13.2 121.6 0]"
+			"position" "(636.755 35.3086 22.33)"
+			"angle" "[56 61.1999 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-192 136 65536)"
+			"position" "(-192 136 0)"
 			"zoom" "3.2098"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 136 288)"
+			"position" "(0 136 288)"
 			"zoom" "3.2098"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-192 -65536 288)"
+			"position" "(-192 0 288)"
 			"zoom" "3.20978"
 		}
 	}
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2082"
+	"mapversion" "2083"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -110056,7 +110056,7 @@ entity
 				"point" "2 928 -64 640"
 				"point" "3 -16 -64 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110075,7 +110075,7 @@ entity
 				"point" "2 928 320 128"
 				"point" "3 -16 320 128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110094,7 +110094,7 @@ entity
 				"point" "2 -16 -64 128"
 				"point" "3 -16 320 128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110113,7 +110113,7 @@ entity
 				"point" "2 928 -64 640"
 				"point" "3 928 320 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110132,7 +110132,7 @@ entity
 				"point" "2 -16 320 128"
 				"point" "3 928 320 128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110151,7 +110151,7 @@ entity
 				"point" "2 -16 -64 640"
 				"point" "3 928 -64 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110193,7 +110193,7 @@ entity
 				"point" "2 896 -64 640"
 				"point" "3 512 -64 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110212,7 +110212,7 @@ entity
 				"point" "2 896 320 -192"
 				"point" "3 512 320 -192"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110231,7 +110231,7 @@ entity
 				"point" "2 512 -64 -192"
 				"point" "3 512 320 -192"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110250,7 +110250,7 @@ entity
 				"point" "2 896 -64 640"
 				"point" "3 896 320 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110269,7 +110269,7 @@ entity
 				"point" "2 512 320 -192"
 				"point" "3 896 320 -192"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110288,7 +110288,7 @@ entity
 				"point" "2 512 -64 640"
 				"point" "3 896 -64 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110330,7 +110330,7 @@ entity
 				"point" "2 1408 -64 640"
 				"point" "3 704 -64 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110349,7 +110349,7 @@ entity
 				"point" "2 1408 320 256"
 				"point" "3 704 320 256"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110368,7 +110368,7 @@ entity
 				"point" "2 704 -64 256"
 				"point" "3 704 320 256"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110387,7 +110387,7 @@ entity
 				"point" "2 1408 -64 640"
 				"point" "3 1408 320 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110406,7 +110406,7 @@ entity
 				"point" "2 704 320 256"
 				"point" "3 1408 320 256"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110425,7 +110425,7 @@ entity
 				"point" "2 704 -64 640"
 				"point" "3 1408 -64 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110762,7 +110762,7 @@ entity
 				"point" "2 -1136 0 384"
 				"point" "3 -1600 0 384"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110781,7 +110781,7 @@ entity
 				"point" "2 -1136 256 0"
 				"point" "3 -1600 256 0"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110800,7 +110800,7 @@ entity
 				"point" "2 -1600 0 0"
 				"point" "3 -1600 256 0"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110819,7 +110819,7 @@ entity
 				"point" "2 -1136 0 384"
 				"point" "3 -1136 256 384"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110838,7 +110838,7 @@ entity
 				"point" "2 -1600 256 0"
 				"point" "3 -1136 256 0"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110857,7 +110857,7 @@ entity
 				"point" "2 -1600 0 384"
 				"point" "3 -1136 0 384"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110913,7 +110913,7 @@ entity
 				"point" "2 -16 0 640"
 				"point" "3 -1136 0 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110932,7 +110932,7 @@ entity
 				"point" "2 -16 256 128"
 				"point" "3 -1136 256 128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -110951,7 +110951,7 @@ entity
 				"point" "2 -1136 0 128"
 				"point" "3 -1136 256 128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110970,7 +110970,7 @@ entity
 				"point" "2 -16 0 640"
 				"point" "3 -16 256 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -110989,7 +110989,7 @@ entity
 				"point" "2 -1136 256 128"
 				"point" "3 -16 256 128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111008,7 +111008,7 @@ entity
 				"point" "2 -1136 0 640"
 				"point" "3 -16 0 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111050,7 +111050,7 @@ entity
 				"point" "2 -496 0 640"
 				"point" "3 -896 0 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -111069,7 +111069,7 @@ entity
 				"point" "2 -496 256 -128"
 				"point" "3 -896 256 -128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -111088,7 +111088,7 @@ entity
 				"point" "2 -896 0 -128"
 				"point" "3 -896 256 -128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111107,7 +111107,7 @@ entity
 				"point" "2 -496 0 640"
 				"point" "3 -496 256 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111126,7 +111126,7 @@ entity
 				"point" "2 -896 256 -128"
 				"point" "3 -496 256 -128"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111145,7 +111145,7 @@ entity
 				"point" "2 -896 0 640"
 				"point" "3 -496 0 640"
 			}
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLS_PARALLAX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -337126,8 +337126,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1426.38 316.072 195.542]"
-		"look" "[-1637.87 659.847 290.21]"
+		"position" "[636.755 35.3086 22.33]"
+		"look" "[748.439 238.46 -321.367]"
 	}
 }
 cordons

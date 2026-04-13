@@ -6,4 +6,7 @@ PBR
 	$translucent 1
 	$nocull 1
 	$model 1
+	
+	$envmaptint "10"
+	$envmaptinttexture "models/weapons/weapon_portalgun/portalgun_glass_envmaptint"
 }
