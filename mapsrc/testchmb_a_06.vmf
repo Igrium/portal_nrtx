@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2083"
+	"mapversion" "2088"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -39,41 +39,41 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "32"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
-	"nInstanceVisibility" "2"
+	"nInstanceVisibility" "1"
 	views
 	{
 		v0
 		{
 			"3d" "1"
-			"position" "(636.755 35.3086 22.33)"
-			"angle" "[56 61.1999 0]"
+			"position" "(-1696.5 170.536 139.056)"
+			"angle" "[19.5999 131.6 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-192 136 0)"
-			"zoom" "3.2098"
+			"position" "(838.289 182.228 65536)"
+			"zoom" "0.518401"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 136 288)"
-			"zoom" "3.2098"
+			"position" "(65536 -220.695 378.997)"
+			"zoom" "0.173611"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-192 0 288)"
-			"zoom" "3.20978"
+			"position" "(412.495 -65536 -459.079)"
+			"zoom" "0.622078"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2083"
+	"mapversion" "2088"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4454,7 +4454,7 @@ world
 				"point" "2 -1152 0 -128"
 				"point" "3 -1408 0 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -4540,7 +4540,7 @@ world
 				"point" "2 -1152 256 -128"
 				"point" "3 -1152 0 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -4683,7 +4683,7 @@ world
 				"point" "2 -1408 0 -128"
 				"point" "3 -1408 256 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -4845,7 +4845,7 @@ world
 				"point" "2 -1408 256 -128"
 				"point" "3 -1152 256 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -9834,7 +9834,7 @@ world
 				"point" "2 -1152 192 385"
 				"point" "3 -1152 64 385"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -9872,7 +9872,7 @@ world
 				"point" "2 -1152 64 385"
 				"point" "3 -1152 192 385"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 572] 0.25"
 			"rotation" "0"
@@ -16196,7 +16196,7 @@ world
 				"point" "2 -1280 252 416"
 				"point" "3 -1280 256 416"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 -480] 0.25"
 			"vaxis" "[0 0 1 508] 0.25"
 			"rotation" "0"
@@ -16320,7 +16320,7 @@ world
 				"point" "2 -1280 0 416"
 				"point" "3 -1280 4 416"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 16] 0.25"
 			"vaxis" "[0 0 1 508] 0.25"
 			"rotation" "0"
@@ -21690,7 +21690,7 @@ world
 				"point" "2 896 -64 -320"
 				"point" "3 512 -64 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -21776,7 +21776,7 @@ world
 				"point" "2 512 -64 -576"
 				"point" "3 512 -64 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -21957,7 +21957,7 @@ world
 				"point" "2 512 320 -320"
 				"point" "3 896 320 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -22110,7 +22110,7 @@ world
 				"point" "2 -160 320 400"
 				"point" "3 -32 320 400"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
 			"rotation" "180"
@@ -22205,7 +22205,7 @@ world
 				"point" "2 -32 -64 400"
 				"point" "3 -32 320 400"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22310,7 +22310,7 @@ world
 				"point" "2 -32 320 400"
 				"point" "3 -32 -64 400"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22930,7 +22930,7 @@ world
 				"point" "2 -160 320 640"
 				"point" "3 -32 320 640"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 1 -320] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
 			"rotation" "0"
@@ -23121,7 +23121,7 @@ world
 				"point" "2 -160 -64 640"
 				"point" "3 -32 -64 640"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
 			"rotation" "0"
@@ -23407,7 +23407,7 @@ world
 				"point" "2 -32 -64 640"
 				"point" "3 -160 -64 640"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 -1 320] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
 			"rotation" "0"
@@ -25458,7 +25458,7 @@ world
 				"point" "2 896 320 -576"
 				"point" "3 896 320 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -30494,7 +30494,7 @@ world
 				"point" "2 -512 0 -256"
 				"point" "3 -896 0 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -30599,7 +30599,7 @@ world
 				"point" "2 -896 0 -256"
 				"point" "3 -896 256 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -30761,7 +30761,7 @@ world
 				"point" "2 -896 256 -256"
 				"point" "3 -512 256 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -30828,7 +30828,7 @@ world
 				"point" "2 -512 256 -256"
 				"point" "3 -512 0 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -60255,7 +60255,7 @@ world
 				"point" "2 -1280 192 400"
 				"point" "3 -1152 192 400"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 -1 256] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -60503,7 +60503,7 @@ world
 				"point" "2 -1280 192 512"
 				"point" "3 -1152 192 512"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 -1 256] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -60751,7 +60751,7 @@ world
 				"point" "2 -1280 64 512"
 				"point" "3 -1152 64 512"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -61018,7 +61018,7 @@ world
 				"point" "2 -1280 64 400"
 				"point" "3 -1152 64 400"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 1 -256] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -61142,7 +61142,7 @@ world
 				"point" "2 -1136 64 400"
 				"point" "3 -1152 64 400"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[-1 0 0 1] 0.25"
 			"rotation" "180"
@@ -61266,7 +61266,7 @@ world
 				"point" "2 -1152 64 384"
 				"point" "3 -1152 64 400"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 -1 260] 0.25"
 			"vaxis" "[1 0 0 1] 0.25"
 			"rotation" "0"
@@ -65377,7 +65377,7 @@ world
 				"point" "2 -1728 192 256"
 				"point" "3 -1632 192 256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 -1 -252] 0.25"
 			"vaxis" "[1 0 0 256] 0.25"
 			"rotation" "0"
@@ -65501,7 +65501,7 @@ world
 				"point" "2 -1616 64 129"
 				"point" "3 -1616 192 129"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 703] 0.25"
 			"rotation" "0"
@@ -65520,7 +65520,7 @@ world
 				"point" "2 -1632 192 129"
 				"point" "3 -1632 64 129"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -65549,7 +65549,7 @@ world
 				"point" "2 -1728 192 129"
 				"point" "3 -1632 192 129"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[1 0 0 256] 0.25"
 			"rotation" "180"
@@ -65644,7 +65644,7 @@ world
 				"point" "2 -1632 64 129"
 				"point" "3 -1632 192 129"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -65873,7 +65873,7 @@ world
 				"point" "2 -1632 64 256"
 				"point" "3 -1728 64 256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 0 1 -260] 0.25"
 			"vaxis" "[1 0 0 256] 0.25"
 			"rotation" "0"
@@ -66121,7 +66121,7 @@ world
 				"point" "2 -1728 64 256"
 				"point" "3 -1632 64 256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[1 0 0 256] 0.25"
 			"rotation" "0"
@@ -108644,6 +108644,16 @@ world
 	}
 	group
 	{
+		"id" "465762"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "122053"
 		editor
 		{
@@ -110038,6 +110048,762 @@ world
 }
 entity
 {
+	"id" "467421"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "96"
+	"emissive_color" "255 255 255 2048"
+	"height" "24"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "96"
+	"origin" "-1440 416 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "467424"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "96"
+	"emissive_color" "255 255 255 2048"
+	"height" "24"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "96"
+	"origin" "960 456 732"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "467451"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "96"
+	"emissive_color" "255 255 255 2048"
+	"height" "24"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "96"
+	"origin" "-704 -112 476"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "467454"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "96"
+	"emissive_color" "255 255 255 2048"
+	"height" "24"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "96"
+	"origin" "512 -176 604"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "467473"
+	"classname" "obb_volumefog"
+	"angles" "89.9999 -0 0"
+	"density" "1"
+	"depth" "128"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "96"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "128"
+	"origin" "-1680 128 193"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "467511"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "256"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "256"
+	"origin" "-1280 128 -192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "467532"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "256"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "384"
+	"origin" "-704 128 -320"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "467797"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "384"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "256"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "384"
+	"origin" "704 128 -448"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "467869"
+	"classname" "obb_volumefog"
+	"angles" "89.9999 -0 0"
+	"density" "1"
+	"depth" "128"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "96"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "128"
+	"origin" "-1232 128 448"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "468001"
+	"classname" "obb_volumefog"
+	"angles" "89.9999 -0 0"
+	"density" "1"
+	"depth" "384"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "256"
+	"origin" "-96 128 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "465637"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/global_ents_nrtx"
+	"fixup_style" "0"
+	"origin" "-1824 320 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "465764"
+	"classname" "parallax_obb"
+	"targetname" "09-10_parallax3"
+	solid
+	{
+		"id" "465765"
+		side
+		{
+			"id" "277919"
+			"plane" "(-1920 0 192) (-2240 0 192) (-2240 256 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -1920 0 192"
+				"point" "1 -2240 0 192"
+				"point" "2 -2240 256 192"
+				"point" "3 -1920 256 192"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277918"
+			"plane" "(-1920 256 0) (-2240 256 0) (-2240 0 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -1920 256 0"
+				"point" "1 -2240 256 0"
+				"point" "2 -2240 0 0"
+				"point" "3 -1920 0 0"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277917"
+			"plane" "(-1920 0 192) (-1920 256 192) (-1920 256 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -1920 0 192"
+				"point" "1 -1920 256 192"
+				"point" "2 -1920 256 0"
+				"point" "3 -1920 0 0"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277916"
+			"plane" "(-2240 0 0) (-2240 256 0) (-2240 256 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2240 0 0"
+				"point" "1 -2240 256 0"
+				"point" "2 -2240 256 192"
+				"point" "3 -2240 0 192"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277915"
+			"plane" "(-2240 0 192) (-1920 0 192) (-1920 0 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2240 0 192"
+				"point" "1 -1920 0 192"
+				"point" "2 -1920 0 0"
+				"point" "3 -2240 0 0"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277914"
+			"plane" "(-2240 256 0) (-1920 256 0) (-1920 256 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2240 256 0"
+				"point" "1 -1920 256 0"
+				"point" "2 -1920 256 192"
+				"point" "3 -2240 256 192"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "465766"
+	"classname" "parallax_obb"
+	"targetname" "09-10_parallax2"
+	solid
+	{
+		"id" "465767"
+		side
+		{
+			"id" "277925"
+			"plane" "(-2208 224 -640) (-2016 224 -640) (-2016 224 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2208 224 -640"
+				"point" "1 -2016 224 -640"
+				"point" "2 -2016 224 256"
+				"point" "3 -2208 224 256"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277924"
+			"plane" "(-2208 32.0001 256) (-2016 32.0001 256) (-2016 32.0001 -640)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2208 32.0001 256"
+				"point" "1 -2016 32.0001 256"
+				"point" "2 -2016 32.0001 -640"
+				"point" "3 -2208 32.0001 -640"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277923"
+			"plane" "(-2208 32.0001 -640) (-2208 224 -640) (-2208 224 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2208 32.0001 -640"
+				"point" "1 -2208 224 -640"
+				"point" "2 -2208 224 256"
+				"point" "3 -2208 32.0001 256"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277922"
+			"plane" "(-2016 32.0001 256) (-2016 224 256) (-2016 224 -640)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2016 32.0001 256"
+				"point" "1 -2016 224 256"
+				"point" "2 -2016 224 -640"
+				"point" "3 -2016 32.0001 -640"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277921"
+			"plane" "(-2016 224 -640) (-2208 224 -640) (-2208 32.0001 -640)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2016 224 -640"
+				"point" "1 -2208 224 -640"
+				"point" "2 -2208 32.0001 -640"
+				"point" "3 -2016 32.0001 -640"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277920"
+			"plane" "(-2016 32.0001 256) (-2208 32.0001 256) (-2208 224 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2016 32.0001 256"
+				"point" "1 -2208 32.0001 256"
+				"point" "2 -2208 224 256"
+				"point" "3 -2016 224 256"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "465768"
+	"classname" "env_cubemap"
+	"cubemapsize" "6"
+	"parallaxobb" "09-10_parallax2"
+	"origin" "-2112 128 -190"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "465772"
+	"classname" "parallax_obb"
+	"targetname" "09-10_parallax1"
+	solid
+	{
+		"id" "465773"
+		side
+		{
+			"id" "277931"
+			"plane" "(-2240 256 -576) (-1920 256 -576) (-1920 256 -384)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2240 256 -576"
+				"point" "1 -1920 256 -576"
+				"point" "2 -1920 256 -384"
+				"point" "3 -2240 256 -384"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277930"
+			"plane" "(-2240 0 -384) (-1920 0 -384) (-1920 0 -576)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2240 0 -384"
+				"point" "1 -1920 0 -384"
+				"point" "2 -1920 0 -576"
+				"point" "3 -2240 0 -576"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277929"
+			"plane" "(-2240 0 -576) (-2240 256 -576) (-2240 256 -384)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2240 0 -576"
+				"point" "1 -2240 256 -576"
+				"point" "2 -2240 256 -384"
+				"point" "3 -2240 0 -384"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277928"
+			"plane" "(-1920 0 -384) (-1920 256 -384) (-1920 256 -576)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -1920 0 -384"
+				"point" "1 -1920 256 -384"
+				"point" "2 -1920 256 -576"
+				"point" "3 -1920 0 -576"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277927"
+			"plane" "(-1920 256 -576) (-2240 256 -576) (-2240 0 -576)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -1920 256 -576"
+				"point" "1 -2240 256 -576"
+				"point" "2 -2240 0 -576"
+				"point" "3 -1920 0 -576"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277926"
+			"plane" "(-1920 0 -384) (-2240 0 -384) (-2240 256 -384)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -1920 0 -384"
+				"point" "1 -2240 0 -384"
+				"point" "2 -2240 256 -384"
+				"point" "3 -1920 256 -384"
+			}
+			"material" "TOOLS/TOOLS_PARALLAX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "465774"
+	"classname" "env_cubemap"
+	"cubemapsize" "6"
+	"parallaxobb" "09-10_parallax1"
+	"origin" "-1952 128 -503"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9500]"
+	}
+}
+entity
+{
+	"id" "465778"
+	"classname" "env_cubemap"
+	"cubemapsize" "5"
+	"parallaxobb" "09-10_parallax2"
+	"origin" "-2112 128 -608"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "465782"
+	"classname" "env_cubemap"
+	"cubemapsize" "5"
+	"parallaxobb" "09-10_parallax2"
+	"origin" "-2112 128 224"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "465786"
+	"classname" "env_cubemap"
+	"cubemapsize" "6"
+	"parallaxobb" "09-10_parallax3"
+	"origin" "-1952 128 73"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "465762"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9500]"
+	}
+}
+entity
+{
 	"id" "463365"
 	"classname" "parallax_obb"
 	"targetname" "parallax_room3a"
@@ -110715,7 +111481,7 @@ entity
 	"angles" "0 0 0"
 	"file" "instances/elevator_lighting"
 	"fixup_style" "0"
-	"replace01" "$parent @elevator1_parent"
+	"replace01" "$parent @09-10_elevator"
 	"origin" "-2112 128 -416"
 	editor
 	{
@@ -110732,7 +111498,7 @@ entity
 	"angles" "-0 0 0"
 	"parentname" "a05_a06_elevator_body_model"
 	"spawnflags" "0"
-	"targetname" "@elevator1_parent"
+	"targetname" "@09-10_elevator"
 	"origin" "-2112 128 -416"
 	editor
 	{
@@ -111234,7 +112000,7 @@ entity
 	"StartDisabled" "0"
 	"targetname" "trigger_fryer_rm2"
 	"usescanline" "1"
-	"visible" "1"
+	"visible" "0"
 	solid
 	{
 		"id" "186993"
@@ -111250,7 +112016,7 @@ entity
 				"point" "2 1523 192.106 512"
 				"point" "3 1525 192.106 512"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[-1 0 0 12.0078] 0.25"
 			"rotation" "0"
@@ -111269,7 +112035,7 @@ entity
 				"point" "2 1523 64.1059 383.375"
 				"point" "3 1525 64.1059 383.375"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[-1 0 0 12.0078] 0.25"
 			"rotation" "0"
@@ -111288,7 +112054,7 @@ entity
 				"point" "2 1525 192.106 512"
 				"point" "3 1523 192.106 512"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -12.0078] 0.25"
 			"vaxis" "[0 0 -1 61.5016] 0.25"
 			"rotation" "0"
@@ -111307,7 +112073,7 @@ entity
 				"point" "2 1523 64.1059 512"
 				"point" "3 1525 64.1059 512"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -12.0078] 0.25"
 			"vaxis" "[0 0 -1 61.5016] 0.25"
 			"rotation" "0"
@@ -111326,7 +112092,7 @@ entity
 				"point" "2 1525 64.1059 512"
 				"point" "3 1525 192.106 512"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 20] 0.25"
 			"vaxis" "[0 0 -1 61.5016] 0.25"
 			"rotation" "0"
@@ -111345,7 +112111,7 @@ entity
 				"point" "2 1523 192.106 512"
 				"point" "3 1523 64.1059 512"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -20] 0.25"
 			"vaxis" "[0 0 -1 61.5016] 0.25"
 			"rotation" "0"
@@ -111443,7 +112209,7 @@ entity
 				"point" "2 -1470 258 130"
 				"point" "3 -1470 258 176"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111567,7 +112333,7 @@ entity
 				"point" "2 -1470 258 178"
 				"point" "3 -1470 258 202"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111691,7 +112457,7 @@ entity
 				"point" "2 -1470 258 204"
 				"point" "3 -1470 258 228"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -111815,7 +112581,7 @@ entity
 				"point" "2 -1470 258 230"
 				"point" "3 -1470 258 254"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -113873,7 +114639,7 @@ entity
 				"point" "2 -786 -1 380"
 				"point" "3 -816 -1 380"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -113978,7 +114744,7 @@ entity
 				"point" "2 -705 -1 380"
 				"point" "3 -784 -1 380"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -114102,7 +114868,7 @@ entity
 				"point" "2 -624 -1 380"
 				"point" "3 -703 -1 380"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -114245,7 +115011,7 @@ entity
 				"point" "2 -592 -1 380"
 				"point" "3 -622 -1 380"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -119141,6 +119907,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam1_intro5aRagdoll0-1"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
 	}
 	solid
 	{
@@ -119548,6 +120315,13 @@ entity
 	"targetname" "door_left_a06_1"
 	"unlocked_sentence" "0"
 	"wait" "-1"
+	connections
+	{
+		"OnOpen" "model_door_right_a06_1Skin30-1"
+		"OnOpen" "model_door_left_a06_1Skin30-1"
+		"OnClose" "model_door_left_a06_1Skin00-1"
+		"OnClose" "model_door_right_a06_1Skin00-1"
+	}
 	solid
 	{
 		"id" "340785"
@@ -119956,6 +120730,13 @@ entity
 	"targetname" "door_left_a06_2"
 	"unlocked_sentence" "0"
 	"wait" "-1"
+	connections
+	{
+		"OnOpen" "model_door_left_a06_2Skin30-1"
+		"OnOpen" "model_door_right_a06_1Skin30-1"
+		"OnClose" "model_door_right_a06_1Skin00-1"
+		"OnClose" "model_door_left_a06_2Skin00-1"
+	}
 	solid
 	{
 		"id" "341808"
@@ -120389,7 +121170,7 @@ entity
 				"point" "2 898 322 514"
 				"point" "3 898 322 560"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -120513,7 +121294,7 @@ entity
 				"point" "2 898 322 562"
 				"point" "3 898 322 586"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -120637,7 +121418,7 @@ entity
 				"point" "2 898 322 588"
 				"point" "3 898 322 612"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -120761,7 +121542,7 @@ entity
 				"point" "2 898 322 614"
 				"point" "3 898 322 638"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -153571,7 +154352,7 @@ entity
 				"point" "2 858 2 -320"
 				"point" "3 848 4 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153590,7 +154371,7 @@ entity
 				"point" "2 866 -6 -320"
 				"point" "3 858 2 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153609,7 +154390,7 @@ entity
 				"point" "2 868 -16 -320"
 				"point" "3 866 -6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153628,7 +154409,7 @@ entity
 				"point" "2 866 -26 -320"
 				"point" "3 868 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153647,7 +154428,7 @@ entity
 				"point" "2 858 -34 -320"
 				"point" "3 866 -26 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153666,7 +154447,7 @@ entity
 				"point" "2 848 -36 -320"
 				"point" "3 858 -34 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153685,7 +154466,7 @@ entity
 				"point" "2 838 -34 -320"
 				"point" "3 848 -36 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153704,7 +154485,7 @@ entity
 				"point" "2 830 -26 -320"
 				"point" "3 838 -34 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153723,7 +154504,7 @@ entity
 				"point" "2 828 -16 -320"
 				"point" "3 830 -26 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153742,7 +154523,7 @@ entity
 				"point" "2 830 -6 -320"
 				"point" "3 828 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153761,7 +154542,7 @@ entity
 				"point" "2 838 2 -320"
 				"point" "3 830 -6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -153780,7 +154561,7 @@ entity
 				"point" "2 848 4 -320"
 				"point" "3 838 2 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -155295,7 +156076,7 @@ entity
 				"point" "2 400 -65 508"
 				"point" "3 430 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155314,7 +156095,7 @@ entity
 				"point" "2 400 -66 388"
 				"point" "3 430 -66 388"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155333,7 +156114,7 @@ entity
 				"point" "2 400 -65 508"
 				"point" "3 400 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 47.6491] 0.25"
 			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
@@ -155352,7 +156133,7 @@ entity
 				"point" "2 400 -66 508"
 				"point" "3 430 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155371,7 +156152,7 @@ entity
 				"point" "2 430 -65 508"
 				"point" "3 400 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155390,7 +156171,7 @@ entity
 				"point" "2 430 -66 508"
 				"point" "3 430 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155419,7 +156200,7 @@ entity
 				"point" "2 432 -65 508"
 				"point" "3 511 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155438,7 +156219,7 @@ entity
 				"point" "2 432 -66 388"
 				"point" "3 511 -66 388"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155457,7 +156238,7 @@ entity
 				"point" "2 432 -66 508"
 				"point" "3 511 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155476,7 +156257,7 @@ entity
 				"point" "2 511 -65 508"
 				"point" "3 432 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155495,7 +156276,7 @@ entity
 				"point" "2 511 -66 508"
 				"point" "3 511 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155514,7 +156295,7 @@ entity
 				"point" "2 432 -65 508"
 				"point" "3 432 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155543,7 +156324,7 @@ entity
 				"point" "2 513 -65 508"
 				"point" "3 592 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155562,7 +156343,7 @@ entity
 				"point" "2 513 -66 388"
 				"point" "3 592 -66 388"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155581,7 +156362,7 @@ entity
 				"point" "2 513 -66 508"
 				"point" "3 592 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155600,7 +156381,7 @@ entity
 				"point" "2 592 -65 508"
 				"point" "3 513 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155619,7 +156400,7 @@ entity
 				"point" "2 592 -66 508"
 				"point" "3 592 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155638,7 +156419,7 @@ entity
 				"point" "2 513 -65 508"
 				"point" "3 513 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155667,7 +156448,7 @@ entity
 				"point" "2 624 -66 508"
 				"point" "3 594 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155686,7 +156467,7 @@ entity
 				"point" "2 624 -65 388"
 				"point" "3 594 -65 388"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 52.5903] 0.25"
 			"vaxis" "[0 1 0 -47.6491] 0.25"
 			"rotation" "0"
@@ -155705,7 +156486,7 @@ entity
 				"point" "2 624 -66 508"
 				"point" "3 624 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 47.6491] 0.25"
 			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
@@ -155724,7 +156505,7 @@ entity
 				"point" "2 594 -66 508"
 				"point" "3 624 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155743,7 +156524,7 @@ entity
 				"point" "2 624 -65 508"
 				"point" "3 594 -65 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -155762,7 +156543,7 @@ entity
 				"point" "2 594 -65 508"
 				"point" "3 594 -66 508"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -159309,7 +160090,7 @@ entity
 				"point" "2 662 23 -320"
 				"point" "3 656 24 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159328,7 +160109,7 @@ entity
 				"point" "2 667 18 -320"
 				"point" "3 662 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159347,7 +160128,7 @@ entity
 				"point" "2 668 12 -320"
 				"point" "3 667 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159366,7 +160147,7 @@ entity
 				"point" "2 667 6 -320"
 				"point" "3 668 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159385,7 +160166,7 @@ entity
 				"point" "2 662 1 -320"
 				"point" "3 667 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159404,7 +160185,7 @@ entity
 				"point" "2 656 -0 -320"
 				"point" "3 662 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159423,7 +160204,7 @@ entity
 				"point" "2 650 1 -320"
 				"point" "3 656 0 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159442,7 +160223,7 @@ entity
 				"point" "2 645 6 -320"
 				"point" "3 650 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159461,7 +160242,7 @@ entity
 				"point" "2 644 12 -320"
 				"point" "3 645 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159480,7 +160261,7 @@ entity
 				"point" "2 645 18 -320"
 				"point" "3 644 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159499,7 +160280,7 @@ entity
 				"point" "2 650 23 -320"
 				"point" "3 645 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -159518,7 +160299,7 @@ entity
 				"point" "2 656 24 -320"
 				"point" "3 650 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -161949,7 +162730,7 @@ entity
 				"point" "2 858 290 -320"
 				"point" "3 848 292 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -161968,7 +162749,7 @@ entity
 				"point" "2 866 282 -320"
 				"point" "3 858 290 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -161987,7 +162768,7 @@ entity
 				"point" "2 868 272 -320"
 				"point" "3 866 282 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162006,7 +162787,7 @@ entity
 				"point" "2 866 262 -320"
 				"point" "3 868 272 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162025,7 +162806,7 @@ entity
 				"point" "2 858 254 -320"
 				"point" "3 866 262 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162044,7 +162825,7 @@ entity
 				"point" "2 848 252 -320"
 				"point" "3 858 254 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162063,7 +162844,7 @@ entity
 				"point" "2 838 254 -320"
 				"point" "3 848 252 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162082,7 +162863,7 @@ entity
 				"point" "2 830 262 -320"
 				"point" "3 838 254 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162101,7 +162882,7 @@ entity
 				"point" "2 828 272 -320"
 				"point" "3 830 262 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162120,7 +162901,7 @@ entity
 				"point" "2 830 282 -320"
 				"point" "3 828 272 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162139,7 +162920,7 @@ entity
 				"point" "2 838 290 -320"
 				"point" "3 830 282 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -162158,7 +162939,7 @@ entity
 				"point" "2 848 292 -320"
 				"point" "3 838 290 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163713,7 +164494,7 @@ entity
 				"point" "2 618 146 -320"
 				"point" "3 608 148 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163732,7 +164513,7 @@ entity
 				"point" "2 626 138 -320"
 				"point" "3 618 146 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163751,7 +164532,7 @@ entity
 				"point" "2 628 128 -320"
 				"point" "3 626 138 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163770,7 +164551,7 @@ entity
 				"point" "2 626 118 -320"
 				"point" "3 628 128 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163789,7 +164570,7 @@ entity
 				"point" "2 618 110 -320"
 				"point" "3 626 118 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163808,7 +164589,7 @@ entity
 				"point" "2 608 108 -320"
 				"point" "3 618 110 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163827,7 +164608,7 @@ entity
 				"point" "2 598 110 -320"
 				"point" "3 608 108 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163846,7 +164627,7 @@ entity
 				"point" "2 590 118 -320"
 				"point" "3 598 110 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163865,7 +164646,7 @@ entity
 				"point" "2 588 128 -320"
 				"point" "3 590 118 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163884,7 +164665,7 @@ entity
 				"point" "2 590 138 -320"
 				"point" "3 588 128 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163903,7 +164684,7 @@ entity
 				"point" "2 598 146 -320"
 				"point" "3 590 138 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -163922,7 +164703,7 @@ entity
 				"point" "2 608 148 -320"
 				"point" "3 598 146 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165769,7 +166550,7 @@ entity
 				"point" "2 662 -33 -320"
 				"point" "3 656 -32 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165788,7 +166569,7 @@ entity
 				"point" "2 667 -38 -320"
 				"point" "3 662 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165807,7 +166588,7 @@ entity
 				"point" "2 668 -44 -320"
 				"point" "3 667 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165826,7 +166607,7 @@ entity
 				"point" "2 667 -50 -320"
 				"point" "3 668 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165845,7 +166626,7 @@ entity
 				"point" "2 662 -55 -320"
 				"point" "3 667 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165864,7 +166645,7 @@ entity
 				"point" "2 656 -56 -320"
 				"point" "3 662 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165883,7 +166664,7 @@ entity
 				"point" "2 650 -55 -320"
 				"point" "3 656 -56 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165902,7 +166683,7 @@ entity
 				"point" "2 645 -50 -320"
 				"point" "3 650 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165921,7 +166702,7 @@ entity
 				"point" "2 644 -44 -320"
 				"point" "3 645 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165940,7 +166721,7 @@ entity
 				"point" "2 645 -38 -320"
 				"point" "3 644 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165959,7 +166740,7 @@ entity
 				"point" "2 650 -33 -320"
 				"point" "3 645 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -165978,7 +166759,7 @@ entity
 				"point" "2 656 -32 -320"
 				"point" "3 650 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168701,7 +169482,7 @@ entity
 				"point" "2 630 -5 -320"
 				"point" "3 624 -4 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168720,7 +169501,7 @@ entity
 				"point" "2 635 -10 -320"
 				"point" "3 630 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168739,7 +169520,7 @@ entity
 				"point" "2 636 -16 -320"
 				"point" "3 635 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168758,7 +169539,7 @@ entity
 				"point" "2 635 -22 -320"
 				"point" "3 636 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168777,7 +169558,7 @@ entity
 				"point" "2 630 -27 -320"
 				"point" "3 635 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168796,7 +169577,7 @@ entity
 				"point" "2 624 -28 -320"
 				"point" "3 630 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168815,7 +169596,7 @@ entity
 				"point" "2 618 -27 -320"
 				"point" "3 624 -28 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168834,7 +169615,7 @@ entity
 				"point" "2 613 -22 -320"
 				"point" "3 618 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168853,7 +169634,7 @@ entity
 				"point" "2 612 -16 -320"
 				"point" "3 613 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168872,7 +169653,7 @@ entity
 				"point" "2 613 -10 -320"
 				"point" "3 612 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168891,7 +169672,7 @@ entity
 				"point" "2 618 -5 -320"
 				"point" "3 613 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -168910,7 +169691,7 @@ entity
 				"point" "2 624 -4 -320"
 				"point" "3 618 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171633,7 +172414,7 @@ entity
 				"point" "2 598 23 -320"
 				"point" "3 592 24 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171652,7 +172433,7 @@ entity
 				"point" "2 603 18 -320"
 				"point" "3 598 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171671,7 +172452,7 @@ entity
 				"point" "2 604 12 -320"
 				"point" "3 603 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171690,7 +172471,7 @@ entity
 				"point" "2 603 6 -320"
 				"point" "3 604 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171709,7 +172490,7 @@ entity
 				"point" "2 598 1 -320"
 				"point" "3 603 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171728,7 +172509,7 @@ entity
 				"point" "2 592 -0 -320"
 				"point" "3 598 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171747,7 +172528,7 @@ entity
 				"point" "2 586 1 -320"
 				"point" "3 592 0 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171766,7 +172547,7 @@ entity
 				"point" "2 581 6 -320"
 				"point" "3 586 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171785,7 +172566,7 @@ entity
 				"point" "2 580 12 -320"
 				"point" "3 581 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171804,7 +172585,7 @@ entity
 				"point" "2 581 18 -320"
 				"point" "3 580 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171823,7 +172604,7 @@ entity
 				"point" "2 586 23 -320"
 				"point" "3 581 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -171842,7 +172623,7 @@ entity
 				"point" "2 592 24 -320"
 				"point" "3 586 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174565,7 +175346,7 @@ entity
 				"point" "2 598 -33 -320"
 				"point" "3 592 -32 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174584,7 +175365,7 @@ entity
 				"point" "2 603 -38 -320"
 				"point" "3 598 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174603,7 +175384,7 @@ entity
 				"point" "2 604 -44 -320"
 				"point" "3 603 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174622,7 +175403,7 @@ entity
 				"point" "2 603 -50 -320"
 				"point" "3 604 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174641,7 +175422,7 @@ entity
 				"point" "2 598 -55 -320"
 				"point" "3 603 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174660,7 +175441,7 @@ entity
 				"point" "2 592 -56 -320"
 				"point" "3 598 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174679,7 +175460,7 @@ entity
 				"point" "2 586 -55 -320"
 				"point" "3 592 -56 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174698,7 +175479,7 @@ entity
 				"point" "2 581 -50 -320"
 				"point" "3 586 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174717,7 +175498,7 @@ entity
 				"point" "2 580 -44 -320"
 				"point" "3 581 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174736,7 +175517,7 @@ entity
 				"point" "2 581 -38 -320"
 				"point" "3 580 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174755,7 +175536,7 @@ entity
 				"point" "2 586 -33 -320"
 				"point" "3 581 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -174774,7 +175555,7 @@ entity
 				"point" "2 592 -32 -320"
 				"point" "3 586 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177497,7 +178278,7 @@ entity
 				"point" "2 694 -5 -320"
 				"point" "3 688 -4 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177516,7 +178297,7 @@ entity
 				"point" "2 699 -10 -320"
 				"point" "3 694 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177535,7 +178316,7 @@ entity
 				"point" "2 700 -16 -320"
 				"point" "3 699 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177554,7 +178335,7 @@ entity
 				"point" "2 699 -22 -320"
 				"point" "3 700 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177573,7 +178354,7 @@ entity
 				"point" "2 694 -27 -320"
 				"point" "3 699 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177592,7 +178373,7 @@ entity
 				"point" "2 688 -28 -320"
 				"point" "3 694 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177611,7 +178392,7 @@ entity
 				"point" "2 682 -27 -320"
 				"point" "3 688 -28 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177630,7 +178411,7 @@ entity
 				"point" "2 677 -22 -320"
 				"point" "3 682 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177649,7 +178430,7 @@ entity
 				"point" "2 676 -16 -320"
 				"point" "3 677 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177668,7 +178449,7 @@ entity
 				"point" "2 677 -10 -320"
 				"point" "3 676 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177687,7 +178468,7 @@ entity
 				"point" "2 682 -5 -320"
 				"point" "3 677 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -177706,7 +178487,7 @@ entity
 				"point" "2 688 -4 -320"
 				"point" "3 682 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180429,7 +181210,7 @@ entity
 				"point" "2 726 23 -320"
 				"point" "3 720 24 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180448,7 +181229,7 @@ entity
 				"point" "2 731 18 -320"
 				"point" "3 726 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180467,7 +181248,7 @@ entity
 				"point" "2 732 12 -320"
 				"point" "3 731 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180486,7 +181267,7 @@ entity
 				"point" "2 731 6 -320"
 				"point" "3 732 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180505,7 +181286,7 @@ entity
 				"point" "2 726 1 -320"
 				"point" "3 731 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180524,7 +181305,7 @@ entity
 				"point" "2 720 0 -320"
 				"point" "3 726 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180543,7 +181324,7 @@ entity
 				"point" "2 714 1 -320"
 				"point" "3 720 0 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180562,7 +181343,7 @@ entity
 				"point" "2 709 6 -320"
 				"point" "3 714 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180581,7 +181362,7 @@ entity
 				"point" "2 708 12 -320"
 				"point" "3 709 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180600,7 +181381,7 @@ entity
 				"point" "2 709 18 -320"
 				"point" "3 708 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180619,7 +181400,7 @@ entity
 				"point" "2 714 23 -320"
 				"point" "3 709 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -180638,7 +181419,7 @@ entity
 				"point" "2 720 24 -320"
 				"point" "3 714 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183361,7 +184142,7 @@ entity
 				"point" "2 758 -5 -320"
 				"point" "3 752 -4 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183380,7 +184161,7 @@ entity
 				"point" "2 763 -10 -320"
 				"point" "3 758 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183399,7 +184180,7 @@ entity
 				"point" "2 764 -16 -320"
 				"point" "3 763 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183418,7 +184199,7 @@ entity
 				"point" "2 763 -22 -320"
 				"point" "3 764 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183437,7 +184218,7 @@ entity
 				"point" "2 758 -27 -320"
 				"point" "3 763 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183456,7 +184237,7 @@ entity
 				"point" "2 752 -28 -320"
 				"point" "3 758 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183475,7 +184256,7 @@ entity
 				"point" "2 746 -27 -320"
 				"point" "3 752 -28 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183494,7 +184275,7 @@ entity
 				"point" "2 741 -22 -320"
 				"point" "3 746 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183513,7 +184294,7 @@ entity
 				"point" "2 740 -16 -320"
 				"point" "3 741 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183532,7 +184313,7 @@ entity
 				"point" "2 741 -10 -320"
 				"point" "3 740 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183551,7 +184332,7 @@ entity
 				"point" "2 746 -5 -320"
 				"point" "3 741 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -183570,7 +184351,7 @@ entity
 				"point" "2 752 -4 -320"
 				"point" "3 746 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186293,7 +187074,7 @@ entity
 				"point" "2 790 23 -320"
 				"point" "3 784 24 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186312,7 +187093,7 @@ entity
 				"point" "2 795 18 -320"
 				"point" "3 790 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186331,7 +187112,7 @@ entity
 				"point" "2 796 12 -320"
 				"point" "3 795 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186350,7 +187131,7 @@ entity
 				"point" "2 795 6 -320"
 				"point" "3 796 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186369,7 +187150,7 @@ entity
 				"point" "2 790 1 -320"
 				"point" "3 795 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186388,7 +187169,7 @@ entity
 				"point" "2 784 -0 -320"
 				"point" "3 790 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186407,7 +187188,7 @@ entity
 				"point" "2 778 1 -320"
 				"point" "3 784 0 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186426,7 +187207,7 @@ entity
 				"point" "2 773 6 -320"
 				"point" "3 778 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186445,7 +187226,7 @@ entity
 				"point" "2 772 12 -320"
 				"point" "3 773 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186464,7 +187245,7 @@ entity
 				"point" "2 773 18 -320"
 				"point" "3 772 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186483,7 +187264,7 @@ entity
 				"point" "2 778 23 -320"
 				"point" "3 773 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -186502,7 +187283,7 @@ entity
 				"point" "2 784 24 -320"
 				"point" "3 778 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189225,7 +190006,7 @@ entity
 				"point" "2 726 -33 -320"
 				"point" "3 720 -32 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189244,7 +190025,7 @@ entity
 				"point" "2 731 -38 -320"
 				"point" "3 726 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189263,7 +190044,7 @@ entity
 				"point" "2 732 -44 -320"
 				"point" "3 731 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189282,7 +190063,7 @@ entity
 				"point" "2 731 -50 -320"
 				"point" "3 732 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189301,7 +190082,7 @@ entity
 				"point" "2 726 -55 -320"
 				"point" "3 731 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189320,7 +190101,7 @@ entity
 				"point" "2 720 -56 -320"
 				"point" "3 726 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189339,7 +190120,7 @@ entity
 				"point" "2 714 -55 -320"
 				"point" "3 720 -56 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189358,7 +190139,7 @@ entity
 				"point" "2 709 -50 -320"
 				"point" "3 714 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189377,7 +190158,7 @@ entity
 				"point" "2 708 -44 -320"
 				"point" "3 709 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189396,7 +190177,7 @@ entity
 				"point" "2 709 -38 -320"
 				"point" "3 708 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189415,7 +190196,7 @@ entity
 				"point" "2 714 -33 -320"
 				"point" "3 709 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -189434,7 +190215,7 @@ entity
 				"point" "2 720 -32 -320"
 				"point" "3 714 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192157,7 +192938,7 @@ entity
 				"point" "2 790 -33 -320"
 				"point" "3 784 -32 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192176,7 +192957,7 @@ entity
 				"point" "2 795 -38 -320"
 				"point" "3 790 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192195,7 +192976,7 @@ entity
 				"point" "2 796 -44 -320"
 				"point" "3 795 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192214,7 +192995,7 @@ entity
 				"point" "2 795 -50 -320"
 				"point" "3 796 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192233,7 +193014,7 @@ entity
 				"point" "2 790 -55 -320"
 				"point" "3 795 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192252,7 +193033,7 @@ entity
 				"point" "2 784 -56 -320"
 				"point" "3 790 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192271,7 +193052,7 @@ entity
 				"point" "2 778 -55 -320"
 				"point" "3 784 -56 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192290,7 +193071,7 @@ entity
 				"point" "2 773 -50 -320"
 				"point" "3 778 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192309,7 +193090,7 @@ entity
 				"point" "2 772 -44 -320"
 				"point" "3 773 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192328,7 +193109,7 @@ entity
 				"point" "2 773 -38 -320"
 				"point" "3 772 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192347,7 +193128,7 @@ entity
 				"point" "2 778 -33 -320"
 				"point" "3 773 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -192366,7 +193147,7 @@ entity
 				"point" "2 784 -32 -320"
 				"point" "3 778 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195089,7 +195870,7 @@ entity
 				"point" "2 566 -5 -320"
 				"point" "3 560 -4 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195108,7 +195889,7 @@ entity
 				"point" "2 571 -10 -320"
 				"point" "3 566 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195127,7 +195908,7 @@ entity
 				"point" "2 572 -16 -320"
 				"point" "3 571 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195146,7 +195927,7 @@ entity
 				"point" "2 571 -22 -320"
 				"point" "3 572 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195165,7 +195946,7 @@ entity
 				"point" "2 566 -27 -320"
 				"point" "3 571 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195184,7 +195965,7 @@ entity
 				"point" "2 560 -28 -320"
 				"point" "3 566 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195203,7 +195984,7 @@ entity
 				"point" "2 554 -27 -320"
 				"point" "3 560 -28 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195222,7 +196003,7 @@ entity
 				"point" "2 549 -22 -320"
 				"point" "3 554 -27 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195241,7 +196022,7 @@ entity
 				"point" "2 548 -16 -320"
 				"point" "3 549 -22 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195260,7 +196041,7 @@ entity
 				"point" "2 549 -10 -320"
 				"point" "3 548 -16 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195279,7 +196060,7 @@ entity
 				"point" "2 554 -5 -320"
 				"point" "3 549 -10 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -195298,7 +196079,7 @@ entity
 				"point" "2 560 -4 -320"
 				"point" "3 554 -5 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198021,7 +198802,7 @@ entity
 				"point" "2 534 23 -320"
 				"point" "3 528 24 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198040,7 +198821,7 @@ entity
 				"point" "2 539 18 -320"
 				"point" "3 534 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198059,7 +198840,7 @@ entity
 				"point" "2 540 12 -320"
 				"point" "3 539 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198078,7 +198859,7 @@ entity
 				"point" "2 539 6 -320"
 				"point" "3 540 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198097,7 +198878,7 @@ entity
 				"point" "2 534 1 -320"
 				"point" "3 539 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198116,7 +198897,7 @@ entity
 				"point" "2 528 0 -320"
 				"point" "3 534 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198135,7 +198916,7 @@ entity
 				"point" "2 522 1 -320"
 				"point" "3 528 0 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198154,7 +198935,7 @@ entity
 				"point" "2 517 6 -320"
 				"point" "3 522 1 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198173,7 +198954,7 @@ entity
 				"point" "2 516 12 -320"
 				"point" "3 517 6 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198192,7 +198973,7 @@ entity
 				"point" "2 517 18 -320"
 				"point" "3 516 12 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198211,7 +198992,7 @@ entity
 				"point" "2 522 23 -320"
 				"point" "3 517 18 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -198230,7 +199011,7 @@ entity
 				"point" "2 528 24 -320"
 				"point" "3 522 23 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -200953,7 +201734,7 @@ entity
 				"point" "2 534 -33 -320"
 				"point" "3 528 -32 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -200972,7 +201753,7 @@ entity
 				"point" "2 539 -38 -320"
 				"point" "3 534 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -200991,7 +201772,7 @@ entity
 				"point" "2 540 -44 -320"
 				"point" "3 539 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201010,7 +201791,7 @@ entity
 				"point" "2 539 -50 -320"
 				"point" "3 540 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201029,7 +201810,7 @@ entity
 				"point" "2 534 -55 -320"
 				"point" "3 539 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201048,7 +201829,7 @@ entity
 				"point" "2 528 -56 -320"
 				"point" "3 534 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201067,7 +201848,7 @@ entity
 				"point" "2 522 -55 -320"
 				"point" "3 528 -56 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201086,7 +201867,7 @@ entity
 				"point" "2 517 -50 -320"
 				"point" "3 522 -55 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201105,7 +201886,7 @@ entity
 				"point" "2 516 -44 -320"
 				"point" "3 517 -50 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201124,7 +201905,7 @@ entity
 				"point" "2 517 -38 -320"
 				"point" "3 516 -44 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201143,7 +201924,7 @@ entity
 				"point" "2 522 -33 -320"
 				"point" "3 517 -38 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -201162,7 +201943,7 @@ entity
 				"point" "2 528 -32 -320"
 				"point" "3 522 -33 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -203885,7 +204666,7 @@ entity
 				"point" "2 826 59 -320"
 				"point" "3 820 60 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -203904,7 +204685,7 @@ entity
 				"point" "2 831 54 -320"
 				"point" "3 826 59 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -203923,7 +204704,7 @@ entity
 				"point" "2 832 48 -320"
 				"point" "3 831 54 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -203942,7 +204723,7 @@ entity
 				"point" "2 831 42 -320"
 				"point" "3 832 48 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -203961,7 +204742,7 @@ entity
 				"point" "2 826 37 -320"
 				"point" "3 831 42 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -203980,7 +204761,7 @@ entity
 				"point" "2 820 36 -320"
 				"point" "3 826 37 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -203999,7 +204780,7 @@ entity
 				"point" "2 814 37 -320"
 				"point" "3 820 36 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -204018,7 +204799,7 @@ entity
 				"point" "2 809 42 -320"
 				"point" "3 814 37 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -204037,7 +204818,7 @@ entity
 				"point" "2 808 48 -320"
 				"point" "3 809 42 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -204056,7 +204837,7 @@ entity
 				"point" "2 809 54 -320"
 				"point" "3 808 48 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -204075,7 +204856,7 @@ entity
 				"point" "2 814 59 -320"
 				"point" "3 809 54 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -204094,7 +204875,7 @@ entity
 				"point" "2 820 60 -320"
 				"point" "3 814 59 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206817,7 +207598,7 @@ entity
 				"point" "2 882 59 -320"
 				"point" "3 876 60 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206836,7 +207617,7 @@ entity
 				"point" "2 887 54 -320"
 				"point" "3 882 59 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206855,7 +207636,7 @@ entity
 				"point" "2 888 48 -320"
 				"point" "3 887 54 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206874,7 +207655,7 @@ entity
 				"point" "2 887 42 -320"
 				"point" "3 888 48 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206893,7 +207674,7 @@ entity
 				"point" "2 882 37 -320"
 				"point" "3 887 42 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206912,7 +207693,7 @@ entity
 				"point" "2 876 36 -320"
 				"point" "3 882 37 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206931,7 +207712,7 @@ entity
 				"point" "2 870 37 -320"
 				"point" "3 876 36 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206950,7 +207731,7 @@ entity
 				"point" "2 865 42 -320"
 				"point" "3 870 37 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206969,7 +207750,7 @@ entity
 				"point" "2 864 48 -320"
 				"point" "3 865 42 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -206988,7 +207769,7 @@ entity
 				"point" "2 865 54 -320"
 				"point" "3 864 48 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -207007,7 +207788,7 @@ entity
 				"point" "2 870 59 -320"
 				"point" "3 865 54 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -207026,7 +207807,7 @@ entity
 				"point" "2 876 60 -320"
 				"point" "3 870 59 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209749,7 +210530,7 @@ entity
 				"point" "2 854 91 -320"
 				"point" "3 848 92 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209768,7 +210549,7 @@ entity
 				"point" "2 859 86 -320"
 				"point" "3 854 91 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209787,7 +210568,7 @@ entity
 				"point" "2 860 80 -320"
 				"point" "3 859 86 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209806,7 +210587,7 @@ entity
 				"point" "2 859 74 -320"
 				"point" "3 860 80 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209825,7 +210606,7 @@ entity
 				"point" "2 854 69 -320"
 				"point" "3 859 74 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209844,7 +210625,7 @@ entity
 				"point" "2 848 68 -320"
 				"point" "3 854 69 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209863,7 +210644,7 @@ entity
 				"point" "2 842 69 -320"
 				"point" "3 848 68 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209882,7 +210663,7 @@ entity
 				"point" "2 837 74 -320"
 				"point" "3 842 69 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209901,7 +210682,7 @@ entity
 				"point" "2 836 80 -320"
 				"point" "3 837 74 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209920,7 +210701,7 @@ entity
 				"point" "2 837 86 -320"
 				"point" "3 836 80 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209939,7 +210720,7 @@ entity
 				"point" "2 842 91 -320"
 				"point" "3 837 86 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -209958,7 +210739,7 @@ entity
 				"point" "2 848 92 -320"
 				"point" "3 842 91 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212681,7 +213462,7 @@ entity
 				"point" "2 826 123 -320"
 				"point" "3 820 124 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212700,7 +213481,7 @@ entity
 				"point" "2 831 118 -320"
 				"point" "3 826 123 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212719,7 +213500,7 @@ entity
 				"point" "2 832 112 -320"
 				"point" "3 831 118 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212738,7 +213519,7 @@ entity
 				"point" "2 831 106 -320"
 				"point" "3 832 112 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212757,7 +213538,7 @@ entity
 				"point" "2 826 101 -320"
 				"point" "3 831 106 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212776,7 +213557,7 @@ entity
 				"point" "2 820 100 -320"
 				"point" "3 826 101 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212795,7 +213576,7 @@ entity
 				"point" "2 814 101 -320"
 				"point" "3 820 100 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212814,7 +213595,7 @@ entity
 				"point" "2 809 106 -320"
 				"point" "3 814 101 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212833,7 +213614,7 @@ entity
 				"point" "2 808 112 -320"
 				"point" "3 809 106 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212852,7 +213633,7 @@ entity
 				"point" "2 809 118 -320"
 				"point" "3 808 112 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212871,7 +213652,7 @@ entity
 				"point" "2 814 123 -320"
 				"point" "3 809 118 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -212890,7 +213671,7 @@ entity
 				"point" "2 820 124 -320"
 				"point" "3 814 123 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -215613,7 +216394,7 @@ entity
 				"point" "2 882 123 -320"
 				"point" "3 876 124 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215632,7 +216413,7 @@ entity
 				"point" "2 887 118 -320"
 				"point" "3 882 123 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215651,7 +216432,7 @@ entity
 				"point" "2 888 112 -320"
 				"point" "3 887 118 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215670,7 +216451,7 @@ entity
 				"point" "2 887 106 -320"
 				"point" "3 888 112 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215689,7 +216470,7 @@ entity
 				"point" "2 882 101 -320"
 				"point" "3 887 106 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215708,7 +216489,7 @@ entity
 				"point" "2 876 100 -320"
 				"point" "3 882 101 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215727,7 +216508,7 @@ entity
 				"point" "2 870 101 -320"
 				"point" "3 876 100 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215746,7 +216527,7 @@ entity
 				"point" "2 865 106 -320"
 				"point" "3 870 101 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215765,7 +216546,7 @@ entity
 				"point" "2 864 112 -320"
 				"point" "3 865 106 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215784,7 +216565,7 @@ entity
 				"point" "2 865 118 -320"
 				"point" "3 864 112 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215803,7 +216584,7 @@ entity
 				"point" "2 870 123 -320"
 				"point" "3 865 118 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -215822,7 +216603,7 @@ entity
 				"point" "2 876 124 -320"
 				"point" "3 870 123 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -218545,7 +219326,7 @@ entity
 				"point" "2 854 155 -320"
 				"point" "3 848 156 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218564,7 +219345,7 @@ entity
 				"point" "2 859 150 -320"
 				"point" "3 854 155 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218583,7 +219364,7 @@ entity
 				"point" "2 860 144 -320"
 				"point" "3 859 150 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218602,7 +219383,7 @@ entity
 				"point" "2 859 138 -320"
 				"point" "3 860 144 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218621,7 +219402,7 @@ entity
 				"point" "2 854 133 -320"
 				"point" "3 859 138 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218640,7 +219421,7 @@ entity
 				"point" "2 848 132 -320"
 				"point" "3 854 133 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218659,7 +219440,7 @@ entity
 				"point" "2 842 133 -320"
 				"point" "3 848 132 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218678,7 +219459,7 @@ entity
 				"point" "2 837 138 -320"
 				"point" "3 842 133 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218697,7 +219478,7 @@ entity
 				"point" "2 836 144 -320"
 				"point" "3 837 138 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218716,7 +219497,7 @@ entity
 				"point" "2 837 150 -320"
 				"point" "3 836 144 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218735,7 +219516,7 @@ entity
 				"point" "2 842 155 -320"
 				"point" "3 837 150 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -218754,7 +219535,7 @@ entity
 				"point" "2 848 156 -320"
 				"point" "3 842 155 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221477,7 +222258,7 @@ entity
 				"point" "2 882 187 -320"
 				"point" "3 876 188 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221496,7 +222277,7 @@ entity
 				"point" "2 887 182 -320"
 				"point" "3 882 187 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221515,7 +222296,7 @@ entity
 				"point" "2 888 176 -320"
 				"point" "3 887 182 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221534,7 +222315,7 @@ entity
 				"point" "2 887 170 -320"
 				"point" "3 888 176 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221553,7 +222334,7 @@ entity
 				"point" "2 882 165 -320"
 				"point" "3 887 170 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221572,7 +222353,7 @@ entity
 				"point" "2 876 164 -320"
 				"point" "3 882 165 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221591,7 +222372,7 @@ entity
 				"point" "2 870 165 -320"
 				"point" "3 876 164 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221610,7 +222391,7 @@ entity
 				"point" "2 865 170 -320"
 				"point" "3 870 165 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221629,7 +222410,7 @@ entity
 				"point" "2 864 176 -320"
 				"point" "3 865 170 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221648,7 +222429,7 @@ entity
 				"point" "2 865 182 -320"
 				"point" "3 864 176 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221667,7 +222448,7 @@ entity
 				"point" "2 870 187 -320"
 				"point" "3 865 182 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -221686,7 +222467,7 @@ entity
 				"point" "2 876 188 -320"
 				"point" "3 870 187 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224409,7 +225190,7 @@ entity
 				"point" "2 826 187 -320"
 				"point" "3 820 188 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224428,7 +225209,7 @@ entity
 				"point" "2 831 182 -320"
 				"point" "3 826 187 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224447,7 +225228,7 @@ entity
 				"point" "2 832 176 -320"
 				"point" "3 831 182 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224466,7 +225247,7 @@ entity
 				"point" "2 831 170 -320"
 				"point" "3 832 176 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224485,7 +225266,7 @@ entity
 				"point" "2 826 165 -320"
 				"point" "3 831 170 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224504,7 +225285,7 @@ entity
 				"point" "2 820 164 -320"
 				"point" "3 826 165 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224523,7 +225304,7 @@ entity
 				"point" "2 814 165 -320"
 				"point" "3 820 164 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224542,7 +225323,7 @@ entity
 				"point" "2 809 170 -320"
 				"point" "3 814 165 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224561,7 +225342,7 @@ entity
 				"point" "2 808 176 -320"
 				"point" "3 809 170 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224580,7 +225361,7 @@ entity
 				"point" "2 809 182 -320"
 				"point" "3 808 176 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224599,7 +225380,7 @@ entity
 				"point" "2 814 187 -320"
 				"point" "3 809 182 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -224618,7 +225399,7 @@ entity
 				"point" "2 820 188 -320"
 				"point" "3 814 187 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227341,7 +228122,7 @@ entity
 				"point" "2 854 219 -320"
 				"point" "3 848 220 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227360,7 +228141,7 @@ entity
 				"point" "2 859 214 -320"
 				"point" "3 854 219 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227379,7 +228160,7 @@ entity
 				"point" "2 860 208 -320"
 				"point" "3 859 214 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227398,7 +228179,7 @@ entity
 				"point" "2 859 202 -320"
 				"point" "3 860 208 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227417,7 +228198,7 @@ entity
 				"point" "2 854 197 -320"
 				"point" "3 859 202 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227436,7 +228217,7 @@ entity
 				"point" "2 848 196 -320"
 				"point" "3 854 197 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227455,7 +228236,7 @@ entity
 				"point" "2 842 197 -320"
 				"point" "3 848 196 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227474,7 +228255,7 @@ entity
 				"point" "2 837 202 -320"
 				"point" "3 842 197 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227493,7 +228274,7 @@ entity
 				"point" "2 836 208 -320"
 				"point" "3 837 202 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227512,7 +228293,7 @@ entity
 				"point" "2 837 214 -320"
 				"point" "3 836 208 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227531,7 +228312,7 @@ entity
 				"point" "2 842 219 -320"
 				"point" "3 837 214 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -227550,7 +228331,7 @@ entity
 				"point" "2 848 220 -320"
 				"point" "3 842 219 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230273,7 +231054,7 @@ entity
 				"point" "2 790 255 -320"
 				"point" "3 784 256 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230292,7 +231073,7 @@ entity
 				"point" "2 795 250 -320"
 				"point" "3 790 255 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230311,7 +231092,7 @@ entity
 				"point" "2 796 244 -320"
 				"point" "3 795 250 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230330,7 +231111,7 @@ entity
 				"point" "2 795 238 -320"
 				"point" "3 796 244 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230349,7 +231130,7 @@ entity
 				"point" "2 790 233 -320"
 				"point" "3 795 238 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230368,7 +231149,7 @@ entity
 				"point" "2 784 232 -320"
 				"point" "3 790 233 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230387,7 +231168,7 @@ entity
 				"point" "2 778 233 -320"
 				"point" "3 784 232 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230406,7 +231187,7 @@ entity
 				"point" "2 773 238 -320"
 				"point" "3 778 233 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230425,7 +231206,7 @@ entity
 				"point" "2 772 244 -320"
 				"point" "3 773 238 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230444,7 +231225,7 @@ entity
 				"point" "2 773 250 -320"
 				"point" "3 772 244 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230463,7 +231244,7 @@ entity
 				"point" "2 778 255 -320"
 				"point" "3 773 250 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -230482,7 +231263,7 @@ entity
 				"point" "2 784 256 -320"
 				"point" "3 778 255 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233205,7 +233986,7 @@ entity
 				"point" "2 790 311 -320"
 				"point" "3 784 312 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233224,7 +234005,7 @@ entity
 				"point" "2 795 306 -320"
 				"point" "3 790 311 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233243,7 +234024,7 @@ entity
 				"point" "2 796 300 -320"
 				"point" "3 795 306 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233262,7 +234043,7 @@ entity
 				"point" "2 795 294 -320"
 				"point" "3 796 300 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233281,7 +234062,7 @@ entity
 				"point" "2 790 289 -320"
 				"point" "3 795 294 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233300,7 +234081,7 @@ entity
 				"point" "2 784 288 -320"
 				"point" "3 790 289 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233319,7 +234100,7 @@ entity
 				"point" "2 778 289 -320"
 				"point" "3 784 288 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233338,7 +234119,7 @@ entity
 				"point" "2 773 294 -320"
 				"point" "3 778 289 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233357,7 +234138,7 @@ entity
 				"point" "2 772 300 -320"
 				"point" "3 773 294 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233376,7 +234157,7 @@ entity
 				"point" "2 773 306 -320"
 				"point" "3 772 300 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233395,7 +234176,7 @@ entity
 				"point" "2 778 311 -320"
 				"point" "3 773 306 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -233414,7 +234195,7 @@ entity
 				"point" "2 784 312 -320"
 				"point" "3 778 311 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236137,7 +236918,7 @@ entity
 				"point" "2 758 283 -320"
 				"point" "3 752 284 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236156,7 +236937,7 @@ entity
 				"point" "2 763 278 -320"
 				"point" "3 758 283 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236175,7 +236956,7 @@ entity
 				"point" "2 764 272 -320"
 				"point" "3 763 278 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236194,7 +236975,7 @@ entity
 				"point" "2 763 266 -320"
 				"point" "3 764 272 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236213,7 +236994,7 @@ entity
 				"point" "2 758 261 -320"
 				"point" "3 763 266 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236232,7 +237013,7 @@ entity
 				"point" "2 752 260 -320"
 				"point" "3 758 261 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236251,7 +237032,7 @@ entity
 				"point" "2 746 261 -320"
 				"point" "3 752 260 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236270,7 +237051,7 @@ entity
 				"point" "2 741 266 -320"
 				"point" "3 746 261 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236289,7 +237070,7 @@ entity
 				"point" "2 740 272 -320"
 				"point" "3 741 266 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236308,7 +237089,7 @@ entity
 				"point" "2 741 278 -320"
 				"point" "3 740 272 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236327,7 +237108,7 @@ entity
 				"point" "2 746 283 -320"
 				"point" "3 741 278 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -236346,7 +237127,7 @@ entity
 				"point" "2 752 284 -320"
 				"point" "3 746 283 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239069,7 +239850,7 @@ entity
 				"point" "2 726 311 -320"
 				"point" "3 720 312 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239088,7 +239869,7 @@ entity
 				"point" "2 731 306 -320"
 				"point" "3 726 311 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239107,7 +239888,7 @@ entity
 				"point" "2 732 300 -320"
 				"point" "3 731 306 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239126,7 +239907,7 @@ entity
 				"point" "2 731 294 -320"
 				"point" "3 732 300 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239145,7 +239926,7 @@ entity
 				"point" "2 726 289 -320"
 				"point" "3 731 294 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239164,7 +239945,7 @@ entity
 				"point" "2 720 288 -320"
 				"point" "3 726 289 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239183,7 +239964,7 @@ entity
 				"point" "2 714 289 -320"
 				"point" "3 720 288 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239202,7 +239983,7 @@ entity
 				"point" "2 709 294 -320"
 				"point" "3 714 289 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239221,7 +240002,7 @@ entity
 				"point" "2 708 300 -320"
 				"point" "3 709 294 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239240,7 +240021,7 @@ entity
 				"point" "2 709 306 -320"
 				"point" "3 708 300 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239259,7 +240040,7 @@ entity
 				"point" "2 714 311 -320"
 				"point" "3 709 306 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -239278,7 +240059,7 @@ entity
 				"point" "2 720 312 -320"
 				"point" "3 714 311 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242001,7 +242782,7 @@ entity
 				"point" "2 726 255 -320"
 				"point" "3 720 256 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242020,7 +242801,7 @@ entity
 				"point" "2 731 250 -320"
 				"point" "3 726 255 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242039,7 +242820,7 @@ entity
 				"point" "2 732 244 -320"
 				"point" "3 731 250 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242058,7 +242839,7 @@ entity
 				"point" "2 731 238 -320"
 				"point" "3 732 244 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242077,7 +242858,7 @@ entity
 				"point" "2 726 233 -320"
 				"point" "3 731 238 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242096,7 +242877,7 @@ entity
 				"point" "2 720 232 -320"
 				"point" "3 726 233 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242115,7 +242896,7 @@ entity
 				"point" "2 714 233 -320"
 				"point" "3 720 232 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242134,7 +242915,7 @@ entity
 				"point" "2 709 238 -320"
 				"point" "3 714 233 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242153,7 +242934,7 @@ entity
 				"point" "2 708 244 -320"
 				"point" "3 709 238 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242172,7 +242953,7 @@ entity
 				"point" "2 709 250 -320"
 				"point" "3 708 244 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242191,7 +242972,7 @@ entity
 				"point" "2 714 255 -320"
 				"point" "3 709 250 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -242210,7 +242991,7 @@ entity
 				"point" "2 720 256 -320"
 				"point" "3 714 255 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -244933,7 +245714,7 @@ entity
 				"point" "2 694 283 -320"
 				"point" "3 688 284 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -244952,7 +245733,7 @@ entity
 				"point" "2 699 278 -320"
 				"point" "3 694 283 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -244971,7 +245752,7 @@ entity
 				"point" "2 700 272 -320"
 				"point" "3 699 278 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -244990,7 +245771,7 @@ entity
 				"point" "2 699 266 -320"
 				"point" "3 700 272 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245009,7 +245790,7 @@ entity
 				"point" "2 694 261 -320"
 				"point" "3 699 266 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245028,7 +245809,7 @@ entity
 				"point" "2 688 260 -320"
 				"point" "3 694 261 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245047,7 +245828,7 @@ entity
 				"point" "2 682 261 -320"
 				"point" "3 688 260 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245066,7 +245847,7 @@ entity
 				"point" "2 677 266 -320"
 				"point" "3 682 261 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245085,7 +245866,7 @@ entity
 				"point" "2 676 272 -320"
 				"point" "3 677 266 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245104,7 +245885,7 @@ entity
 				"point" "2 677 278 -320"
 				"point" "3 676 272 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245123,7 +245904,7 @@ entity
 				"point" "2 682 283 -320"
 				"point" "3 677 278 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -245142,7 +245923,7 @@ entity
 				"point" "2 688 284 -320"
 				"point" "3 682 283 -320"
 			}
-			"material" "METAL/METALWALL048C_GRADIENT"
+			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
@@ -305754,78 +306535,6 @@ entity
 }
 entity
 {
-	"id" "394209"
-	"classname" "light_rt"
-	"_castentityshadow" "1"
-	"_directmode" "1"
-	"_hard_radius_threshold" "32"
-	"_indirectmode" "1"
-	"_initialshadowsize" "3"
-	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"slopescale" "1.0"
-	"spawnflags" "0"
-	"style" "9"
-	"targetname" "a05_a06_elevator_lights"
-	"textureframe" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "-2200 128 -304"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "394214"
-	"classname" "light_rt"
-	"_castentityshadow" "1"
-	"_directmode" "1"
-	"_hard_radius_threshold" "32"
-	"_indirectmode" "1"
-	"_initialshadowsize" "3"
-	"_light" "183 204 218 60"
-	"_lightHDR" "183 204 218 40"
-	"_lightscaleHDR" "1"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"angles" "0 0 0"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"slopescale" "1.0"
-	"spawnflags" "0"
-	"style" "9"
-	"targetname" "a05_a06_elevator_lights"
-	"textureframe" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "-2200 128.12 -88"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
 	"id" "394219"
 	"classname" "trigger_once"
 	"origin" "-2121.58 127.06 -516"
@@ -310156,20 +310865,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -12768]"
-	}
-}
-entity
-{
-	"id" "394382"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "-1952 128 -503"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 9500]"
 	}
 }
 entity
@@ -337126,8 +337821,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[636.755 35.3086 22.33]"
-		"look" "[748.439 238.46 -321.367]"
+		"position" "[-1696.5 170.536 139.056]"
+		"look" "[-1955.8 462.591 -0.0143433]"
 	}
 }
 cordons

@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10597"
-	"mapversion" "1556"
+	"editorbuild" "10762"
+	"mapversion" "1557"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1556"
+	"mapversion" "1557"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"

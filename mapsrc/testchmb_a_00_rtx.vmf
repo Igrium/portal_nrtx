@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10599"
-	"mapversion" "2766"
+	"editorbuild" "10762"
+	"mapversion" "2768"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -77,19 +77,19 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-421.415 -204.119 873.04)"
-			"angle" "[13.6001 82.6531 0]"
+			"position" "(-1375.42 -889.675 251.621)"
+			"angle" "[-1.99997 33.8528 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-341.68 -282.746 65536)"
+			"position" "(-341.68 -282.746 0)"
 			"zoom" "2.67478"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -299.383 1021.51)"
+			"position" "(0 -299.383 1021.51)"
 			"zoom" "1.28994"
 		}
 		v3
@@ -103,7 +103,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2766"
+	"mapversion" "2768"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -109888,43 +109888,6 @@ entity
 }
 entity
 {
-	"id" "842588"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableselfshadowing" "0"
-	"disableshadowdepth" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/elevator_shaft/elevator_shaft_section.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-1456 -832 896"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "838782"
 	"classname" "env_cubemap"
 	"cubemapsize" "5"
@@ -199219,8 +199182,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-421.415 -204.119 873.04]"
-		"look" "[-374.888 156.736 785.017]"
+		"position" "[-1375.42 -889.675 251.621]"
+		"look" "[-1064.73 -681.273 264.685]"
 	}
 }
 cordons

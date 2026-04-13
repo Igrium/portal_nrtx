@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "1197"
+	"mapversion" "1198"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -29,19 +29,19 @@ viewsettings
 		v1
 		{
 			"3d" "0"
-			"position" "(-224 80 65536)"
+			"position" "(-224 80 0)"
 			"zoom" "0.746493"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 80 176)"
+			"position" "(0 80 176)"
 			"zoom" "1.85752"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-224 -65536 176)"
+			"position" "(-224 0 176)"
 			"zoom" "2.22903"
 		}
 	}
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1197"
+	"mapversion" "1198"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -73146,32 +73146,10 @@ world
 	}
 	group
 	{
-		"id" "324173"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "324172"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "324679"
 		editor
 		{
 			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "324680"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "324679"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -89022,7 +89000,7 @@ entity
 	"StartDisabled" "0"
 	"targetname" "a05-a06_trigger_fryer_rm2"
 	"usescanline" "1"
-	"visible" "1"
+	"visible" "0"
 	solid
 	{
 		"id" "250582"
@@ -89038,7 +89016,7 @@ entity
 				"point" "2 -244.507 896 128"
 				"point" "3 -242.507 896 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 3.57031] 0.25"
 			"vaxis" "[-1 0 0 -18.0345] 0.25"
 			"rotation" "0"
@@ -89057,7 +89035,7 @@ entity
 				"point" "2 -244.507 768 0"
 				"point" "3 -242.507 768 0"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 3.57031] 0.25"
 			"vaxis" "[-1 0 0 -18.0345] 0.25"
 			"rotation" "0"
@@ -89076,7 +89054,7 @@ entity
 				"point" "2 -242.507 896 128"
 				"point" "3 -244.507 896 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 18.0345] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -89095,7 +89073,7 @@ entity
 				"point" "2 -244.507 768 128"
 				"point" "3 -242.507 768 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 18.0345] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -89114,7 +89092,7 @@ entity
 				"point" "2 -242.507 768 128"
 				"point" "3 -242.507 896 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 19.5693] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -89133,7 +89111,7 @@ entity
 				"point" "2 -244.507 896 128"
 				"point" "3 -244.507 768 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -19.5693] 0.25"
 			"vaxis" "[0 0 -1 -60.2178] 0.25"
 			"rotation" "0"
@@ -109874,7 +109852,7 @@ entity
 	"StartDisabled" "0"
 	"targetname" "trigger_fryer_rm5-a"
 	"usescanline" "1"
-	"visible" "1"
+	"visible" "0"
 	connections
 	{
 		"OnDissolveBox" "logic_drop_boxTrigger2-1"
@@ -109896,7 +109874,7 @@ entity
 				"point" "2 0 144 128"
 				"point" "3 128 144 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -48] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -109915,7 +109893,7 @@ entity
 				"point" "2 0 140 0"
 				"point" "3 128 140 0"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -48] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -109934,7 +109912,7 @@ entity
 				"point" "2 128 144 128"
 				"point" "3 0 144 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -109953,7 +109931,7 @@ entity
 				"point" "2 0 140 128"
 				"point" "3 128 140 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -109972,7 +109950,7 @@ entity
 				"point" "2 128 140 128"
 				"point" "3 128 144 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -109991,7 +109969,7 @@ entity
 				"point" "2 0 144 128"
 				"point" "3 0 140 128"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -132632,7 +132610,7 @@ cordons
 }
 quickhide
 {
-	"count" "8"
+	"count" "1"
 	list
 	{
 		"id" "295432"

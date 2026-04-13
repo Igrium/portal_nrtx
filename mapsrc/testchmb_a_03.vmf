@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10597"
-	"mapversion" "2094"
+	"editorbuild" "10762"
+	"mapversion" "2095"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2094"
+	"mapversion" "2095"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -146716,7 +146716,7 @@ entity
 				"point" "2 491.493 64 124.95"
 				"point" "3 493.493 64 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -60.4297] 0.25"
 			"vaxis" "[-1 0 0 -18.0344] 0.25"
 			"rotation" "0"
@@ -146735,7 +146735,7 @@ entity
 				"point" "2 491.493 -64 0"
 				"point" "3 493.493 -64 0"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -60.4297] 0.25"
 			"vaxis" "[-1 0 0 -18.0344] 0.25"
 			"rotation" "0"
@@ -146754,7 +146754,7 @@ entity
 				"point" "2 493.493 64 124.95"
 				"point" "3 491.493 64 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 18.0344] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -146773,7 +146773,7 @@ entity
 				"point" "2 491.493 -64 124.95"
 				"point" "3 493.493 -64 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 18.0344] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -146792,7 +146792,7 @@ entity
 				"point" "2 493.493 -64 124.95"
 				"point" "3 493.493 64 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -44.4307] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -146811,7 +146811,7 @@ entity
 				"point" "2 491.493 64 124.95"
 				"point" "3 491.493 -64 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 44.4307] 0.25"
 			"vaxis" "[0 0 -1 3.78223] 0.25"
 			"rotation" "0"
@@ -155622,7 +155622,7 @@ entity
 				"point" "2 -757 256 1472"
 				"point" "3 -755 256 1472"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 3.56934] 0.25"
 			"vaxis" "[1 0 0 11.9929] 0.25"
 			"rotation" "0"
@@ -155641,7 +155641,7 @@ entity
 				"point" "2 -757 128 1344"
 				"point" "3 -755 128 1344"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 3.56934] 0.25"
 			"vaxis" "[1 0 0 11.9929] 0.25"
 			"rotation" "0"
@@ -155660,7 +155660,7 @@ entity
 				"point" "2 -757 128 1472"
 				"point" "3 -755 128 1472"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -11.9929] 0.25"
 			"vaxis" "[0 0 -1 -0.0176086] 0.25"
 			"rotation" "0"
@@ -155679,7 +155679,7 @@ entity
 				"point" "2 -755 256 1472"
 				"point" "3 -757 256 1472"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -11.9929] 0.25"
 			"vaxis" "[0 0 -1 -0.0176086] 0.25"
 			"rotation" "0"
@@ -155698,7 +155698,7 @@ entity
 				"point" "2 -757 256 1472"
 				"point" "3 -757 128 1472"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 19.5693] 0.25"
 			"vaxis" "[0 0 -1 -0.0176086] 0.25"
 			"rotation" "0"
@@ -155717,7 +155717,7 @@ entity
 				"point" "2 -755 128 1472"
 				"point" "3 -755 256 1472"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 -19.5693] 0.25"
 			"vaxis" "[0 0 -1 -0.0176086] 0.25"
 			"rotation" "0"

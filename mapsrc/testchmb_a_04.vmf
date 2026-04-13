@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10597"
-	"mapversion" "1158"
+	"editorbuild" "10762"
+	"mapversion" "1159"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -53,25 +53,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(67.3953 168.627 10.393)"
-			"angle" "[22.4 -102 0]"
+			"position" "(731.008 118.998 18.2092)"
+			"angle" "[16.4 26 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(743.45 146.594 65536)"
+			"position" "(743.45 146.594 0)"
 			"zoom" "0.746497"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 128 64)"
+			"position" "(0 128 64)"
 			"zoom" "3.2098"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(83.9952 -65536 -357.973)"
+			"position" "(83.9952 0 -357.973)"
 			"zoom" "9.58438"
 		}
 	}
@@ -79,7 +79,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1158"
+	"mapversion" "1159"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -57194,32 +57194,10 @@ world
 	}
 	group
 	{
-		"id" "256875"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "256874"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "257400"
 		editor
 		{
 			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "257401"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "257400"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -74977,7 +74955,7 @@ entity
 	"StartDisabled" "0"
 	"targetname" "a04-a05_trigger_fryer_rm2"
 	"usescanline" "1"
-	"visible" "1"
+	"visible" "0"
 	solid
 	{
 		"id" "210914"
@@ -74993,7 +74971,7 @@ entity
 				"point" "2 755.493 192 124.95"
 				"point" "3 757.493 192 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 3.57031] 0.25"
 			"vaxis" "[-1 0 0 13.9656] 0.25"
 			"rotation" "0"
@@ -75012,7 +74990,7 @@ entity
 				"point" "2 755.493 64 0"
 				"point" "3 757.493 64 0"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 3.57031] 0.25"
 			"vaxis" "[-1 0 0 13.9656] 0.25"
 			"rotation" "0"
@@ -75031,7 +75009,7 @@ entity
 				"point" "2 757.493 192 124.95"
 				"point" "3 755.493 192 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -13.9656] 0.25"
 			"vaxis" "[0 0 -1 3.7822] 0.25"
 			"rotation" "0"
@@ -75050,7 +75028,7 @@ entity
 				"point" "2 755.493 64 124.95"
 				"point" "3 757.493 64 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -13.9656] 0.25"
 			"vaxis" "[0 0 -1 3.7822] 0.25"
 			"rotation" "0"
@@ -75069,7 +75047,7 @@ entity
 				"point" "2 757.493 64 124.95"
 				"point" "3 757.493 192 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 19.5693] 0.25"
 			"vaxis" "[0 0 -1 3.7822] 0.25"
 			"rotation" "0"
@@ -75088,7 +75066,7 @@ entity
 				"point" "2 755.493 192 124.95"
 				"point" "3 755.493 64 124.95"
 			}
-			"material" "TOOLS/TOOLSINVISIBLE"
+			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -19.5693] 0.25"
 			"vaxis" "[0 0 -1 3.7822] 0.25"
 			"rotation" "0"
@@ -101770,8 +101748,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[67.3953 168.627 10.393]"
-		"look" "[7.36148 -113.817 -108.622]"
+		"position" "[731.008 118.998 18.2092]"
+		"look" "[1000.3 250.34 -69.9714]"
 	}
 }
 cordons
@@ -101790,10 +101768,9 @@ cordons
 }
 quickhide
 {
-	"count" "4"
+	"count" "1"
 	list
 	{
 		"id" "186012"
-		"id" "186013"
 	}
 }

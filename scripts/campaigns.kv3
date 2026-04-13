@@ -2,7 +2,7 @@
 	"campaigns" = {
 
 		"portal1_sp" = {
-			title = "Portal NRTX"
+			title = "Portal NRTX (Demo)"
 
 			meta = {
 				//author = "#MainMenu_Campaigns_Valve_Author"
