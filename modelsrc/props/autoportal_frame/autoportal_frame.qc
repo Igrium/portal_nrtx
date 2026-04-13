@@ -1,17 +1,30 @@
-$modelname "props/autoportal_frame/autoportal_frame.mdl"
-$staticprop
+// Created by Crowbar 0.74
 
-$body "body" "autoportal_frame.dmx"
+$ModelName "props\autoportal_frame\autoportal_frame.mdl"
 
-$surfaceprop "metal"
-$contents "solid"
+$StaticProp
 
-$cdmaterials "models/props/autoportal_frame"
+$body "body" "portal_frame_rtx.smd"
 
-$sequence "idle" "autoportal_frame.dmx"
 
-$collisionmodel "autoportal_frame_physics.dmx"
+$SurfaceProp "metal"
+
+$Contents "solid"
+
+$IllumPosition 0 6.074 0
+
+$CDMaterials "models\props\autoportal_frame\"
+
+$CBox 0 0 0 0 0 0
+
+$BBox -12.477 -40.469 -63.19 0 40.469 63.19
+
+$DefineBone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" "portal_frame_rtx.smd"
+
+$CollisionModel "autoportal_frame_physics.smd"
 {
-    $mass 100
-    $concave
+	$concave
 }
