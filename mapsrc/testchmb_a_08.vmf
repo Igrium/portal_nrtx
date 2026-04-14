@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2606"
+	"mapversion" "2607"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -59,33 +59,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(627.431 32.4349 194.159)"
-			"angle" "[-6.40002 -16.8003 0]"
+			"position" "(-439.887 40.559 154.181)"
+			"angle" "[12.8 -157.6 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1052.33 9.90057 65536)"
+			"position" "(1052.33 9.90057 0)"
 			"zoom" "5.54651"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 0 214)"
+			"position" "(0 0 214)"
 			"zoom" "7.987"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1041.62 -65536 791.932)"
-			"zoom" "16.5618"
+			"position" "(1038.3 -65536 793.386)"
+			"zoom" "19.8742"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2606"
+	"mapversion" "2607"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -73231,32 +73231,10 @@ world
 	}
 	group
 	{
-		"id" "684097"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "684096"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "684210"
 		editor
 		{
 			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "684211"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "684210"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -84690,7 +84668,7 @@ entity
 		"OnStartTouch" "floor_buttona_door_rm7Open0-1"
 		"OnEndTouchAll" "floor_buttona_door_rm7Close0-1"
 		"OnTrigger" "!activatorSkin10-1"
-		"OnEndTouchAll" "!activatorSkin00-1"
+		"OnEndTouch" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -85576,7 +85554,7 @@ entity
 		"OnStartTouch" "stick_box_to_button_2Disable0.1-1"
 		"OnStartTouch" "stick_box_to_button_2Enable0-1"
 		"OnTrigger" "!activatorSkin10-1"
-		"OnEndTouchAll" "!activatorSkin00-1"
+		"OnEndTouch" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -86312,7 +86290,7 @@ entity
 		"OnStartTouch" "stick_box_to_button_1Disable0.1-1"
 		"OnStartTouch" "stick_box_to_button_1Enable0-1"
 		"OnTrigger" "!activatorSkin10-1"
-		"OnEndTouchAll" "!activatorSkin00-1"
+		"OnEndTouch" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -115524,7 +115502,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -115673,7 +115651,7 @@ hidden
 				editor
 				{
 					"color" "200 0 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -138436,8 +138414,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[627.431 32.4349 194.159]"
-		"look" "[628.385 32.1469 194.271]"
+		"position" "[-439.887 40.559 154.181]"
+		"look" "[-440.791 40.1863 153.959]"
 	}
 }
 cordons

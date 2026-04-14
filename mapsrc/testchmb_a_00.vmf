@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2768"
+	"mapversion" "2772"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -77,8 +77,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1375.42 -889.675 251.621)"
-			"angle" "[-1.99997 33.8528 0]"
+			"position" "(-857.719 -905.474 721.788)"
+			"angle" "[-2.00001 3.85303 0]"
 		}
 		v1
 		{
@@ -103,7 +103,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2768"
+	"mapversion" "2772"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -110958,8 +110958,8 @@ entity
 	"AllowSilentDissolve" "1"
 	"angles" "-0.336265 0.488076 -0.912995"
 	"comp_custom_model_type" "0"
-	"CubeBehavior" "0"
-	"CubeShape" "0"
+	"CubeBehavior" "1"
+	"CubeShape" "1"
 	"cubetype" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -147959,7 +147959,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"shadowcastdist" "0"
-	"skin" "0"
+	"skin" "1"
 	"solid" "6"
 	"spawnflags" "512"
 	"targetname" "lamp_2_model"
@@ -149144,7 +149144,7 @@ entity
 		"OnTrigger" "floor_button_trigger_player_a00aDisable0-1"
 		"OnStartTouch" "choreo_AI_00_B_successStart01"
 		"OnStartTouch" "!activatorSkin10-1"
-		"OnEndTouchAll" "!activatorSkin00-1"
+		"OnEndTouch" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -149918,7 +149918,7 @@ entity
 		"OnStartTouch" "soundscape_cleanserEnable01"
 		"OnStartTouch" "logic_no_play_cleanser_dialogEnable01"
 		"OnStartTouch" "!activatorSkin10-1"
-		"OnEndTouchAll" "!activatorSkin00-1"
+		"OnEndTouch" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -180094,7 +180094,7 @@ entity
 		"OnTrigger" "spark_bedStopSpark0.6-1"
 		"OnTrigger" "trigger_look_signEnable1.5-1"
 		"OnTrigger" "lamp_2_lightTurnOff0-1"
-		"OnTrigger" "lamp_2_modelSkin10-1"
+		"OnTrigger" "lamp_2_modelSkin00-1"
 	}
 	"origin" "-629 -272.032 285.574"
 	editor
@@ -180117,7 +180117,7 @@ entity
 		"OnTrigger" "pointspot_ceilingLightOn0-1"
 		"OnTrigger" "tonemap_controllerSetBloomScale0.30-1"
 		"OnTrigger" "lamp_2_lightTurnOn0-1"
-		"OnTrigger" "lamp_2_modelSkin00-1"
+		"OnTrigger" "lamp_2_modelSkin10-1"
 		"OnTrigger" "lights_observation00TurnOn0-1"
 	}
 	"origin" "-629 -253.401 286.601"
@@ -199182,8 +199182,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1375.42 -889.675 251.621]"
-		"look" "[-1064.73 -681.273 264.685]"
+		"position" "[-857.719 -905.474 721.788]"
+		"look" "[-484.456 -880.335 734.852]"
 	}
 }
 cordons
