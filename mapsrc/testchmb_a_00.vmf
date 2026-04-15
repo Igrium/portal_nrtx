@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2772"
+	"mapversion" "2775"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -77,14 +77,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-857.719 -905.474 721.788)"
-			"angle" "[-2.00001 3.85303 0]"
+			"position" "(-532.434 -292.429 201.81)"
+			"angle" "[23.6 76.2532 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-341.68 -282.746 0)"
-			"zoom" "2.67478"
+			"position" "(-130.111 -202.195 65536)"
+			"zoom" "0.431992"
 		}
 		v2
 		{
@@ -95,15 +95,15 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(-1370.34 0 418.061)"
-			"zoom" "1.85751"
+			"position" "(-620.286 -65536 705.724)"
+			"zoom" "0.208332"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2772"
+	"mapversion" "2775"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -110450,8 +110450,7 @@ entity
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"minhealthdmg" "0"
-	"model" "models/props/4090.mdl"
-	"modelscale" "1"
+	"model" "models/props/4090_scaled.mdl"
 	"nodamageforces" "0"
 	"performancemode" "0"
 	"physdamagescale" "0.1"
@@ -110463,10 +110462,10 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "1048905"
+	"spawnflags" "1048896"
 	"texframeindex" "0"
 	"viewhideflags" "0"
-	"origin" "-530 -254.5 192"
+	"origin" "-529.428 -256.482 187.755"
 	editor
 	{
 		"color" "220 30 220"
@@ -199182,8 +199181,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-857.719 -905.474 721.788]"
-		"look" "[-484.456 -880.335 734.852]"
+		"position" "[-532.434 -292.429 201.81]"
+		"look" "[-450.92 40.7736 51.9444]"
 	}
 }
 cordons

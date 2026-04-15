@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2574"
+	"mapversion" "2575"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -47,8 +47,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-110.471 -332.02 320.987)"
-			"angle" "[-1.60001 -97.1999 0]"
+			"position" "(322.45 -3171.63 55.2219)"
+			"angle" "[-13.6 -79.5999 0]"
 		}
 		v1
 		{
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2574"
+	"mapversion" "2575"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -161234,6 +161234,7 @@ entity
 		"OnTrigger" "relay_got_gun_without_ballDisable0-1"
 		"OnTrigger" "texturetoggle_tracktrain_stateSetTextureIndex10-1"
 		"OnTrigger" "spotlightLightOff0-1"
+		"OnTrigger" "ball_trap_10_housingSkin10-1"
 	}
 	solid
 	{
@@ -396404,8 +396405,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-110.471 -332.02 320.987]"
-		"look" "[-121.998 -423.267 323.556]"
+		"position" "[322.45 -3171.63 55.2219]"
+		"look" "[338.594 -3259.59 76.8569]"
 	}
 }
 cordons
