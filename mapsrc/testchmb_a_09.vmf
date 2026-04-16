@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10766"
-	"mapversion" "2296"
+	"mapversion" "2297"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -29,19 +29,19 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(631.374 -772.145 451.718)"
-			"angle" "[6.39992 121.199 0]"
+			"position" "(765.003 -875.358 416.799)"
+			"angle" "[6.79994 167.999 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(186.389 -297.018 65536)"
+			"position" "(186.389 -297.018 0)"
 			"zoom" "0.3"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -444.045 -364.6)"
+			"position" "(0 -444.045 -364.6)"
 			"zoom" "1.07495"
 		}
 		v3
@@ -55,7 +55,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2296"
+	"mapversion" "2297"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -176855,7 +176855,7 @@ entity
 {
 	"id" "508609"
 	"classname" "env_cubemap"
-	"sides" ""
+	"parallaxobb" "parallax_cuberoom"
 	"origin" "832 -1216 548"
 	editor
 	{
@@ -228084,6 +228084,7 @@ entity
 	"id" "589637"
 	"classname" "env_cubemap"
 	"cubemapsize" "7"
+	"parallaxobb" "parallax_cuberoom"
 	"origin" "787.301 -921.38 484"
 	editor
 	{
@@ -248024,8 +248025,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[631.374 -772.145 451.718]"
-		"look" "[592.717 -708.313 443.348]"
+		"position" "[765.003 -875.358 416.799]"
+		"look" "[692.068 -859.854 407.908]"
 	}
 }
 cordons
