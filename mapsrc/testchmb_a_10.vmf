@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10741"
-	"mapversion" "2779"
+	"editorbuild" "10766"
+	"mapversion" "2780"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -59,14 +59,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-311.674 -2332.52 -223.51)"
-			"angle" "[36.8 158 0]"
+			"position" "(-420.668 1270.79 625.894)"
+			"angle" "[-34 106.4 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(339.383 -2174 0)"
-			"zoom" "1.85752"
+			"position" "(132.467 -1587.74 65536)"
+			"zoom" "0.0697704"
 		}
 		v2
 		{
@@ -77,7 +77,7 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(-356.716 -65536 -259.098)"
+			"position" "(-356.716 0 -259.098)"
 			"zoom" "28.6189"
 		}
 	}
@@ -85,7 +85,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2779"
+	"mapversion" "2780"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14494,7 +14494,7 @@ world
 			}
 			"material" "NATURE/HAZARD_LIQUID"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 320] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -144860,7 +144860,7 @@ world
 			}
 			"material" "NATURE/HAZARD_LIQUID"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 320] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -144984,7 +144984,7 @@ world
 			}
 			"material" "NATURE/HAZARD_LIQUID"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 320] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -178644,6 +178644,70 @@ world
 }
 entity
 {
+	"id" "782097"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "-1792 -2880.05 -864"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "782101"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "-1792 -2880.05 -288"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "782105"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "-384 1215.95 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "782109"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "-384 1215.95 672"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "774569"
 	"classname" "light"
 	"_castentityshadow" "1"
@@ -183766,7 +183830,7 @@ entity
 				"point" "2 -450 -2946 2"
 				"point" "3 -450 -2946 48"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -183890,7 +183954,7 @@ entity
 				"point" "2 -450 -2946 50"
 				"point" "3 -450 -2946 74"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -184014,7 +184078,7 @@ entity
 				"point" "2 -450 -2946 76"
 				"point" "3 -450 -2946 100"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -184138,7 +184202,7 @@ entity
 				"point" "2 -450 -2946 102"
 				"point" "3 -450 -2946 126"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -186526,7 +186590,7 @@ entity
 				"point" "2 302 -898 252"
 				"point" "3 272 -898 252"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -186631,7 +186695,7 @@ entity
 				"point" "2 383 -898 252"
 				"point" "3 304 -898 252"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -186755,7 +186819,7 @@ entity
 				"point" "2 464 -898 252"
 				"point" "3 385 -898 252"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -186898,7 +186962,7 @@ entity
 				"point" "2 496 -898 252"
 				"point" "3 466 -898 252"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -188000,7 +188064,7 @@ entity
 				"point" "2 322 622 124"
 				"point" "3 322 592 124"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -188105,7 +188169,7 @@ entity
 				"point" "2 322 703 124"
 				"point" "3 322 624 124"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -188229,7 +188293,7 @@ entity
 				"point" "2 322 784 124"
 				"point" "3 322 705 124"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -188372,7 +188436,7 @@ entity
 				"point" "2 322 816 124"
 				"point" "3 322 786 124"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -192582,7 +192646,7 @@ entity
 				"point" "2 -254 -1154 130"
 				"point" "3 -254 -1154 176"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -192706,7 +192770,7 @@ entity
 				"point" "2 -254 -1154 178"
 				"point" "3 -254 -1154 202"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -192830,7 +192894,7 @@ entity
 				"point" "2 -254 -1154 204"
 				"point" "3 -254 -1154 228"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -192954,7 +193018,7 @@ entity
 				"point" "2 -254 -1154 230"
 				"point" "3 -254 -1154 254"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -197061,7 +197125,7 @@ entity
 				"point" "2 -834 -1666 2"
 				"point" "3 -834 -1666 48"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -197185,7 +197249,7 @@ entity
 				"point" "2 -834 -1666 50"
 				"point" "3 -834 -1666 74"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -197309,7 +197373,7 @@ entity
 				"point" "2 -834 -1666 76"
 				"point" "3 -834 -1666 100"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -197433,7 +197497,7 @@ entity
 				"point" "2 -834 -1666 102"
 				"point" "3 -834 -1666 126"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -198993,6 +199057,8 @@ entity
 	connections
 	{
 		"OnPostSpawnBall" "ball_spawner_prop_b_rm8SetAnimationclose0-1"
+		"OnPostSpawnBall" "ball_spawner_prop_b_rm8Skin10-1"
+		"OnPostSpawnBall" "ball_spawner_prop_b_rm8Skin01-1"
 	}
 	"origin" "-589.4 -578.22 -67.12"
 	editor
@@ -290190,6 +290256,7 @@ entity
 		"OnTrigger" "sound_activate_lift_b10PlaySound0-1"
 		"OnTrigger" "toggle_lift2SetTextureIndex10-1"
 		"OnTrigger" "counter_doors_openKill0-1"
+		"OnTrigger" "ball_trap_10_housingSkin10-1"
 	}
 	solid
 	{
@@ -329857,6 +329924,7 @@ entity
 		"OnTrigger" "timer_spawn_tracks_intro_lvl7bEnable0-1"
 		"OnTrigger" "toggle_Catcher_2SetTextureIndex10-1"
 		"OnTrigger" "spotlight2LightOff0-1"
+		"OnTrigger" "ball_trap_10_housing1Skin10-1"
 	}
 	solid
 	{
@@ -337356,6 +337424,7 @@ entity
 		"OnTrigger" "toggle_Catcher_1SetTextureIndex10-1"
 		"OnTrigger" "spotlight1LightOff0-1"
 		"OnTrigger" "sound_activate_lift_10PlaySound0-1"
+		"OnTrigger" "ball_trap_10_housing2Skin10-1"
 	}
 	solid
 	{
@@ -359033,7 +359102,7 @@ entity
 				"point" "2 -174 -1790 -132"
 				"point" "3 -144 -1790 -132"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -359138,7 +359207,7 @@ entity
 				"point" "2 -255 -1790 -132"
 				"point" "3 -176 -1790 -132"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -359262,7 +359331,7 @@ entity
 				"point" "2 -258 -1872 -132"
 				"point" "3 -258 -1793 -132"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -359405,7 +359474,7 @@ entity
 				"point" "2 -258 -1904 -132"
 				"point" "3 -258 -1874 -132"
 			}
-			"material" "GLASS/GLASSWINDOW_REFRACT01"
+			"material" "GLASS/GLASSWINDOW_OBSERVATION"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -385246,8 +385315,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-311.674 -2332.52 -223.51]"
-		"look" "[-472.368 -2267.59 -353.166]"
+		"position" "[-420.668 1270.79 625.894]"
+		"look" "[-471.333 1442.93 746.93]"
 	}
 }
 cordons
