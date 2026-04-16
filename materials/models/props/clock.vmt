@@ -6,6 +6,6 @@
     $mraotexture    "models/props/clock/clock_mrao"
     $emissiontexture "models/props/clock/clock_emission"
     
-    $emissionscale  1
+    $emissionscale "{0 190 255}"
     $envmap         env_cubemap
 }

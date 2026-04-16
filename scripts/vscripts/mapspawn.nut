@@ -1,13 +1,13 @@
 // Script created by Rip Rip Rip (https://youtube.com/@Rip-Rip-Rip) for the P2CE Door Replacement addon (https://steamcommunity.com/sharedfiles/filedetails/?id=3523648265)
 // adapted by TwoKrazy (https://www.youtube.com/@TwoKrazy2002) for this RTX Button
-const BUTTON_MDL = "models/rtx/props/switch001.mdl"
+const BUTTON_MDL = "models/props/switch001.mdl"
 const BUTTON_SKIN_CLEAN_OFF = "0"
 const BUTTON_SKIN_CLEAN_ON = "2"
 const BUTTON_SKIN_DESTROYED_OFF = "1"
 const BUTTON_SKIN_DESTROYED_ON = "3"
 
 
-const FLOOR_BUTTON_MDL = "models/rtx/props/portal_button.mdl"
+const FLOOR_BUTTON_MDL = "models/props/portal_button.mdl"
 const FLOOR_BUTTON_TRIGGER_WIDTH = 48
 const FLOOR_BUTTON_TRIGGER_HEIGHT = 15
 
