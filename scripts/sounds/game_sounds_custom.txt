@@ -15,3 +15,14 @@
 	"pitch"			"80"
 	"wave"			"buttons/button10.wav"
 }
+
+"Portal.room9_truncated"  	// 52sec, fire pit
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.70000"
+	"pitch"			"100"
+
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"			"*#music/portal_4000_degrees_truncated.mp3"
+}
