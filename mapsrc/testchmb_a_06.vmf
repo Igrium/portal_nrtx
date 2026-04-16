@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2095"
+	"mapversion" "2097"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -53,13 +53,13 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(1594.99 145.1 1048.27)"
-			"angle" "[-17.2001 -173.999 0]"
+			"position" "(-1126.59 141.74 188.236)"
+			"angle" "[26.7998 131.601 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1349.34 147.938 65536)"
+			"position" "(1349.34 147.938 0)"
 			"zoom" "0.62208"
 		}
 		v2
@@ -71,7 +71,7 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(1619.61 -65536 393.728)"
+			"position" "(1619.61 0 393.728)"
 			"zoom" "0.89579"
 		}
 	}
@@ -79,7 +79,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2095"
+	"mapversion" "2097"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -108657,17 +108657,6 @@ world
 	}
 	group
 	{
-		"id" "473591"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "473590"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "465762"
 		editor
 		{
@@ -121253,8 +121242,9 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "3"
 	"solid" "6"
+	"spawnflags" "0"
 	"targetname" "model_door_left_a06_1"
 	"origin" "-1136 128 128"
 	editor
@@ -121282,8 +121272,9 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "3"
 	"solid" "6"
+	"spawnflags" "0"
 	"targetname" "model_door_right_a06_1"
 	"origin" "-1136 128 128"
 	editor
@@ -121667,8 +121658,9 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "3"
 	"solid" "6"
+	"spawnflags" "0"
 	"targetname" "model_door_left_a06_2"
 	"origin" "-16 128 128"
 	editor
@@ -121697,8 +121689,9 @@ entity
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "3"
 	"solid" "6"
+	"spawnflags" "0"
 	"targetname" "model_door_right_a06_2"
 	"origin" "-16 128 128"
 	editor
@@ -121928,8 +121921,8 @@ entity
 	connections
 	{
 		"OnOpen" "model_door_left_a06_2Skin30-1"
-		"OnOpen" "model_door_right_a06_1Skin30-1"
-		"OnClose" "model_door_right_a06_1Skin00-1"
+		"OnOpen" "model_door_right_a06_2Skin30-1"
+		"OnClose" "model_door_right_a06_2Skin00-1"
 		"OnClose" "model_door_left_a06_2Skin00-1"
 	}
 	solid
@@ -339020,8 +339013,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1594.99 145.1 1048.27]"
-		"look" "[1201.13 103.7 1170.86]"
+		"position" "[-1126.59 141.74 188.236]"
+		"look" "[-1372.27 418.45 1.31735]"
 	}
 }
 cordons

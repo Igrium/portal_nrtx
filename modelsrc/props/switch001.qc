@@ -4,7 +4,7 @@ $ModelName "props/switch001.mdl"
 
 $BodyGroup "Body"
 {
-	studio "Collection.smd"
+	studio "switch001.smd"
 }
 
 

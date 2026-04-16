@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2612"
+	"mapversion" "2613"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -65,25 +65,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(1065.64 60.7591 641.649)"
-			"angle" "[41.2 -67.6003 0]"
+			"position" "(1043.24 359.462 174.36)"
+			"angle" "[5.59995 -107.6 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(987.05 -2.52001 65536)"
+			"position" "(987.05 -2.52001 0)"
 			"zoom" "5.54651"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -2.52001 769.32)"
+			"position" "(0 -2.52001 769.32)"
 			"zoom" "7.987"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(987.05 -65536 769.32)"
+			"position" "(987.05 0 769.32)"
 			"zoom" "19.8742"
 		}
 	}
@@ -91,7 +91,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2612"
+	"mapversion" "2613"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -75006,7 +75006,7 @@ entity
 {
 	"id" "684212"
 	"classname" "parallax_obb"
-	"targetname" "parallax3"
+	"targetname" "13-14_parallax3"
 	solid
 	{
 		"id" "684213"
@@ -75144,7 +75144,7 @@ entity
 {
 	"id" "684214"
 	"classname" "parallax_obb"
-	"targetname" "parallax2"
+	"targetname" "13-14_parallax2"
 	solid
 	{
 		"id" "684215"
@@ -75283,7 +75283,7 @@ entity
 	"id" "684216"
 	"classname" "env_cubemap"
 	"cubemapsize" "6"
-	"parallaxobb" "parallax2"
+	"parallaxobb" "13-14_parallax2"
 	"origin" "1040 -0.000123978 514"
 	editor
 	{
@@ -75298,7 +75298,7 @@ entity
 {
 	"id" "684220"
 	"classname" "parallax_obb"
-	"targetname" "parallax1"
+	"targetname" "13-14_parallax1"
 	solid
 	{
 		"id" "684221"
@@ -75437,7 +75437,7 @@ entity
 	"id" "684222"
 	"classname" "env_cubemap"
 	"cubemapsize" "6"
-	"parallaxobb" "parallax1"
+	"parallaxobb" "13-14_parallax1"
 	"origin" "880 -0.000110626 201"
 	editor
 	{
@@ -75453,7 +75453,7 @@ entity
 	"id" "684226"
 	"classname" "env_cubemap"
 	"cubemapsize" "5"
-	"parallaxobb" "parallax2"
+	"parallaxobb" "13-14_parallax2"
 	"origin" "1040 -0.000123978 96"
 	editor
 	{
@@ -75469,7 +75469,7 @@ entity
 	"id" "684230"
 	"classname" "env_cubemap"
 	"cubemapsize" "5"
-	"parallaxobb" "parallax2"
+	"parallaxobb" "13-14_parallax2"
 	"origin" "1040 -0.000123978 928"
 	editor
 	{
@@ -75485,7 +75485,7 @@ entity
 	"id" "684234"
 	"classname" "env_cubemap"
 	"cubemapsize" "6"
-	"parallaxobb" "parallax3"
+	"parallaxobb" "13-14_parallax3"
 	"origin" "880 -0.000110626 777"
 	editor
 	{
@@ -138500,8 +138500,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1065.64 60.7591 641.649]"
-		"look" "[1065.93 60.0618 640.989]"
+		"position" "[1043.24 359.462 174.36]"
+		"look" "[1042.94 358.51 174.262]"
 	}
 }
 cordons
