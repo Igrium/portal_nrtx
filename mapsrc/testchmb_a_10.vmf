@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10766"
-	"mapversion" "2788"
+	"mapversion" "2789"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -59,25 +59,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-905.107 -1543.14 -58.5538)"
-			"angle" "[-20.8001 3.20001 0]"
+			"position" "(-574.557 -1521.75 137.585)"
+			"angle" "[-8.40017 -67.1999 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-626.09 -1539.62 65536)"
+			"position" "(-626.09 -1539.62 0)"
 			"zoom" "0.746496"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -2336 -448)"
+			"position" "(0 -2336 -448)"
 			"zoom" "1.28995"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-361.605 -65536 -414.935)"
+			"position" "(-361.605 0 -414.935)"
 			"zoom" "1.07496"
 		}
 	}
@@ -85,7 +85,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2788"
+	"mapversion" "2789"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -176934,17 +176934,6 @@ world
 	}
 	group
 	{
-		"id" "789242"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "789241"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "109842"
 		editor
 		{
@@ -178661,6 +178650,67 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "796778"
+	"classname" "env_cubemap"
+	"cubemapsize" "7"
+	"parallaxobb" "parallax_room3a"
+	"sides" ""
+	"origin" "-448 -1664 160"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "796990"
+	"classname" "env_cubemap"
+	"cubemapsize" "6"
+	"parallaxobb" "parallax_room3a"
+	"origin" "-352 -1648 160"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "797018"
+	"classname" "env_cubemap"
+	"cubemapsize" "6"
+	"parallaxobb" "parallax_room3a"
+	"origin" "-544 -1648 160"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "797046"
+	"classname" "env_cubemap"
+	"cubemapsize" "6"
+	"parallaxobb" "parallax_room3a"
+	"origin" "-448 -1648 96"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
 	}
 }
 entity
@@ -387005,8 +387055,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-905.107 -1543.14 -58.5538]"
-		"look" "[-703.084 -1531.85 18.3076]"
+		"position" "[-574.557 -1521.75 137.585]"
+		"look" "[-491.581 -1719.15 169.204]"
 	}
 }
 cordons

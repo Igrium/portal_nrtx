@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10762"
-	"mapversion" "2575"
+	"editorbuild" "10766"
+	"mapversion" "2576"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -47,14 +47,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(322.45 -3171.63 55.2219)"
-			"angle" "[-13.6 -79.5999 0]"
+			"position" "(1116.72 -1141.07 500.112)"
+			"angle" "[-2.39995 142.4 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-291.568 -1274.57 0)"
-			"zoom" "1.28995"
+			"position" "(523.675 -497.596 65536)"
+			"zoom" "1.07496"
 		}
 		v2
 		{
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2575"
+	"mapversion" "2576"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -151712,6 +151712,81 @@ world
 }
 entity
 {
+	"id" "824716"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "128"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "256"
+	"origin" "640 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "824740"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "256"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "256"
+	"origin" "-736 -384 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "824769"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "128"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "128"
+	"origin" "320 -1344 2176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
 	"id" "820286"
 	"classname" "parallax_obb"
 	"targetname" "10-11_parallax3"
@@ -153783,7 +153858,7 @@ entity
 	"texture_slices_x" "16"
 	"texture_slices_y" "16"
 	"width" "544"
-	"origin" "192 -1360 352"
+	"origin" "192 -1376 352"
 	editor
 	{
 		"color" "220 30 220"
@@ -396405,8 +396480,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[322.45 -3171.63 55.2219]"
-		"look" "[338.594 -3259.59 76.8569]"
+		"position" "[1116.72 -1141.07 500.112]"
+		"look" "[1043.88 -1084.98 503.964]"
 	}
 }
 cordons
