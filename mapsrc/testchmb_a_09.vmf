@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10762"
-	"mapversion" "2295"
+	"editorbuild" "10766"
+	"mapversion" "2296"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -29,25 +29,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(102.213 829.26 809.418)"
-			"angle" "[9.20002 -105.201 0]"
+			"position" "(631.374 -772.145 451.718)"
+			"angle" "[6.39992 121.199 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(93.6945 715.237 65536)"
-			"zoom" "0.746496"
+			"position" "(186.389 -297.018 65536)"
+			"zoom" "0.3"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 320 256)"
-			"zoom" "2.22902"
+			"position" "(65536 -444.045 -364.6)"
+			"zoom" "1.07495"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(285.644 -65536 40.0402)"
+			"position" "(285.644 0 40.0402)"
 			"zoom" "0.746493"
 		}
 	}
@@ -55,7 +55,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2295"
+	"mapversion" "2296"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15492,7 +15492,7 @@ world
 				"point" "2 384 -704 -256"
 				"point" "3 384 -192 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -15654,7 +15654,7 @@ world
 				"point" "2 384 -192 -256"
 				"point" "3 640 -192 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -15759,7 +15759,7 @@ world
 				"point" "2 640 -192 -256"
 				"point" "3 640 -704 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -15921,7 +15921,7 @@ world
 				"point" "2 640 -704 -256"
 				"point" "3 384 -704 -256"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -17457,7 +17457,7 @@ world
 				"point" "2 320 576 -256"
 				"point" "3 320 576 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -17600,7 +17600,7 @@ world
 				"point" "2 448 576 -256"
 				"point" "3 448 576 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -17705,7 +17705,7 @@ world
 				"point" "2 320 448 -256"
 				"point" "3 320 448 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -17848,7 +17848,7 @@ world
 				"point" "2 448 448 -256"
 				"point" "3 448 448 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -96609,32 +96609,10 @@ world
 	}
 	group
 	{
-		"id" "633212"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "633211"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "633401"
 		editor
 		{
 			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "633402"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "633401"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -97432,6 +97410,31 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "635495"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "512"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "256"
+	"origin" "512 -448 -320"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 entity
@@ -248021,8 +248024,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[102.213 829.26 809.418]"
-		"look" "[82.7773 757.726 797.412]"
+		"position" "[631.374 -772.145 451.718]"
+		"look" "[592.717 -708.313 443.348]"
 	}
 }
 cordons
