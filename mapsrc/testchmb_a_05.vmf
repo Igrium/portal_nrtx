@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "1198"
+	"mapversion" "1199"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(861.23 -0.619005 167.2)"
-			"angle" "[-4.00001 -74.4004 0]"
+			"position" "(51.2296 273.908 21.7921)"
+			"angle" "[-0.399989 52.3996 0]"
 		}
 		v1
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1198"
+	"mapversion" "1199"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -84492,7 +84492,7 @@ entity
 		"OnEndTouchAll" "texturetoggle_doorstate_a02b_leftSetTextureIndex00-1"
 		"OnStartTouch" "relay_vcd2Trigger01"
 		"OnStartTouch" "!activatorSkin10-1"
-		"OnEndTouchAll" "!activatorSkin00-1"
+		"OnEndTouch" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -132590,8 +132590,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[861.23 -0.619005 167.2]"
-		"look" "[997.765 -489.645 202.703]"
+		"position" "[51.2296 273.908 21.7921]"
+		"look" "[361.769 677.147 25.3452]"
 	}
 }
 cordons

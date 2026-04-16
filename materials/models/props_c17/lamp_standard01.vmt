@@ -1,7 +1,7 @@
 PBR
 {
 	$basetexture "models/props_c17/lamp_standard01"
-	$emissiontexture "models/props_c17/lamp_standard01_emission"
+	//$emissiontexture "models/props_c17/lamp_standard01_emission"
 	$mraotexture "models/props_c17/lamp_standard01_mrao"
 	$bumpmap "models/props_c17/lamp_standard01_normal"
 	$model 1

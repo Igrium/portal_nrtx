@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "2095"
+	"mapversion" "2097"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -47,8 +47,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(296.092 57.4418 1439.34)"
-			"angle" "[1.99999 -11.5963 0]"
+			"position" "(122.212 232.653 58.0494)"
+			"angle" "[4.00001 -123.196 0]"
 		}
 		v1
 		{
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2095"
+	"mapversion" "2097"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -155769,7 +155769,7 @@ entity
 	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_constant_attn" "200000"
-	"_directmode" "2"
+	"_directmode" "1"
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
@@ -155789,7 +155789,7 @@ entity
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"slopescale" "1.0"
-	"spawnflags" "2"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -155810,7 +155810,7 @@ entity
 	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_constant_attn" "200000"
-	"_directmode" "2"
+	"_directmode" "1"
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
@@ -155830,7 +155830,7 @@ entity
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"slopescale" "1.0"
-	"spawnflags" "2"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -155851,7 +155851,7 @@ entity
 	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_constant_attn" "200000"
-	"_directmode" "2"
+	"_directmode" "1"
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
@@ -155871,7 +155871,7 @@ entity
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"slopescale" "1.0"
-	"spawnflags" "2"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -155892,7 +155892,7 @@ entity
 	"classname" "light_rt"
 	"_castentityshadow" "1"
 	"_constant_attn" "200000"
-	"_directmode" "2"
+	"_directmode" "1"
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hard_radius_threshold" "32"
@@ -155912,7 +155912,7 @@ entity
 	"fadetickinterval" "0.1"
 	"nearz" "4.0"
 	"slopescale" "1.0"
-	"spawnflags" "2"
+	"spawnflags" "0"
 	"style" "0"
 	"textureframe" "0"
 	"volumetric_density" "0.0"
@@ -404471,8 +404471,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[296.092 57.4418 1439.34]"
-		"look" "[507.844 13.9898 1431.79]"
+		"position" "[122.212 232.653 58.0494]"
+		"look" "[4.0773 52.0969 42.9613]"
 	}
 }
 cordons
