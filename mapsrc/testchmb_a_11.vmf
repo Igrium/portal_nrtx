@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10761"
-	"mapversion" "2096"
+	"editorbuild" "10766"
+	"mapversion" "2097"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,21 +64,21 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
 	"nGridSpacing" "16"
-	"bShow3DGrid" "1"
+	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
 	{
 		v0
 		{
 			"3d" "1"
-			"position" "(-955.092 724.427 244.383)"
-			"angle" "[-10 -163.6 0]"
+			"position" "(-139.912 -858.363 356.889)"
+			"angle" "[44 58.3999 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(448 30.1868 0)"
-			"zoom" "1.91696"
+			"position" "(200.389 -155.625 0)"
+			"zoom" "2.30035"
 		}
 		v2
 		{
@@ -89,15 +89,15 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(448 0 96)"
-			"zoom" "11.5013"
+			"position" "(256.112 0 358.458)"
+			"zoom" "0.895797"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2096"
+	"mapversion" "2097"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11548,7 +11548,7 @@ world
 				"point" "2 -576 192 -256"
 				"point" "3 -576 192 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -11710,7 +11710,7 @@ world
 				"point" "2 -576 -64 -256"
 				"point" "3 -576 -64 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -11777,7 +11777,7 @@ world
 				"point" "2 -832 -64 -256"
 				"point" "3 -832 -64 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -11920,7 +11920,7 @@ world
 				"point" "2 -832 192 -256"
 				"point" "3 -832 192 -128"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
 			"rotation" "180"
@@ -39566,7 +39566,7 @@ world
 				"point" "2 96 -192 512"
 				"point" "3 96 -64 512"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 1 0 384] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -39671,7 +39671,7 @@ world
 				"point" "2 224 -64 512"
 				"point" "3 224 -192 512"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[0 -1 0 -128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -39919,7 +39919,7 @@ world
 				"point" "2 96 -64 512"
 				"point" "3 224 -64 512"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -40310,7 +40310,7 @@ world
 				"point" "2 224 -192 512"
 				"point" "3 96 -192 512"
 			}
-			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"material" "METAL/METALWALL_BTS_006B"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "180"
@@ -151321,6 +151321,120 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "379792"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "256"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "256"
+	"origin" "-704 64 -192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "379809"
+	"classname" "obb_volumefog"
+	"angles" "-0 0 0"
+	"density" "1"
+	"depth" "128"
+	"emissive_color" "935 160 50 255"
+	"emissive_color2" "1024 74 16 255"
+	"height" "128"
+	"phase" "0.0"
+	"scattering_color" "255 255 255 255"
+	"spheroid_volume" "0"
+	"texture_slices_x" "16"
+	"texture_slices_y" "16"
+	"width" "128"
+	"origin" "160 -128 448"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "380927"
+	"classname" "func_instance"
+	"angles" "0 180 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "1632 -671.953 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "380931"
+	"classname" "func_instance"
+	"angles" "0 180 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "1632 -671.953 672"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "380935"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "320 -992.047 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "380939"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "instances/elevator_landing_lights"
+	"fixup_style" "0"
+	"origin" "320 -992.047 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -265150,8 +265264,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-955.092 724.427 244.383]"
-		"look" "[-1059.02 693.84 263.485]"
+		"position" "[-139.912 -858.363 356.889]"
+		"look" "[-98.4463 -790.961 280.468]"
 	}
 }
 cordons
@@ -265190,10 +265304,9 @@ cordons
 }
 quickhide
 {
-	"count" "2"
+	"count" "1"
 	list
 	{
 		"id" "361830"
-		"id" "361828"
 	}
 }
