@@ -1,0 +1,8 @@
+// Use Portal 2's version instead of Portal 1
+LightmappedGeneric
+{
+    $basetexture "overlays/tideline01b"
+    $translucent 1
+    $decal 1
+    $vertexalpha 1
+}
