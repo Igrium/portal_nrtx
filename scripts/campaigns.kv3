@@ -2,7 +2,7 @@
 	"campaigns" = {
 
 		"portal1_sp" = {
-			title = "Portal NRTX (Demo)"
+			title = "Portal Without RTX (Demo)"
 
 			meta = {
 				//author = "#MainMenu_Campaigns_Valve_Author"
@@ -139,21 +139,7 @@
 						background_image = "backgrounds/01.png"
 					}
 					maps = [
-						{name="testchmb_a_15"},
-						{name="escape_00"},
-						{name="escape_01"},
-						{name="escape_02"},
-					]
-				},
-				{
-					title = "#Portal_Chapter12_Title"
-					meta = {
-						thumbnail = "chapters/chapter12.png"
-						background_map = "background2"
-						background_image = "backgrounds/02.png"
-					}
-					maps = [
-						{name="background2"},
+						{name="testchmb_a_15"}
 					]
 				},
 			]
