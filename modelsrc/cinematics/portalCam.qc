@@ -41,3 +41,15 @@ $Sequence "testchmb_a_03" {
 	fadeout 0.0
 	fps 30
 }
+$Sequence "testchmb_a_04" {
+	"anims/04.smd"
+	fadein 0.0
+	fadeout 0.0
+	fps 30
+}
+$Sequence "testchmb_a_05" {
+	"anims/05.smd"
+	fadein 0.0
+	fadeout 0.0
+	fps 30
+}
