@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10766"
-	"mapversion" "2107"
+	"editorbuild" "10773"
+	"mapversion" "2114"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -65,20 +65,20 @@ viewsettings
 	"bShowLogicalGrid" "1"
 	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
-	"nInstanceVisibility" "2"
+	"nInstanceVisibility" "1"
 	views
 	{
 		v0
 		{
 			"3d" "1"
-			"position" "(261.281 -551.679 469.183)"
-			"angle" "[26.4 107.602 0]"
+			"position" "(-31.0193 115.889 28.9124)"
+			"angle" "[10.4 -73.1981 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1751.71 -689.786 0)"
-			"zoom" "1.33122"
+			"position" "(445.592 -20.0072 0)"
+			"zoom" "0.445823"
 		}
 		v2
 		{
@@ -97,7 +97,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2107"
+	"mapversion" "2114"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -151345,6 +151345,25 @@ world
 }
 entity
 {
+	"id" "388061"
+	"classname" "func_instance"
+	"$animName" "11"
+	"angles" "0 0 0"
+	"file" "instances/cinematic"
+	"fixup_style" "0"
+	"replace01" "$animName 11"
+	"replace02" "$targetFov 56.73"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "385431"
 	"classname" "filter_activator_class"
 	"angles" "0 0 0"
@@ -153771,7 +153790,7 @@ entity
 	"id" "371917"
 	"classname" "func_dustmotes"
 	"affectedbywind" "1"
-	"alpha" "50"
+	"alpha" "25"
 	"color" "255 255 255"
 	"color2" "255 255 255"
 	"distmax" "1024"
@@ -266670,8 +266689,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[261.281 -551.679 469.183]"
-		"look" "[231.482 -457.753 420.268]"
+		"position" "[-31.0193 115.889 28.9124]"
+		"look" "[0.258995 12.3033 9.05296]"
 	}
 }
 cordons
