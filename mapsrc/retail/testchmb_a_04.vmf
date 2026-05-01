@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "3962"
-	"mapversion" "1120"
+	"editorbuild" "10247"
+	"mapversion" "1123"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1120"
+	"mapversion" "1123"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35942,6 +35942,16 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	group
+	{
+		"id" "251804"
+		editor
+		{
+			"color" "236 177 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -36144,6 +36154,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/Effects/combineball.mdl"
+	"modelscale" "1.0"
 	"parentname" "ball_trap_10_housing"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
@@ -36578,6 +36589,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props/combine_ball_catcher.mdl"
+	"modelscale" "1.0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
 	"renderamt" "255"
@@ -36614,6 +36626,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props/combine_ball_launcher.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -43404,6 +43417,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props_animsigns/signage_num08.mdl"
+	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
@@ -53276,6 +53290,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/light_rail_platform_02.mdl"
+	"modelscale" "1.0"
 	"parentname" "door_tracktrain_rest_tc04"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -53409,6 +53424,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props/light_rail_endcap.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -54445,6 +54461,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/round_elevator_body.mdl"
+	"modelscale" "1.0"
 	"parentname" "a03-a04_elevator_body"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -54471,6 +54488,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/round_elevator_doors.mdl"
+	"modelscale" "1.0"
 	"parentname" "a03-a04_elevator_body"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -58231,6 +58249,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/round_elevator_body.mdl"
+	"modelscale" "1.0"
 	"parentname" "a04-a05_elevator_body"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -58257,6 +58276,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/round_elevator_doors.mdl"
+	"modelscale" "1.0"
 	"parentname" "a04-a05_elevator_body"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -63720,6 +63740,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/lab_chair/lab_chair.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -63757,6 +63778,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/lab_chair/lab_chair.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -63794,6 +63816,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/lab_chair/lab_chair.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -65201,13 +65224,133 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "251805"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/cinematics/portalcam.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "cineModel"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "236 177 0"
+		"groupid" "251804"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "251809"
+	"classname" "point_viewcontrol"
+	"acceleration" "500"
+	"angles" "0 0 0"
+	"deceleration" "500"
+	"interpolatepositiontoplayer" "0"
+	"parentname" "cineModel"
+	"spawnflags" "12"
+	"speed" "0"
+	"targetname" "cineCam"
+	"wait" "10"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "236 177 0"
+		"groupid" "251804"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "251811"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "@cinecam_enable"
+	connections
+	{
+		"OnTrigger" "cinecam,SetParentAttachment,cam_attach,0,-1"
+		"OnTrigger" "cineCam,Enable,,0,-1"
+		"OnTrigger" "cineModel,SetAnimation,testchmb_a_04,0,-1"
+		"OnTrigger" "cineZoom,Zoom,,0,-1"
+	}
+	"origin" "0 16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "251813"
+	"classname" "func_instance_parms"
+	"parm1" "$animName string"
+	"parm2" "$targetFov float 42.18"
+	"parm3" "$frame string"
+	"origin" "0 32 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "251815"
+	"classname" "env_zoom"
+	"FOV" "42.18"
+	"Rate" "0"
+	"spawnflags" "0"
+	"targetname" "cineZoom"
+	"origin" "0 16 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1159.39 1012.5 -47.3273]"
-		"look" "[-1146.31 700.485 -42.9667]"
+		"position" "[-67.3959 14.7218 43.5879]"
+		"look" "[193.476 -23.797 -123.761]"
 	}
 }
 cordon

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10247"
-	"mapversion" "1383"
+	"mapversion" "1384"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1383"
+	"mapversion" "1384"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -135130,7 +135130,7 @@ entity
 	{
 		"OnTrigger" "cinecam,SetParentAttachment,cam_attach,0,-1"
 		"OnTrigger" "cineCam,Enable,,0,-1"
-		"OnTrigger" "cineModel,SetAnimation,$animName,0,-1"
+		"OnTrigger" "cineModel,SetAnimation,testchmb_a_02,0,-1"
 		"OnTrigger" "cineZoom,Zoom,,0,-1"
 	}
 	"origin" "0 16 16"
@@ -135165,7 +135165,7 @@ cameras
 	camera
 	{
 		"position" "[-163.725 77.2491 95.4843]"
-		"look" "[21.7254 99.3493 -36.2623]"
+		"look" "[3.56842 54.9151 -58.6311]"
 	}
 }
 cordon
