@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10773"
-	"mapversion" "2782"
+	"mapversion" "2783"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -83,27 +83,27 @@ viewsettings
 		v1
 		{
 			"3d" "0"
-			"position" "(-648 -289.625 65536)"
-			"zoom" "0.895778"
+			"position" "(-18.9519 23.3993 65536)"
+			"zoom" "2.22898"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -289.625 231.152)"
+			"position" "(0 -289.625 231.152)"
 			"zoom" "1.28994"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-648 -65536 231.152)"
-			"zoom" "0.208332"
+			"position" "(-42.202 -65536 36.1095)"
+			"zoom" "3.20978"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2782"
+	"mapversion" "2783"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -112,6 +112,130 @@ world
 	"maxprojectedtextures" "8"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	solid
+	{
+		"id" "856148"
+		side
+		{
+			"id" "187265"
+			"plane" "(-16 48 48) (16 48 48) (16 -16 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 48 48"
+				"point" "1 16 48 48"
+				"point" "2 16 -16 48"
+				"point" "3 -16 -16 48"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "187266"
+			"plane" "(-16 -16 -16) (16 -16 -16) (16 48 -16)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 -16 -16"
+				"point" "1 16 -16 -16"
+				"point" "2 16 48 -16"
+				"point" "3 -16 48 -16"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "187267"
+			"plane" "(-16 48 48) (-16 -16 48) (-16 -16 -16)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 48 48"
+				"point" "1 -16 -16 48"
+				"point" "2 -16 -16 -16"
+				"point" "3 -16 48 -16"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "187268"
+			"plane" "(16 48 -16) (16 -16 -16) (16 -16 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 48 -16"
+				"point" "1 16 -16 -16"
+				"point" "2 16 -16 48"
+				"point" "3 16 48 48"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "187269"
+			"plane" "(16 48 48) (-16 48 48) (-16 48 -16)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 48 48"
+				"point" "1 -16 48 48"
+				"point" "2 -16 48 -16"
+				"point" "3 16 48 -16"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "187270"
+			"plane" "(16 -16 -16) (-16 -16 -16) (-16 -16 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 -16 -16"
+				"point" "1 -16 -16 -16"
+				"point" "2 -16 -16 48"
+				"point" "3 16 -16 48"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 217 118"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "830259"
@@ -198520,7 +198644,7 @@ cameras
 	camera
 	{
 		"position" "[-602.643 -304.196 234.089]"
-		"look" "[-905.555 -90.5172 181.992]"
+		"look" "[-905.554 -90.5158 181.992]"
 	}
 }
 cordons
