@@ -57,3 +57,7 @@ $Sequence "11" {
 	"anims/11.smd"
 	fps 24
 }
+$Sequence "15_turret" {
+	"anims/15_turret.smd"
+	fps 24
+}
