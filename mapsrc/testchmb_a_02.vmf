@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10762"
-	"mapversion" "1561"
+	"editorbuild" "10773"
+	"mapversion" "1562"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -47,8 +47,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-1083.82 210.483 182.231)"
-			"angle" "[16.8 178.007 0]"
+			"position" "(872.501 198.206 338.45)"
+			"angle" "[-45.2 -15.9931 0]"
 		}
 		v1
 		{
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1561"
+	"mapversion" "1562"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -213667,8 +213667,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1083.82 210.483 182.231]"
-		"look" "[-1302.51 218.093 116.167]"
+		"position" "[872.501 198.206 338.45]"
+		"look" "[1038.9 164.07 491.398]"
 	}
 }
 cordons

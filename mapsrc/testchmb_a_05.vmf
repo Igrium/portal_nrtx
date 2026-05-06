@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10762"
-	"mapversion" "1199"
+	"editorbuild" "10773"
+	"mapversion" "1200"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(51.2296 273.908 21.7921)"
-			"angle" "[-0.399989 52.3996 0]"
+			"position" "(-28.6001 43.8822 38.3416)"
+			"angle" "[1.10865e-05 -38.0004 0]"
 		}
 		v1
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1199"
+	"mapversion" "1200"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -73136,6 +73136,16 @@ world
 	}
 	group
 	{
+		"id" "325989"
+		editor
+		{
+			"color" "236 177 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "324172"
 		editor
 		{
@@ -74155,6 +74165,124 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "325990"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 0"
+	"animateeveryframe" "1"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/cinematics/portalcam.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "cineModel"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "236 177 0"
+		"groupid" "325989"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "325995"
+	"classname" "point_viewcontrol"
+	"_frustum_far" "1024"
+	"acceleration" "500"
+	"angles" "0 0 0"
+	"deceleration" "500"
+	"fov" "90"
+	"fov_rate" "1.0"
+	"interpolatepositiontoplayer" "0"
+	"parentname" "cineModel"
+	"spawnflags" "12"
+	"speed" "0"
+	"targetname" "cineCam"
+	"trackspeed" "40"
+	"wait" "10"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "236 177 0"
+		"groupid" "325989"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "326000"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "@cinecam_enable"
+	connections
+	{
+		"OnTrigger" "cinecamSetParentAttachmentcam_attach0-1"
+		"OnTrigger" "cineCamEnable0-1"
+		"OnTrigger" "cineModelSetAnimationtestchmb_a_050-1"
+		"OnTrigger" "cineZoomZoom0-1"
+		"OnTrigger" "floor_buttona_door_a02_2Open7-1"
+		"OnTrigger" "floor_buttona_door_a02_2Close0-1"
+		"OnTrigger" "texturetoggle_doorstate_a02b_leftSetTextureIndex17-1"
+		"OnTrigger" "texturetoggle_doorstate_a02b_leftSetTextureIndex00-1"
+	}
+	"origin" "0 16 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "326002"
+	"classname" "env_zoom"
+	"angles" "0 0 0"
+	"FOV" "42.18"
+	"Rate" "0"
+	"spawnflags" "0"
+	"targetname" "cineZoom"
+	"origin" "0 16 32"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -132590,8 +132718,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[51.2296 273.908 21.7921]"
-		"look" "[361.769 677.147 25.3452]"
+		"position" "[-28.6001 43.8822 38.3416]"
+		"look" "[372.471 -269.473 38.3415]"
 	}
 }
 cordons
