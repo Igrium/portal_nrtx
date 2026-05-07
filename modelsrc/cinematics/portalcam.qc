@@ -70,6 +70,12 @@ $Sequence "11" {
 	"anims/11.smd"
 	fps 24
 }
+$Sequence "testchmb_a_14" {
+	"anims/14.smd"
+	fadein 0.0
+	fadeout 0.0
+	fps 30
+}
 $Sequence "15_turret" {
 	"anims/15_turret.smd"
 	fps 24
