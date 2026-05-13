@@ -76,6 +76,10 @@ $Sequence "testchmb_a_14" {
 	fadeout 0.0
 	fps 30
 }
+$sequence "a_14_ratman" {
+	"anims/a_14_ratman"
+	fps 24
+}
 $Sequence "15_turret" {
 	"anims/15_turret.smd"
 	fps 24

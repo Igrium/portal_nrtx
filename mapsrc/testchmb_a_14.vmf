@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10773"
-	"mapversion" "2784"
+	"mapversion" "2787"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -59,25 +59,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(22.855 33.2904 33.6483)"
-			"angle" "[-17.6 -136.4 0]"
+			"position" "(-87.2786 82.0951 118.339)"
+			"angle" "[21.6 63.6002 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1406 1344 0)"
+			"position" "(0 16 0)"
 			"zoom" "0.746494"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 1344 1328)"
+			"position" "(0 16 16)"
 			"zoom" "1.28994"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1406 0 1328)"
+			"position" "(0 0 16)"
 			"zoom" "1.28994"
 		}
 	}
@@ -85,7 +85,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2784"
+	"mapversion" "2787"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -220265,7 +220265,7 @@ entity
 	"id" "940184"
 	"classname" "env_zoom"
 	"angles" "0 0 0"
-	"FOV" "42.18"
+	"FOV" "70.78960625177835"
 	"Rate" "0"
 	"spawnflags" "0"
 	"targetname" "cineZoom"
@@ -220289,7 +220289,7 @@ entity
 	{
 		"OnTrigger" "cinecamSetParentAttachmentcam_attach0-1"
 		"OnTrigger" "cineCamEnable0-1"
-		"OnTrigger" "cineModelSetAnimationtestchmb_a_140-1"
+		"OnTrigger" "cineModelSetAnimationa_14_ratman0-1"
 		"OnTrigger" "cineZoomZoom0-1"
 	}
 	"origin" "0 16 16"
@@ -489869,8 +489869,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[22.855 33.2904 33.6483]"
-		"look" "[-442.072 -409.455 237.307]"
+		"position" "[-87.2786 82.0951 118.339]"
+		"look" "[191.169 643.029 -129.608]"
 	}
 }
 cordons
