@@ -7,7 +7,7 @@
 			meta = {
 				//author = "#MainMenu_Campaigns_Valve_Author"
 				author = "TwoKrazy & Igrium"
-				desc = "#MainMenu_Campaigns_portal_Description"
+				desc = "The Portal RTX assets, ported to Strata. High-quality art, no ray tracing required."
 				box_art = "boxart.png"
 				selector_logo_background = "true"
 				selector_cover = "campaign_cover.png"

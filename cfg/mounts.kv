@@ -1,6 +1,6 @@
 "Mounts"
 {
-	// =========================================================================================
+	// ==============================================================================================
 	// This file is a list of SteamApp objects defining the Steam apps you want to mount.
 	// Assets from apps higher in the list are preferred more than ones lower. Some games are
 	// known to break others if they override any existing base game content, e.g.: hl2dm.
@@ -23,16 +23,16 @@
 	//                                           // in that directory as if it were an ordinary mod
 	//		}
 	//	}
-	// =========================================================================================
+	// ==============================================================================================
 
 	// To enable a game, set the 'enabled' key to 1.
 	// For example:
 	//   "enabled" "1"
 
 	// Counter-Strike: Global Offensive - Legacy Source 1 Branch (AppID 730)
-    // This block will be removed as soon as Valve ends support for cstrike15
-    // to prevent possible conflicts with newer S2-specific content in Counter-Strike 2.
-    // https://help.steampowered.com/en/faqs/view/73EF-08A3-0935-6369
+    // Only mount this if you are opted into the legacy CS:GO Source 1 compat build.
+	// Does not work with Counter-Strike 2 as Source 2 model/texture formats are vastly
+	// different compared to Source 1.
 	730
 	{
 		"enabled" "0"	// Set to "1" to enable this game
@@ -44,23 +44,10 @@
 		}
 	}
 
-	// Portal (AppId 400)
-	// Replaces HL2 doors with Aperture counterparts, replaces v_hands/suit equip viewmodel
-	400
+	// Half-Life 2: Episode Two (AppID 220 (legacy id 420))
+	220
 	{
-		"enabled" "1"	// Set to "1" to enable this game
-
-		"portal"
-		{
-			"vpk"	"portal_pak"
-		}
-	}
-
-
-	// Half-Life 2: Episode Two (AppID 420)
-	420
-	{
-		"enabled" "1"	// Set to "1" to enable this game
+		"enabled" "0"	// Set to "1" to enable this game
 
 		"ep2"
 		{
@@ -79,9 +66,9 @@
 		}
 	}
 	
-	// Half-Life 2: Episode One (AppID 380)
+	// Half-Life 2: Episode One (AppID 220 (legacy id 380))
 	// Refer to the above if you have Ep2 installed
-	380
+	220
 	{
 		"enabled" "0"	// Set to "1" to enable this game
 
@@ -96,7 +83,7 @@
 	// worldmodel and concrete walls used across spytech environments
 	440
 	{
-		"enabled" "1"	// Set to "1" to enable this game
+		"enabled" "0"	// Set to "1" to enable this game
 
 		"tf"
 		{
@@ -107,10 +94,10 @@
 		}
 	}
 
-	// Half-Life 2: Lost Coast (AppID 340)
-	340
+	// Half-Life 2: Lost Coast (AppID 220 (legacy appid 340))
+	220
 	{
-		"enabled" "1"	// Set to "1" to enable this game
+		"enabled" "0"	// Set to "1" to enable this game
 
 		"lostcoast"
 		{
@@ -121,8 +108,14 @@
 	// Half-Life 2 (AppID 220)
 	220
 	{
-		"enabled" "1"	// Set to "1" to enable this game
-
+		"enabled" "0"	// Set to "1" to enable this game
+		
+		// this is prioritized over hl2 for 20th anniversary update-specific compatibility
+		// FIXME: if possible, backport weapon_stunstick from hl2dm into p2ce (as weapon_stunstick_player)
+		"hl2_complete"
+		{
+			"vpk" "hl2_complete_misc"
+		}
 		"hl2"
 		{
 			"vpk" "hl2_misc"
@@ -166,7 +159,25 @@
 	// Side effects listed below appid.
 	// ================================================================
 
-	
+	// Portal (AppId 400)
+	// Replaces HL2 doors with Aperture counterparts, replaces v_hands/suit equip viewmodel
+	400
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+		"portal"
+		{
+			"vpk"	"portal_pak"
+		}
+		"hl2"
+		{
+			"vpk" "hl2_misc"
+			"vpk" "hl2_pak"
+			"vpk" "hl2_sound_misc"
+			"vpk" "hl2_sound_vo_english"
+			"vpk" "hl2_textures"
+		}
+	}
+
 	// Counter-Strike: Source (AppID 240)
 	// Overrides portal2 footstep soundscripts with low-quality cstrike variants
 	240
@@ -198,7 +209,7 @@
 	// includes extremely low-quality fallback resources for dod/cstrike/episodic/ep2
 	4000
 	{
-		"enabled" "1"	// Set to "1" to enable this game
+		"enabled" "0"	// Set to "1" to enable this game
 
 		"garrysmod"
 		{
@@ -213,7 +224,7 @@
 	// overrides male/female/combine soldier anims with multiplayer counterparts
 	320
 	{
-		"enabled" "1"	// Set to "1" to enable this game
+		"enabled" "0"	// Set to "1" to enable this game
 
 		"hl2mp"
 		{
@@ -248,7 +259,7 @@
 	// Refer to below appid for side effects.
 	360
 	{
-		"enabled" "1"	// Set to "1" to enable this game
+		"enabled" "0"	// Set to "1" to enable this game
 
 		"hl1mp"
 		{
@@ -262,7 +273,7 @@
 	// Mounting this will NOT enable HL:S NPC and weapon support!
 	280
 	{
-		"enabled" "1"	// Set to "1" to enable this game
+		"enabled" "0"	// Set to "1" to enable this game
 
 		// Uncomment the below code block to enable Blue Shift/Opposing Force HD model pack
 		// "hl1_hd"
