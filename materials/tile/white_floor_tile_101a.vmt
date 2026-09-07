@@ -4,7 +4,7 @@
 	"$mraotexture" "tile/white_tile/white_floor_tile_mrao"
 	"$bumpmap" "tile/white_tile/white_floor_tile_normal"
 	"$reflectivity" "[.51 .53 .52]"
-	"$basetexturetransform" "center .5 .5 scale 4.0 4.0 rotate 90 translate 0 0"
+	"$basetexturetransform" "center 0 0 scale 4.0 4.0 rotate 90 translate 0 0"
 	"$mraoscale" "[1 1 1]"
 	"$surfaceprop" "metal"
 }

@@ -1,6 +1,6 @@
 "PBR"
 {
-	"$basetexturetransform" "center .5 .5 scale 4.0 4.0 rotate 0 translate 0 0"
+	"$basetexturetransform" "center 0 0 scale 4.0 4.0 rotate 0 translate 0 0"
 	"$basetexture" "metal/metalwall060a/metalwall060a"
 	"$bumpmap" "metal/metalwall060a/metalwall060a_normal"
 	"$mraotexture" "metal/metalwall060a/metalwall060a_mrao"

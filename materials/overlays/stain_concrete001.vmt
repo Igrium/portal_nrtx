@@ -4,7 +4,7 @@ PBR
 	$mraotexture "overlays/stain_concrete001_mrao"
 	$bumpmap "overlays/stain_concrete001_normal"
 	$decal 1
-	//$basetexturetransform "center .5 .5 scale 16 16 rotate 0 translate 0 0"
+	//$basetexturetransform "center 0 0 scale 16 16 rotate 0 translate 0 0"
 	//$alphatest 1
 	$translucent 1
 	$mraoscale "[1 1 1]"

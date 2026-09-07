@@ -1,7 +1,7 @@
 PBR
 {
     $model 0
-    $basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+    $basetexturetransform "center 0 0 scale 4 4 rotate 0 translate 0 0"
 
     $basetexture    "metal/metaldoor_white01/metaldoor_white01_color"
     $mraotexture    "metal/metaldoor_white01/metaldoor_white01_mrao"

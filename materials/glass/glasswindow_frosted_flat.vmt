@@ -8,8 +8,8 @@ Refract
 	$fresnelreflection .5
 	%tooltexture "glass/flat_normal"
 	%noportal 1
-	$bumptransform "center .5 .5 scale 4 4 rotate 0 translate 0 -.5"
-	$bumptransform2 "center .5 .5 scale .5 .5 rotate 0 translate 0 -.5"
+	$bumptransform "center 0 0 scale 4 4 rotate 0 translate 0 -.5"
+	$bumptransform2 "center 0 0 scale .5 .5 rotate 0 translate 0 -.5"
 	$surfaceprop glass
 	$bluramount 0
 	$envmap "env_cubemap"

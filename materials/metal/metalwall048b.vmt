@@ -3,7 +3,7 @@
 	"$basetexture" "metal/metalwall048/metalwall048b"
 	"$mraotexture" "metal/metalwall048/metalwall048b_mrao"
 	"$bumpmap" "metal/metalwall048/metalwall048b_normal"
-	"$basetexturetransform" "center .5 .5 scale 4.0 4.0 rotate 0 translate 0 0"
+	"$basetexturetransform" "center 0 0 scale 4.0 4.0 rotate 0 translate 0 0"
 	"$mraoscale" "[1 1 1]"
 	"%noportal" "1"
 	"$parallax" "1"

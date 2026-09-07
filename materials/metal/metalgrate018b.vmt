@@ -4,7 +4,7 @@
 	"$mraotexture" "metal/metalgrate018/metalgrate018b_mrao"
 	"$bumpmap" "metal/metalgrate018/metalgrate018b_normal"
 	"%compilepassbullets" "1"
-	"$basetexturetransform" "center .5 .5 scale 8.0 8.0 rotate 0 translate 0 0"
+	"$basetexturetransform" "center 0 0 scale 8.0 8.0 rotate 0 translate 0 0"
 	"$surfaceprop" "metalgrate"
 	"$translucent" "1"
 }
