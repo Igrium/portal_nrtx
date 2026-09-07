@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10762"
-	"mapversion" "1561"
+	"editorbuild" "10599"
+	"mapversion" "1555"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -41,19 +41,19 @@ viewsettings
 	"bShowLogicalGrid" "1"
 	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
-	"nInstanceVisibility" "1"
+	"nInstanceVisibility" "2"
 	views
 	{
 		v0
 		{
 			"3d" "1"
-			"position" "(-1083.82 210.483 182.231)"
-			"angle" "[16.8 178.007 0]"
+			"position" "(-644.782 888.361 1166.75)"
+			"angle" "[47.2 -133.593 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-540.637 819.783 0)"
+			"position" "(-540.637 819.783 65536)"
 			"zoom" "1.85752"
 		}
 		v2
@@ -65,7 +65,7 @@ viewsettings
 		v3
 		{
 			"3d" "0"
-			"position" "(-596.619 0 1083.4)"
+			"position" "(-596.619 -65536 1083.4)"
 			"zoom" "1.85751"
 		}
 	}
@@ -73,7 +73,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1561"
+	"mapversion" "1555"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -129805,7 +129805,7 @@ entity
 		"OnEndTouchAll" "floor_button_trigger_player_a02Enable0-1"
 		"OnEndTouchAll" "floor_button_door_a02Close0-1"
 		"OnStartTouch" "!activatorSkin10-1"
-		"OnEndTouch" "!activatorSkin00-1"
+		"OnEndTouchAll" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -130553,7 +130553,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam1_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
 	}
 	solid
 	{
@@ -130724,7 +130724,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam2_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
 	}
 	solid
 	{
@@ -131387,7 +131387,7 @@ entity
 		"OnStartTouch" "texturetoggle_doorstate_a02b_rightSetTextureIndex10-1"
 		"OnEndTouchAll" "texturetoggle_doorstate_a02b_rightSetTextureIndex00-1"
 		"OnStartTouch" "!activatorSkin10-1"
-		"OnEndTouch" "!activatorSkin00-1"
+		"OnEndTouchAll" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -132119,7 +132119,7 @@ entity
 		"OnStartTouch" "texturetoggle_doorstate_a02b_leftSetTextureIndex10-1"
 		"OnEndTouchAll" "texturetoggle_doorstate_a02b_leftSetTextureIndex00-1"
 		"OnStartTouch" "!activatorSkin10-1"
-		"OnEndTouch" "!activatorSkin00-1"
+		"OnEndTouchAll" "!activatorSkin00-1"
 	}
 	solid
 	{
@@ -138495,7 +138495,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam3_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
 	}
 	solid
 	{
@@ -138666,7 +138666,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam4_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
 	}
 	solid
 	{
@@ -138837,7 +138837,7 @@ entity
 	connections
 	{
 		"OnStartTouchLinkedPortal" "cam5_intro3Ragdoll0-1"
-		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger01"
+		"OnStartTouchLinkedPortal" "@camera_destroyed_relayTrigger0-1"
 	}
 	solid
 	{
@@ -212811,7 +212811,7 @@ entity
 	"cpoint6_parent" "0"
 	"cpoint7_parent" "0"
 	"effect_name" "elevator_beam"
-	"parentname" "a02-a03_elevator_model"
+	"parentname" "a02-a03_elevator_body_model"
 	"start_active" "1"
 	"targetname" "elevator_beam_target"
 	"origin" "-693.408 833.695 870.091"
@@ -213667,8 +213667,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1083.82 210.483 182.231]"
-		"look" "[-1302.51 218.093 116.167]"
+		"position" "[-644.782 888.361 1166.75]"
+		"look" "[-751.865 775.887 999.04]"
 	}
 }
 cordons
@@ -213707,9 +213707,10 @@ cordons
 }
 quickhide
 {
-	"count" "1"
+	"count" "2"
 	list
 	{
 		"id" "459855"
+		"id" "459856"
 	}
 }
