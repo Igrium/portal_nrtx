@@ -83,5 +83,5 @@ blender/*
 # TODO: determine if we want to commit compiled maps from the maps folder
 *.bsp
 
-
+*__pycache__*
 
