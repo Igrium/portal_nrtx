@@ -4,6 +4,6 @@ Refract
 	$normalmap "models/props/portal_cleanser/portal_cleanser_normal"
 	$envmap "env_cubemap"
 	$model 1
-	$refracttinttexture "models/props/portal_cleanser/portal_cleanser_refracttint"
+	// $refracttinttexture "models/props/portal_cleanser/portal_cleanser_refracttint"
 	$bluramount 2
 }

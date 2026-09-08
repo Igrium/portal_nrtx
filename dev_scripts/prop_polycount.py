@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 prop_polycount.py
 
@@ -7,6 +9,12 @@ Triangle counts are read straight out of each model's LOD0 .vtx file, so the
 numbers match what the renderer actually submits. Models are looked up through
 the same search paths the engine uses: the mod folder, then whatever gameinfo.txt
 mounts (Portal 1 / Portal 2 / P2CE), loose files first and then VPKs.
+
+Each model is also sized from its .mdl bounding box (scaled by whatever
+uniformscale the VMF places it at) to give a triangle *density* — triangles per
+1,000 square units of surface. A small prop with a high density is carrying more
+geometry than its on-screen footprint justifies, so that is the default ranking;
+--sort total ranks by raw map cost instead, and --no-dims skips sizing entirely.
 
 Usage:
     python prop_polycount.py <file.vmf> [-g <game_dir>] [-b <bin_dir>] [options]
@@ -378,8 +386,26 @@ def mdl_bone_count(data: bytes) -> "int | None":
         return None
 
 
+def mdl_bbox(data: bytes) -> "tuple[float, float, float] | None":
+    """
+    Model dimensions in Hammer units, from the .mdl header's collision hull.
+    Falls back to the render bbox when the hull is absent or degenerate.
+    """
+    try:
+        for offset in (104, 128):  # hull_min/hull_max, then view_bbmin/view_bbmax
+            mins = struct.unpack_from("<3f", data, offset)
+            maxs = struct.unpack_from("<3f", data, offset + 12)
+            size = tuple(hi - lo for lo, hi in zip(mins, maxs))
+            if max(size) > 0 and all(0 <= d < 1e6 for d in size):
+                return size
+    except struct.error:
+        pass
+    return None
+
+
 class ModelStats:
-    __slots__ = ("model", "tris", "verts", "bones", "count", "source", "error")
+    __slots__ = ("model", "tris", "verts", "bones", "count", "source", "error",
+                 "size", "scale", "area", "density")
 
     def __init__(self, model: str):
         self.model = model
@@ -389,9 +415,28 @@ class ModelStats:
         self.count = 0
         self.source = ""
         self.error = ""
+        self.size: tuple[float, float, float] | None = None
+        self.scale = 1.0
+        self.area: float | None = None
+        self.density: float | None = None
 
 
-def measure(model: str, paths: SearchPaths, mdlinfo: "MdlInfo | None") -> ModelStats:
+def apply_dimensions(stats: ModelStats, scale: float) -> None:
+    """Scale the bbox to the size the prop is actually placed at, then derive
+    triangles per 1,000 square units of bounding-box surface."""
+    if stats.size is None:
+        return
+    stats.scale = scale
+    stats.size = tuple(d * scale for d in stats.size)
+    w, h, d = stats.size
+    # Both faces of a flat model count, so a plane still gets a sane area.
+    stats.area = 2 * (w * h + h * d + w * d)
+    if stats.area > 0 and stats.tris:
+        stats.density = stats.tris / (stats.area / 1000.0)
+
+
+def measure(model: str, paths: SearchPaths, mdlinfo: "MdlInfo | None",
+            dims: bool = True) -> ModelStats:
     stats = ModelStats(model)
     stem = model.removesuffix(".mdl")
     resolved: Path | None = None
@@ -415,6 +460,8 @@ def measure(model: str, paths: SearchPaths, mdlinfo: "MdlInfo | None") -> ModelS
         stats.error = "model not found"
         return stats
     stats.bones = mdl_bone_count(mdl)
+    if dims:
+        stats.size = mdl_bbox(mdl)
 
     for suffix in VTX_SUFFIXES:
         vtx = read(suffix)
@@ -464,10 +511,26 @@ class MdlInfo:
 # ── VMF scanning ──────────────────────────────────────────────────────────────
 
 
-def collect_props(vmf: Path, classnames: set[str]) -> Counter:
-    """Map each referenced model path to how many times the VMF places it."""
+def prop_scale(entity: list) -> float:
+    """The prop's uniform scale, defaulting to 1 for anything unparseable."""
+    raw = kv_get(entity, "uniformscale")
+    if not isinstance(raw, str):
+        raw = kv_get(entity, "modelscale")
+    try:
+        scale = float(raw) if isinstance(raw, str) else 1.0
+    except ValueError:
+        return 1.0
+    return scale if scale > 0 else 1.0
+
+
+def collect_props(vmf: Path, classnames: set[str]) -> "tuple[Counter, dict[str, float]]":
+    """
+    Map each referenced model path to how many times the VMF places it, plus
+    the mean scale it is placed at (props of the same model can differ).
+    """
     root = parse_kv(vmf.read_text(encoding="utf-8", errors="replace"))
     counts: Counter = Counter()
+    scales: dict[str, list[float]] = {}
     for key, value in root:
         if key.lower() != "entity" or not isinstance(value, list):
             continue
@@ -476,29 +539,52 @@ def collect_props(vmf: Path, classnames: set[str]) -> Counter:
             continue
         model = kv_get(value, "model")
         if isinstance(model, str) and model.strip():
-            counts[model.strip().replace("\\", "/").lower()] += 1
-    return counts
+            key = model.strip().replace("\\", "/").lower()
+            counts[key] += 1
+            scales.setdefault(key, []).append(prop_scale(value))
+    return counts, {k: sum(v) / len(v) for k, v in scales.items()}
 
 
 # ── Reporting ─────────────────────────────────────────────────────────────────
 
 
-def print_report(rows: list[ModelStats], top: "int | None", sort_key: str) -> None:
+def size_str(stats: ModelStats) -> str:
+    """The prop's placed dimensions, as W×D×H in Hammer units."""
+    if stats.size is None:
+        return "—"
+    return "×".join(f"{d:,.0f}" for d in stats.size)
+
+
+def print_report(rows: list[ModelStats], top: "int | None", sort_key: str,
+                 dims: bool) -> None:
     total_tris = sum(r.tris * r.count for r in rows if r.tris)
     total_props = sum(r.count for r in rows)
 
     shown = rows if top is None else rows[:top]
     width = max((len(r.model) for r in shown), default=20)
 
-    header = f"{'#':>4}  {'TRIS':>9}  {'VERTS':>9}  {'N':>5}  {'TOTAL':>10}  MODEL"
+    if dims:
+        header = (f"{'#':>4}  {'TRIS':>9}  {'SIZE':>16}  {'TRIS/kU²':>9}  "
+                  f"{'N':>5}  {'TOTAL':>10}  MODEL")
+    else:
+        header = f"{'#':>4}  {'TRIS':>9}  {'VERTS':>9}  {'N':>5}  {'TOTAL':>10}  MODEL"
     print(header)
     print("─" * (len(header) + width - 5))
     for i, r in enumerate(shown, 1):
         tris = f"{r.tris:,}" if r.tris is not None else "—"
-        verts = f"{r.verts:,}" if r.verts is not None else "—"
         total = f"{r.tris * r.count:,}" if r.tris is not None else "—"
-        note = f"  ({r.error})" if r.error else ""
-        print(f"{i:>4}  {tris:>9}  {verts:>9}  {r.count:>5}  {total:>10}  {r.model}{note}")
+        notes = [r.error] if r.error else []
+        if dims and abs(r.scale - 1.0) > 0.01:
+            notes.append(f"scaled ×{r.scale:.2f}")
+        note = f"  ({'; '.join(notes)})" if notes else ""
+        if dims:
+            density = f"{r.density:,.1f}" if r.density is not None else "—"
+            print(f"{i:>4}  {tris:>9}  {size_str(r):>16}  {density:>9}  "
+                  f"{r.count:>5}  {total:>10}  {r.model}{note}")
+        else:
+            verts = f"{r.verts:,}" if r.verts is not None else "—"
+            print(f"{i:>4}  {tris:>9}  {verts:>9}  {r.count:>5}  {total:>10}  "
+                  f"{r.model}{note}")
 
     if top is not None and len(rows) > top:
         print(f"      … {len(rows) - top} more")
@@ -507,6 +593,15 @@ def print_report(rows: list[ModelStats], top: "int | None", sort_key: str) -> No
         f"{len(rows)} unique model(s), {total_props} prop(s), "
         f"{total_tris:,} triangles total (sorted by {sort_key})"
     )
+    if dims:
+        measured = [r.density for r in rows if r.density is not None]
+        print("SIZE is the placed bounding box (W×D×H, Hammer units); TRIS/kU² is "
+              "triangles per 1,000 units² of that box's surface.")
+        if measured:
+            measured.sort()
+            median = measured[len(measured) // 2]
+            print(f"Median density here is {median:,.1f} — anything well above that "
+                  f"is dense for its size.")
 
     missing = [r for r in rows if r.tris is None]
     if missing:
@@ -519,11 +614,18 @@ def write_csv(rows: list[ModelStats], out: Path) -> None:
     with out.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["model", "triangles", "vertices", "bones", "instances",
-                    "total_triangles", "source", "note"])
+                    "total_triangles", "width", "depth", "height", "scale",
+                    "surface_area", "tris_per_1k_area", "source", "note"])
         for r in rows:
+            size = r.size or ("", "", "")
             w.writerow([
                 r.model, r.tris or "", r.verts or "", r.bones or "", r.count,
-                (r.tris * r.count) if r.tris else "", r.source, r.error,
+                (r.tris * r.count) if r.tris else "",
+                *(f"{d:.2f}" if isinstance(d, float) else d for d in size),
+                f"{r.scale:.3f}",
+                f"{r.area:.2f}" if r.area is not None else "",
+                f"{r.density:.2f}" if r.density is not None else "",
+                r.source, r.error,
             ])
 
 
@@ -546,8 +648,13 @@ def main(argv: "list[str] | None" = None) -> int:
                     help=f"entity classname to include (default: {', '.join(DEFAULT_CLASSNAMES)})")
     ap.add_argument("-n", "--top", type=int, default=25,
                     help="how many models to list; 0 for all")
-    ap.add_argument("--sort", choices=("tris", "total", "instances"), default="tris",
-                    help="tris = per model, total = tris × instances")
+    ap.add_argument("--sort", choices=("tris", "total", "instances", "density"),
+                    default=None,
+                    help="density = tris per unit of bounding-box surface "
+                         "(the default; tris when --no-dims), tris = per model, "
+                         "total = tris × instances")
+    ap.add_argument("--no-dims", dest="dims", action="store_false",
+                    help="skip bounding-box sizing and the density column")
     ap.add_argument("--csv", type=Path, help="also write the full table to this CSV")
     ap.add_argument("-q", "--quiet", action="store_true", help="suppress progress output")
     args = ap.parse_args(argv)
@@ -560,8 +667,12 @@ def main(argv: "list[str] | None" = None) -> int:
         print(f"warning: no gameinfo.txt in {game_dir}; mounted content will be missed",
               file=sys.stderr)
 
+    if args.sort == "density" and not args.dims:
+        ap.error("--sort density needs the dimension pass; drop --no-dims")
+    sort = args.sort or ("density" if args.dims else "tris")
+
     classnames = {c.lower() for c in (args.classname or DEFAULT_CLASSNAMES)}
-    props = collect_props(args.vmf, classnames)
+    props, scales = collect_props(args.vmf, classnames)
     if not props:
         print(f"No {'/'.join(sorted(classnames))} entities found in {args.vmf}")
         return 0
@@ -580,20 +691,23 @@ def main(argv: "list[str] | None" = None) -> int:
 
     rows = []
     for model, count in props.items():
-        stats = measure(model, paths, mdlinfo)
+        stats = measure(model, paths, mdlinfo, args.dims)
         stats.count = count
+        if args.dims:
+            apply_dimensions(stats, scales.get(model, 1.0))
         rows.append(stats)
 
     keys = {
         "tris": lambda r: (r.tris or -1, r.count),
         "total": lambda r: ((r.tris or -1) * r.count, r.tris or -1),
         "instances": lambda r: (r.count, r.tris or -1),
+        "density": lambda r: (r.density or -1.0, float(r.tris or -1)),
     }
-    rows.sort(key=keys[args.sort], reverse=True)
+    rows.sort(key=keys[sort], reverse=True)
 
     if not args.quiet:
         print()
-    print_report(rows, None if args.top <= 0 else args.top, args.sort)
+    print_report(rows, None if args.top <= 0 else args.top, sort, args.dims)
 
     if args.csv:
         write_csv(rows, args.csv)

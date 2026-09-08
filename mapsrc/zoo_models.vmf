@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10903"
-	"mapversion" "185"
+	"mapversion" "188"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "1"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "1"
 	"nInstanceVisibility" "2"
 	views
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(426.371 -354.294 49.8743)"
-			"angle" "[19.6002 -48.4 0]"
+			"position" "(465.746 -47.8449 136.916)"
+			"angle" "[16.8003 -113.6 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(169.436 -341.563 0)"
-			"zoom" "2.67483"
+			"position" "(472.988 -308.98 65536)"
+			"zoom" "1.85752"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -407.089 8.45887)"
-			"zoom" "16.5618"
+			"position" "(65536 -348.311 149.258)"
+			"zoom" "2.67482"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(431.641 0 38.8461)"
-			"zoom" "6.65581"
+			"position" "(425.406 -65536 40.9754)"
+			"zoom" "3.85174"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "185"
+	"mapversion" "188"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4461,6 +4461,43 @@ world
 }
 entity
 {
+	"id" "7820"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/portal_cleanser_1.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "512 -192 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "7628"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -4487,7 +4524,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "474.85 -421 -2"
+	"origin" "512 -416 -2"
 	editor
 	{
 		"color" "255 255 0"
@@ -7292,7 +7329,7 @@ entity
 	"id" "795"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "45"
+	"_cone" "70"
 	"_constant_attn" "0"
 	"_directmode" "1"
 	"_distance" "0"
@@ -7322,7 +7359,7 @@ entity
 	"nearz" "4.0"
 	"pitch" "-90"
 	"style" "0"
-	"origin" "512 -130.727 183"
+	"origin" "512 -130.727 231"
 	editor
 	{
 		"color" "142 167 0"
@@ -7337,7 +7374,7 @@ entity
 	"id" "830"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "45"
+	"_cone" "70"
 	"_constant_attn" "0"
 	"_directmode" "1"
 	"_distance" "0"
@@ -7367,7 +7404,7 @@ entity
 	"nearz" "4.0"
 	"pitch" "-90"
 	"style" "0"
-	"origin" "512 -384 183"
+	"origin" "512 -384 231"
 	editor
 	{
 		"color" "142 167 0"
@@ -7382,7 +7419,7 @@ entity
 	"id" "838"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "45"
+	"_cone" "70"
 	"_constant_attn" "0"
 	"_directmode" "1"
 	"_distance" "0"
@@ -7412,7 +7449,7 @@ entity
 	"nearz" "4.0"
 	"pitch" "-90"
 	"style" "0"
-	"origin" "256 -384 183"
+	"origin" "256 -384 231"
 	editor
 	{
 		"color" "142 167 0"
@@ -7427,7 +7464,7 @@ entity
 	"id" "846"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "45"
+	"_cone" "70"
 	"_constant_attn" "0"
 	"_directmode" "1"
 	"_distance" "0"
@@ -7457,7 +7494,7 @@ entity
 	"nearz" "4.0"
 	"pitch" "-90"
 	"style" "0"
-	"origin" "256 -130.727 183"
+	"origin" "256 -130.727 231"
 	editor
 	{
 		"color" "142 167 0"
@@ -7472,7 +7509,7 @@ entity
 	"id" "854"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "45"
+	"_cone" "70"
 	"_constant_attn" "0"
 	"_directmode" "1"
 	"_distance" "0"
@@ -7502,7 +7539,7 @@ entity
 	"nearz" "4.0"
 	"pitch" "-90"
 	"style" "0"
-	"origin" "0 -381.273 183"
+	"origin" "0 -381.273 231"
 	editor
 	{
 		"color" "142 167 0"
@@ -7517,7 +7554,7 @@ entity
 	"id" "862"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "45"
+	"_cone" "70"
 	"_constant_attn" "0"
 	"_directmode" "1"
 	"_distance" "0"
@@ -7547,7 +7584,7 @@ entity
 	"nearz" "4.0"
 	"pitch" "-90"
 	"style" "0"
-	"origin" "0 -128 183"
+	"origin" "0 -128 231"
 	editor
 	{
 		"color" "142 167 0"
