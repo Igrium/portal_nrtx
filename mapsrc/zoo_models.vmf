@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10903"
-	"mapversion" "198"
+	"mapversion" "200"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "1"
 	"nInstanceVisibility" "2"
 	views
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(297.163 -484.138 125.462)"
-			"angle" "[-16.8 103.6 0]"
+			"position" "(363.158 -301.881 114.244)"
+			"angle" "[-3.19994 104.4 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(630.761 -117.899 65536)"
+			"position" "(630.761 -117.899 0)"
 			"zoom" "1.85751"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -282.68 183.736)"
-			"zoom" "1.28994"
+			"position" "(65536 -303.59 107.718)"
+			"zoom" "2.22902"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(493.378 0 60.5909)"
-			"zoom" "2.22902"
+			"position" "(592.081 -65536 112.246)"
+			"zoom" "6.65582"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "198"
+	"mapversion" "200"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
