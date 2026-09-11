@@ -1,0 +1,9 @@
+PBR
+{
+    $model          1
+    $basetexture    "models/props_pipes/pipeset32d_01/pipeset32d_01_color"
+    $mraotexture    "models/props_pipes/pipeset32d_01/pipeset32d_01_mrao"
+    $bumpmap        "models/props_pipes/pipeset32d_01/pipeset32d_01_normal"
+
+    $envmap env_cubemap
+}
