@@ -1,7 +1,9 @@
-"VertexLitGeneric"
+PBR
 {
-	"$basetexture" "Models/props_pipes/pipeset_metal02"
-	"$surfaceprop" "metal"
-//	"$envmap" "env_cubemap"
-//	"$basealphaenvmapmask" 1
+    $model          1
+    $basetexture    "models/props_pipes/pipeset_metal02/pipeset_metal02_color"
+    $mraotexture    "models/props_pipes/pipeset_metal02/pipeset_metal02_mrao"
+    $bumpmap        "models/props_pipes/pipeset_metal02/pipeset_metal02_normal"
+
+    $envmap env_cubemap
 }
